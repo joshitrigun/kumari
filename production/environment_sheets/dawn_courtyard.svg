@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1100" viewBox="0 0 1100 1100">
+<defs>
+  <linearGradient id="dawnSky" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#7090C0"/>
+    <stop offset="40%" stop-color="#E8A070"/>
+    <stop offset="70%" stop-color="#F5C890"/>
+    <stop offset="100%" stop-color="#F5E6D3"/>
+  </linearGradient>
+  <radialGradient id="sunGlow" cx="70%" cy="25%" r="40%">
+    <stop offset="0%" stop-color="#FFE0A0" stop-opacity="0.95"/>
+    <stop offset="50%" stop-color="#F5C070" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#F5A040" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="childAura" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#FFFAE0" stop-opacity="0.9"/>
+    <stop offset="60%" stop-color="#FFE890" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#FFD060" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="bgPage2" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F8F2E4"/>
+    <stop offset="100%" stop-color="#EDE4D0"/>
+  </linearGradient>
+  <linearGradient id="stoneFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#C8B898"/>
+    <stop offset="100%" stop-color="#A89878"/>
+  </linearGradient>
+</defs>
+
+<!-- Page background -->
+<rect width="1100" height="1100" fill="url(#bgPage2)"/>
+<rect x="0" y="0" width="1100" height="6" fill="#C87820"/>
+<rect x="0" y="1094" width="1100" height="6" fill="#C87820"/>
+
+<!-- Header -->
+<rect x="0" y="0" width="1100" height="90" fill="#1E1200"/>
+<text x="550" y="38" font-family="Georgia, serif" font-size="26" fill="#FFD4A3" text-anchor="middle" letter-spacing="5">DAWN COURTYARD</text>
+<text x="550" y="66" font-family="Georgia, serif" font-size="13" fill="#A08040" text-anchor="middle" letter-spacing="3">ENVIRONMENT REFERENCE — ACT 4 · SHOTS 15–17 · 4:11–5:00</text>
+
+<!-- ══════════════════════ MAIN SCENE VIEW ══════════════════════ -->
+<rect x="20" y="105" width="700" height="490" rx="4"/>
+
+<!-- SKY -->
+<rect x="20" y="105" width="700" height="200" fill="url(#dawnSky)"/>
+<!-- Sun glow -->
+<circle cx="680" cy="155" r="200" fill="url(#sunGlow)"/>
+<!-- Sun disc -->
+<circle cx="680" cy="160" r="28" fill="#FFE0A0" opacity="0.95"/>
+<circle cx="680" cy="160" r="20" fill="#FFF0C0"/>
+<!-- Sun rays -->
+<path d="M680,125 L680,108" stroke="#FFE090" stroke-width="2" opacity="0.7"/>
+<path d="M706,133 L718,120" stroke="#FFE090" stroke-width="2" opacity="0.6"/>
+<path d="M715,160 L732,160" stroke="#FFE090" stroke-width="2" opacity="0.6"/>
+<path d="M706,187 L718,200" stroke="#FFE090" stroke-width="2" opacity="0.6"/>
+<path d="M680,195 L680,212" stroke="#FFE090" stroke-width="2" opacity="0.6"/>
+<path d="M654,187 L642,200" stroke="#FFE090" stroke-width="2" opacity="0.6"/>
+<path d="M645,160 L628,160" stroke="#FFE090" stroke-width="2" opacity="0.6"/>
+<path d="M654,133 L642,120" stroke="#FFE090" stroke-width="2" opacity="0.6"/>
+
+<!-- CLOUDS (thin, dawn-light) -->
+<path d="M60,145 Q120,130 200,138 Q260,130 310,142" stroke="#F5D0A0" stroke-width="8" fill="none" opacity="0.6" stroke-linecap="round"/>
+<path d="M100,170 Q160,158 230,165 Q290,158 340,168" stroke="#F0C890" stroke-width="5" fill="none" opacity="0.4" stroke-linecap="round"/>
+<path d="M350,130 Q410,118 480,128 Q530,120 570,132" stroke="#F5D0A0" stroke-width="6" fill="none" opacity="0.5" stroke-linecap="round"/>
+
+<!-- BACK WALL of courtyard -->
+<rect x="20" y="255" width="700" height="120" fill="#B8A880"/>
+<!-- Stone texture on wall -->
+<path d="M20,275 L720,275 M20,300 L720,300 M20,325 L720,325 M20,350 L720,350 M20,375 L720,375" stroke="#A89060" stroke-width="1" fill="none"/>
+<path d="M90,255 L90,375 M170,255 L170,375 M255,255 L255,375 M340,255 L340,375 M420,255 L420,375 M505,255 L505,375 M590,255 L590,375 M650,255 L650,375" stroke="#A89060" stroke-width="0.8" fill="none"/>
+<!-- Wall is clean, renewed -->
+<rect x="20" y="255" width="700" height="120" fill="#F5E8D0" opacity="0.15"/>
+
+<!-- ARCHWAY (large, framing) -->
+<rect x="250" y="175" width="220" height="200" rx="4" fill="#A89060"/>
+<path d="M250,268 Q360,185 470,268 L470,375 L250,375 Z" fill="#8B7040"/>
+<path d="M258,268 Q360,192 462,268" stroke="#C8A060" stroke-width="3" fill="none"/>
+<!-- Archway carved detail -->
+<path d="M268,268 Q360,200 452,268" stroke="#E8C880" stroke-width="1.5" fill="none"/>
+<!-- Inside arch (sky visible through) -->
+<path d="M265,274 Q360,198 455,274 L455,375 L265,375 Z" fill="url(#dawnSky)"/>
+<circle cx="620" cy="155" r="80" fill="url(#sunGlow)" opacity="0.3"/>
+<!-- Arch column left -->
+<rect x="250" y="268" width="25" height="107" fill="#B8A060"/>
+<rect x="252" y="270" width="21" height="103" fill="#C8B070"/>
+<!-- Arch column right -->
+<rect x="445" y="268" width="25" height="107" fill="#B8A060"/>
+<rect x="447" y="270" width="21" height="103" fill="#C8B070"/>
+
+<!-- Side archways (smaller) -->
+<rect x="60" y="248" width="140" height="127" rx="3" fill="#A89060"/>
+<path d="M60,295 Q130,235 200,295 L200,375 L60,375 Z" fill="#8B7040"/>
+<path d="M65,295 Q130,240 195,295 L195,375 L65,375 Z" fill="url(#dawnSky)" opacity="0.7"/>
+
+<rect x="520" y="248" width="140" height="127" rx="3" fill="#A89060"/>
+<path d="M520,295 Q590,235 660,295 L660,375 L520,375 Z" fill="#8B7040"/>
+<path d="M525,295 Q590,240 655,295 L655,375 L525,375 Z" fill="url(#dawnSky)" opacity="0.7"/>
+
+<!-- GROUND / COURTYARD FLOOR -->
+<rect x="20" y="375" width="700" height="220" fill="url(#stoneFloor)"/>
+<!-- Stone paving pattern -->
+<path d="M20,400 L720,400 M20,430 L720,430 M20,460 L720,460 M20,490 L720,490 M20,520 L720,520 M20,550 L720,550 M20,580 L720,580" stroke="#B8A880" stroke-width="1" fill="none"/>
+<path d="M80,375 L80,595 M145,375 L145,595 M215,375 L215,595 M285,375 L285,595 M360,375 L360,595 M430,375 L430,595 M500,375 L500,595 M570,375 L570,595 M640,375 L640,595" stroke="#B8A880" stroke-width="0.8" fill="none"/>
+<!-- Floor is clean, dry -->
+<rect x="20" y="375" width="700" height="220" fill="#F5E6D3" opacity="0.08"/>
+<!-- Leftover puddles (now clear/peaceful) -->
+<ellipse cx="160" cy="540" rx="40" ry="10" fill="#D8E8F0" opacity="0.5"/>
+<ellipse cx="560" cy="525" rx="30" ry="8" fill="#D8E8F0" opacity="0.4"/>
+<!-- Dawn light on floor -->
+<path d="M700,375 Q550,440 400,595 L720,595 L720,375 Z" fill="#FFE8B0" opacity="0.1"/>
+
+<!-- SMALL SHRINE / LAMP (morning, fresh) -->
+<rect x="85" y="355" width="42" height="22" rx="3" fill="#A89060"/>
+<rect x="87" y="357" width="38" height="18" rx="2" fill="#C8A870"/>
+<!-- Morning lamp (small, just lit) -->
+<circle cx="106" cy="352" r="14" fill="#FFD060" opacity="0.4"/>
+<path d="M98,368 L102,354 L114,354 L118,368 Z" fill="#8B6030"/>
+<ellipse cx="108" cy="368" rx="12" ry="4" fill="#6B4820"/>
+<ellipse cx="108" cy="354" rx="4" ry="2" fill="#FFD060"/>
+<path d="M106,354 Q108,345 110,354" fill="#FFA040" opacity="0.8"/>
+<!-- Morning incense smoke (fresh, light) -->
+<path d="M108,345 Q104,332 106,320 Q109,308 107,296" stroke="#E8E0D0" stroke-width="1.5" fill="none" opacity="0.4"/>
+
+<!-- FRESH FLOWERS (dawn) -->
+<circle cx="130" cy="380" r="6" fill="#E8B0A0"/>
+<circle cx="145" cy="375" r="5" fill="#F5C8B0"/>
+<circle cx="155" cy="382" r="6" fill="#E8A898"/>
+<circle cx="140" cy="388" r="4" fill="#F0B8A8"/>
+
+<!-- GAME BOARD restored -->
+<rect x="300" y="530" width="120" height="55" rx="3" fill="#8B5A20"/>
+<rect x="304" y="534" width="112" height="47" rx="2" fill="#A8702A"/>
+<path d="M304,548 L416,548 M304,562 L416,562" stroke="#C88A40" stroke-width="0.8" fill="none"/>
+<path d="M328,534 L328,581 M352,534 L352,581 M376,534 L376,581 M400,534 L400,581" stroke="#C88A40" stroke-width="0.8" fill="none"/>
+<!-- TOKEN resting on board -->
+<circle cx="360" cy="556" r="10" fill="#D4AF37"/>
+<circle cx="360" cy="556" r="7" fill="#FFD060"/>
+<circle cx="360" cy="556" r="4" fill="#D4AF37"/>
+<circle cx="360" cy="556" r="2" fill="#FFF0A0"/>
+<!-- Token glow -->
+<circle cx="360" cy="556" r="20" fill="#FFD060" opacity="0.2"/>
+<!-- Dawn light on token -->
+<circle cx="360" cy="556" r="30" fill="#F5E0A0" opacity="0.1"/>
+
+<!-- CHILD POSITION (entering from right arch) — silhouette hint -->
+<circle cx="540" cy="460" r="80" fill="url(#childAura)" opacity="0.7"/>
+<circle cx="540" cy="460" r="50" fill="#FFFAE0" opacity="0.15"/>
+<!-- Child silhouette small -->
+<path d="M525,510 Q530,478 536,464 Q540,458 544,464 Q550,478 555,510 Z" fill="#D4A030" opacity="0.3"/>
+<circle cx="540" cy="456" r="18" fill="#D4A030" opacity="0.3"/>
+<!-- Held token glow -->
+<circle cx="540" cy="492" r="12" fill="#FFD060" opacity="0.4"/>
+
+<!-- KING KNEELING (right, in shadow then dawn light) -->
+<path d="M610,535 Q618,500 628,488 Q632,483 636,488 Q644,500 648,535 Z" fill="#3A1500" opacity="0.6"/>
+<circle cx="630" cy="482" r="16" fill="#3A1500" opacity="0.6"/>
+<!-- Dawn light on King -->
+<path d="M680,375 L630,490" stroke="#FFD4A3" stroke-width="30" fill="none" stroke-linecap="round" opacity="0.1"/>
+
+<!-- Scene label -->
+<rect x="20" y="570" width="700" height="28" fill="#1E1200" opacity="0.8"/>
+<text x="370" y="590" font-family="Georgia, serif" font-size="13" fill="#FFD4A3" text-anchor="middle" letter-spacing="2">ACT 4 — DAWN GOLD · Soft · Renewed · Hope</text>
+
+<!-- ══════════════════ SIDE PANEL ══════════════════ -->
+<rect x="740" y="105" width="340" height="490" rx="4" fill="#F0E8D8" stroke="#C87820" stroke-width="1.5"/>
+<text x="910" y="132" font-family="Georgia, serif" font-size="14" fill="#2A1200" text-anchor="middle" font-weight="bold" letter-spacing="1">SCENE NOTES</text>
+<line x1="755" y1="140" x2="1065" y2="140" stroke="#C87820" stroke-width="1" opacity="0.5"/>
+
+<text x="755" y="162" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">ARCHITECTURE</text>
+<text x="755" y="180" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Same space as Act 3 — but CLEAN</text>
+<text x="755" y="197" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Stone looks washed, renewed</text>
+<text x="755" y="214" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Large archway: frames the Child's entrance</text>
+<text x="755" y="231" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Fresh flowers near the shrine</text>
+<text x="755" y="248" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Door now open or ajar (contrasts Act 3)</text>
+<text x="755" y="265" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Early morning mist optional (ground level)</text>
+
+<text x="755" y="292" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">LIGHT — CRITICAL</text>
+<text x="755" y="310" font-family="Georgia, serif" font-size="11" fill="#C87820" font-weight="bold">• Direction: low, from right (sunrise)</text>
+<text x="755" y="327" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Color: #F5E6D3, #FFD4A3 (soft peach-gold)</text>
+<text x="755" y="344" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• NOT as intense as Act 1 — softer, muted</text>
+<text x="755" y="361" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Child glows (inner light, #FFD060)</text>
+<text x="755" y="378" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Long shadows from low sun</text>
+<text x="755" y="395" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Token on board catches direct sunlight</text>
+<text x="755" y="412" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• King is in softer light — accepting, not lit</text>
+
+<text x="755" y="440" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">KEY DIFFERENCES FROM ACT 3</text>
+<text x="755" y="460" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• No rain (silence, except birdsong)</text>
+<text x="755" y="477" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Puddles still present but clear (mirrors)</text>
+<text x="755" y="494" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Game board restored to center</text>
+<text x="755" y="511" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• People in background (Shot 16) — silhouettes</text>
+<text x="755" y="528" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Camera: slow, steady (grief has ended)</text>
+<text x="755" y="560" font-family="Georgia, serif" font-size="11" fill="#8B5A1A" font-style="italic">"Not as brilliant as Act 1 —</text>
+<text x="755" y="578" font-family="Georgia, serif" font-size="11" fill="#8B5A1A" font-style="italic">  wiser. Gentler. Earned."</text>
+
+<!-- ══════════════════ COLOR PALETTE ══════════════════ -->
+<rect x="20" y="622" width="700" height="90" rx="4" fill="#1E1200"/>
+<text x="370" y="645" font-family="Georgia, serif" font-size="13" fill="#FFD4A3" text-anchor="middle" letter-spacing="2">ACT 4 PALETTE</text>
+<rect x="38" y="654" width="60" height="44" rx="3" fill="#F5E6D3"/>
+<text x="68" y="708" font-family="Georgia, serif" font-size="9" fill="#FFD4A3" text-anchor="middle">DAWN</text>
+<text x="68" y="719" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#F5E6D3</text>
+<rect x="115" y="654" width="60" height="44" rx="3" fill="#FFD4A3"/>
+<text x="145" y="708" font-family="Georgia, serif" font-size="9" fill="#FFD4A3" text-anchor="middle">WARM</text>
+<text x="145" y="719" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#FFD4A3</text>
+<rect x="192" y="654" width="60" height="44" rx="3" fill="#F4C2A0"/>
+<text x="222" y="708" font-family="Georgia, serif" font-size="9" fill="#FFD4A3" text-anchor="middle">PEACH</text>
+<text x="222" y="719" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#F4C2A0</text>
+<rect x="269" y="654" width="60" height="44" rx="3" fill="#E8D4B8"/>
+<text x="299" y="708" font-family="Georgia, serif" font-size="9" fill="#FFD4A3" text-anchor="middle">STONE</text>
+<text x="299" y="719" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#E8D4B8</text>
+<rect x="346" y="654" width="60" height="44" rx="3" fill="#FFD060"/>
+<text x="376" y="708" font-family="Georgia, serif" font-size="9" fill="#FFD4A3" text-anchor="middle">TOKEN</text>
+<text x="376" y="719" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#FFD060</text>
+<rect x="423" y="654" width="60" height="44" rx="3" fill="#7090C0"/>
+<text x="453" y="708" font-family="Georgia, serif" font-size="9" fill="#FFD4A3" text-anchor="middle">SKY</text>
+<text x="453" y="719" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#7090C0</text>
+<rect x="500" y="654" width="60" height="44" rx="3" fill="#8B9D6D"/>
+<text x="530" y="708" font-family="Georgia, serif" font-size="9" fill="#FFD4A3" text-anchor="middle">PLANTS</text>
+<text x="530" y="719" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#8B9D6D</text>
+<rect x="577" y="654" width="60" height="44" rx="3" fill="#E8A070"/>
+<text x="607" y="708" font-family="Georgia, serif" font-size="9" fill="#FFD4A3" text-anchor="middle">HORIZON</text>
+<text x="607" y="719" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#E8A070</text>
+
+<!-- ══════════════════ SHOT BREAKDOWN ══════════════════ -->
+<text x="550" y="760" font-family="Georgia, serif" font-size="16" fill="#2A1200" text-anchor="middle" font-weight="bold" letter-spacing="2">SHOT BREAKDOWN — ACT 4</text>
+<line x1="80" y1="770" x2="1020" y2="770" stroke="#C87820" stroke-width="1"/>
+
+<rect x="80" y="786" width="460" height="290" rx="4" fill="#EEE4D0" stroke="#C87820" stroke-width="1.5"/>
+<text x="98" y="810" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">SHOT 15 · 4:11–4:40 · CHILD APPEARS</text>
+<text x="98" y="828" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">New hopeful motif begins at 4:11.</text>
+<text x="98" y="845" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Child walks through archway, holding token.</text>
+<text x="98" y="862" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Camera: slow tracking follow from behind arch.</text>
+<text x="98" y="879" font-family="Georgia, serif" font-size="11" fill="#8B3020" font-weight="bold">★ Most important shot. Animate with care.</text>
+<line x1="95" y1="889" x2="520" y2="889" stroke="#C87820" stroke-width="0.8" opacity="0.4"/>
+
+<text x="98" y="909" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">SHOT 16 · 4:40–4:55 · People bow</text>
+<text x="98" y="927" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Wide shot: silhouettes bow as child passes.</text>
+<text x="98" y="944" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">King at edge of frame, watching, tears.</text>
+<text x="98" y="961" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Can simplify crowd as dark silhouettes.</text>
+<line x1="95" y1="971" x2="520" y2="971" stroke="#C87820" stroke-width="0.8" opacity="0.4"/>
+
+<text x="98" y="991" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">SHOT 17 · 4:55–5:00 · Epilogue</text>
+<text x="98" y="1009" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Close push-in on game board. Token rests.</text>
+<text x="98" y="1026" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Sunrise light catches it — warm, resolute.</text>
+<text x="98" y="1043" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Fade to warm white (NOT black). 5 seconds.</text>
+<text x="98" y="1060" font-family="Georgia, serif" font-size="11" fill="#C87820" font-style="italic">This closes the same way it opened — the</text>
+<text x="98" y="1077" font-family="Georgia, serif" font-size="11" fill="#C87820" font-style="italic">board is still there. The cycle continues.</text>
+
+<!-- Act 4 side notes -->
+<rect x="560" y="786" width="520" height="290" rx="4" fill="#EEE4D0" stroke="#C87820" stroke-width="1.5"/>
+<text x="575" y="810" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">VISUAL SYMMETRY WITH ACT 1</text>
+<text x="575" y="830" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Story opens and closes with the game board.</text>
+<text x="575" y="848" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Act 1: warm gold, intimate chamber</text>
+<text x="575" y="866" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Act 4: warm gold, open courtyard, dawn</text>
+<text x="575" y="884" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Same colors — different meaning. The King</text>
+<text x="575" y="902" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">has changed; the world looks similar.</text>
+<line x1="572" y1="912" x2="1060" y2="912" stroke="#C87820" stroke-width="0.8" opacity="0.4"/>
+
+<text x="575" y="932" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">ANIMATION NOTES</text>
+<text x="575" y="950" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Child's walk: slow, purposeful. No rush.</text>
+<text x="575" y="968" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Token glow intensifies as sun hits it (SH17)</text>
+<text x="575" y="986" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• People bowing: silhouettes OK (SH16)</text>
+<text x="575" y="1004" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• King: minimal animation. His stillness = peace.</text>
+<text x="575" y="1022" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Fade-out: to warm white, not black</text>
+<text x="575" y="1040" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Camera movement: smoother than Act 3</text>
+<text x="575" y="1070" font-family="Georgia, serif" font-size="12" fill="#8B5A1A" font-style="italic">Emotional tone: earned peace. Catharsis.</text>
+<text x="575" y="1088" font-family="Georgia, serif" font-size="12" fill="#8B5A1A" font-style="italic">Not sad. Not triumphant. Simply complete.</text>
+
+</svg>

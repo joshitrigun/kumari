@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1300" viewBox="0 0 900 1300">
+<defs>
+  <radialGradient id="skinQ" cx="50%" cy="38%" r="56%">
+    <stop offset="0%" stop-color="#9A6845"/>
+    <stop offset="100%" stop-color="#7A4E2D"/>
+  </radialGradient>
+  <linearGradient id="bgQ" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#EEE4D8"/>
+    <stop offset="100%" stop-color="#DDD0BE"/>
+  </linearGradient>
+  <linearGradient id="sariGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#6A1040"/>
+    <stop offset="100%" stop-color="#4A0828"/>
+  </linearGradient>
+</defs>
+
+<!-- Background -->
+<rect width="900" height="1300" fill="url(#bgQ)"/>
+<rect x="0" y="0" width="900" height="6" fill="#4A0828"/>
+<rect x="0" y="1294" width="900" height="6" fill="#4A0828"/>
+
+<!-- Header -->
+<rect x="0" y="0" width="900" height="95" fill="#1E0A14"/>
+<text x="450" y="42" font-family="Georgia, serif" font-size="28" fill="#D4A0C0" text-anchor="middle" letter-spacing="6">THE QUEEN</text>
+<text x="450" y="72" font-family="Georgia, serif" font-size="15" fill="#906070" text-anchor="middle" letter-spacing="3">CHARACTER REFERENCE SHEET — THE KING'S REGRET</text>
+
+<!-- ═══════════════════════════════ MAIN FIGURE — QUEEN AT LATTICE ═══════════════════════════════ -->
+<!-- Scene note -->
+<text x="280" y="118" font-family="Georgia, serif" font-size="11" fill="#5A3A3A" text-anchor="middle" font-style="italic">[ Seen through lattice doorway — Shots 1–4 only ]</text>
+
+<!-- WALL / DOORFRAME -->
+<rect x="60" y="130" width="440" height="780" rx="8" fill="#C8A878" opacity="0.3"/>
+<rect x="60" y="130" width="440" height="780" rx="8" fill="none" stroke="#8B6A3A" stroke-width="3"/>
+
+<!-- LATTICE PATTERN (carved wooden screen) -->
+<g opacity="0.75" stroke="#6B4A1A" stroke-width="2.5" fill="none">
+  <!-- Horizontal bars -->
+  <line x1="60" y1="178" x2="500" y2="178"/>
+  <line x1="60" y1="226" x2="500" y2="226"/>
+  <line x1="60" y1="274" x2="500" y2="274"/>
+  <line x1="60" y1="322" x2="500" y2="322"/>
+  <line x1="60" y1="370" x2="500" y2="370"/>
+  <line x1="60" y1="418" x2="500" y2="418"/>
+  <line x1="60" y1="466" x2="500" y2="466"/>
+  <line x1="60" y1="514" x2="500" y2="514"/>
+  <line x1="60" y1="562" x2="500" y2="562"/>
+  <line x1="60" y1="610" x2="500" y2="610"/>
+  <line x1="60" y1="658" x2="500" y2="658"/>
+  <line x1="60" y1="706" x2="500" y2="706"/>
+  <line x1="60" y1="754" x2="500" y2="754"/>
+  <line x1="60" y1="802" x2="500" y2="802"/>
+  <line x1="60" y1="850" x2="500" y2="850"/>
+  <line x1="60" y1="898" x2="500" y2="898"/>
+  <!-- Vertical bars -->
+  <line x1="108" y1="130" x2="108" y2="910"/>
+  <line x1="156" y1="130" x2="156" y2="910"/>
+  <line x1="204" y1="130" x2="204" y2="910"/>
+  <line x1="252" y1="130" x2="252" y2="910"/>
+  <line x1="300" y1="130" x2="300" y2="910"/>
+  <line x1="348" y1="130" x2="348" y2="910"/>
+  <line x1="396" y1="130" x2="396" y2="910"/>
+  <line x1="444" y1="130" x2="444" y2="910"/>
+  <line x1="492" y1="130" x2="492" y2="910"/>
+  <!-- Diagonal cross-hatching -->
+  <line x1="60" y1="130" x2="500" y2="910"/>
+  <line x1="500" y1="130" x2="60" y2="910"/>
+  <line x1="60" y1="225" x2="415" y2="910"/>
+  <line x1="145" y1="130" x2="500" y2="815"/>
+  <line x1="500" y1="225" x2="145" y2="910"/>
+  <line x1="415" y1="130" x2="60" y2="815"/>
+</g>
+
+<!-- FIGURE BEHIND LATTICE (visible through openings) -->
+<!-- Body/sari base -->
+<path d="M195,380 L165,700 L385,700 L355,380 Q320,395 275,390 Q228,395 195,380 Z" fill="url(#sariGrad)" opacity="0.88"/>
+<!-- Sari border/trim -->
+<path d="M195,380 L165,700" stroke="#D4A0C0" stroke-width="3" fill="none" opacity="0.8"/>
+<path d="M355,380 L385,700" stroke="#D4A0C0" stroke-width="3" fill="none" opacity="0.8"/>
+<!-- Sari pattern -->
+<path d="M170,420 Q275,430 370,420" stroke="#D4A0C0" stroke-width="1" fill="none" opacity="0.4"/>
+<path d="M168,460 Q275,470 372,460" stroke="#D4A0C0" stroke-width="1" fill="none" opacity="0.4"/>
+<path d="M167,500 Q275,510 373,500" stroke="#D4A0C0" stroke-width="1" fill="none" opacity="0.4"/>
+
+<!-- Shawl draped over shoulders/head -->
+<path d="M145,350 Q160,310 200,295 Q240,282 275,280 Q310,282 340,295 Q380,310 395,350" fill="#8B0050" opacity="0.85"/>
+<path d="M145,350 Q165,345 200,350 Q240,355 275,352 Q310,355 340,350 Q375,345 395,350" fill="#6A0038" opacity="0.7"/>
+
+<!-- Arms — just barely visible at sides -->
+<path d="M175,385 Q148,440 140,510" stroke="#6A1040" stroke-width="28" fill="none" stroke-linecap="round" opacity="0.85"/>
+<path d="M375,385 Q400,440 408,510" stroke="#6A1040" stroke-width="28" fill="none" stroke-linecap="round" opacity="0.85"/>
+
+<!-- Visible hand at edge of lattice — gripping frame -->
+<ellipse cx="145" cy="525" rx="18" ry="13" fill="url(#skinQ)" opacity="0.9"/>
+<path d="M132,517 Q122,501 128,494" stroke="#9A6845" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M141,513 Q133,496 139,489" stroke="#9A6845" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M151,512 Q146,494 153,487" stroke="#9A6845" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M160,514 Q158,497 165,492" stroke="#9A6845" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+<!-- NECK -->
+<path d="M256,275 Q248,288 248,300 L302,300 Q302,288 294,275 Z" fill="url(#skinQ)" opacity="0.9"/>
+
+<!-- NECKLACE -->
+<path d="M222,292 Q252,308 275,302 Q298,308 328,292" stroke="#D4AF37" stroke-width="4" fill="none" opacity="0.9"/>
+<circle cx="275" cy="306" r="6" fill="#D4AF37" opacity="0.9"/>
+
+<!-- HEAD -->
+<ellipse cx="275" cy="200" rx="70" ry="80" fill="url(#skinQ)"/>
+
+<!-- Hair — ornately dressed, pulled up -->
+<path d="M210,162 Q218,140 240,128 Q258,118 275,115" fill="#0D0500"/>
+<path d="M340,162 Q332,140 310,128 Q292,118 275,115" fill="#0D0500"/>
+<!-- Hair bun / ornament -->
+<ellipse cx="275" cy="120" rx="35" ry="20" fill="#1A0800"/>
+<ellipse cx="275" cy="112" rx="28" ry="14" fill="#2A1200"/>
+<!-- Hair ornament gold -->
+<path d="M255,112 Q275,106 295,112" stroke="#D4AF37" stroke-width="4" fill="none"/>
+<circle cx="275" cy="108" r="6" fill="#D4AF37"/>
+<circle cx="260" cy="112" r="4" fill="#D4AF37"/>
+<circle cx="290" cy="112" r="4" fill="#D4AF37"/>
+<circle cx="275" cy="108" r="3" fill="#FFD700"/>
+
+<!-- EAR -->
+<ellipse cx="205" cy="202" rx="12" ry="15" fill="#8B6340"/>
+<circle cx="205" cy="214" r="7" fill="#D4AF37"/>
+<circle cx="205" cy="214" r="4" fill="#E8A0B0"/>
+
+<!-- FACE FEATURES -->
+<!-- Eyebrows — arched, expressive -->
+<path d="M233,165 Q248,157 264,162" stroke="#1A0800" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<path d="M286,162 Q302,157 317,165" stroke="#1A0800" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+
+<!-- EYES — wide, watching, slightly narrowed with jealousy -->
+<ellipse cx="250" cy="182" rx="14" ry="9" fill="white"/>
+<ellipse cx="251" cy="182" rx="9" ry="7" fill="#3D2B1F"/>
+<circle cx="252" cy="180" r="5" fill="#0D0500"/>
+<circle cx="255" cy="178" r="2.5" fill="white" opacity="0.9"/>
+<path d="M236,179 Q250,172 264,179" stroke="#1A0800" stroke-width="1.5" fill="none"/>
+<path d="M236,186 Q250,192 264,186" stroke="#1A0800" stroke-width="1" fill="none" opacity="0.5"/>
+
+<ellipse cx="300" cy="182" rx="14" ry="9" fill="white"/>
+<ellipse cx="301" cy="182" rx="9" ry="7" fill="#3D2B1F"/>
+<circle cx="302" cy="180" r="5" fill="#0D0500"/>
+<circle cx="305" cy="178" r="2.5" fill="white" opacity="0.9"/>
+<path d="M286,179 Q300,172 314,179" stroke="#1A0800" stroke-width="1.5" fill="none"/>
+<path d="M286,186 Q300,192 314,186" stroke="#1A0800" stroke-width="1" fill="none" opacity="0.5"/>
+
+<!-- NOSE -->
+<path d="M275,190 L270,207 Q275,212 280,207 L275,190" fill="#7A4E2D"/>
+<ellipse cx="269" cy="208" rx="6" ry="4" fill="#6A3D22"/>
+<ellipse cx="281" cy="208" rx="6" ry="4" fill="#6A3D22"/>
+
+<!-- MOUTH — slightly parted (awe/shock) -->
+<path d="M260,228 Q275,232 290,228" stroke="#7A3020" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M263,231 Q275,238 287,231" fill="#8B3525" opacity="0.5"/>
+
+<!-- BINDI -->
+<circle cx="275" cy="156" r="7" fill="#C0392B"/>
+<circle cx="275" cy="156" r="4" fill="#E74C3C"/>
+
+<!-- CHEEKS — flushed with emotion -->
+<circle cx="232" cy="200" r="16" fill="#D4708A" opacity="0.2"/>
+<circle cx="318" cy="200" r="16" fill="#D4708A" opacity="0.2"/>
+
+<!-- ═══════════════════════════════ EXPRESSIONS ═══════════════════════════════ -->
+<text x="690" y="175" font-family="Georgia, serif" font-size="14" fill="#4A1A2A" text-anchor="middle" letter-spacing="2">EXPRESSIONS</text>
+<line x1="610" y1="185" x2="770" y2="185" stroke="#906070" stroke-width="1"/>
+
+<!-- Expr 1: AWE -->
+<circle cx="650" cy="280" r="68" fill="#EEE0D8" stroke="#906070" stroke-width="2"/>
+<text x="650" y="362" font-family="Georgia, serif" font-size="11" fill="#4A1A2A" text-anchor="middle">AWE</text>
+<text x="650" y="376" font-family="Georgia, serif" font-size="9" fill="#906070" text-anchor="middle">mouth open, wide eyes</text>
+<ellipse cx="650" cy="268" rx="40" ry="48" fill="url(#skinQ)"/>
+<ellipse cx="636" cy="258" rx="12" ry="11" fill="white"/>
+<circle cx="636" cy="260" r="7" fill="#3D2B1F"/>
+<circle cx="636" cy="258" r="4" fill="#0D0500"/>
+<circle cx="639" cy="255" r="2" fill="white"/>
+<ellipse cx="664" cy="258" rx="12" ry="11" fill="white"/>
+<circle cx="664" cy="260" r="7" fill="#3D2B1F"/>
+<circle cx="664" cy="258" r="4" fill="#0D0500"/>
+<circle cx="667" cy="255" r="2" fill="white"/>
+<!-- Raised brows for awe -->
+<path d="M625,245 Q636,238 647,243" stroke="#1A0800" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M653,243 Q664,238 675,245" stroke="#1A0800" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<!-- Open mouth -->
+<path d="M638,292 Q650,296 662,292" stroke="#7A3020" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<ellipse cx="650" cy="296" rx="9" ry="6" fill="#7A3020" opacity="0.4"/>
+<path d="M650,268 L646,280 Q650,284 654,280 L650,268" fill="#7A4E2D"/>
+
+<!-- Expr 2: JEALOUSY -->
+<circle cx="760" cy="280" r="68" fill="#E8D8E8" stroke="#706080" stroke-width="2"/>
+<text x="760" y="362" font-family="Georgia, serif" font-size="11" fill="#3A1A4A" text-anchor="middle">JEALOUSY</text>
+<text x="760" y="376" font-family="Georgia, serif" font-size="9" fill="#706080" text-anchor="middle">narrowed eyes, tense</text>
+<ellipse cx="760" cy="268" rx="40" ry="48" fill="url(#skinQ)"/>
+<ellipse cx="746" cy="259" rx="12" ry="7" fill="white"/>
+<circle cx="747" cy="260" r="7" fill="#3D2B1F"/>
+<circle cx="748" cy="259" r="4" fill="#0D0500"/>
+<ellipse cx="774" cy="259" rx="12" ry="7" fill="white"/>
+<circle cx="775" cy="260" r="7" fill="#3D2B1F"/>
+<circle cx="776" cy="259" r="4" fill="#0D0500"/>
+<!-- Furrowed brows of jealousy -->
+<path d="M735,247 Q746,242 757,247" stroke="#1A0800" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<path d="M763,247 Q774,242 785,247" stroke="#1A0800" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<path d="M757,245 L763,245" stroke="#1A0800" stroke-width="3" fill="none"/>
+<!-- Tight, pressed lips -->
+<path d="M749,290 Q760,294 771,290" stroke="#7A3020" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M760,268 L756,280 Q760,284 764,280 L760,268" fill="#7A4E2D"/>
+
+<!-- Expr 3: SHOCK -->
+<circle cx="650" cy="460" r="68" fill="#E8EEF8" stroke="#405080" stroke-width="2"/>
+<text x="650" y="542" font-family="Georgia, serif" font-size="11" fill="#1A2A4A" text-anchor="middle">SHOCK</text>
+<text x="650" y="556" font-family="Georgia, serif" font-size="9" fill="#405080" text-anchor="middle">1:13 lighting shift</text>
+<ellipse cx="650" cy="448" rx="40" ry="48" fill="url(#skinQ)"/>
+<ellipse cx="650" cy="448" rx="40" ry="48" fill="#8099BB" opacity="0.1"/>
+<ellipse cx="636" cy="437" rx="13" ry="12" fill="white"/>
+<circle cx="636" cy="439" r="8" fill="#3D2B1F"/>
+<circle cx="636" cy="437" r="4.5" fill="#0D0500"/>
+<circle cx="639" cy="434" r="2" fill="white"/>
+<ellipse cx="664" cy="437" rx="13" ry="12" fill="white"/>
+<circle cx="664" cy="439" r="8" fill="#3D2B1F"/>
+<circle cx="664" cy="437" r="4.5" fill="#0D0500"/>
+<circle cx="667" cy="434" r="2" fill="white"/>
+<!-- Very raised brows -->
+<path d="M623,422 Q636,414 649,420" stroke="#1A0800" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M651,420 Q664,414 677,422" stroke="#1A0800" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<!-- Open shocked mouth -->
+<ellipse cx="650" cy="474" rx="11" ry="8" fill="#7A3020" opacity="0.5"/>
+<path d="M639,470 Q650,463 661,470" stroke="#7A3020" stroke-width="2.5" fill="none"/>
+<path d="M650,448 L646,460 Q650,464 654,460 L650,448" fill="#7A4E2D"/>
+
+<!-- ═══════════════════════════════ SCENE NOTE ═══════════════════════════════ -->
+<rect x="510" y="590" width="370" height="240" rx="6" fill="#E8D8C8" stroke="#8B6A3A" stroke-width="1.5"/>
+<text x="695" y="614" font-family="Georgia, serif" font-size="12" fill="#4A2A0A" text-anchor="middle" font-weight="bold">SCENE CONTEXT</text>
+<text x="695" y="634" font-family="Georgia, serif" font-size="10" fill="#4A2A0A" text-anchor="middle">Shot 1–4 (0:00–0:50)</text>
+<line x1="530" y1="642" x2="860" y2="642" stroke="#8B6A3A" stroke-width="1" opacity="0.5"/>
+<text x="525" y="662" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Always seen THROUGH lattice screen</text>
+<text x="525" y="680" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Upper body only — no full-body shots</text>
+<text x="525" y="698" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Peeking in: jealous of King's devotion</text>
+<text x="525" y="716" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Not the villain — a witness, not a cause</text>
+<text x="525" y="734" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Her emotions trigger awareness in King</text>
+<text x="525" y="752" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Exit before Act 2 — never seen again</text>
+<text x="695" y="780" font-family="Georgia, serif" font-size="10" fill="#8B5A30" text-anchor="middle" font-style="italic">Brief but critical: she humanises the story.</text>
+<text x="695" y="796" font-family="Georgia, serif" font-size="10" fill="#8B5A30" text-anchor="middle" font-style="italic">Keep her sympathetic, not accusatory.</text>
+<text x="695" y="814" font-family="Georgia, serif" font-size="10" fill="#8B5A30" text-anchor="middle" font-style="italic">Camera angle should feel voyeuristic but</text>
+<text x="695" y="832" font-family="Georgia, serif" font-size="10" fill="#8B5A30" text-anchor="middle" font-style="italic">never revealing — the lattice is her mask.</text>
+
+<!-- DESIGN NOTES -->
+<rect x="510" y="852" width="370" height="185" rx="6" fill="#E8D8C8" stroke="#8B6A3A" stroke-width="1.5"/>
+<text x="525" y="875" font-family="Georgia, serif" font-size="13" fill="#2A1200" font-weight="bold" letter-spacing="1">DESIGN NOTES</text>
+<text x="525" y="896" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Royal sari: deep magenta/plum with gold border</text>
+<text x="525" y="914" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Elaborate hair bun with gold ornaments</text>
+<text x="525" y="932" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Ornate jewelry — she is royalty too</text>
+<text x="525" y="950" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Hands grip lattice — physical tension, longing</text>
+<text x="525" y="968" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Lattice bars always partially obscure face</text>
+<text x="525" y="986" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">  (min. 2-3 bars across her at all times)</text>
+<text x="525" y="1020" font-family="Georgia, serif" font-size="11" fill="#8B1A1A" font-style="italic">Arc: Watching → Aching → Shock → Exit</text>
+
+<!-- PALETTE -->
+<rect x="0" y="1210" width="900" height="90" fill="#1E0A14"/>
+<text x="450" y="1234" font-family="Georgia, serif" font-size="12" fill="#C090A8" text-anchor="middle" letter-spacing="3">CHARACTER PALETTE</text>
+<rect x="40" y="1245" width="55" height="40" rx="4" fill="#9A6845"/>
+<text x="67" y="1297" font-family="Georgia, serif" font-size="9" fill="#C090A8" text-anchor="middle">SKIN</text>
+<text x="67" y="1308" font-family="Georgia, serif" font-size="8" fill="#906070" text-anchor="middle">#9A6845</text>
+<rect x="120" y="1245" width="55" height="40" rx="4" fill="#6A1040"/>
+<text x="147" y="1297" font-family="Georgia, serif" font-size="9" fill="#C090A8" text-anchor="middle">SARI</text>
+<text x="147" y="1308" font-family="Georgia, serif" font-size="8" fill="#906070" text-anchor="middle">#6A1040</text>
+<rect x="200" y="1245" width="55" height="40" rx="4" fill="#D4A0C0"/>
+<text x="227" y="1297" font-family="Georgia, serif" font-size="9" fill="#C090A8" text-anchor="middle">TRIM</text>
+<text x="227" y="1308" font-family="Georgia, serif" font-size="8" fill="#906070" text-anchor="middle">#D4A0C0</text>
+<rect x="280" y="1245" width="55" height="40" rx="4" fill="#D4AF37"/>
+<text x="307" y="1297" font-family="Georgia, serif" font-size="9" fill="#C090A8" text-anchor="middle">GOLD</text>
+<text x="307" y="1308" font-family="Georgia, serif" font-size="8" fill="#906070" text-anchor="middle">#D4AF37</text>
+<rect x="360" y="1245" width="55" height="40" rx="4" fill="#6B4A1A"/>
+<text x="387" y="1297" font-family="Georgia, serif" font-size="9" fill="#C090A8" text-anchor="middle">LATTICE</text>
+<text x="387" y="1308" font-family="Georgia, serif" font-size="8" fill="#906070" text-anchor="middle">#6B4A1A</text>
+<rect x="440" y="1245" width="55" height="40" rx="4" fill="#C0392B"/>
+<text x="467" y="1297" font-family="Georgia, serif" font-size="9" fill="#C090A8" text-anchor="middle">BINDI</text>
+<text x="467" y="1308" font-family="Georgia, serif" font-size="8" fill="#906070" text-anchor="middle">#C0392B</text>
+<rect x="520" y="1245" width="55" height="40" rx="4" fill="#0D0500"/>
+<text x="547" y="1297" font-family="Georgia, serif" font-size="9" fill="#C090A8" text-anchor="middle">HAIR</text>
+<text x="547" y="1308" font-family="Georgia, serif" font-size="8" fill="#906070" text-anchor="middle">#0D0500</text>
+<rect x="600" y="1245" width="55" height="40" rx="4" fill="#D4708A"/>
+<text x="627" y="1297" font-family="Georgia, serif" font-size="9" fill="#C090A8" text-anchor="middle">BLUSH</text>
+<text x="627" y="1308" font-family="Georgia, serif" font-size="8" fill="#906070" text-anchor="middle">#D4708A</text>
+</svg>

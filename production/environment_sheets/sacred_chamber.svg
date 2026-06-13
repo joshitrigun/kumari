@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1400" viewBox="0 0 1100 1400">
+<defs>
+  <linearGradient id="bgSC" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5EDD8"/>
+    <stop offset="100%" stop-color="#E8D9BE"/>
+  </linearGradient>
+  <radialGradient id="lampGlow1" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#FFE680" stop-opacity="0.9"/>
+    <stop offset="60%" stop-color="#FFC700" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#FF8C00" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="lampGlowCool" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#A8D8F0" stop-opacity="0.7"/>
+    <stop offset="100%" stop-color="#4A6FA5" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="floorWarm" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#C8A060"/>
+    <stop offset="100%" stop-color="#8B6030"/>
+  </linearGradient>
+  <linearGradient id="floorCool" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#7A8899"/>
+    <stop offset="100%" stop-color="#4A5860"/>
+  </linearGradient>
+</defs>
+
+<!-- Background -->
+<rect width="1100" height="1400" fill="url(#bgSC)"/>
+<rect x="0" y="0" width="1100" height="6" fill="#8B4A00"/>
+<rect x="0" y="1394" width="1100" height="6" fill="#8B4A00"/>
+
+<!-- Header -->
+<rect x="0" y="0" width="1100" height="90" fill="#2A1500"/>
+<text x="550" y="38" font-family="Georgia, serif" font-size="26" fill="#FFD060" text-anchor="middle" letter-spacing="5">THE SACRED CHAMBER</text>
+<text x="550" y="66" font-family="Georgia, serif" font-size="13" fill="#A07840" text-anchor="middle" letter-spacing="3">ENVIRONMENT REFERENCE — ACTS 1 &amp; 2 · SHOTS 1–9</text>
+
+<!-- ══════════════════════ ACT 1 SCENE (WARM) — LEFT PANEL ══════════════════════ -->
+<rect x="20" y="105" width="520" height="520" rx="4" fill="#2A1800"/>
+<!-- Warm floor -->
+<rect x="20" y="105" width="520" height="520" fill="#3D2200"/>
+<!-- Floor perspective -->
+<path d="M20,625 L270,420 L540,420 L540,625 Z" fill="#5A3510"/>
+<path d="M20,625 L270,420 L540,420 L540,625 Z" fill="url(#floorWarm)" opacity="0.5"/>
+<!-- Floor tiles/planks -->
+<path d="M20,530 Q280,510 540,530" stroke="#4A2A08" stroke-width="1" fill="none"/>
+<path d="M20,580 Q280,560 540,580" stroke="#4A2A08" stroke-width="1" fill="none"/>
+<path d="M20,490 Q280,470 540,490" stroke="#4A2A08" stroke-width="0.5" fill="none"/>
+<path d="M140,625 L270,420" stroke="#4A2A08" stroke-width="1" fill="none"/>
+<path d="M260,625 L340,420" stroke="#4A2A08" stroke-width="1" fill="none"/>
+<path d="M380,625 L405,420" stroke="#4A2A08" stroke-width="1" fill="none"/>
+<path d="M500,625 L480,420" stroke="#4A2A08" stroke-width="1" fill="none"/>
+
+<!-- Back wall warm -->
+<rect x="20" y="105" width="520" height="315" fill="#3D2800"/>
+<rect x="20" y="105" width="520" height="315" fill="#5A3800" opacity="0.5"/>
+
+<!-- Wall carvings - ornate panels -->
+<rect x="30" y="115" width="90" height="200" rx="4" fill="#4A3010" stroke="#8B5A20" stroke-width="1.5"/>
+<rect x="35" y="120" width="80" height="190" rx="3" fill="#3A2508" stroke="#D4AF37" stroke-width="1"/>
+<!-- Carving pattern on left panel -->
+<path d="M55,140 L55,290 M75,140 L75,290 M95,140 L95,290" stroke="#8B5A20" stroke-width="0.8" fill="none"/>
+<path d="M35,160 L115,160 M35,190 L115,190 M35,220 L115,220 M35,250 L115,250 M35,280 L115,280" stroke="#8B5A20" stroke-width="0.8" fill="none"/>
+<circle cx="75" cy="155" r="8" fill="#8B5A20"/>
+<circle cx="75" cy="200" r="6" fill="#8B5A20"/>
+<circle cx="75" cy="240" r="8" fill="#8B5A20"/>
+<circle cx="75" cy="280" r="6" fill="#8B5A20"/>
+
+<!-- Center wall section with window/arch -->
+<rect x="200" y="115" width="140" height="220" rx="6" fill="#2A1A08"/>
+<!-- Arch top -->
+<path d="M200,215 Q270,140 340,215 L340,335 L200,335 Z" fill="#241608"/>
+<path d="M205,215 Q270,148 335,215" stroke="#8B5A20" stroke-width="2" fill="none"/>
+<!-- Lattice in arch -->
+<line x1="200" y1="240" x2="340" y2="240" stroke="#6B4010" stroke-width="1.5"/>
+<line x1="200" y1="265" x2="340" y2="265" stroke="#6B4010" stroke-width="1.5"/>
+<line x1="200" y1="290" x2="340" y2="290" stroke="#6B4010" stroke-width="1.5"/>
+<line x1="200" y1="315" x2="340" y2="315" stroke="#6B4010" stroke-width="1.5"/>
+<line x1="220" y1="220" x2="220" y2="335" stroke="#6B4010" stroke-width="1.5"/>
+<line x1="245" y1="215" x2="245" y2="335" stroke="#6B4010" stroke-width="1.5"/>
+<line x1="270" y1="212" x2="270" y2="335" stroke="#6B4010" stroke-width="1.5"/>
+<line x1="295" y1="215" x2="295" y2="335" stroke="#6B4010" stroke-width="1.5"/>
+<line x1="320" y1="220" x2="320" y2="335" stroke="#6B4010" stroke-width="1.5"/>
+<!-- Diagonals -->
+<line x1="200" y1="220" x2="340" y2="335" stroke="#6B4010" stroke-width="1" opacity="0.5"/>
+<line x1="340" y1="220" x2="200" y2="335" stroke="#6B4010" stroke-width="1" opacity="0.5"/>
+
+<!-- Right wall carved panel -->
+<rect x="420" y="115" width="90" height="200" rx="4" fill="#4A3010" stroke="#8B5A20" stroke-width="1.5"/>
+<rect x="425" y="120" width="80" height="190" rx="3" fill="#3A2508" stroke="#D4AF37" stroke-width="1"/>
+<path d="M435,140 L435,290 M455,140 L455,290 M475,140 L475,290 M495,140 L495,290" stroke="#8B5A20" stroke-width="0.8" fill="none"/>
+<path d="M425,160 L505,160 M425,190 L505,190 M425,220 L505,220 M425,250 L505,250 M425,280 L505,280" stroke="#8B5A20" stroke-width="0.8" fill="none"/>
+<circle cx="465" cy="155" r="8" fill="#8B5A20"/>
+<circle cx="465" cy="200" r="6" fill="#8B5A20"/>
+<circle cx="465" cy="240" r="8" fill="#8B5A20"/>
+<circle cx="465" cy="280" r="6" fill="#8B5A20"/>
+
+<!-- LAMP GLOWS - warm -->
+<circle cx="130" cy="390" r="55" fill="url(#lampGlow1)"/>
+<circle cx="420" cy="390" r="55" fill="url(#lampGlow1)"/>
+<circle cx="270" cy="370" r="45" fill="url(#lampGlow1)" opacity="0.7"/>
+
+<!-- OIL LAMPS -->
+<!-- Left lamp -->
+<path d="M108,440 L115,410 L145,410 L152,440 Z" fill="#8B5A20"/>
+<ellipse cx="130" cy="440" rx="22" ry="7" fill="#6B3A10"/>
+<path d="M118,408 Q130,400 142,408" fill="#C87820" opacity="0.8"/>
+<ellipse cx="130" cy="400" rx="6" ry="3" fill="#FFE680"/>
+<path d="M127,400 Q130,388 133,400" fill="#FF8C00" opacity="0.9"/>
+<!-- Lamp stand -->
+<rect x="126" y="440" width="8" height="25" fill="#6B3A10"/>
+<ellipse cx="130" cy="465" rx="18" ry="5" fill="#5A2A08"/>
+
+<!-- Right lamp -->
+<path d="M398,440 L405,410 L435,410 L442,440 Z" fill="#8B5A20"/>
+<ellipse cx="420" cy="440" rx="22" ry="7" fill="#6B3A10"/>
+<path d="M408,408 Q420,400 432,408" fill="#C87820" opacity="0.8"/>
+<ellipse cx="420" cy="400" rx="6" ry="3" fill="#FFE680"/>
+<path d="M417,400 Q420,388 423,400" fill="#FF8C00" opacity="0.9"/>
+<rect x="416" y="440" width="8" height="25" fill="#6B3A10"/>
+<ellipse cx="420" cy="465" rx="18" ry="5" fill="#5A2A08"/>
+
+<!-- INCENSE smoke -->
+<path d="M265,385 Q258,370 262,355 Q268,340 264,325 Q260,310 265,295" stroke="#E8E0C8" stroke-width="2" fill="none" opacity="0.5"/>
+<path d="M278,380 Q285,365 280,350 Q274,335 279,320 Q284,305 279,290" stroke="#E8E0C8" stroke-width="1.5" fill="none" opacity="0.4"/>
+
+<!-- GAME TABLE (center) -->
+<ellipse cx="270" cy="500" rx="85" ry="40" fill="#6B3A10"/>
+<ellipse cx="270" cy="495" rx="80" ry="36" fill="#8B5020"/>
+<!-- Table surface pattern -->
+<ellipse cx="270" cy="494" rx="75" ry="32" fill="none" stroke="#D4AF37" stroke-width="1.5"/>
+<ellipse cx="270" cy="494" rx="60" ry="25" fill="none" stroke="#D4AF37" stroke-width="1"/>
+<!-- Game pieces on table -->
+<circle cx="255" cy="492" r="6" fill="#D4AF37"/>
+<circle cx="275" cy="490" r="5" fill="#F5F0E0"/>
+<circle cx="268" cy="498" r="4" fill="#D4AF37"/>
+<circle cx="283" cy="496" r="5" fill="#F5F0E0"/>
+<!-- Table legs -->
+<path d="M210,495 L200,520" stroke="#6B3A10" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M330,495 L340,520" stroke="#6B3A10" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M270,530 L270,550" stroke="#6B3A10" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+<!-- CUSHIONS (where characters sit) -->
+<ellipse cx="200" cy="545" rx="45" ry="18" fill="#8B1A1A" opacity="0.8"/>
+<ellipse cx="200" cy="541" rx="42" ry="15" fill="#A52020"/>
+<ellipse cx="340" cy="545" rx="45" ry="18" fill="#8B3A10" opacity="0.8"/>
+<ellipse cx="340" cy="541" rx="42" ry="15" fill="#A84A18"/>
+
+<!-- Red/gold cloth on floor -->
+<path d="M60,590 Q160,575 270,580 Q380,575 490,590 L490,625 L60,625 Z" fill="#6B1010" opacity="0.5"/>
+<path d="M60,590 Q160,575 270,580 Q380,575 490,590" stroke="#D4AF37" stroke-width="2" fill="none"/>
+
+<!-- Scene label -->
+<rect x="20" y="598" width="520" height="28" fill="#2A1500" opacity="0.8"/>
+<text x="280" y="617" font-family="Georgia, serif" font-size="13" fill="#FFD060" text-anchor="middle" letter-spacing="2">ACT 1 — WARM · #FFE680 · Candlelight · 2700K</text>
+
+<!-- ══════════════════════ ACT 2 SCENE (COOL) — RIGHT PANEL ══════════════════════ -->
+<rect x="560" y="105" width="520" height="520" rx="4" fill="#1A2030"/>
+
+<!-- Cool floor -->
+<path d="M560,625 L810,420 L1080,420 L1080,625 Z" fill="#2A3A4A"/>
+<path d="M560,625 L810,420 L1080,420 L1080,625 Z" fill="url(#floorCool)" opacity="0.4"/>
+<!-- Floor tiles cool -->
+<path d="M560,530 Q820,510 1080,530" stroke="#2A3A4A" stroke-width="1" fill="none"/>
+<path d="M560,580 Q820,560 1080,580" stroke="#2A3A4A" stroke-width="1" fill="none"/>
+<path d="M680,625 L810,420" stroke="#1A2A3A" stroke-width="1" fill="none"/>
+<path d="M800,625 L880,420" stroke="#1A2A3A" stroke-width="1" fill="none"/>
+<path d="M920,625 L945,420" stroke="#1A2A3A" stroke-width="1" fill="none"/>
+
+<!-- Back wall cool -->
+<rect x="560" y="105" width="520" height="315" fill="#152035"/>
+
+<!-- Same architecture but cold-lit -->
+<!-- Left panel -->
+<rect x="570" y="115" width="90" height="200" rx="4" fill="#1A2A3A" stroke="#2A4A6A" stroke-width="1.5"/>
+<rect x="575" y="120" width="80" height="190" rx="3" fill="#142030" stroke="#4A6FA5" stroke-width="1"/>
+<path d="M595,140 L595,290 M615,140 L615,290 M635,140 L635,290" stroke="#2A4060" stroke-width="0.8" fill="none"/>
+<path d="M575,160 L655,160 M575,190 L655,190 M575,220 L655,220 M575,250 L655,250 M575,280 L655,280" stroke="#2A4060" stroke-width="0.8" fill="none"/>
+
+<!-- Center arch cool -->
+<rect x="740" y="115" width="140" height="220" rx="6" fill="#0E1520"/>
+<path d="M740,215 Q810,140 880,215 L880,335 L740,335 Z" fill="#0A1018"/>
+<path d="M745,215 Q810,148 875,215" stroke="#2A4A6A" stroke-width="2" fill="none"/>
+<line x1="740" y1="240" x2="880" y2="240" stroke="#1A3050" stroke-width="1.5"/>
+<line x1="740" y1="265" x2="880" y2="265" stroke="#1A3050" stroke-width="1.5"/>
+<line x1="740" y1="290" x2="880" y2="290" stroke="#1A3050" stroke-width="1.5"/>
+<line x1="740" y1="315" x2="880" y2="315" stroke="#1A3050" stroke-width="1.5"/>
+<line x1="760" y1="220" x2="760" y2="335" stroke="#1A3050" stroke-width="1.5"/>
+<line x1="785" y1="215" x2="785" y2="335" stroke="#1A3050" stroke-width="1.5"/>
+<line x1="810" y1="212" x2="810" y2="335" stroke="#1A3050" stroke-width="1.5"/>
+<line x1="835" y1="215" x2="835" y2="335" stroke="#1A3050" stroke-width="1.5"/>
+<line x1="860" y1="220" x2="860" y2="335" stroke="#1A3050" stroke-width="1.5"/>
+<line x1="740" y1="220" x2="880" y2="335" stroke="#1A3050" stroke-width="1" opacity="0.5"/>
+<line x1="880" y1="220" x2="740" y2="335" stroke="#1A3050" stroke-width="1" opacity="0.5"/>
+
+<!-- Right panel cool -->
+<rect x="960" y="115" width="90" height="200" rx="4" fill="#1A2A3A" stroke="#2A4A6A" stroke-width="1.5"/>
+<rect x="965" y="120" width="80" height="190" rx="3" fill="#142030" stroke="#4A6FA5" stroke-width="1"/>
+
+<!-- COOL LAMP GLOW — much reduced, cold light from sides -->
+<circle cx="620" cy="380" r="40" fill="url(#lampGlowCool)" opacity="0.7"/>
+<circle cx="1000" cy="380" r="40" fill="url(#lampGlowCool)" opacity="0.7"/>
+<!-- Harsh side key light -->
+<rect x="560" y="200" width="180" height="300" fill="#A8D8F0" opacity="0.04"/>
+<rect x="900" y="200" width="180" height="300" fill="#A8D8F0" opacity="0.04"/>
+
+<!-- Lamps barely lit, dim -->
+<path d="M608,440 L615,415 L640,415 L647,440 Z" fill="#2A2030"/>
+<ellipse cx="628" cy="440" rx="20" ry="6" fill="#1A1528"/>
+<ellipse cx="628" cy="406" rx="4" ry="2" fill="#A8D8F0" opacity="0.5"/>
+<rect x="624" y="440" width="7" height="22" fill="#1A1528"/>
+<ellipse cx="628" cy="462" rx="16" ry="4" fill="#141020"/>
+
+<path d="M990,440 L997,415 L1022,415 L1029,440 Z" fill="#2A2030"/>
+<ellipse cx="1010" cy="440" rx="20" ry="6" fill="#1A1528"/>
+<ellipse cx="1010" cy="406" rx="4" ry="2" fill="#A8D8F0" opacity="0.5"/>
+<rect x="1006" y="440" width="7" height="22" fill="#1A1528"/>
+<ellipse cx="1010" cy="462" rx="16" ry="4" fill="#141020"/>
+
+<!-- Dark incense smoke -->
+<path d="M808,385 Q800,368 804,352 Q810,335 806,318 Q802,302 807,286" stroke="#C0C8D8" stroke-width="2" fill="none" opacity="0.3"/>
+
+<!-- Game table - cool lit, token fallen -->
+<ellipse cx="810" cy="500" rx="85" ry="40" fill="#1A2838"/>
+<ellipse cx="810" cy="495" rx="80" ry="36" fill="#243040"/>
+<ellipse cx="810" cy="494" rx="75" ry="32" fill="none" stroke="#4A6FA5" stroke-width="1.5"/>
+<!-- Game pieces scattered (token fallen) -->
+<circle cx="795" cy="490" r="5" fill="#8090A8"/>
+<circle cx="820" cy="488" r="4" fill="#D0D8E0"/>
+<!-- Token fallen beside table -->
+<ellipse cx="860" cy="530" rx="8" ry="5" fill="#C8A030" transform="rotate(-20,860,530)"/>
+<ellipse cx="862" cy="528" rx="6" ry="4" fill="#E8C050" transform="rotate(-20,860,530)"/>
+<circle cx="862" cy="528" r="2" fill="#FFD060" opacity="0.6"/>
+<!-- Glow on fallen token -->
+<circle cx="862" cy="529" r="14" fill="#FFD060" opacity="0.08"/>
+
+<!-- Cool cushions -->
+<ellipse cx="740" cy="545" rx="45" ry="18" fill="#1A2838" opacity="0.9"/>
+<ellipse cx="740" cy="541" rx="42" ry="15" fill="#243040"/>
+<ellipse cx="880" cy="545" rx="45" ry="18" fill="#1A2838" opacity="0.9"/>
+<ellipse cx="880" cy="541" rx="42" ry="15" fill="#1E3048"/>
+
+<!-- Dark shadow edges -->
+<rect x="560" y="105" width="80" height="520" fill="#0A1018" opacity="0.5"/>
+<rect x="1000" y="105" width="80" height="520" fill="#0A1018" opacity="0.5"/>
+
+<!-- Cool cloth on floor -->
+<path d="M600,590 Q700,578 810,582 Q920,578 1060,590 L1060,625 L600,625 Z" fill="#162030" opacity="0.7"/>
+
+<rect x="560" y="598" width="520" height="28" fill="#0E1520" opacity="0.9"/>
+<text x="820" y="617" font-family="Georgia, serif" font-size="13" fill="#A8D8F0" text-anchor="middle" letter-spacing="2">ACT 2 — COLD · #4A6FA5 · Harsh · Token fallen</text>
+
+<!-- ══════════════════ LIGHTING TRANSITION ARROW ══════════════════ -->
+<text x="550" y="378" font-family="Georgia, serif" font-size="24" fill="#D4AF37" text-anchor="middle">→</text>
+<text x="550" y="400" font-family="Georgia, serif" font-size="10" fill="#A07840" text-anchor="middle">1:13</text>
+
+<!-- ══════════════════ FLOOR PLAN (top-down) ══════════════════ -->
+<text x="550" y="675" font-family="Georgia, serif" font-size="16" fill="#2A1200" text-anchor="middle" font-weight="bold" letter-spacing="2">FLOOR PLAN — CAMERA POSITIONS</text>
+<line x1="80" y1="685" x2="1020" y2="685" stroke="#8B6030" stroke-width="1"/>
+
+<!-- Floor plan box -->
+<rect x="80" y="700" width="600" height="380" rx="4" fill="#EDE0C8" stroke="#8B6030" stroke-width="2"/>
+<!-- Room walls -->
+<rect x="100" y="720" width="560" height="340" rx="3" fill="#C8A870" stroke="#6B3A10" stroke-width="2"/>
+<!-- Door/arch at back wall -->
+<rect x="310" y="720" width="140" height="8" fill="#EDE0C8"/>
+<!-- Left carving panels -->
+<rect x="100" y="728" width="60" height="80" fill="#8B5A20" opacity="0.5"/>
+<rect x="100" y="930" width="60" height="80" fill="#8B5A20" opacity="0.5"/>
+<!-- Right carving panels -->
+<rect x="600" y="728" width="60" height="80" fill="#8B5A20" opacity="0.5"/>
+<rect x="600" y="930" width="60" height="80" fill="#8B5A20" opacity="0.5"/>
+<!-- Lattice door left wall -->
+<rect x="100" y="820" width="15" height="100" fill="#6B3A10" opacity="0.6"/>
+<!-- Game table (oval) -->
+<ellipse cx="380" cy="900" rx="60" ry="35" fill="#8B5020" stroke="#D4AF37" stroke-width="1.5"/>
+<text x="380" y="905" font-family="Georgia, serif" font-size="9" fill="#FFD060" text-anchor="middle">TABLE</text>
+<!-- Cushion positions -->
+<ellipse cx="280" cy="910" rx="30" ry="18" fill="#8B1A1A" opacity="0.6"/>
+<text x="280" y="914" font-family="Georgia, serif" font-size="8" fill="white" text-anchor="middle">KING</text>
+<ellipse cx="480" cy="910" rx="30" ry="18" fill="#D4B060" opacity="0.6"/>
+<text x="480" y="914" font-family="Georgia, serif" font-size="8" fill="#2A1200" text-anchor="middle">TALEJU</text>
+
+<!-- Lamps -->
+<circle cx="195" cy="835" r="16" fill="#FFD060" opacity="0.7" stroke="#8B5A20" stroke-width="1"/>
+<text x="195" y="839" font-family="Georgia, serif" font-size="8" fill="#2A1200" text-anchor="middle">LAMP</text>
+<circle cx="565" cy="835" r="16" fill="#FFD060" opacity="0.7" stroke="#8B5A20" stroke-width="1"/>
+<text x="565" y="839" font-family="Georgia, serif" font-size="8" fill="#2A1200" text-anchor="middle">LAMP</text>
+<!-- Incense -->
+<circle cx="380" cy="780" r="10" fill="#E8D890" stroke="#8B6030" stroke-width="1"/>
+<text x="380" y="784" font-family="Georgia, serif" font-size="7" fill="#2A1200" text-anchor="middle">INC</text>
+
+<!-- CAMERA POSITIONS -->
+<text x="137" y="776" font-family="Georgia, serif" font-size="9" fill="#C0392B" font-weight="bold">CAM</text>
+<!-- Cam 1 - wide establish -->
+<polygon points="135,985 125,1000 145,1000" fill="#C0392B"/>
+<text x="135" y="1015" font-family="Georgia, serif" font-size="8" fill="#C0392B" text-anchor="middle">SH1–2</text>
+<text x="135" y="1025" font-family="Georgia, serif" font-size="7" fill="#8B4A2A" text-anchor="middle">WIDE</text>
+<!-- Cam 2 - medium -->
+<polygon points="200,990 190,1005 210,1005" fill="#2980B9"/>
+<text x="200" y="1020" font-family="Georgia, serif" font-size="8" fill="#2980B9" text-anchor="middle">SH3–4</text>
+<text x="200" y="1030" font-family="Georgia, serif" font-size="7" fill="#2A3A6A" text-anchor="middle">MED</text>
+<!-- Cam 3 - close (shots 5,6) -->
+<polygon points="300,990 290,1005 310,1005" fill="#27AE60"/>
+<text x="300" y="1020" font-family="Georgia, serif" font-size="8" fill="#27AE60" text-anchor="middle">SH5–6</text>
+<text x="300" y="1030" font-family="Georgia, serif" font-size="7" fill="#1A6A3A" text-anchor="middle">CLOSE</text>
+<!-- Cam reach/vanish (shots 7,8) -->
+<polygon points="400,985 390,1000 410,1000" fill="#8B1A1A"/>
+<text x="400" y="1015" font-family="Georgia, serif" font-size="8" fill="#8B1A1A" text-anchor="middle">SH7–8</text>
+<text x="400" y="1025" font-family="Georgia, serif" font-size="7" fill="#8B1A1A" text-anchor="middle">PULLBACK</text>
+<!-- Camera FOV lines -->
+<path d="M135,985 L195,750 L380,730 L565,750 L620,960" stroke="#C0392B" stroke-width="1" fill="none" opacity="0.3" stroke-dasharray="4,3"/>
+
+<!-- Queen lattice position marker -->
+<rect x="100" y="820" width="15" height="100" fill="#6A1040" opacity="0.7"/>
+<text x="72" y="875" font-family="Georgia, serif" font-size="8" fill="#6A1040" text-anchor="middle" transform="rotate(-90,72,875)">QUEEN'S LATTICE</text>
+
+<!-- ══════════════════ PROPS REFERENCE ══════════════════ -->
+<rect x="710" y="700" width="360" height="380" rx="4" fill="#EDE0C8" stroke="#8B6030" stroke-width="1.5"/>
+<text x="890" y="724" font-family="Georgia, serif" font-size="13" fill="#4A2A08" text-anchor="middle" font-weight="bold">KEY PROPS</text>
+<line x1="725" y1="732" x2="1055" y2="732" stroke="#8B6030" stroke-width="1" opacity="0.5"/>
+
+<!-- Game table prop -->
+<text x="725" y="755" font-family="Georgia, serif" font-size="11" fill="#4A2A08" font-weight="bold">GAME TABLE</text>
+<text x="725" y="772" font-family="Georgia, serif" font-size="10" fill="#5A3A1A">• Low (floor height), carved wood</text>
+<text x="725" y="788" font-family="Georgia, serif" font-size="10" fill="#5A3A1A">• Inlaid pattern — gold or ivory trim</text>
+<text x="725" y="804" font-family="Georgia, serif" font-size="10" fill="#5A3A1A">• Oval shape — symbolic, sacred</text>
+<text x="725" y="820" font-family="Georgia, serif" font-size="10" fill="#5A3A1A">• Always centered in frame</text>
+
+<!-- Oil lamp prop -->
+<text x="725" y="845" font-family="Georgia, serif" font-size="11" fill="#4A2A08" font-weight="bold">OIL LAMPS (×2–4)</text>
+<text x="725" y="862" font-family="Georgia, serif" font-size="10" fill="#5A3A1A">• Newar-style oil diyas</text>
+<text x="725" y="878" font-family="Georgia, serif" font-size="10" fill="#5A3A1A">• Primary light source — Act 1</text>
+<text x="725" y="894" font-family="Georgia, serif" font-size="10" fill="#5A3A1A">• Flame flickers on every beat</text>
+<text x="725" y="910" font-family="Georgia, serif" font-size="10" fill="#5A3A1A">• Act 2: dim but not extinguished</text>
+
+<!-- Incense prop -->
+<text x="725" y="935" font-family="Georgia, serif" font-size="11" fill="#4A2A08" font-weight="bold">INCENSE</text>
+<text x="725" y="952" font-family="Georgia, serif" font-size="10" fill="#5A3A1A">• Thin stick in small holder</text>
+<text x="725" y="968" font-family="Georgia, serif" font-size="10" fill="#5A3A1A">• Smoke: slow, organic curves</text>
+<text x="725" y="984" font-family="Georgia, serif" font-size="10" fill="#5A3A1A">• Act 2: smoke darkens, disperses</text>
+
+<!-- Token -->
+<text x="725" y="1009" font-family="Georgia, serif" font-size="11" fill="#4A2A08" font-weight="bold">THE TOKEN (lotus)</text>
+<text x="725" y="1026" font-family="Georgia, serif" font-size="10" fill="#5A3A1A">• Gold or carved wood lotus</text>
+<text x="725" y="1042" font-family="Georgia, serif" font-size="10" fill="#5A3A1A">• Act 1: rests on table quietly</text>
+<text x="725" y="1058" font-family="Georgia, serif" font-size="10" fill="#5A3A1A">• Act 2: falls (1:53), rolls to floor</text>
+<text x="725" y="1074" font-family="Georgia, serif" font-size="10" fill="#8B3020" font-style="italic">• Catch light in every act</text>
+
+<!-- ══════════════════ LIGHTING DIAGRAM ══════════════════ -->
+<text x="550" y="1120" font-family="Georgia, serif" font-size="16" fill="#2A1200" text-anchor="middle" font-weight="bold" letter-spacing="2">LIGHTING DIAGRAM</text>
+<line x1="80" y1="1130" x2="1020" y2="1130" stroke="#8B6030" stroke-width="1"/>
+
+<!-- Act 1 lighting -->
+<rect x="80" y="1148" width="460" height="220" rx="4" fill="#3D2200" opacity="0.8"/>
+<text x="310" y="1170" font-family="Georgia, serif" font-size="12" fill="#FFD060" text-anchor="middle">ACT 1 — WARM 3-POINT</text>
+<!-- Light sources -->
+<circle cx="150" cy="1210" r="22" fill="#FFE680" opacity="0.8"/>
+<text x="150" y="1215" font-family="Georgia, serif" font-size="9" fill="#2A1200" text-anchor="middle">KEY</text>
+<text x="150" y="1248" font-family="Georgia, serif" font-size="9" fill="#FFD060" text-anchor="middle">2700K</text>
+<circle cx="460" cy="1210" r="18" fill="#FFC700" opacity="0.7"/>
+<text x="460" y="1215" font-family="Georgia, serif" font-size="9" fill="#2A1200" text-anchor="middle">FILL</text>
+<text x="460" y="1248" font-family="Georgia, serif" font-size="9" fill="#FFD060" text-anchor="middle">3000K</text>
+<circle cx="310" cy="1340" r="12" fill="#FF8C00" opacity="0.6"/>
+<text x="310" y="1345" font-family="Georgia, serif" font-size="9" fill="#FFD060" text-anchor="middle">RIM</text>
+<!-- Light rays warm -->
+<path d="M150,1220 L310,1290" stroke="#FFE680" stroke-width="2" opacity="0.4" stroke-dasharray="5,3"/>
+<path d="M460,1220 L310,1290" stroke="#FFC700" stroke-width="1.5" opacity="0.3" stroke-dasharray="5,3"/>
+<path d="M310,1340 L310,1290" stroke="#FF8C00" stroke-width="1.5" opacity="0.3" stroke-dasharray="5,3"/>
+<!-- Characters -->
+<ellipse cx="310" cy="1290" rx="30" ry="18" fill="#8B6340" opacity="0.7"/>
+<text x="310" y="1295" font-family="Georgia, serif" font-size="8" fill="white" text-anchor="middle">CHARS</text>
+<text x="310" y="1360" font-family="Georgia, serif" font-size="9" fill="#C8A060" text-anchor="middle">Soft diffuse · No harsh shadows</text>
+
+<!-- Act 2 lighting -->
+<rect x="560" y="1148" width="460" height="220" rx="4" fill="#0E1520" opacity="0.9"/>
+<text x="790" y="1170" font-family="Georgia, serif" font-size="12" fill="#A8D8F0" text-anchor="middle">ACT 2 — COLD SIDE-KEY</text>
+<circle cx="570" cy="1210" r="22" fill="#A8D8F0" opacity="0.8"/>
+<text x="570" y="1215" font-family="Georgia, serif" font-size="9" fill="#0A1018" text-anchor="middle">KEY</text>
+<text x="570" y="1248" font-family="Georgia, serif" font-size="9" fill="#A8D8F0" text-anchor="middle">5600K</text>
+<circle cx="810" cy="1340" r="10" fill="#4A6FA5" opacity="0.5"/>
+<text x="810" y="1345" font-family="Georgia, serif" font-size="9" fill="#A8D8F0" text-anchor="middle">WEAK FILL</text>
+<path d="M570,1220 L790,1290" stroke="#A8D8F0" stroke-width="2" opacity="0.4" stroke-dasharray="5,3"/>
+<path d="M810,1340 L790,1290" stroke="#4A6FA5" stroke-width="1.5" opacity="0.3" stroke-dasharray="5,3"/>
+<ellipse cx="790" cy="1290" rx="30" ry="18" fill="#2A3A5A" opacity="0.7"/>
+<text x="790" y="1295" font-family="Georgia, serif" font-size="8" fill="white" text-anchor="middle">CHARS</text>
+<text x="790" y="1360" font-family="Georgia, serif" font-size="9" fill="#6A8AAA" text-anchor="middle">Stark side light · Deep shadow · Isolated</text>
+
+</svg>

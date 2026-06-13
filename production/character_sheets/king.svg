@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1300" viewBox="0 0 900 1300">
+<defs>
+  <radialGradient id="skinGrad" cx="50%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#A0714F"/>
+    <stop offset="100%" stop-color="#7A5030"/>
+  </radialGradient>
+  <linearGradient id="robeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7A1515"/>
+    <stop offset="100%" stop-color="#4A0808"/>
+  </linearGradient>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5EDD8"/>
+    <stop offset="100%" stop-color="#E8D9BF"/>
+  </linearGradient>
+</defs>
+
+<!-- Background -->
+<rect width="900" height="1300" fill="url(#bgGrad)"/>
+<rect x="0" y="0" width="900" height="6" fill="#8B1A1A"/>
+<rect x="0" y="1294" width="900" height="6" fill="#8B1A1A"/>
+
+<!-- Header -->
+<rect x="0" y="0" width="900" height="95" fill="#2A1200"/>
+<text x="450" y="42" font-family="Georgia, serif" font-size="28" fill="#D4AF37" text-anchor="middle" letter-spacing="6">KING JAYAPRAKASH MALLA</text>
+<text x="450" y="72" font-family="Georgia, serif" font-size="15" fill="#A07840" text-anchor="middle" letter-spacing="3">CHARACTER REFERENCE SHEET — THE KING'S REGRET</text>
+
+<!-- ═══════════════════════════════ MAIN FIGURE ═══════════════════════════════ -->
+
+<!-- Shadow -->
+<ellipse cx="285" cy="885" rx="110" ry="18" fill="#C8B898" opacity="0.6"/>
+
+<!-- FEET -->
+<ellipse cx="245" cy="878" rx="38" ry="13" fill="#7A5030"/>
+<ellipse cx="330" cy="878" rx="35" ry="13" fill="#6B4525"/>
+
+<!-- LOWER ROBES -->
+<path d="M175,560 Q165,700 185,875 L370,875 Q390,700 380,560 Z" fill="#3D0A0A"/>
+<path d="M175,560 Q165,700 185,875" stroke="#D4AF37" stroke-width="3" fill="none"/>
+<path d="M380,560 Q390,700 370,875" stroke="#D4AF37" stroke-width="3" fill="none"/>
+<!-- Robe hem border -->
+<path d="M185,840 Q278,855 370,840" stroke="#D4AF37" stroke-width="5" fill="none"/>
+<path d="M188,853 Q278,867 367,853" stroke="#D4AF37" stroke-width="2" fill="none"/>
+<!-- Robe pattern rows -->
+<path d="M183,620 Q278,630 377,620" stroke="#8B1A1A" stroke-width="1.5" fill="none" opacity="0.5"/>
+<path d="M181,660 Q278,670 379,660" stroke="#8B1A1A" stroke-width="1.5" fill="none" opacity="0.5"/>
+<path d="M180,700 Q278,710 380,700" stroke="#8B1A1A" stroke-width="1.5" fill="none" opacity="0.5"/>
+<path d="M180,740 Q278,750 380,740" stroke="#8B1A1A" stroke-width="1.5" fill="none" opacity="0.5"/>
+<path d="M181,780 Q278,790 379,780" stroke="#8B1A1A" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+<!-- RIGHT ARM (viewer left) -->
+<path d="M175,340 Q145,420 140,510" stroke="#7A1515" stroke-width="38" fill="none" stroke-linecap="round"/>
+<path d="M175,340 Q145,420 140,510" stroke="#4A0808" stroke-width="34" fill="none" stroke-linecap="round"/>
+<!-- Gold trim on sleeve -->
+<path d="M148,490 Q152,502 165,508" stroke="#D4AF37" stroke-width="3" fill="none"/>
+
+<!-- LEFT ARM (viewer right) -->
+<path d="M390,340 Q415,420 418,510" stroke="#7A1515" stroke-width="38" fill="none" stroke-linecap="round"/>
+<path d="M390,340 Q415,420 418,510" stroke="#4A0808" stroke-width="34" fill="none" stroke-linecap="round"/>
+<path d="M410,490 Q406,502 393,508" stroke="#D4AF37" stroke-width="3" fill="none"/>
+
+<!-- RIGHT HAND -->
+<ellipse cx="133" cy="522" rx="22" ry="16" fill="url(#skinGrad)"/>
+<path d="M118,514 Q108,497 114,489" stroke="#8B6340" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M127,510 Q118,492 125,484" stroke="#8B6340" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M137,508 Q132,490 140,482" stroke="#8B6340" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M147,510 Q146,493 153,487" stroke="#8B6340" stroke-width="9" fill="none" stroke-linecap="round"/>
+
+<!-- LEFT HAND -->
+<ellipse cx="425" cy="522" rx="22" ry="16" fill="url(#skinGrad)"/>
+<path d="M440,514 Q450,497 444,489" stroke="#8B6340" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M431,510 Q440,492 433,484" stroke="#8B6340" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M421,508 Q426,490 418,482" stroke="#8B6340" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M411,510 Q412,493 405,487" stroke="#8B6340" stroke-width="9" fill="none" stroke-linecap="round"/>
+
+<!-- TORSO / ROYAL COAT -->
+<path d="M188,310 L175,560 L380,560 L365,310 Q340,330 280,325 Q220,330 188,310 Z" fill="url(#robeGrad)"/>
+<!-- Coat left edge gold -->
+<path d="M188,310 L175,560" stroke="#D4AF37" stroke-width="4" fill="none"/>
+<path d="M365,310 L380,560" stroke="#D4AF37" stroke-width="4" fill="none"/>
+<!-- Center front opening -->
+<path d="M278,325 L272,558" stroke="#D4AF37" stroke-width="2.5" fill="none"/>
+<path d="M282,325 L288,558" stroke="#D4AF37" stroke-width="2.5" fill="none"/>
+<!-- Chest panel decoration -->
+<path d="M220,350 L220,460 L278,460 L278,350 Z" fill="none" stroke="#D4AF37" stroke-width="1.5" opacity="0.5"/>
+<path d="M282,350 L282,460 L340,460 L340,350 Z" fill="none" stroke="#D4AF37" stroke-width="1.5" opacity="0.5"/>
+<!-- Geometric pattern on chest -->
+<path d="M225,370 L260,370 L260,405 L225,405 Z" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+<path d="M242,355 L242,420" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
+<path d="M222,388 L262,388" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
+<path d="M285,370 L325,370 L325,405 L285,405 Z" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+<path d="M305,355 L305,420" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
+<path d="M283,388 L327,388" stroke="#D4AF37" stroke-width="1" opacity="0.4"/>
+<!-- Waist sash -->
+<rect x="178" y="527" width="202" height="22" rx="3" fill="#8B1A1A" opacity="0.8"/>
+<rect x="178" y="530" width="202" height="6" fill="#D4AF37" opacity="0.7"/>
+<rect x="178" y="541" width="202" height="6" fill="#D4AF37" opacity="0.7"/>
+
+<!-- NECKLACE -->
+<path d="M218,300 Q248,318 280,312 Q312,318 342,300" stroke="#D4AF37" stroke-width="5" fill="none"/>
+<circle cx="280" cy="315" r="8" fill="#D4AF37"/>
+<circle cx="263" cy="310" r="5" fill="#D4AF37"/>
+<circle cx="297" cy="310" r="5" fill="#D4AF37"/>
+<circle cx="247" cy="304" r="4" fill="#D4AF37"/>
+<circle cx="313" cy="304" r="4" fill="#D4AF37"/>
+<circle cx="280" cy="315" r="4" fill="#C0392B"/>
+
+<!-- NECK -->
+<path d="M256,268 Q248,285 248,300 L312,300 Q312,285 304,268 Z" fill="url(#skinGrad)"/>
+
+<!-- HEAD BASE -->
+<ellipse cx="280" cy="200" rx="78" ry="88" fill="url(#skinGrad)"/>
+
+<!-- EAR RIGHT -->
+<ellipse cx="202" cy="205" rx="14" ry="18" fill="#8B6340"/>
+<ellipse cx="202" cy="205" rx="8" ry="11" fill="#7A5030"/>
+<!-- Earring right -->
+<circle cx="202" cy="218" r="7" fill="#D4AF37"/>
+<circle cx="202" cy="218" r="4" fill="#FFD700"/>
+
+<!-- EAR LEFT -->
+<ellipse cx="358" cy="205" rx="14" ry="18" fill="#8B6340"/>
+<ellipse cx="358" cy="205" rx="8" ry="11" fill="#7A5030"/>
+<circle cx="358" cy="218" r="7" fill="#D4AF37"/>
+<circle cx="358" cy="218" r="4" fill="#FFD700"/>
+
+<!-- HAIR (sides) -->
+<path d="M203,168 Q210,148 228,138 Q255,126 280,124" fill="#1A0A00"/>
+<path d="M357,168 Q350,148 332,138 Q305,126 280,124" fill="#1A0A00"/>
+
+<!-- CROWN / MUKUT -->
+<!-- Base band -->
+<rect x="210" y="126" width="140" height="22" rx="4" fill="#B8860B"/>
+<rect x="212" y="128" width="136" height="18" rx="3" fill="#D4AF37"/>
+<!-- Crown gems in base band -->
+<circle cx="240" cy="137" r="5" fill="#C0392B"/>
+<circle cx="260" cy="137" r="5" fill="#2980B9"/>
+<circle cx="280" cy="137" r="6" fill="#27AE60"/>
+<circle cx="300" cy="137" r="5" fill="#2980B9"/>
+<circle cx="320" cy="137" r="5" fill="#C0392B"/>
+<!-- Crown tiers -->
+<path d="M230,126 L222,100 L240,80 L260,68 L280,62 L300,68 L320,80 L338,100 L330,126 Z" fill="#C8A000"/>
+<path d="M233,126 L226,102 L243,83 L262,71 L280,65 L298,71 L317,83 L334,102 L327,126 Z" fill="#D4AF37"/>
+<!-- Crown upper gems -->
+<circle cx="255" cy="88" r="6" fill="#C0392B"/>
+<circle cx="280" cy="72" r="7" fill="#2980B9"/>
+<circle cx="305" cy="88" r="6" fill="#27AE60"/>
+<!-- Crown top spike -->
+<path d="M275,62 L280,38 L285,62 Z" fill="#D4AF37"/>
+<circle cx="280" cy="34" r="7" fill="#D4AF37"/>
+<circle cx="280" cy="34" r="4" fill="#FFD700"/>
+
+<!-- FACE FEATURES -->
+<!-- Eyebrows - thick, arched, dignified -->
+<path d="M234,168 Q250,158 268,163" stroke="#1A0A00" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+<path d="M292,163 Q310,158 326,168" stroke="#1A0A00" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+
+<!-- RIGHT EYE -->
+<ellipse cx="252" cy="185" rx="15" ry="10" fill="white"/>
+<ellipse cx="254" cy="185" rx="10" ry="8" fill="#3D2B1F"/>
+<circle cx="255" cy="183" r="5" fill="#0D0500"/>
+<circle cx="258" cy="181" r="2.5" fill="white" opacity="0.9"/>
+<path d="M237,183 Q252,175 267,183" stroke="#2A1500" stroke-width="1.5" fill="none"/>
+<path d="M238,188 Q252,194 266,188" stroke="#2A1500" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+<!-- LEFT EYE -->
+<ellipse cx="308" cy="185" rx="15" ry="10" fill="white"/>
+<ellipse cx="310" cy="185" rx="10" ry="8" fill="#3D2B1F"/>
+<circle cx="311" cy="183" r="5" fill="#0D0500"/>
+<circle cx="314" cy="181" r="2.5" fill="white" opacity="0.9"/>
+<path d="M293,183 Q308,175 323,183" stroke="#2A1500" stroke-width="1.5" fill="none"/>
+<path d="M294,188 Q308,194 322,188" stroke="#2A1500" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+<!-- NOSE -->
+<path d="M280,193 L273,215 Q278,221 283,221 Q288,221 287,215 L280,193" fill="#7A5030"/>
+<ellipse cx="272" cy="216" rx="7" ry="5" fill="#6B4525"/>
+<ellipse cx="288" cy="216" rx="7" ry="5" fill="#6B4525"/>
+
+<!-- MUSTACHE -->
+<path d="M258,227 Q270,235 280,232 Q290,235 302,227" fill="#1A0A00"/>
+
+<!-- MOUTH -->
+<path d="M264,243 Q280,251 296,243" stroke="#3A1A08" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M272,247 Q280,252 288,247" fill="#8B3520" opacity="0.6"/>
+
+<!-- SLIGHT BEARD -->
+<path d="M222,225 Q240,255 280,265 Q320,255 338,225" fill="#2A1500" opacity="0.35"/>
+
+<!-- AGE LINES -->
+<path d="M238,178 Q234,186 238,193" stroke="#6B4528" stroke-width="1.5" fill="none" opacity="0.5"/>
+<path d="M322,178 Q326,186 322,193" stroke="#6B4528" stroke-width="1.5" fill="none" opacity="0.5"/>
+<path d="M240,235 Q237,242 240,248" stroke="#6B4528" stroke-width="1" fill="none" opacity="0.4"/>
+<path d="M320,235 Q323,242 320,248" stroke="#6B4528" stroke-width="1" fill="none" opacity="0.4"/>
+
+<!-- FOREHEAD TIKA -->
+<circle cx="280" cy="158" r="7" fill="#C0392B"/>
+<circle cx="280" cy="158" r="4" fill="#E74C3C"/>
+
+<!-- ═══════════════════════════════ EXPRESSIONS ═══════════════════════════════ -->
+
+<text x="590" y="135" font-family="Georgia, serif" font-size="14" fill="#5A3A1A" text-anchor="middle" letter-spacing="2">EXPRESSION STUDIES</text>
+<line x1="510" y1="145" x2="670" y2="145" stroke="#8B6030" stroke-width="1"/>
+
+<!-- Expr 1: REVERENCE (Act 1) -->
+<circle cx="560" cy="230" r="72" fill="#F0E6CE" stroke="#C8A060" stroke-width="2"/>
+<text x="560" y="318" font-family="Georgia, serif" font-size="11" fill="#6B3A10" text-anchor="middle">REVERENCE</text>
+<text x="560" y="332" font-family="Georgia, serif" font-size="9" fill="#8B5A20" text-anchor="middle">Act 1 · 0:50–1:13</text>
+<!-- Face -->
+<ellipse cx="560" cy="220" rx="42" ry="50" fill="url(#skinGrad)"/>
+<!-- Wide open eyes, wonder -->
+<ellipse cx="545" cy="210" rx="10" ry="9" fill="white"/>
+<circle cx="545" cy="210" r="6" fill="#3D2B1F"/>
+<circle cx="545" cy="208" r="3" fill="#0D0500"/>
+<circle cx="548" cy="206" r="1.5" fill="white"/>
+<ellipse cx="575" cy="210" rx="10" ry="9" fill="white"/>
+<circle cx="575" cy="210" r="6" fill="#3D2B1F"/>
+<circle cx="575" cy="208" r="3" fill="#0D0500"/>
+<circle cx="578" cy="206" r="1.5" fill="white"/>
+<!-- Raised eyebrows (wonder) -->
+<path d="M535,198 Q545,192 555,196" stroke="#1A0A00" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M565,196 Q575,192 585,198" stroke="#1A0A00" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<!-- Soft smile -->
+<path d="M548,240 Q560,250 572,240" stroke="#3A1A08" stroke-width="3" fill="none" stroke-linecap="round"/>
+<!-- Nose -->
+<path d="M560,218 L556,233 Q560,237 564,233 L560,218" fill="#7A5030"/>
+<!-- Glow on cheeks -->
+<circle cx="535" cy="225" r="12" fill="#E88060" opacity="0.2"/>
+<circle cx="585" cy="225" r="12" fill="#E88060" opacity="0.2"/>
+
+<!-- Expr 2: DESIRE FLASH (1:13) -->
+<circle cx="680" cy="230" r="72" fill="#D8E4F0" stroke="#4A6FA5" stroke-width="2"/>
+<text x="680" y="318" font-family="Georgia, serif" font-size="11" fill="#2A4A80" text-anchor="middle">DESIRE FLASH</text>
+<text x="680" y="332" font-family="Georgia, serif" font-size="9" fill="#4A6FA5" text-anchor="middle">Act 2 · 1:13</text>
+<!-- Face cool-toned -->
+<ellipse cx="680" cy="220" rx="42" ry="50" fill="#8B6340"/>
+<!-- Narrowed, intense eyes -->
+<ellipse cx="665" cy="212" rx="11" ry="6" fill="white"/>
+<ellipse cx="665" cy="212" rx="7" ry="5" fill="#3D2B1F"/>
+<circle cx="666" cy="211" r="4" fill="#0D0500"/>
+<path d="M654,208 Q665,204 676,208" stroke="#1A0A00" stroke-width="2.5" fill="none"/>
+<ellipse cx="695" cy="212" rx="11" ry="6" fill="white"/>
+<ellipse cx="695" cy="212" rx="7" ry="5" fill="#3D2B1F"/>
+<circle cx="696" cy="211" r="4" fill="#0D0500"/>
+<path d="M684,208 Q695,204 706,208" stroke="#1A0A00" stroke-width="2.5" fill="none"/>
+<!-- Furrowed brows -->
+<path d="M654,201 Q665,196 676,201" stroke="#1A0A00" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<path d="M684,201 Q695,196 706,201" stroke="#1A0A00" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<!-- Tension line between brows -->
+<path d="M676,198 L684,198" stroke="#1A0A00" stroke-width="3" fill="none"/>
+<!-- Tight mouth -->
+<path d="M668,242 Q680,246 692,242" stroke="#3A1A08" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M680,218 L675,234 Q680,238 685,234 L680,218" fill="#7A5030"/>
+<!-- Cool light overlay -->
+<ellipse cx="680" cy="220" rx="42" ry="50" fill="#A8C4E0" opacity="0.12"/>
+
+<!-- Expr 3: ANGUISH (Act 3) -->
+<circle cx="560" cy="400" r="72" fill="#E8EAEC" stroke="#5D6D7B" stroke-width="2"/>
+<text x="560" y="488" font-family="Georgia, serif" font-size="11" fill="#3A4A55" text-anchor="middle">ANGUISH</text>
+<text x="560" y="502" font-family="Georgia, serif" font-size="9" fill="#5D6D7B" text-anchor="middle">Act 3 · 3:00–3:15</text>
+<!-- Face desaturated -->
+<ellipse cx="560" cy="390" rx="42" ry="50" fill="#8B6340"/>
+<ellipse cx="560" cy="390" rx="42" ry="50" fill="#8899AA" opacity="0.2"/>
+<!-- Downcast eyes, wet -->
+<ellipse cx="545" cy="382" rx="10" ry="7" fill="white"/>
+<circle cx="545" cy="385" r="5" fill="#3D2B1F"/>
+<circle cx="545" cy="386" r="3" fill="#0D0500"/>
+<ellipse cx="575" cy="382" rx="10" ry="7" fill="white"/>
+<circle cx="575" cy="385" r="5" fill="#3D2B1F"/>
+<circle cx="575" cy="386" r="3" fill="#0D0500"/>
+<!-- Sad brows - inner corners raised -->
+<path d="M535,373 Q545,368 555,373" stroke="#1A0A00" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M565,373 Q575,368 585,373" stroke="#1A0A00" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<!-- Tears -->
+<path d="M543,390 Q540,402 541,410" stroke="#9BB3CC" stroke-width="2" fill="none"/>
+<path d="M573,390 Q576,403 575,412" stroke="#9BB3CC" stroke-width="2" fill="none"/>
+<!-- Trembling lip / open mouth grief -->
+<path d="M550,410 Q560,416 570,410" stroke="#3A1A08" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M553,413 Q560,420 567,413" fill="#6B2A18" opacity="0.5"/>
+<!-- Nose -->
+<path d="M560,388 L556,403 Q560,407 564,403 L560,388" fill="#7A5030"/>
+
+<!-- Expr 4: ACCEPTANCE (Act 4) -->
+<circle cx="680" cy="400" r="72" fill="#F5EDE0" stroke="#C27C3A" stroke-width="2"/>
+<text x="680" y="488" font-family="Georgia, serif" font-size="11" fill="#7A4A1A" text-anchor="middle">ACCEPTANCE</text>
+<text x="680" y="502" font-family="Georgia, serif" font-size="9" fill="#C27C3A" text-anchor="middle">Act 4 · 4:11+</text>
+<!-- Face warm again but aged -->
+<ellipse cx="680" cy="390" rx="42" ry="50" fill="url(#skinGrad)"/>
+<!-- Soft eyes, slight tears of peace -->
+<ellipse cx="665" cy="382" rx="10" ry="8" fill="white"/>
+<circle cx="665" cy="384" r="5" fill="#3D2B1F"/>
+<circle cx="665" cy="383" r="3" fill="#0D0500"/>
+<circle cx="668" cy="381" r="1.5" fill="white" opacity="0.9"/>
+<ellipse cx="695" cy="382" rx="10" ry="8" fill="white"/>
+<circle cx="695" cy="384" r="5" fill="#3D2B1F"/>
+<circle cx="695" cy="383" r="3" fill="#0D0500"/>
+<circle cx="698" cy="381" r="1.5" fill="white" opacity="0.9"/>
+<!-- Relaxed brows -->
+<path d="M655,372 Q665,368 675,372" stroke="#1A0A00" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M685,372 Q695,368 705,372" stroke="#1A0A00" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<!-- Peaceful slight smile -->
+<path d="M668,412 Q680,420 692,412" stroke="#3A1A08" stroke-width="3" fill="none" stroke-linecap="round"/>
+<!-- Nose -->
+<path d="M680,390 L676,405 Q680,409 684,405 L680,390" fill="#7A5030"/>
+<!-- Single tear of peace -->
+<path d="M693,392 Q696,400 695,408" stroke="#9BB3CC" stroke-width="1.5" fill="none" opacity="0.8"/>
+<!-- Warm glow on cheeks -->
+<circle cx="658" cy="398" r="12" fill="#E88060" opacity="0.18"/>
+<circle cx="702" cy="398" r="12" fill="#E88060" opacity="0.18"/>
+
+<!-- ═══════════════════════════════ DIVIDER ═══════════════════════════════ -->
+<line x1="510" y1="540" x2="880" y2="540" stroke="#C8A060" stroke-width="1"/>
+
+<!-- ═══════════════════════════════ DESIGN NOTES ═══════════════════════════════ -->
+<text x="530" y="570" font-family="Georgia, serif" font-size="13" fill="#2A1200" font-weight="bold" letter-spacing="1">DESIGN NOTES</text>
+<text x="530" y="592" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Age: 45–55. Strong jaw, slight beard, deep-set eyes</text>
+<text x="530" y="610" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Crown: Newar mukut — tiered gold, gemstones</text>
+<text x="530" y="628" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Coat: Deep crimson with dhaka-pattern trim</text>
+<text x="530" y="646" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Robes: Burgundy with gold hem border (Newar style)</text>
+<text x="530" y="664" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Hands: Prominent — story key (reaching, praying)</text>
+<text x="530" y="682" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Tika: Red vermillion on forehead throughout</text>
+<text x="530" y="700" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Act 3: Robes worn, damp; no crown (penitent)</text>
+<text x="530" y="718" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Act 4: Crown returned but simpler; peaceful posture</text>
+
+<!-- Arc label -->
+<text x="530" y="750" font-family="Georgia, serif" font-size="12" fill="#8B1A1A" font-style="italic">Arc: Reverence → Obsession → Penance → Acceptance</text>
+
+<!-- ═══════════════════════════════ COLOR PALETTE ═══════════════════════════════ -->
+<rect x="0" y="1210" width="900" height="90" fill="#2A1200"/>
+<text x="450" y="1234" font-family="Georgia, serif" font-size="12" fill="#A07840" text-anchor="middle" letter-spacing="3">CHARACTER PALETTE</text>
+
+<!-- Swatches -->
+<rect x="40" y="1245" width="55" height="40" rx="4" fill="#8B6340"/>
+<text x="67" y="1297" font-family="Georgia, serif" font-size="9" fill="#A07840" text-anchor="middle">SKIN</text>
+<text x="67" y="1308" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#8B6340</text>
+
+<rect x="120" y="1245" width="55" height="40" rx="4" fill="#8B1A1A"/>
+<text x="147" y="1297" font-family="Georgia, serif" font-size="9" fill="#A07840" text-anchor="middle">CRIMSON</text>
+<text x="147" y="1308" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#8B1A1A</text>
+
+<rect x="200" y="1245" width="55" height="40" rx="4" fill="#3D0A0A"/>
+<text x="227" y="1297" font-family="Georgia, serif" font-size="9" fill="#A07840" text-anchor="middle">ROBE</text>
+<text x="227" y="1308" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#3D0A0A</text>
+
+<rect x="280" y="1245" width="55" height="40" rx="4" fill="#D4AF37"/>
+<text x="307" y="1297" font-family="Georgia, serif" font-size="9" fill="#A07840" text-anchor="middle">GOLD</text>
+<text x="307" y="1308" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#D4AF37</text>
+
+<rect x="360" y="1245" width="55" height="40" rx="4" fill="#1A0A00"/>
+<text x="387" y="1297" font-family="Georgia, serif" font-size="9" fill="#A07840" text-anchor="middle">HAIR</text>
+<text x="387" y="1308" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#1A0A00</text>
+
+<rect x="440" y="1245" width="55" height="40" rx="4" fill="#4A6FA5"/>
+<text x="467" y="1297" font-family="Georgia, serif" font-size="9" fill="#A07840" text-anchor="middle">ACT 2</text>
+<text x="467" y="1308" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#4A6FA5</text>
+
+<rect x="520" y="1245" width="55" height="40" rx="4" fill="#5D6D7B"/>
+<text x="547" y="1297" font-family="Georgia, serif" font-size="9" fill="#A07840" text-anchor="middle">ACT 3</text>
+<text x="547" y="1308" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#5D6D7B</text>
+
+<rect x="600" y="1245" width="55" height="40" rx="4" fill="#C0392B"/>
+<text x="627" y="1297" font-family="Georgia, serif" font-size="9" fill="#A07840" text-anchor="middle">TIKA</text>
+<text x="627" y="1308" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#C0392B</text>
+
+<rect x="680" y="1245" width="55" height="40" rx="4" fill="#9BB3CC"/>
+<text x="707" y="1297" font-family="Georgia, serif" font-size="9" fill="#A07840" text-anchor="middle">TEARS</text>
+<text x="707" y="1308" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#9BB3CC</text>
+
+<rect x="760" y="1245" width="55" height="40" rx="4" fill="#FFD700"/>
+<text x="787" y="1297" font-family="Georgia, serif" font-size="9" fill="#A07840" text-anchor="middle">CROWN</text>
+<text x="787" y="1308" font-family="Georgia, serif" font-size="8" fill="#806040" text-anchor="middle">#FFD700</text>
+
+</svg>

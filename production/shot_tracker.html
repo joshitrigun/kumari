@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>The King's Regret — Shot Tracker</title>
+<style>
+  :root {
+    --act1: #b8860b;
+    --act2: #4a6fa5;
+    --act3: #5d6d7b;
+    --act4: #c27c3a;
+    --bg: #1a1612;
+    --card: #26211c;
+    --card-hover: #2e2820;
+    --text: #e8d9c4;
+    --muted: #8a7a68;
+    --done-bg: #1e2a1e;
+    --done-border: #4a7c4a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: Georgia, 'Times New Roman', serif;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: 0.08em;
+    color: #f4d88a;
+    margin-bottom: 0.3rem;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 0.9rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+  .progress-bar-wrap {
+    background: #2e2820;
+    border-radius: 4px;
+    height: 6px;
+    margin: 1.5rem auto 0.5rem;
+    max-width: 600px;
+    overflow: hidden;
+  }
+  .progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #b8860b, #f4d88a);
+    border-radius: 4px;
+    transition: width 0.4s ease;
+    width: 0%;
+  }
+  .progress-label {
+    color: var(--muted);
+    font-size: 0.8rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+  .act-block {
+    margin-bottom: 2rem;
+  }
+  .act-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.8rem;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #333;
+  }
+  .act-title {
+    font-size: 1.05rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+  .act1 .act-title { color: var(--act1); }
+  .act2 .act-title { color: var(--act2); }
+  .act3 .act-title { color: var(--act3); }
+  .act4 .act-title { color: var(--act4); }
+  .act-time {
+    color: var(--muted);
+    font-size: 0.8rem;
+    font-family: monospace;
+  }
+  .shot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 0.6rem;
+  }
+  .shot-card {
+    background: var(--card);
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    user-select: none;
+  }
+  .shot-card:hover { background: var(--card-hover); }
+  .shot-card.done {
+    background: var(--done-bg);
+    border-color: var(--done-border);
+    opacity: 0.85;
+  }
+  .shot-card.priority {
+    border-left: 3px solid #f4d88a;
+  }
+  .shot-card.done.priority {
+    border-left-color: var(--done-border);
+  }
+  .checkbox {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--muted);
+    border-radius: 3px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .shot-card.done .checkbox {
+    background: #4a7c4a;
+    border-color: #4a7c4a;
+  }
+  .check-mark {
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    display: none;
+  }
+  .shot-card.done .check-mark { display: block; }
+  .shot-info { flex: 1; min-width: 0; }
+  .shot-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 0.2rem;
+  }
+  .shot-num {
+    font-size: 0.75rem;
+    font-family: monospace;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .shot-time {
+    font-size: 0.72rem;
+    font-family: monospace;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .shot-desc {
+    font-size: 0.88rem;
+    color: var(--text);
+    line-height: 1.4;
+  }
+  .shot-card.done .shot-desc { color: var(--muted); }
+  .shot-badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    background: #3a2e1a;
+    color: #f4d88a;
+    border: 1px solid #6a5228;
+    border-radius: 3px;
+    padding: 0px 4px;
+    margin-top: 4px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+  }
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.5rem 0 2rem;
+    flex-wrap: wrap;
+  }
+  .stat {
+    text-align: center;
+  }
+  .stat-num {
+    font-size: 1.6rem;
+    color: #f4d88a;
+    font-weight: bold;
+  }
+  .stat-label {
+    font-size: 0.72rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: sans-serif;
+  }
+  .reset-btn {
+    display: block;
+    margin: 2rem auto 0;
+    background: none;
+    border: 1px solid #444;
+    color: var(--muted);
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-family: Georgia, serif;
+    letter-spacing: 0.08em;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .reset-btn:hover { border-color: #888; color: var(--text); }
+  .sync-note {
+    text-align: center;
+    margin-top: 0.8rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+    font-family: sans-serif;
+  }
+  .sync-note span {
+    color: #f4d88a;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>The King's Regret</h1>
+  <div class="subtitle">Shot Production Tracker &nbsp;·&nbsp; 17 shots &nbsp;·&nbsp; 5:00</div>
+  <div class="progress-bar-wrap">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+  <div class="progress-label" id="progressLabel">0 / 17 shots complete</div>
+</header>
+
+<div class="stats">
+  <div class="stat"><div class="stat-num" id="statDone">0</div><div class="stat-label">Complete</div></div>
+  <div class="stat"><div class="stat-num" id="statLeft">17</div><div class="stat-label">Remaining</div></div>
+  <div class="stat"><div class="stat-num" id="statSec">0s</div><div class="stat-label">Seconds done</div></div>
+  <div class="stat"><div class="stat-num" id="statPct">0%</div><div class="stat-label">Of runtime</div></div>
+</div>
+
+<div id="acts"></div>
+
+<button class="reset-btn" onclick="resetAll()">Reset all</button>
+<div class="sync-note">Music sync points: <span>1:13</span> &nbsp;<span>1:53</span> &nbsp;<span>3:00</span> &nbsp;<span>4:11</span> &nbsp;<span>5:00</span></div>
+
+<script>
+const SHOTS = [
+  { act: 1, id: "shot01", num: "01", time: "0:00–0:05",  dur: 5,  desc: "Wide interior — establish Sacred Chamber", priority: false },
+  { act: 1, id: "shot02", num: "02", time: "0:05–0:15",  dur: 10, desc: "Dolly in to game table", priority: false },
+  { act: 1, id: "shot03", num: "03", time: "0:15–0:30",  dur: 15, desc: "Close on hands and game token", priority: false },
+  { act: 1, id: "shot04", num: "04", time: "0:30–0:50",  dur: 20, desc: "Two-shot: King & Taleju across the board", priority: false },
+  { act: 1, id: "shot05", num: "05", time: "0:50–1:13",  dur: 23, desc: "Eyes meeting — intimacy peak of Act 1", priority: true, badge: "MUST NAIL" },
+  { act: 2, id: "shot06", num: "06", time: "1:13–1:40",  dur: 27, desc: "Lighting cold shift — his face hardens", priority: true, badge: "MUST NAIL" },
+  { act: 2, id: "shot07", num: "07", time: "1:40–1:53",  dur: 13, desc: "He reaches toward her; she recoils", priority: false },
+  { act: 2, id: "shot08", num: "08", time: "1:53–2:19",  dur: 26, desc: "She dissolves — token falls to board", priority: true, badge: "MUST NAIL" },
+  { act: 2, id: "shot09", num: "09", time: "2:19–2:40",  dur: 21, desc: "Flashback: her smile (memory fragment)", priority: false },
+  { act: 3, id: "shot10", num: "10", time: "2:40–3:00",  dur: 20, desc: "King walks through rain (transition)", priority: false },
+  { act: 3, id: "shot11", num: "11", time: "3:00–3:15",  dur: 15, desc: "Dream: Taleju appears in mist", priority: false, badge: "CAN SIMPLIFY" },
+  { act: 3, id: "shot12", num: "12", time: "3:15–3:29",  dur: 14, desc: "King meditates and fasts in courtyard", priority: false },
+  { act: 3, id: "shot13", num: "13", time: "3:29–3:58",  dur: 29, desc: "Montage — candles, game board, incense", priority: false, badge: "CAN SIMPLIFY" },
+  { act: 3, id: "shot14", num: "14", time: "3:58–4:11",  dur: 13, desc: "Dream peak — Taleju's instruction", priority: false },
+  { act: 4, id: "shot15", num: "15", time: "4:11–4:40",  dur: 29, desc: "Kumari child appears carrying the token", priority: true, badge: "MUST NAIL" },
+  { act: 4, id: "shot16", num: "16", time: "4:40–4:55",  dur: 15, desc: "People bow; King watches in awe", priority: false, badge: "CAN SIMPLIFY" },
+  { act: 4, id: "shot17", num: "17", time: "4:55–5:00",  dur: 5,  desc: "Epilogue: token rests on board, King at peace", priority: false },
+];
+
+const ACTS = [
+  { num: 1, label: "Act 1: The Golden Era",         time: "0:00–1:13", cls: "act1" },
+  { num: 2, label: "Act 2: Transgression & Loss",   time: "1:13–2:40", cls: "act2" },
+  { num: 3, label: "Act 3: Penance & Dream",        time: "2:40–4:11", cls: "act3" },
+  { num: 4, label: "Act 4: Rebirth & Dawn",         time: "4:11–5:00", cls: "act4" },
+];
+
+const STORAGE_KEY = "kings_regret_tracker_v1";
+
+function loadState() {
+  try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}; } catch { return {}; }
+}
+
+function saveState(state) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+
+function toggleShot(id) {
+  const state = loadState();
+  state[id] = !state[id];
+  saveState(state);
+  render();
+}
+
+function resetAll() {
+  if (confirm("Reset all shot progress?")) { saveState({}); render(); }
+}
+
+function updateStats(state) {
+  let done = 0, totalDoneSec = 0;
+  for (const s of SHOTS) {
+    if (state[s.id]) { done++; totalDoneSec += s.dur; }
+  }
+  const pct = Math.round((totalDoneSec / 300) * 100);
+  document.getElementById("progressBar").style.width = pct + "%";
+  document.getElementById("progressLabel").textContent = `${done} / ${SHOTS.length} shots complete`;
+  document.getElementById("statDone").textContent = done;
+  document.getElementById("statLeft").textContent = SHOTS.length - done;
+  document.getElementById("statSec").textContent = totalDoneSec + "s";
+  document.getElementById("statPct").textContent = pct + "%";
+}
+
+function render() {
+  const state = loadState();
+  updateStats(state);
+  const container = document.getElementById("acts");
+  container.innerHTML = "";
+
+  for (const act of ACTS) {
+    const shots = SHOTS.filter(s => s.act === act.num);
+    const block = document.createElement("div");
+    block.className = `act-block ${act.cls}`;
+
+    const header = document.createElement("div");
+    header.className = "act-header";
+    header.innerHTML = `<span class="act-title">${act.label}</span><span class="act-time">${act.time}</span>`;
+    block.appendChild(header);
+
+    const grid = document.createElement("div");
+    grid.className = "shot-grid";
+
+    for (const shot of shots) {
+      const done = !!state[shot.id];
+      const card = document.createElement("div");
+      card.className = `shot-card${done ? " done" : ""}${shot.priority ? " priority" : ""}`;
+      card.onclick = () => toggleShot(shot.id);
+      card.innerHTML = `
+        <div class="checkbox"><span class="check-mark">✓</span></div>
+        <div class="shot-info">
+          <div class="shot-top">
+            <span class="shot-num">SHOT ${shot.num}</span>
+            <span class="shot-time">${shot.time} (${shot.dur}s)</span>
+          </div>
+          <div class="shot-desc">${shot.desc}</div>
+          ${shot.badge ? `<div class="shot-badge">${shot.badge}</div>` : ""}
+        </div>`;
+      grid.appendChild(card);
+    }
+
+    block.appendChild(grid);
+    container.appendChild(block);
+  }
+}
+
+render();
+</script>
+</body>
+</html>

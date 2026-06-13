@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1200" viewBox="0 0 1100 1200">
+<defs>
+  <linearGradient id="bgRA" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#1A2030"/>
+    <stop offset="100%" stop-color="#0E1520"/>
+  </linearGradient>
+  <linearGradient id="bgPage" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#E8E4DC"/>
+    <stop offset="100%" stop-color="#D8D0C4"/>
+  </linearGradient>
+  <radialGradient id="lampWarm" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#FFB347" stop-opacity="0.95"/>
+    <stop offset="50%" stop-color="#FF8C00" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#FF6600" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="dreamGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#E8E0F8" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#C0B8E0" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<!-- Background page -->
+<rect width="1100" height="1200" fill="url(#bgPage)"/>
+<rect x="0" y="0" width="1100" height="6" fill="#2A3A50"/>
+<rect x="0" y="1194" width="1100" height="6" fill="#2A3A50"/>
+
+<!-- Header -->
+<rect x="0" y="0" width="1100" height="90" fill="#0E1520"/>
+<text x="550" y="38" font-family="Georgia, serif" font-size="26" fill="#9BB3CC" text-anchor="middle" letter-spacing="5">RAIN ALLEY &amp; COURTYARD</text>
+<text x="550" y="66" font-family="Georgia, serif" font-size="13" fill="#506070" text-anchor="middle" letter-spacing="3">ENVIRONMENT REFERENCE — ACT 3 · SHOTS 10–14 · 2:40–4:11</text>
+
+<!-- ══════════════════════ MAIN SCENE VIEW ══════════════════════ -->
+<rect x="20" y="105" width="700" height="500" rx="4" fill="url(#bgRA)"/>
+
+<!-- NIGHT SKY / TOP -->
+<rect x="20" y="105" width="700" height="160" fill="#0A1018"/>
+<!-- Stars (sparse, rain obscured) -->
+<circle cx="80" cy="130" r="1" fill="white" opacity="0.4"/>
+<circle cx="150" cy="120" r="1.5" fill="white" opacity="0.3"/>
+<circle cx="320" cy="115" r="1" fill="white" opacity="0.35"/>
+<circle cx="500" cy="125" r="1" fill="white" opacity="0.3"/>
+<circle cx="650" cy="118" r="1.5" fill="white" opacity="0.4"/>
+
+<!-- RAIN LINES (many, diagonal) -->
+<g stroke="#9BB3CC" stroke-width="0.8" opacity="0.3">
+  <line x1="60" y1="105" x2="40" y2="605"/>
+  <line x1="100" y1="105" x2="80" y2="605"/>
+  <line x1="140" y1="105" x2="120" y2="605"/>
+  <line x1="180" y1="105" x2="160" y2="605"/>
+  <line x1="220" y1="105" x2="200" y2="605"/>
+  <line x1="260" y1="105" x2="240" y2="605"/>
+  <line x1="300" y1="105" x2="280" y2="605"/>
+  <line x1="340" y1="105" x2="320" y2="605"/>
+  <line x1="380" y1="105" x2="360" y2="605"/>
+  <line x1="420" y1="105" x2="400" y2="605"/>
+  <line x1="460" y1="105" x2="440" y2="605"/>
+  <line x1="500" y1="105" x2="480" y2="605"/>
+  <line x1="540" y1="105" x2="520" y2="605"/>
+  <line x1="580" y1="105" x2="560" y2="605"/>
+  <line x1="620" y1="105" x2="600" y2="605"/>
+  <line x1="660" y1="105" x2="640" y2="605"/>
+  <line x1="700" y1="105" x2="680" y2="605"/>
+  <line x1="740" y1="105" x2="720" y2="605"/>
+</g>
+<!-- Heavier rain -->
+<g stroke="#7A99BB" stroke-width="1.2" opacity="0.25">
+  <line x1="50" y1="105" x2="30" y2="605"/>
+  <line x1="160" y1="105" x2="140" y2="605"/>
+  <line x1="280" y1="105" x2="260" y2="605"/>
+  <line x1="390" y1="105" x2="370" y2="605"/>
+  <line x1="480" y1="105" x2="460" y2="605"/>
+  <line x1="600" y1="105" x2="580" y2="605"/>
+  <line x1="690" y1="105" x2="670" y2="605"/>
+</g>
+
+<!-- LEFT STONE WALL -->
+<rect x="20" y="105" width="110" height="500" fill="#3A4A5A"/>
+<!-- Stone texture blocks -->
+<path d="M20,200 L130,200 M20,260 L130,260 M20,320 L130,320 M20,380 L130,380 M20,440 L130,440 M20,500 L130,500 M20,560 L130,560" stroke="#2A3848" stroke-width="1.5" fill="none"/>
+<path d="M65,105 L65,605 M95,105 L95,605" stroke="#2A3848" stroke-width="1" fill="none"/>
+<!-- Wall detail - carved arch edge -->
+<path d="M130,105 Q140,150 130,200 Q120,250 130,300 Q140,350 130,400 Q120,450 130,500 Q140,550 130,605" stroke="#4A6080" stroke-width="2" fill="none"/>
+<!-- Wall moisture streaks -->
+<path d="M40,200 Q38,280 42,360 Q40,440 38,520" stroke="#5A7088" stroke-width="1" fill="none" opacity="0.4"/>
+<path d="M80,220 Q78,300 82,380" stroke="#5A7088" stroke-width="1" fill="none" opacity="0.3"/>
+
+<!-- RIGHT STONE WALL -->
+<rect x="610" y="105" width="110" height="500" fill="#3A4A5A"/>
+<path d="M610,200 L720,200 M610,260 L720,260 M610,320 L720,320 M610,380 L720,380 M610,440 L720,440 M610,500 L720,500 M610,560 L720,560" stroke="#2A3848" stroke-width="1.5" fill="none"/>
+<path d="M645,105 L645,605 M680,105 L680,605" stroke="#2A3848" stroke-width="1" fill="none"/>
+<path d="M610,105 Q600,150 610,200 Q620,250 610,300 Q600,350 610,400 Q620,450 610,500 Q600,550 610,605" stroke="#4A6080" stroke-width="2" fill="none"/>
+<path d="M640,200 Q638,280 642,360" stroke="#5A7088" stroke-width="1" fill="none" opacity="0.4"/>
+
+<!-- BACK WALL (deep) -->
+<rect x="130" y="105" width="480" height="200" fill="#1E2E3E"/>
+<!-- Back wall stone -->
+<path d="M130,155 L610,155 M130,205 L610,205 M130,255 L610,255 M130,305 L610,305" stroke="#162430" stroke-width="1.5" fill="none"/>
+<!-- Carved wooden door (closed, locked) -->
+<rect x="305" y="120" width="130" height="185" rx="5" fill="#1A1408"/>
+<path d="M305,195 Q370,145 435,195 L435,305 L305,305 Z" fill="#100E06"/>
+<!-- Arch carved detail -->
+<path d="M310,195 Q370,150 430,195" stroke="#3A2808" stroke-width="3" fill="none"/>
+<path d="M315,195 Q370,155 425,195" stroke="#4A3818" stroke-width="1.5" fill="none"/>
+<!-- Door hinges -->
+<rect x="305" y="165" width="12" height="20" rx="2" fill="#2A2010"/>
+<rect x="305" y="265" width="12" height="20" rx="2" fill="#2A2010"/>
+<!-- Door handle -->
+<circle cx="425" cy="215" r="6" fill="#3A2808"/>
+<circle cx="425" cy="215" r="4" fill="#4A3818"/>
+
+<!-- GROUND -->
+<rect x="20" y="535" width="700" height="70" fill="#2A3A4A"/>
+<!-- Ground rain puddles -->
+<ellipse cx="200" cy="565" rx="60" ry="12" fill="#3A5068" opacity="0.8"/>
+<ellipse cx="400" cy="570" rx="80" ry="14" fill="#3A5068" opacity="0.7"/>
+<ellipse cx="580" cy="560" rx="45" ry="10" fill="#3A5068" opacity="0.75"/>
+<!-- Puddle reflections (sky/light) -->
+<ellipse cx="200" cy="565" rx="55" ry="9" fill="#4A6888" opacity="0.5"/>
+<ellipse cx="400" cy="570" rx="75" ry="11" fill="#4A6888" opacity="0.4"/>
+<ellipse cx="580" cy="560" rx="40" ry="8" fill="#4A6888" opacity="0.45"/>
+<!-- Rain ripples in puddles -->
+<ellipse cx="200" cy="565" rx="25" ry="5" fill="none" stroke="#6A8AAA" stroke-width="0.8" opacity="0.5"/>
+<ellipse cx="400" cy="570" rx="30" ry="6" fill="none" stroke="#6A8AAA" stroke-width="0.8" opacity="0.5"/>
+
+<!-- GAME BOARD on ground (wet, abandoned) -->
+<rect x="320" y="500" width="100" height="70" rx="3" fill="#2A1A08" opacity="0.8"/>
+<rect x="323" y="503" width="94" height="64" rx="2" fill="#1E1206" opacity="0.8"/>
+<!-- Board pattern barely visible -->
+<path d="M323,520 L417,520 M323,535 L417,535 M323,550 L417,550" stroke="#3A2810" stroke-width="0.8" fill="none" opacity="0.5"/>
+<path d="M340,503 L340,567 M360,503 L360,567 M380,503 L380,567 M400,503 L400,567" stroke="#3A2810" stroke-width="0.8" fill="none" opacity="0.5"/>
+<!-- Rain drops on board -->
+<ellipse cx="350" cy="518" rx="3" ry="1.5" fill="#4A6080" opacity="0.6"/>
+<ellipse cx="390" cy="540" rx="3" ry="1.5" fill="#4A6080" opacity="0.6"/>
+
+<!-- SINGLE WARM LAMP (only warm element in Act 3) -->
+<circle cx="180" cy="430" r="65" fill="url(#lampWarm)"/>
+<circle cx="180" cy="430" r="40" fill="url(#lampWarm)" opacity="0.6"/>
+<!-- Small shrine lamp -->
+<path d="M162,475 L168,450 L192,450 L198,475 Z" fill="#4A2808"/>
+<ellipse cx="180" cy="475" rx="18" ry="6" fill="#3A1E06"/>
+<ellipse cx="180" cy="449" rx="5" ry="2.5" fill="#FFB347"/>
+<path d="M178,449 Q180,436 182,449" fill="#FF6600" opacity="0.9"/>
+<!-- Small shrine niche -->
+<rect x="155" y="400" width="50" height="45" rx="3" fill="#2A1E10"/>
+<path d="M155,422 Q180,400 205,422 L205,445 L155,445 Z" fill="#1E1408"/>
+<!-- Lamp on ledge stand -->
+<rect x="168" y="478" width="24" height="8" rx="2" fill="#3A1E06"/>
+
+<!-- INCENSE (single) near lamp -->
+<path d="M210,465 Q205,448 208,432 Q212,416 209,400" stroke="#B8C8D8" stroke-width="1.5" fill="none" opacity="0.35"/>
+
+<!-- KING MEDITATING (silhouette) -->
+<ellipse cx="380" cy="505" rx="28" ry="15" fill="#1A2838" opacity="0.7"/>
+<!-- Body silhouette seated -->
+<path d="M355,505 Q365,460 378,450 Q385,445 390,450 Q403,460 408,505 Z" fill="#1A2838" opacity="0.7"/>
+<!-- Head silhouette -->
+<circle cx="382" cy="445" r="18" fill="#1A2838" opacity="0.7"/>
+<!-- Rain on shoulders -->
+<path d="M365,465 Q360,472 355,480" stroke="#6A8AAA" stroke-width="1" fill="none" opacity="0.5"/>
+<path d="M400,465 Q405,472 410,480" stroke="#6A8AAA" stroke-width="1" fill="none" opacity="0.5"/>
+
+<!-- DREAM TALEJU (ethereal, shot 11) — visible in mist at far right -->
+<circle cx="580" cy="300" r="80" fill="url(#dreamGlow)" opacity="0.6"/>
+<circle cx="580" cy="300" r="50" fill="#E8E0F8" opacity="0.12"/>
+<!-- Silhouette of Taleju in dream -->
+<path d="M560,360 Q565,310 575,280 Q580,265 585,280 Q595,310 600,360 Z" fill="#D0C8E8" opacity="0.25"/>
+<circle cx="580" cy="272" r="22" fill="#D0C8E8" opacity="0.22"/>
+<!-- Mist lines -->
+<path d="M510,340 Q540,325 560,338" stroke="#C0B8D8" stroke-width="1.5" fill="none" opacity="0.4"/>
+<path d="M515,360 Q545,348 562,358" stroke="#C0B8D8" stroke-width="1.5" fill="none" opacity="0.35"/>
+<path d="M600,335 Q630,322 652,334" stroke="#C0B8D8" stroke-width="1.5" fill="none" opacity="0.4"/>
+<text x="580" y="395" font-family="Georgia, serif" font-size="10" fill="#9090B8" text-anchor="middle" font-style="italic">[ dream — Shot 11 only ]</text>
+
+<!-- Distant archway framing -->
+<path d="M130,270 Q145,180 200,145" stroke="#4A6080" stroke-width="4" fill="none"/>
+<path d="M610,270 Q595,180 540,145" stroke="#4A6080" stroke-width="4" fill="none"/>
+
+<!-- Scene label -->
+<rect x="20" y="578" width="700" height="28" fill="#0A1018" opacity="0.9"/>
+<text x="370" y="598" font-family="Georgia, serif" font-size="13" fill="#9BB3CC" text-anchor="middle" letter-spacing="2">ACT 3 — DESATURATED · Rain · Night · Single warm lamp</text>
+
+<!-- ══════════════════ SIDE PANEL — NOTES & LIGHTING ══════════════════ -->
+<rect x="740" y="105" width="340" height="500" rx="4" fill="#EDE4D0" stroke="#5A6A7A" stroke-width="1.5"/>
+<text x="910" y="132" font-family="Georgia, serif" font-size="14" fill="#1A2A3A" text-anchor="middle" font-weight="bold" letter-spacing="1">SCENE NOTES</text>
+<line x1="755" y1="140" x2="1065" y2="140" stroke="#5A6A7A" stroke-width="1" opacity="0.5"/>
+
+<text x="755" y="162" font-family="Georgia, serif" font-size="12" fill="#1A2A3A" font-weight="bold">ARCHITECTURE</text>
+<text x="755" y="180" font-family="Georgia, serif" font-size="11" fill="#3A4A5A">• Weathered stone — aged, cracked</text>
+<text x="755" y="197" font-family="Georgia, serif" font-size="11" fill="#3A4A5A">• High walls create narrow passage</text>
+<text x="755" y="214" font-family="Georgia, serif" font-size="11" fill="#3A4A5A">• Carved arch details — Newar style</text>
+<text x="755" y="231" font-family="Georgia, serif" font-size="11" fill="#3A4A5A">• Heavy wooden door: closed, locked</text>
+<text x="755" y="248" font-family="Georgia, serif" font-size="11" fill="#3A4A5A">• Small shrine niche in left wall</text>
+
+<text x="755" y="275" font-family="Georgia, serif" font-size="12" fill="#1A2A3A" font-weight="bold">WEATHER / ATMOSPHERE</text>
+<text x="755" y="293" font-family="Georgia, serif" font-size="11" fill="#3A4A5A">• Heavy steady rain — not storm</text>
+<text x="755" y="310" font-family="Georgia, serif" font-size="11" fill="#3A4A5A">• Puddles with ripple rings</text>
+<text x="755" y="327" font-family="Georgia, serif" font-size="11" fill="#3A4A5A">• Puddles REFLECT warm lamp</text>
+<text x="755" y="344" font-family="Georgia, serif" font-size="11" fill="#3A4A5A">• Rain sounds replace music briefly</text>
+<text x="755" y="361" font-family="Georgia, serif" font-size="11" fill="#3A4A5A">• Mist at ground level</text>
+
+<text x="755" y="388" font-family="Georgia, serif" font-size="12" fill="#1A2A3A" font-weight="bold">LIGHT — CRITICAL</text>
+<text x="755" y="406" font-family="Georgia, serif" font-size="11" fill="#3A4A5A">• 95% desaturated — near grey</text>
+<text x="755" y="423" font-family="Georgia, serif" font-size="11" fill="#C87820" font-weight="bold">• ONE warm accent: shrine lamp</text>
+<text x="755" y="440" font-family="Georgia, serif" font-size="11" fill="#3A4A5A">• Lamp at #FFB347 (amber)</text>
+<text x="755" y="457" font-family="Georgia, serif" font-size="11" fill="#3A4A5A">• Lamp reflects in puddles only</text>
+<text x="755" y="474" font-family="Georgia, serif" font-size="11" fill="#3A4A5A">• Dream (Shot 11): add lavender glow</text>
+<text x="755" y="491" font-family="Georgia, serif" font-size="11" fill="#9A8AB0" font-style="italic">  soft lavender at edges: #D0C8E8</text>
+<text x="755" y="515" font-family="Georgia, serif" font-size="11" fill="#3A4A5A" font-style="italic">  "Like black-and-white with one warm</text>
+<text x="755" y="532" font-family="Georgia, serif" font-size="11" fill="#3A4A5A" font-style="italic">   candle in the corner."</text>
+<text x="755" y="552" font-family="Georgia, serif" font-size="10" fill="#5A6A7A">  — Director's brief</text>
+<text x="755" y="572" font-family="Georgia, serif" font-size="11" fill="#1A2A3A">Camera: handheld feel (slight tremor)</text>
+<text x="755" y="589" font-family="Georgia, serif" font-size="11" fill="#1A2A3A">tracking with King's slow movement</text>
+
+<!-- ══════════════════ COLOR PALETTE ══════════════════ -->
+<rect x="20" y="640" width="700" height="100" rx="4" fill="#0E1520"/>
+<text x="370" y="664" font-family="Georgia, serif" font-size="13" fill="#9BB3CC" text-anchor="middle" letter-spacing="2">ACT 3 PALETTE</text>
+<!-- Swatches -->
+<rect x="38" y="672" width="60" height="50" rx="3" fill="#4A6FA5"/>
+<text x="68" y="732" font-family="Georgia, serif" font-size="9" fill="#9BB3CC" text-anchor="middle">SKY</text>
+<text x="68" y="743" font-family="Georgia, serif" font-size="8" fill="#506070" text-anchor="middle">#4A6FA5</text>
+<rect x="115" y="672" width="60" height="50" rx="3" fill="#5D6D7B"/>
+<text x="145" y="732" font-family="Georgia, serif" font-size="9" fill="#9BB3CC" text-anchor="middle">STONE</text>
+<text x="145" y="743" font-family="Georgia, serif" font-size="8" fill="#506070" text-anchor="middle">#5D6D7B</text>
+<rect x="192" y="672" width="60" height="50" rx="3" fill="#9BB3CC"/>
+<text x="222" y="732" font-family="Georgia, serif" font-size="9" fill="#9BB3CC" text-anchor="middle">RAIN</text>
+<text x="222" y="743" font-family="Georgia, serif" font-size="8" fill="#506070" text-anchor="middle">#9BB3CC</text>
+<rect x="269" y="672" width="60" height="50" rx="3" fill="#2F4A7A"/>
+<text x="299" y="732" font-family="Georgia, serif" font-size="9" fill="#9BB3CC" text-anchor="middle">SHADOW</text>
+<text x="299" y="743" font-family="Georgia, serif" font-size="8" fill="#506070" text-anchor="middle">#2F4A7A</text>
+<rect x="346" y="672" width="60" height="50" rx="3" fill="#3A5068"/>
+<text x="376" y="732" font-family="Georgia, serif" font-size="9" fill="#9BB3CC" text-anchor="middle">PUDDLE</text>
+<text x="376" y="743" font-family="Georgia, serif" font-size="8" fill="#506070" text-anchor="middle">#3A5068</text>
+<rect x="423" y="672" width="60" height="50" rx="3" fill="#FFB347"/>
+<text x="453" y="732" font-family="Georgia, serif" font-size="9" fill="#9BB3CC" text-anchor="middle">LAMP</text>
+<text x="453" y="743" font-family="Georgia, serif" font-size="8" fill="#506070" text-anchor="middle">#FFB347</text>
+<rect x="500" y="672" width="60" height="50" rx="3" fill="#D0C8E8"/>
+<text x="530" y="732" font-family="Georgia, serif" font-size="9" fill="#9BB3CC" text-anchor="middle">DREAM</text>
+<text x="530" y="743" font-family="Georgia, serif" font-size="8" fill="#506070" text-anchor="middle">#D0C8E8</text>
+<rect x="577" y="672" width="60" height="50" rx="3" fill="#1A0800"/>
+<text x="607" y="732" font-family="Georgia, serif" font-size="9" fill="#9BB3CC" text-anchor="middle">DOOR</text>
+<text x="607" y="743" font-family="Georgia, serif" font-size="8" fill="#506070" text-anchor="middle">#1A0800</text>
+
+<!-- ══════════════════ SHOT BREAKDOWN ══════════════════ -->
+<text x="550" y="790" font-family="Georgia, serif" font-size="16" fill="#2A1200" text-anchor="middle" font-weight="bold" letter-spacing="2">SHOT BREAKDOWN — ACT 3</text>
+<line x1="80" y1="800" x2="1020" y2="800" stroke="#5A6A7A" stroke-width="1"/>
+
+<rect x="80" y="816" width="460" height="360" rx="4" fill="#E8DDD0" stroke="#8B6030" stroke-width="1.5"/>
+<text x="98" y="840" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">SHOT 10 · 2:40–3:00 · Transition walk</text>
+<text x="98" y="858" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Camera tracks King through narrow alley</text>
+<text x="98" y="875" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Rain heavy. No music, just rain sounds.</text>
+<text x="98" y="892" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Puddles reflect his feet. Head bowed.</text>
+<line x1="95" y1="902" x2="520" y2="902" stroke="#8B6030" stroke-width="0.8" opacity="0.4"/>
+
+<text x="98" y="922" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">SHOT 11 · 3:00–3:15 · Dream vision</text>
+<text x="98" y="940" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">King meditates seated. Taleju appears in mist.</text>
+<text x="98" y="957" font-family="Georgia, serif" font-size="11" fill="#9A8AB0">Lavender glow seeps in at edges of frame.</text>
+<text x="98" y="974" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Her form: soft focus, translucent. No words.</text>
+<line x1="95" y1="984" x2="520" y2="984" stroke="#8B6030" stroke-width="0.8" opacity="0.4"/>
+
+<text x="98" y="1004" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">SHOT 12 · 3:15–3:29 · Meditation</text>
+<text x="98" y="1022" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Static camera on seated King, hands in prayer.</text>
+<text x="98" y="1039" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Lamp the only moving element (flame).</text>
+<text x="98" y="1056" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Time-lapse feel — rain continues, he is still.</text>
+<line x1="95" y1="1066" x2="520" y2="1066" stroke="#8B6030" stroke-width="0.8" opacity="0.4"/>
+
+<text x="98" y="1086" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">SHOT 13 · 3:29–3:58 · Montage</text>
+<text x="98" y="1104" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">CU: candle flame. CU: empty game board.</text>
+<text x="98" y="1121" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">CU: incense smoke. CU: his praying hands.</text>
+<text x="98" y="1138" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Music builds. Can use still frames + minimal anim.</text>
+<line x1="95" y1="1148" x2="520" y2="1148" stroke="#8B6030" stroke-width="0.8" opacity="0.4"/>
+
+<text x="98" y="1168" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">SHOT 14 · 3:58–4:11 · Dream peak</text>
+<text x="98" y="1186" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">Orchestral swell. Dawn light beginning. Taleju</text>
+<text x="98" y="1198" font-family="Georgia, serif" font-size="9" fill="#4A3A2A">gestures (instruction). Color briefly warms.</text>
+
+<!-- Side notes panel -->
+<rect x="560" y="816" width="520" height="360" rx="4" fill="#E8DDD0" stroke="#8B6030" stroke-width="1.5"/>
+<text x="575" y="840" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">CAMERA LANGUAGE — ACT 3</text>
+<text x="575" y="860" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Handheld: slight tremor throughout</text>
+<text x="575" y="878" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• No smooth dollies — grief is unsteady</text>
+<text x="575" y="896" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Shot 12: completely static (stillness = penance)</text>
+<text x="575" y="914" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Shot 13: extreme close-ups, minimal camera move</text>
+<text x="575" y="932" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Shot 14: camera slowly rises as orchestral swells</text>
+
+<text x="575" y="962" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">ANIMATION PRIORITY</text>
+<text x="575" y="980" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Rain: must be animated (particle / hand-drawn)</text>
+<text x="575" y="998" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Lamp flame: subtle flicker on every shot</text>
+<text x="575" y="1016" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• King's body: minimal. His stillness is the point.</text>
+<text x="575" y="1034" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Taleju in dream: can be simplified silhouette</text>
+<text x="575" y="1052" font-family="Georgia, serif" font-size="11" fill="#9A8AB0">  (see: Taleju Sheet — Dream Vision expression)</text>
+
+<text x="575" y="1082" font-family="Georgia, serif" font-size="12" fill="#2A1200" font-weight="bold">SOUND DESIGN NOTE</text>
+<text x="575" y="1100" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Shots 10–11: music drops. Rain dominates.</text>
+<text x="575" y="1118" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Shots 12–13: sparse percussion enters slowly</text>
+<text x="575" y="1136" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Shot 14: full orchestral build to 4:11</text>
+<text x="575" y="1154" font-family="Georgia, serif" font-size="11" fill="#4A3A2A">• Rain never stops until Act 4 begins</text>
+<text x="575" y="1182" font-family="Georgia, serif" font-size="12" fill="#8B5A1A" font-style="italic">Pacing: slow is right. This is grief.</text>
+</svg>
