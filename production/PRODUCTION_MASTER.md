@@ -8,7 +8,7 @@ This document is the **Single Source of Truth** for the AI Video Generation phas
 *   **Resolution:** 1920×1080 (Full HD)
 *   **Frame Rate:** 24 fps
 *   **Style Anchor:** `STYLE_ANCHOR.png` (Generate from Shot 1 first)
-*   **Character Reference Source:** Use `REALITY_REFERENCE.md`, `CHARACTER_REFERENCE_REVIEW.md`, and approved bitmap references. Do not use deleted SVG character sheets.
+*   **Character Reference Source:** Use `REALITY_REFERENCE.md` and `CHARACTER_IMAGE_PROMPTS.md` to generate or source approved bitmap character references. Save to `character_sheets/approved/`.
 *   **Total Frames:** 7200 (300 seconds)
 
 ---

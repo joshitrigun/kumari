@@ -7,10 +7,10 @@ Use these prompts in **Veo** or **Seedance 2.0**. Always include the **STYLE BLO
 ## 🛠️ MASTER BLOCKS (Copy-Paste)
 
 ### **STYLE BLOCK** (The Visual DNA)
-> "Style: Cinematic 2.5D stylized animation. Aesthetic: hand-drawn digital paint with visible fine brush texture, grounded Kathmandu Valley Newar paubha-inspired character design, Malla-era Nepal, matte woven textiles, red brick, carved dark wood, brass oil lamps, shallow depth of field, detailed Newar architectural carvings, slow purposeful character movement."
+> "Hyper-realistic ethnographic historical portrait, 18th-century Kathmandu Valley, Nepal. Grounded Nepali Newar ethnic facial features (blend of Tibeto-Burman and Indo-Aryan, high cheekbones, dark almond eyes). Authentic traditional Newar textiles: raw cotton, makhamali (velvet), and dhaka weave. Dark Sal wood carvings (ankhijhyal) and exposed Ma-Appa red brick. Lit by mustard oil brass lamps. No fantasy elements, purely historical documentary style."
 
 ### **NEGATIVE PROMPT** (The Guardrails)
-> "Disney style, 3D CGI, plastic skin, neon colors, fast jerky motion, futuristic technology, Western features, messy lineart, superhero mask makeup, oversaturated primary colors, modern clothing, bright daylight, Malaysian songket costume, tengkolok, songkok, Thai crown, Balinese dancer silhouette, Mughal emperor, Rajput palace fantasy, generic fantasy palace costume, princess tiara, shiny cosplay fabric."
+> "fantasy, cinematic, glowing, CGI, plastic, Disney, generic Bollywood, Indian royal fantasy, Mughal emperor, Rajput, Malaysian songket, Thai crown, Balinese, generic princess, tiara, cosplay fabric, bright neon, exaggerated magic, 3D render, cartoon, superhero."
 
 ---
 
