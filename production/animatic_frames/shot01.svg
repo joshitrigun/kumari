@@ -1,5 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080">
-  <rect width="100%" height="100%" fill="#FFE680"/>
-  <text x="50%" y="45%" font-family="Arial" font-size="96" fill="#332a18" text-anchor="middle">Shot 1</text>
-  <text x="50%" y="60%" font-family="Arial" font-size="40" fill="#332a18" text-anchor="middle">0:00–0:02 — Wide interior: establish room</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Warm Base Atmosphere -->
+  <rect width="100%" height="100%" fill="#3D2205"/>
+
+  <!-- PERSPECTIVE LAYOUT (for AI Control) -->
+
+  <!-- Back Wall -->
+  <rect x="0" y="0" width="1920" height="700" fill="#2A1508"/>
+
+  <!-- Floor (Perspective) -->
+  <path d="M0,1080 L600,700 L1320,700 L1920,1080 Z" fill="#4A2A08"/>
+
+  <!-- Malla Sal-Wood Pillars (Composition framing) -->
+  <rect x="250" y="0" width="120" height="700" fill="#1A0A00"/>
+  <rect x="1550" y="0" width="120" height="700" fill="#1A0A00"/>
+
+  <!-- Ankhijhyal (Lattice Window) Background -->
+  <rect x="810" y="150" width="300" height="400" rx="10" fill="#0A0502"/>
+  <path d="M810,300 Q960,50 1110,300 L1110,550 L810,550 Z" fill="#1A1005" opacity="0.8"/>
+
+  <!-- Central Low Table (Chokhat) Silhouette -->
+  <ellipse cx="960" cy="850" rx="350" ry="120" fill="#1A0A00" opacity="0.9"/>
+  <ellipse cx="960" cy="840" rx="320" ry="100" fill="#3D2210"/>
+
+  <!-- Gaddi Cushion Hint -->
+  <ellipse cx="650" cy="920" rx="180" ry="60" fill="#6B1010" opacity="0.5"/>
+  <ellipse cx="1270" cy="920" rx="180" ry="60" fill="#6B1010" opacity="0.5"/>
+
+  <!-- Production Data (Keep for timing) -->
+  <rect x="0" y="1000" width="1920" height="80" fill="#000" opacity="0.7"/>
+  <text x="50%" y="1055" font-family="Arial, serif" font-size="42" fill="#FFD060" text-anchor="middle" letter-spacing="4">SHOT 1: THE ESTABLISH — 0:00–0:05 — WIDE INTERIOR</text>
 </svg>

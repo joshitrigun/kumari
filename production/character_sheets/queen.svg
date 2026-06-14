@@ -3,8 +3,18 @@
 <defs>
   <radialGradient id="skinQ" cx="50%" cy="38%" r="56%">
     <stop offset="0%" stop-color="#9A6845"/>
-    <stop offset="100%" stop-color="#7A4E2D"/>
+    <stop offset="90%" stop-color="#7A4E2D"/>
+    <stop offset="100%" stop-color="#5A3520"/>
   </radialGradient>
+  <radialGradient id="skinWarm" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#D47050" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#D47050" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="silkSheen" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FFF" stop-opacity="0.15"/>
+    <stop offset="50%" stop-color="#FFF" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#FFF" stop-opacity="0.1"/>
+  </linearGradient>
   <linearGradient id="bgQ" x1="0%" y1="0%" x2="0%" y2="100%">
     <stop offset="0%" stop-color="#EEE4D8"/>
     <stop offset="100%" stop-color="#DDD0BE"/>
@@ -74,6 +84,8 @@
 <!-- FIGURE BEHIND LATTICE (visible through openings) -->
 <!-- Body/sari base -->
 <path d="M195,380 L165,700 L385,700 L355,380 Q320,395 275,390 Q228,395 195,380 Z" fill="url(#sariGrad)" opacity="0.88"/>
+<!-- Silk sheen overlay -->
+<path d="M195,380 L165,700 L385,700 L355,380 Z" fill="url(#silkSheen)" opacity="0.6"/>
 <!-- Sari border/trim -->
 <path d="M195,380 L165,700" stroke="#D4A0C0" stroke-width="3" fill="none" opacity="0.8"/>
 <path d="M355,380 L385,700" stroke="#D4A0C0" stroke-width="3" fill="none" opacity="0.8"/>
@@ -92,6 +104,7 @@
 
 <!-- Visible hand at edge of lattice — gripping frame -->
 <ellipse cx="145" cy="525" rx="18" ry="13" fill="url(#skinQ)" opacity="0.9"/>
+<circle cx="152" cy="528" r="6" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <path d="M132,517 Q122,501 128,494" stroke="#9A6845" stroke-width="7" fill="none" stroke-linecap="round"/>
 <path d="M141,513 Q133,496 139,489" stroke="#9A6845" stroke-width="7" fill="none" stroke-linecap="round"/>
 <path d="M151,512 Q146,494 153,487" stroke="#9A6845" stroke-width="7" fill="none" stroke-linecap="round"/>
@@ -99,10 +112,13 @@
 
 <!-- NECK -->
 <path d="M256,275 Q248,288 248,300 L302,300 Q302,288 294,275 Z" fill="url(#skinQ)" opacity="0.9"/>
+<circle cx="275" cy="285" r="8" fill="url(#skinWarm)"/> <!-- SSS detail -->
 
 <!-- NECKLACE -->
 <path d="M222,292 Q252,308 275,302 Q298,308 328,292" stroke="#D4AF37" stroke-width="4" fill="none" opacity="0.9"/>
 <circle cx="275" cy="306" r="6" fill="#D4AF37" opacity="0.9"/>
+<!-- Micro shadow under necklace -->
+<ellipse cx="275" cy="314" rx="5" ry="2" fill="#000" opacity="0.2"/>
 
 <!-- HEAD -->
 <ellipse cx="275" cy="200" rx="70" ry="80" fill="url(#skinQ)"/>
@@ -110,6 +126,11 @@
 <!-- Hair — ornately dressed, pulled up -->
 <path d="M210,162 Q218,140 240,128 Q258,118 275,115" fill="#0D0500"/>
 <path d="M340,162 Q332,140 310,128 Q292,118 275,115" fill="#0D0500"/>
+<!-- Flyaway hair strands -->
+<path d="M208,165 Q200,155 195,160" stroke="#0D0500" stroke-width="0.5" fill="none" opacity="0.6"/>
+<path d="M342,165 Q350,155 355,160" stroke="#0D0500" stroke-width="0.5" fill="none" opacity="0.6"/>
+<path d="M215,145 Q210,135 212,130" stroke="#0D0500" stroke-width="0.4" fill="none" opacity="0.5"/>
+
 <!-- Hair bun / ornament -->
 <ellipse cx="275" cy="120" rx="35" ry="20" fill="#1A0800"/>
 <ellipse cx="275" cy="112" rx="28" ry="14" fill="#2A1200"/>
@@ -122,8 +143,11 @@
 
 <!-- EAR -->
 <ellipse cx="205" cy="202" rx="12" ry="15" fill="#8B6340"/>
+<circle cx="210" cy="202" r="5" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <circle cx="205" cy="214" r="7" fill="#D4AF37"/>
 <circle cx="205" cy="214" r="4" fill="#E8A0B0"/>
+<!-- Micro shadow under earring -->
+<ellipse cx="205" cy="223" rx="3" ry="1.5" fill="#000" opacity="0.2"/>
 
 <!-- FACE FEATURES -->
 <!-- Eyebrows — arched, expressive -->
@@ -132,21 +156,26 @@
 
 <!-- EYES — wide, watching, slightly narrowed with jealousy -->
 <ellipse cx="250" cy="182" rx="14" ry="9" fill="white"/>
-<ellipse cx="251" cy="182" rx="9" ry="7" fill="#3D2B1F"/>
-<circle cx="252" cy="180" r="5" fill="#0D0500"/>
-<circle cx="255" cy="178" r="2.5" fill="white" opacity="0.9"/>
+<ellipse cx="251" cy="182" rx="10" ry="8" fill="#000"/> <!-- Limbal ring -->
+<ellipse cx="251" cy="182" rx="9" ry="7" fill="#3D2B1F"/> <!-- Iris -->
+<circle cx="252" cy="180" r="5" fill="#0D0500"/> <!-- Pupil -->
+<circle cx="253" cy="178" r="3" fill="white" opacity="0.3"/> <!-- Soft highlight -->
+<circle cx="255" cy="178" r="1.5" fill="white" opacity="0.9"/> <!-- Sharp specular -->
 <path d="M236,179 Q250,172 264,179" stroke="#1A0800" stroke-width="1.5" fill="none"/>
 <path d="M236,186 Q250,192 264,186" stroke="#1A0800" stroke-width="1" fill="none" opacity="0.5"/>
 
 <ellipse cx="300" cy="182" rx="14" ry="9" fill="white"/>
-<ellipse cx="301" cy="182" rx="9" ry="7" fill="#3D2B1F"/>
-<circle cx="302" cy="180" r="5" fill="#0D0500"/>
-<circle cx="305" cy="178" r="2.5" fill="white" opacity="0.9"/>
+<ellipse cx="301" cy="182" rx="10" ry="8" fill="#000"/> <!-- Limbal ring -->
+<ellipse cx="301" cy="182" rx="9" ry="7" fill="#3D2B1F"/> <!-- Iris -->
+<circle cx="302" cy="180" r="5" fill="#0D0500"/> <!-- Pupil -->
+<circle cx="303" cy="178" r="3" fill="white" opacity="0.3"/> <!-- Soft highlight -->
+<circle cx="305" cy="178" r="1.5" fill="white" opacity="0.9"/> <!-- Sharp specular -->
 <path d="M286,179 Q300,172 314,179" stroke="#1A0800" stroke-width="1.5" fill="none"/>
 <path d="M286,186 Q300,192 314,186" stroke="#1A0800" stroke-width="1" fill="none" opacity="0.5"/>
 
 <!-- NOSE -->
 <path d="M275,190 L270,207 Q275,212 280,207 L275,190" fill="#7A4E2D"/>
+<circle cx="275" cy="208" r="5" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <ellipse cx="269" cy="208" rx="6" ry="4" fill="#6A3D22"/>
 <ellipse cx="281" cy="208" rx="6" ry="4" fill="#6A3D22"/>
 

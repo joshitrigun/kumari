@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="1300" viewBox="0 0 900 1300">
 <defs>
+  <filter id="dissolveNoise">
+    <feTurbulence type="fractalNoise" baseFrequency="0.08" numOctaves="4" result="noise"/>
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+  <pattern id="caustics" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+    <path d="M0,25 Q12,10 25,25 T50,25" stroke="#FFF" stroke-width="0.5" fill="none" opacity="0.15"/>
+    <path d="M0,10 Q15,30 30,10 T50,10" stroke="#FFF" stroke-width="0.3" fill="none" opacity="0.1"/>
+  </pattern>
   <radialGradient id="aura" cx="50%" cy="45%" r="52%">
     <stop offset="0%" stop-color="#FFF8E8" stop-opacity="0.9"/>
     <stop offset="60%" stop-color="#F5E8A8" stop-opacity="0.5"/>
     <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="skinT" cx="50%" cy="38%" r="58%">
-    <stop offset="0%" stop-color="#F0E0C0"/>
+    <stop offset="0%" stop-color="#FDF4E0"/> <!-- Luminous core -->
+    <stop offset="40%" stop-color="#F0E0C0"/>
     <stop offset="100%" stop-color="#D4B888"/>
+  </radialGradient>
+  <radialGradient id="skinWarm" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#D47050" stop-opacity="0.25"/>
+    <stop offset="100%" stop-color="#D47050" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="glowBg" cx="50%" cy="50%" r="50%">
     <stop offset="0%" stop-color="#FFFAE0"/>
@@ -58,6 +71,8 @@
 <path d="M155,540 Q130,680 145,875 L415,875 Q430,680 405,540 Z" fill="#E8D890" opacity="0.6"/>
 <!-- Middle layer -->
 <path d="M170,540 Q148,690 162,875 L398,875 Q412,690 390,540 Z" fill="#F0E8B0"/>
+<!-- Caustic pattern overlay -->
+<path d="M155,540 Q130,680 145,875 L415,875 Q430,680 405,540 Z" fill="url(#caustics)" opacity="0.3"/>
 <!-- Front layer edges (flowing) -->
 <path d="M185,540 Q200,620 175,875" fill="none" stroke="#D4AF37" stroke-width="1.5" opacity="0.6"/>
 <path d="M375,540 Q360,620 385,875" fill="none" stroke="#D4AF37" stroke-width="1.5" opacity="0.6"/>
@@ -104,6 +119,7 @@
 <!-- HANDS -->
 <!-- Right hand — open, graceful -->
 <ellipse cx="138" cy="493" rx="20" ry="14" fill="#D4B888"/>
+<circle cx="145" cy="495" r="7" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <path d="M124,484 Q114,467 120,459" stroke="#D4B888" stroke-width="8" fill="none" stroke-linecap="round"/>
 <path d="M133,480 Q125,462 131,454" stroke="#D4B888" stroke-width="8" fill="none" stroke-linecap="round"/>
 <path d="M143,478 Q138,460 145,452" stroke="#D4B888" stroke-width="8" fill="none" stroke-linecap="round"/>
@@ -115,6 +131,7 @@
 
 <!-- Left hand -->
 <ellipse cx="425" cy="493" rx="20" ry="14" fill="#D4B888"/>
+<circle cx="418" cy="495" r="7" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <path d="M439,484 Q449,467 443,459" stroke="#D4B888" stroke-width="8" fill="none" stroke-linecap="round"/>
 <path d="M430,480 Q438,462 432,454" stroke="#D4B888" stroke-width="8" fill="none" stroke-linecap="round"/>
 <path d="M420,478 Q425,460 418,452" stroke="#D4B888" stroke-width="8" fill="none" stroke-linecap="round"/>
@@ -124,6 +141,8 @@
 <path d="M195,305 L185,540 L375,540 L365,305 Q340,322 280,316 Q218,322 195,305 Z" fill="#F0E8A8"/>
 <!-- Torso glow overlay -->
 <path d="M195,305 L185,540 L375,540 L365,305 Q340,322 280,316 Q218,322 195,305 Z" fill="url(#aura)" opacity="0.4"/>
+<!-- Caustics overlay -->
+<path d="M195,305 L185,540 L375,540 L365,305 Z" fill="url(#caustics)" opacity="0.2"/>
 <!-- Garment border gold -->
 <path d="M195,305 L185,540" stroke="#D4AF37" stroke-width="3" fill="none"/>
 <path d="M365,305 L375,540" stroke="#D4AF37" stroke-width="3" fill="none"/>
@@ -161,6 +180,7 @@
 
 <!-- EARS -->
 <ellipse cx="208" cy="198" rx="12" ry="16" fill="#D4B888"/>
+<circle cx="214" cy="198" r="6" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <!-- Elaborate earring -->
 <circle cx="208" cy="212" r="8" fill="#D4AF37"/>
 <circle cx="208" cy="212" r="5" fill="#FFE060"/>
@@ -169,6 +189,7 @@
 <circle cx="208" cy="242" r="3" fill="#FFE060"/>
 
 <ellipse cx="352" cy="198" rx="12" ry="16" fill="#D4B888"/>
+<circle cx="346" cy="198" r="6" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <circle cx="352" cy="212" r="8" fill="#D4AF37"/>
 <circle cx="352" cy="212" r="5" fill="#FFE060"/>
 <path d="M348,220 Q352,232 352,240" stroke="#D4AF37" stroke-width="2.5" fill="none"/>
@@ -218,9 +239,11 @@
 
 <!-- RIGHT EYE — large, divine, kohl-lined -->
 <ellipse cx="252" cy="180" rx="16" ry="11" fill="white"/>
-<ellipse cx="253" cy="180" rx="11" ry="9" fill="#2A1800"/>
-<circle cx="254" cy="178" r="5.5" fill="#0A0400"/>
-<circle cx="257" cy="175" r="2.5" fill="white" opacity="0.95"/>
+<ellipse cx="253" cy="180" rx="12" ry="10" fill="#000"/> <!-- Limbal ring -->
+<ellipse cx="253" cy="180" rx="11" ry="9" fill="#2A1800"/> <!-- Iris -->
+<circle cx="254" cy="178" r="5.5" fill="#0A0400"/> <!-- Pupil -->
+<circle cx="255" cy="175" r="3.5" fill="white" opacity="0.3"/> <!-- Soft highlight -->
+<circle cx="257" cy="175" r="2" fill="white" opacity="0.95"/> <!-- Sharp specular -->
 <!-- Kohl liner -->
 <path d="M236,177 Q252,169 268,177" stroke="#0A0400" stroke-width="2" fill="none"/>
 <path d="M236,183 Q252,190 268,183" stroke="#0A0400" stroke-width="1.5" fill="none"/>
@@ -229,9 +252,11 @@
 
 <!-- LEFT EYE -->
 <ellipse cx="308" cy="180" rx="16" ry="11" fill="white"/>
-<ellipse cx="309" cy="180" rx="11" ry="9" fill="#2A1800"/>
-<circle cx="310" cy="178" r="5.5" fill="#0A0400"/>
-<circle cx="313" cy="175" r="2.5" fill="white" opacity="0.95"/>
+<ellipse cx="309" cy="180" rx="12" ry="10" fill="#000"/> <!-- Limbal ring -->
+<ellipse cx="309" cy="180" rx="11" ry="9" fill="#2A1800"/> <!-- Iris -->
+<circle cx="310" cy="178" r="5.5" fill="#0A0400"/> <!-- Pupil -->
+<circle cx="311" cy="175" r="3.5" fill="white" opacity="0.3"/> <!-- Soft highlight -->
+<circle cx="313" cy="175" r="2" fill="white" opacity="0.95"/> <!-- Sharp specular -->
 <path d="M292,177 Q308,169 324,177" stroke="#0A0400" stroke-width="2" fill="none"/>
 <path d="M292,183 Q308,190 324,183" stroke="#0A0400" stroke-width="1.5" fill="none"/>
 <path d="M324,177 Q332,173 336,168" stroke="#0A0400" stroke-width="2" fill="none"/>
@@ -242,6 +267,7 @@
 
 <!-- NOSE — refined -->
 <path d="M280,188 L275,207 Q280,213 285,207 L280,188" fill="#C8A070"/>
+<circle cx="280" cy="207" r="4.5" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <ellipse cx="274" cy="208" rx="6" ry="4" fill="#C09060"/>
 <ellipse cx="286" cy="208" rx="6" ry="4" fill="#C09060"/>
 
@@ -254,7 +280,7 @@
 <circle cx="280" cy="155" r="8" fill="#C0392B"/>
 <circle cx="280" cy="155" r="5" fill="#E74C3C"/>
 <!-- Elaborate decorative bindi lines -->
-<path d="M280,147 L280,140" stroke="#D4AF37" stroke-width="1.5" fill="none"/>
+<path d="M280,147 L280,140" stroke="#D4AF37" stroke-width="2" fill="none"/>
 <path d="M276,149 L272,144" stroke="#D4AF37" stroke-width="1.5" fill="none"/>
 <path d="M284,149 L288,144" stroke="#D4AF37" stroke-width="1.5" fill="none"/>
 
@@ -316,9 +342,11 @@
 <circle cx="560" cy="400" r="72" fill="#F0EDE0" stroke="#C8B878" stroke-width="2"/>
 <text x="560" y="488" font-family="Georgia, serif" font-size="11" fill="#6A5010" text-anchor="middle">DIVINE FADING</text>
 <text x="560" y="502" font-family="Georgia, serif" font-size="9" fill="#A08030" text-anchor="middle">Act 2 · 1:53–2:19</text>
-<!-- Translucent / dissolving face -->
-<ellipse cx="560" cy="388" rx="42" ry="50" fill="url(#skinT)" opacity="0.5"/>
-<ellipse cx="560" cy="388" rx="42" ry="50" fill="#FFE87A" opacity="0.25"/>
+<!-- Translucent / dissolving face with noise filter -->
+<g filter="url(#dissolveNoise)">
+  <ellipse cx="560" cy="388" rx="42" ry="50" fill="url(#skinT)" opacity="0.5"/>
+  <ellipse cx="560" cy="388" rx="42" ry="50" fill="#FFE87A" opacity="0.25"/>
+</g>
 <ellipse cx="545" cy="378" rx="12" ry="9" fill="white" opacity="0.7"/>
 <circle cx="545" cy="380" r="7" fill="#2A1800" opacity="0.6"/>
 <circle cx="546" cy="378" r="3.5" fill="#0A0400" opacity="0.5"/>

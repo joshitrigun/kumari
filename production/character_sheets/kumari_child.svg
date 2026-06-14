@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="1300" viewBox="0 0 900 1300">
 <defs>
+  <filter id="handPainted">
+    <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" result="noise"/>
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
   <radialGradient id="skinC" cx="50%" cy="38%" r="56%">
     <stop offset="0%" stop-color="#C89870"/>
-    <stop offset="100%" stop-color="#A07848"/>
+    <stop offset="90%" stop-color="#A07848"/>
+    <stop offset="100%" stop-color="#7A5030"/>
+  </radialGradient>
+  <radialGradient id="skinWarm" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#D47050" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#D47050" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="childGlow" cx="50%" cy="45%" r="52%">
     <stop offset="0%" stop-color="#FFF8E8" stop-opacity="0.8"/>
@@ -101,6 +110,7 @@
 <!-- HANDS — small child hands holding lotus token -->
 <!-- Right hand cupped -->
 <ellipse cx="148" cy="523" rx="19" ry="13" fill="url(#skinC)"/>
+<circle cx="152" cy="525" r="5" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <path d="M134,516 Q124,500 130,492" stroke="#C09060" stroke-width="7" fill="none" stroke-linecap="round"/>
 <path d="M143,512 Q135,495 141,488" stroke="#C09060" stroke-width="7" fill="none" stroke-linecap="round"/>
 <path d="M153,510 Q148,492 155,485" stroke="#C09060" stroke-width="7" fill="none" stroke-linecap="round"/>
@@ -110,6 +120,7 @@
 
 <!-- Left hand cupped (holding token) -->
 <ellipse cx="412" cy="523" rx="19" ry="13" fill="url(#skinC)"/>
+<circle cx="408" cy="525" r="5" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <path d="M426,516 Q436,500 430,492" stroke="#C09060" stroke-width="7" fill="none" stroke-linecap="round"/>
 <path d="M417,512 Q425,495 419,488" stroke="#C09060" stroke-width="7" fill="none" stroke-linecap="round"/>
 <path d="M407,510 Q412,492 405,485" stroke="#C09060" stroke-width="7" fill="none" stroke-linecap="round"/>
@@ -169,14 +180,18 @@
 
 <!-- NECK — short child neck -->
 <path d="M260,295 Q252,308 252,318 L308,318 Q308,308 300,295 Z" fill="url(#skinC)"/>
+<circle cx="280" cy="305" r="6" fill="url(#skinWarm)"/> <!-- SSS detail -->
 
 <!-- HEAD — slightly larger proportionally (child) -->
 <circle cx="280" cy="230" r="90" fill="url(#skinC)"/>
+<!-- Rim light for divine luminance -->
+<circle cx="280" cy="230" r="88" fill="none" stroke="#FFF8E0" stroke-width="2" opacity="0.3"/>
 <!-- Child glow on face -->
 <circle cx="280" cy="220" r="78" fill="#FFF8E0" opacity="0.1"/>
 
 <!-- EARS -->
 <ellipse cx="190" cy="235" rx="13" ry="17" fill="#C89870"/>
+<circle cx="196" cy="235" r="6" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <!-- Elaborate earring (Kumari style) -->
 <circle cx="190" cy="246" r="8" fill="#D4AF37"/>
 <circle cx="190" cy="246" r="5" fill="#FFD060"/>
@@ -187,6 +202,7 @@
 <circle cx="186" cy="297" r="4" fill="#D4AF37"/>
 
 <ellipse cx="370" cy="235" rx="13" ry="17" fill="#C89870"/>
+<circle cx="364" cy="235" r="6" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <circle cx="370" cy="246" r="8" fill="#D4AF37"/>
 <circle cx="370" cy="246" r="5" fill="#FFD060"/>
 <path d="M366,254 Q370,265 370,274" stroke="#D4AF37" stroke-width="2.5" fill="none"/>
@@ -239,29 +255,38 @@
 <!-- EYES — large, kohl-rimmed, Kumari formal makeup -->
 <!-- Right eye -->
 <ellipse cx="250" cy="213" rx="16" ry="13" fill="white"/>
-<ellipse cx="251" cy="213" rx="11" ry="10" fill="#2A1800"/>
-<circle cx="252" cy="211" r="6" fill="#0A0400"/>
-<circle cx="255" cy="208" r="3" fill="white" opacity="0.95"/>
-<!-- Kohl upper -->
-<path d="M234,209 Q250,200 266,209" stroke="#0A0400" stroke-width="2" fill="none"/>
-<path d="M234,217 Q250,224 266,217" stroke="#0A0400" stroke-width="1.5" fill="none"/>
-<!-- Extended kohl lines (traditional Kumari makeup) -->
-<path d="M234,209 Q226,204 218,197" stroke="#0A0400" stroke-width="2.5" fill="none"/>
+<ellipse cx="251" cy="213" rx="11" ry="10" fill="#000"/> <!-- Limbal ring -->
+<ellipse cx="251" cy="213" rx="10" ry="9" fill="#2A1800"/> <!-- Iris -->
+<circle cx="252" cy="211" r="5" fill="#0A0400"/> <!-- Pupil -->
+<circle cx="253" cy="208" r="3.5" fill="white" opacity="0.3"/> <!-- Soft highlight -->
+<circle cx="255" cy="208" r="2" fill="white" opacity="0.95"/> <!-- Sharp specular -->
+<!-- Kohl upper with hand-painted filter -->
+<g filter="url(#handPainted)">
+  <path d="M234,209 Q250,200 266,209" stroke="#0A0400" stroke-width="2.5" fill="none"/>
+  <path d="M234,217 Q250,224 266,217" stroke="#0A0400" stroke-width="2" fill="none"/>
+  <!-- Extended kohl lines (traditional Kumari makeup) -->
+  <path d="M234,209 Q226,204 218,197" stroke="#0A0400" stroke-width="3" fill="none"/>
+</g>
 <!-- Eye glow -->
 <ellipse cx="250" cy="213" rx="18" ry="15" fill="#FFE87A" opacity="0.1"/>
 
 <!-- Left eye -->
 <ellipse cx="310" cy="213" rx="16" ry="13" fill="white"/>
-<ellipse cx="311" cy="213" rx="11" ry="10" fill="#2A1800"/>
-<circle cx="312" cy="211" r="6" fill="#0A0400"/>
-<circle cx="315" cy="208" r="3" fill="white" opacity="0.95"/>
-<path d="M294,209 Q310,200 326,209" stroke="#0A0400" stroke-width="2" fill="none"/>
-<path d="M294,217 Q310,224 326,217" stroke="#0A0400" stroke-width="1.5" fill="none"/>
-<path d="M326,209 Q334,204 342,197" stroke="#0A0400" stroke-width="2.5" fill="none"/>
+<ellipse cx="311" cy="213" rx="11" ry="10" fill="#000"/> <!-- Limbal ring -->
+<ellipse cx="311" cy="213" rx="10" ry="9" fill="#2A1800"/> <!-- Iris -->
+<circle cx="312" cy="211" r="5" fill="#0A0400"/> <!-- Pupil -->
+<circle cx="313" cy="208" r="3.5" fill="white" opacity="0.3"/> <!-- Soft highlight -->
+<circle cx="315" cy="208" r="2" fill="white" opacity="0.95"/> <!-- Sharp specular -->
+<g filter="url(#handPainted)">
+  <path d="M294,209 Q310,200 326,209" stroke="#0A0400" stroke-width="2.5" fill="none"/>
+  <path d="M294,217 Q310,224 326,217" stroke="#0A0400" stroke-width="2" fill="none"/>
+  <path d="M326,209 Q334,204 342,197" stroke="#0A0400" stroke-width="3" fill="none"/>
+</g>
 <ellipse cx="310" cy="213" rx="18" ry="15" fill="#FFE87A" opacity="0.1"/>
 
 <!-- NOSE — small, child -->
 <path d="M280,222 L276,235 Q280,239 284,235 L280,222" fill="#B07848"/>
+<circle cx="280" cy="235" r="4" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <ellipse cx="274" cy="236" rx="5" ry="3.5" fill="#A06838"/>
 <ellipse cx="286" cy="236" rx="5" ry="3.5" fill="#A06838"/>
 
@@ -281,9 +306,158 @@
 <!-- Cheek glow (child luminescence) -->
 <circle cx="230" cy="232" r="20" fill="#FFE890" opacity="0.2"/>
 <circle cx="330" cy="232" r="20" fill="#FFE890" opacity="0.2"/>
-<!-- Cheek decoration (ceremonial dots) -->
-<circle cx="222" cy="238" r="3" fill="#C0392B" opacity="0.7"/>
-<circle cx="338" cy="238" r="3" fill="#C0392B" opacity="0.7"/>
+<!-- Cheek decoration (ceremonial dots) refined to look like paste -->
+<g filter="url(#handPainted)">
+  <circle cx="222" cy="238" r="3.5" fill="#C0392B" opacity="0.8"/>
+  <circle cx="338" cy="238" r="3.5" fill="#C0392B" opacity="0.8"/>
+  <circle cx="222" cy="238" r="1.5" fill="#E74C3C" opacity="0.6"/>
+  <circle cx="338" cy="238" r="1.5" fill="#E74C3C" opacity="0.6"/>
+</g>
+
+<!-- ═══════════════════════════════ EXPRESSIONS ═══════════════════════════════ -->
+<text x="690" y="135" font-family="Georgia, serif" font-size="14" fill="#6A3010" text-anchor="middle" letter-spacing="2">EXPRESSION STUDIES</text>
+<line x1="610" y1="145" x2="770" y2="145" stroke="#D4AF37" stroke-width="1"/>
+
+<!-- Expr 1: SERENE (resting, ritually calm) -->
+<circle cx="650" cy="250" r="68" fill="#FFF8E8" stroke="#D4AF37" stroke-width="2"/>
+<ellipse cx="650" cy="250" rx="58" ry="60" fill="#FFE890" opacity="0.15"/>
+<text x="650" y="332" font-family="Georgia, serif" font-size="11" fill="#6A3010" text-anchor="middle">SERENE</text>
+<text x="650" y="346" font-family="Georgia, serif" font-size="9" fill="#A07030" text-anchor="middle">resting, ritual calm</text>
+<circle cx="650" cy="238" r="44" fill="url(#skinC)"/>
+<ellipse cx="636" cy="228" rx="13" ry="11" fill="white"/>
+<circle cx="636" cy="230" r="8" fill="#2A1800"/>
+<circle cx="636" cy="228" r="4.5" fill="#0A0400"/>
+<circle cx="639" cy="225" r="2.5" fill="white"/>
+<ellipse cx="664" cy="228" rx="13" ry="11" fill="white"/>
+<circle cx="664" cy="230" r="8" fill="#2A1800"/>
+<circle cx="664" cy="228" r="4.5" fill="#0A0400"/>
+<circle cx="667" cy="225" r="2.5" fill="white"/>
+<path d="M624,217 Q636,211 648,215" stroke="#2A1200" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M652,215 Q664,211 676,217" stroke="#2A1200" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<!-- Relaxed gentle smile -->
+<path d="M640,256 Q650,262 660,256" stroke="#8B3820" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M650,232 L647,243 Q650,247 653,243 L650,232" fill="#B07848"/>
+<circle cx="650" cy="208" r="6" fill="#C0392B"/>
+<circle cx="650" cy="208" r="3.5" fill="#E74C3C"/>
+<!-- Cheek glow -->
+<circle cx="628" cy="242" r="13" fill="#FFE890" opacity="0.25"/>
+<circle cx="672" cy="242" r="13" fill="#FFE890" opacity="0.25"/>
+
+<!-- Expr 2: PURPOSEFUL WALK -->
+<circle cx="760" cy="250" r="68" fill="#FFF4E0" stroke="#D4AF37" stroke-width="2"/>
+<text x="760" y="332" font-family="Georgia, serif" font-size="11" fill="#6A3010" text-anchor="middle">PURPOSEFUL</text>
+<text x="760" y="346" font-family="Georgia, serif" font-size="9" fill="#A07030" text-anchor="middle">walking — Act 4, 4:11</text>
+<circle cx="760" cy="238" r="44" fill="url(#skinC)"/>
+<!-- Eyes focused slightly downward/forward -->
+<ellipse cx="746" cy="229" rx="13" ry="10" fill="white"/>
+<circle cx="747" cy="231" r="8" fill="#2A1800"/>
+<circle cx="747" cy="229" r="4.5" fill="#0A0400"/>
+<circle cx="750" cy="226" r="2.5" fill="white"/>
+<ellipse cx="774" cy="229" rx="13" ry="10" fill="white"/>
+<circle cx="775" cy="231" r="8" fill="#2A1800"/>
+<circle cx="775" cy="229" r="4.5" fill="#0A0400"/>
+<circle cx="778" cy="226" r="2.5" fill="white"/>
+<path d="M734,218 Q746,212 758,217" stroke="#2A1200" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M762,217 Q774,212 786,218" stroke="#2A1200" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<!-- Calm neutral mouth -->
+<path d="M750,255 Q760,260 770,255" stroke="#8B3820" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M760,232 L757,242 Q760,246 763,242 L760,232" fill="#B07848"/>
+<circle cx="760" cy="208" r="6" fill="#C0392B"/>
+<circle cx="760" cy="208" r="3.5" fill="#E74C3C"/>
+<!-- Token glow reflected on face -->
+<ellipse cx="760" cy="280" rx="30" ry="20" fill="#FFE890" opacity="0.22"/>
+
+<!-- ═══════════════════════════════ TOKEN CLOSE-UP ═══════════════════════════════ -->
+<rect x="510" y="390" width="370" height="310" rx="6" fill="#FFF4E0" stroke="#D4AF37" stroke-width="2"/>
+<text x="695" y="415" font-family="Georgia, serif" font-size="13" fill="#4A2A08" text-anchor="middle" font-weight="bold" letter-spacing="1">THE TOKEN — LOTUS</text>
+<text x="695" y="433" font-family="Georgia, serif" font-size="10" fill="#8A6028" text-anchor="middle">recurring prop · links all 4 acts</text>
+<line x1="530" y1="440" x2="860" y2="440" stroke="#D4AF37" stroke-width="1" opacity="0.5"/>
+
+<!-- Large lotus token illustration -->
+<circle cx="695" cy="560" r="85" fill="#FFF8E8" opacity="0.6"/>
+<circle cx="695" cy="560" r="70" fill="#FFF0D0"/>
+<!-- Petals - 8 outer -->
+<ellipse cx="695" cy="498" rx="18" ry="32" fill="#FFEBD0" stroke="#D4AF37" stroke-width="1.5" transform="rotate(0,695,560)"/>
+<ellipse cx="695" cy="498" rx="18" ry="32" fill="#FFEBD0" stroke="#D4AF37" stroke-width="1.5" transform="rotate(45,695,560)"/>
+<ellipse cx="695" cy="498" rx="18" ry="32" fill="#FFEBD0" stroke="#D4AF37" stroke-width="1.5" transform="rotate(90,695,560)"/>
+<ellipse cx="695" cy="498" rx="18" ry="32" fill="#FFEBD0" stroke="#D4AF37" stroke-width="1.5" transform="rotate(135,695,560)"/>
+<ellipse cx="695" cy="498" rx="18" ry="32" fill="#FFEBD0" stroke="#D4AF37" stroke-width="1.5" transform="rotate(180,695,560)"/>
+<ellipse cx="695" cy="498" rx="18" ry="32" fill="#FFEBD0" stroke="#D4AF37" stroke-width="1.5" transform="rotate(225,695,560)"/>
+<ellipse cx="695" cy="498" rx="18" ry="32" fill="#FFEBD0" stroke="#D4AF37" stroke-width="1.5" transform="rotate(270,695,560)"/>
+<ellipse cx="695" cy="498" rx="18" ry="32" fill="#FFEBD0" stroke="#D4AF37" stroke-width="1.5" transform="rotate(315,695,560)"/>
+<!-- Inner petals - 8 -->
+<ellipse cx="695" cy="520" rx="11" ry="20" fill="#FFE0B8" stroke="#D4AF37" stroke-width="1" transform="rotate(22.5,695,560)"/>
+<ellipse cx="695" cy="520" rx="11" ry="20" fill="#FFE0B8" stroke="#D4AF37" stroke-width="1" transform="rotate(67.5,695,560)"/>
+<ellipse cx="695" cy="520" rx="11" ry="20" fill="#FFE0B8" stroke="#D4AF37" stroke-width="1" transform="rotate(112.5,695,560)"/>
+<ellipse cx="695" cy="520" rx="11" ry="20" fill="#FFE0B8" stroke="#D4AF37" stroke-width="1" transform="rotate(157.5,695,560)"/>
+<ellipse cx="695" cy="520" rx="11" ry="20" fill="#FFE0B8" stroke="#D4AF37" stroke-width="1" transform="rotate(202.5,695,560)"/>
+<ellipse cx="695" cy="520" rx="11" ry="20" fill="#FFE0B8" stroke="#D4AF37" stroke-width="1" transform="rotate(247.5,695,560)"/>
+<ellipse cx="695" cy="520" rx="11" ry="20" fill="#FFE0B8" stroke="#D4AF37" stroke-width="1" transform="rotate(292.5,695,560)"/>
+<ellipse cx="695" cy="520" rx="11" ry="20" fill="#FFE0B8" stroke="#D4AF37" stroke-width="1" transform="rotate(337.5,695,560)"/>
+<!-- Center -->
+<circle cx="695" cy="560" r="22" fill="#D4AF37"/>
+<circle cx="695" cy="560" r="16" fill="#FFD060"/>
+<circle cx="695" cy="560" r="9" fill="#D4AF37"/>
+<circle cx="695" cy="560" r="5" fill="#FFF0A0"/>
+<!-- Token glow -->
+<circle cx="695" cy="560" r="90" fill="#FFE890" opacity="0.12"/>
+
+<!-- Token notes -->
+<text x="530" y="688" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Carved wood or gold — warm, sacred material</text>
+<text x="530" y="704" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Act 1: sits quietly on game board, barely noticed</text>
+<text x="530" y="720" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Act 2: falls as Taleju fades — weighted, intentional</text>
+<text x="530" y="736" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Act 3: King stares at the empty space where it was</text>
+<text x="530" y="752" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Act 4: Child carries it — full circle, renewed</text>
+<text x="530" y="772" font-family="Georgia, serif" font-size="11" fill="#C8921A" font-style="italic">  "The token is not magic — it is meaning."</text>
+
+<!-- DESIGN NOTES -->
+<rect x="510" y="790" width="370" height="245" rx="6" fill="#FFF4E0" stroke="#D4AF37" stroke-width="1.5"/>
+<text x="525" y="813" font-family="Georgia, serif" font-size="13" fill="#2A1200" font-weight="bold" letter-spacing="1">DESIGN NOTES</text>
+<text x="525" y="835" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Age: 6–8 years. Head-to-body ratio ~1:5 (child)</text>
+<text x="525" y="853" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Traditional Kumari dress: deep crimson with gold</text>
+<text x="525" y="871" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Formal Kumari kohl makeup — NOT frightening</text>
+<text x="525" y="889" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Elaborate crown/hair ornament — always present</text>
+<text x="525" y="907" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Walk: slow, deliberate, ritualistically calm</text>
+<text x="525" y="925" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Glow: softer than Taleju's — warm, not blinding</text>
+<text x="525" y="943" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• NEVER sexualized — pure, protected framing only</text>
+<text x="525" y="961" font-family="Georgia, serif" font-size="11" fill="#5A3A1A">• Token held with both hands, at chest level</text>
+<text x="525" y="991" font-family="Georgia, serif" font-size="12" fill="#880818" font-style="italic">Arc: silent entrance → hope given → peace restored</text>
+
+<!-- PALETTE -->
+<rect x="0" y="1210" width="900" height="90" fill="#1A0800"/>
+<text x="450" y="1234" font-family="Georgia, serif" font-size="12" fill="#D4AF37" text-anchor="middle" letter-spacing="3">CHARACTER PALETTE</text>
+<rect x="40" y="1245" width="55" height="40" rx="4" fill="#C89870"/>
+<text x="67" y="1297" font-family="Georgia, serif" font-size="9" fill="#D4AF37" text-anchor="middle">SKIN</text>
+<text x="67" y="1308" font-family="Georgia, serif" font-size="8" fill="#A08040" text-anchor="middle">#C89870</text>
+<rect x="120" y="1245" width="55" height="40" rx="4" fill="#C01020"/>
+<text x="147" y="1297" font-family="Georgia, serif" font-size="9" fill="#D4AF37" text-anchor="middle">DRESS</text>
+<text x="147" y="1308" font-family="Georgia, serif" font-size="8" fill="#A08040" text-anchor="middle">#C01020</text>
+<rect x="200" y="1245" width="55" height="40" rx="4" fill="#880818"/>
+<text x="227" y="1297" font-family="Georgia, serif" font-size="9" fill="#D4AF37" text-anchor="middle">DARK RED</text>
+<text x="227" y="1308" font-family="Georgia, serif" font-size="8" fill="#A08040" text-anchor="middle">#880818</text>
+<rect x="280" y="1245" width="55" height="40" rx="4" fill="#D4AF37"/>
+<text x="307" y="1297" font-family="Georgia, serif" font-size="9" fill="#D4AF37" text-anchor="middle">GOLD</text>
+<text x="307" y="1308" font-family="Georgia, serif" font-size="8" fill="#A08040" text-anchor="middle">#D4AF37</text>
+<rect x="360" y="1245" width="55" height="40" rx="4" fill="#FFD060"/>
+<text x="387" y="1297" font-family="Georgia, serif" font-size="9" fill="#D4AF37" text-anchor="middle">AURA</text>
+<text x="387" y="1308" font-family="Georgia, serif" font-size="8" fill="#A08040" text-anchor="middle">#FFD060</text>
+<rect x="440" y="1245" width="55" height="40" rx="4" fill="#0A0400"/>
+<text x="467" y="1297" font-family="Georgia, serif" font-size="9" fill="#D4AF37" text-anchor="middle">KOHL</text>
+<text x="467" y="1308" font-family="Georgia, serif" font-size="8" fill="#A08040" text-anchor="middle">#0A0400</text>
+<rect x="520" y="1245" width="55" height="40" rx="4" fill="#C0392B"/>
+<text x="547" y="1297" font-family="Georgia, serif" font-size="9" fill="#D4AF37" text-anchor="middle">BINDI</text>
+<text x="547" y="1308" font-family="Georgia, serif" font-size="8" fill="#A08040" text-anchor="middle">#C0392B</text>
+<rect x="600" y="1245" width="55" height="40" rx="4" fill="#FFF0D0"/>
+<text x="627" y="1297" font-family="Georgia, serif" font-size="9" fill="#D4AF37" text-anchor="middle">LOTUS</text>
+<text x="627" y="1308" font-family="Georgia, serif" font-size="8" fill="#A08040" text-anchor="middle">#FFF0D0</text>
+<rect x="680" y="1245" width="55" height="40" rx="4" fill="#FFE890"/>
+<text x="707" y="1297" font-family="Georgia, serif" font-size="9" fill="#D4AF37" text-anchor="middle">GLOW</text>
+<text x="707" y="1308" font-family="Georgia, serif" font-size="8" fill="#A08040" text-anchor="middle">#FFE890</text>
+<rect x="760" y="1245" width="55" height="40" rx="4" fill="#1A0800"/>
+<text x="787" y="1297" font-family="Georgia, serif" font-size="9" fill="#D4AF37" text-anchor="middle">HAIR</text>
+<text x="787" y="1308" font-family="Georgia, serif" font-size="8" fill="#A08040" text-anchor="middle">#1A0800</text>
+
+</svg>
 
 <!-- ═══════════════════════════════ EXPRESSIONS ═══════════════════════════════ -->
 <text x="690" y="135" font-family="Georgia, serif" font-size="14" fill="#6A3010" text-anchor="middle" letter-spacing="2">EXPRESSION STUDIES</text>

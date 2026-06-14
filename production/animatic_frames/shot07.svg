@@ -1,5 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080">
-  <rect width="100%" height="100%" fill="#7BA8C4"/>
-  <text x="50%" y="45%" font-family="Arial" font-size="96" fill="#ffffff" text-anchor="middle">Shot 7</text>
-  <text x="50%" y="60%" font-family="Arial" font-size="40" fill="#ffffff" text-anchor="middle">1:40–1:53 — He reaches; she recoils</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Cold Harsh Atmosphere -->
+  <rect width="100%" height="100%" fill="#1A2030"/>
+
+  <!-- Background (Blurred Cold Room) -->
+  <rect x="0" y="0" width="1920" height="600" fill="#0E1520"/>
+  <rect x="810" y="100" width="300" height="400" rx="10" fill="#05080A" opacity="0.6"/> <!-- Window -->
+
+  <!-- KING (Left Side - Reaching) -->
+  <g transform="translate(600, 600) scale(1.1)">
+    <!-- Shoulders/Torso (Tilted forward) -->
+    <path d="M-250,500 L-180,50 Q20,80 220,100 L250,500 Z" fill="#5D1A1A"/>
+    <!-- Arm reaching forward -->
+    <path d="M150,200 L400,150" stroke="#5D1A1A" stroke-width="100" stroke-linecap="round"/>
+    <path d="M400,150 Q450,150 480,180" stroke="#8B6340" stroke-width="80" fill="none" stroke-linecap="round"/>
+    
+    <!-- Head/Face (Intense focus) -->
+    <ellipse cx="0" cy="0" rx="130" ry="150" fill="#8B6340"/>
+    <path d="M-100,-120 L-80,-190 L0,-230 L80,-190 L100,-120 Z" fill="#B8A060"/>
+    <!-- Narrowed Eyes -->
+    <ellipse cx="50" cy="-20" rx="30" ry="10" fill="white"/>
+    <circle cx="60" cy="-20" r="10" fill="#3D2B1F"/>
+  </g>
+
+  <!-- TALEJU (Right Side - Recoiling) -->
+  <g transform="translate(1400, 600) scale(1.1) rotate(5)">
+    <!-- Shoulders/Torso (Tilted away) -->
+    <path d="M250,500 L180,50 Q-20,80 -220,100 L-250,500 Z" fill="#D8D4B8"/>
+    <!-- Arms (Raising to protect/recoil) -->
+    <path d="M-150,200 Q-250,150 -300,50" stroke="#D8D4B8" stroke-width="90" fill="none" stroke-linecap="round" opacity="0.8"/>
+    
+    <!-- Head/Face (Recoil/Hurt) -->
+    <ellipse cx="0" cy="0" rx="125" ry="145" fill="#D4B888"/>
+    <path d="M-100,-120 L-80,-200 L0,-240 L80,-200 L100,-120 Z" fill="#B8A060"/>
+    <!-- Hurt Eyes (Wide) -->
+    <ellipse cx="-55" cy="-20" rx="35" ry="30" fill="white"/>
+    <circle cx="-65" cy="-15" r="18" fill="#2A1800"/>
+    <ellipse cx="55" cy="-20" rx="35" ry="30" fill="white"/>
+    <circle cx="45" cy="-15" r="18" fill="#2A1800"/>
+    <!-- Pained Brows -->
+    <path d="M-85,-65 Q-55,-80 -25,-65" stroke="#1A0A00" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M25,-65 Q55,-80 85,-65" stroke="#1A0A00" stroke-width="6" fill="none" stroke-linecap="round"/>
+    
+    <!-- Fading effect start (Bottom) -->
+    <rect x="-250" y="400" width="500" height="100" fill="white" opacity="0.2"/>
+  </g>
+
+  <!-- Production Data -->
+  <rect x="0" y="1000" width="1920" height="80" fill="#000" opacity="0.7"/>
+  <text x="50%" y="1055" font-family="Arial, serif" font-size="42" fill="#A8D8F0" text-anchor="middle" letter-spacing="4">SHOT 7: THE RECOIL — 1:40–1:53 — CONFRONTATION</text>
 </svg>

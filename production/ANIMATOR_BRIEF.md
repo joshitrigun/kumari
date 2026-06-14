@@ -12,42 +12,47 @@
 
 ### **The King** (Jayaprakash Malla)
 - **Appearance:** Stylized, regal; draped in traditional but not overly ornate clothing.
-- **Age:** Middle-aged, dignified bearing
+- **Costume Evolution:**
+  - **Act 1:** "Stiffly perfect" royal robes; fabric looks heavy and pressed; immaculate discipline.
+  - **Act 2:** At 1:13, a single strand of hair falls loose from the crown (the first "crack").
+  - **Act 3:** No crown or royal coat; wears a simple, damp grey cotton wrap; skin is paler with "grief texture" (age lines).
+  - **Act 4:** Soft silk/cotton robes; simple shawl; "transformed" humble posture.
 - **Arc:** 
   - Act 1: Reverent, devoted, glowing with joy in her presence
-  - Act 2: Face hardens; flash of desire/greed; anguish as she fades
+  - Act 2: Face hardens; eye glint sharpens to a metallic edge; anguish as she fades
   - Act 3: Broken, penitent, meditating in rain and solitude
   - Act 4: At peace, accepting, humble tears watching the child
-- **Key Expression Moments:** 
-  - 0:50–1:00: eyes meeting hers, wonder
-  - 1:13: flash of possessiveness
-  - 3:00–3:15: anguished searching
-  - 4:11+: quiet acceptance, tears
+- **Key Visual Acting:** 
+  - 1:13: The "Flash of Desire" — tighten hand on game piece; eye glint sharpens.
+  - 3:00–3:15: Hands "cupping" the empty space where the token once sat.
 
 ### **The Taleju** (The Goddess)
 - **Appearance:** Ethereal, glowing with soft light; neither fully human nor fully divine in look.
-- **Age:** Ageless; appears youthful but timeless
+- **Visual Performance:**
+  - **Glow:** Caustic/liquid light patterns (like water reflection) cast from her and the token.
+  - **Movement:** Weightless but purposeful; her "recoil" at 1:40 is wounded/shocked, never angry.
 - **Depiction:** 
   - No explicit nudity or sexualized framing
   - Glow/aura around her; light trails when she moves
   - Eyes convey wisdom, compassion, and (briefly) divine anger
   - Her fading should feel like dissolving into light, not disappearing
-- **Key Expression Moments:**
-  - 1:40: recoils in hurt/betrayal
-  - 1:53–2:19: fading, but with a sense of finality (not cruelty)
-  - 3:00 (dream): appears in soft mist; compassionate instruction
 
 ### **The Queen** (Brief appearance)
-- **Appearance:** Elegant, concerned; draped in royal attire
+- **Appearance:** Elegant, concerned; draped in deep magenta/plum sari to blend with shadows.
+- **Visual Performance:**
+  - **Focal Points:** Gold earrings and nose-ring (nath) catch sharp candle highlights — the "signal" in the dark.
+  - **Eyes:** Constant "tear-line" highlight on the lower lid (aching gaze, not jealousy).
 - **Moment:** 0:00–0:50 (peering through lattice/doorway)
-- **Emotion:** Jealousy, awe, shock
-- **Note:** Keep her appearance brief and non-accusatory; she triggers the rule-breaking but is not the antagonist.
+- **Emotion:** Awe, ached longing, shock
+- **Note:** The lattice is her mask; keep her sympathetic. She witnesses the breakdown of the sacred.
 
 ### **The Child (Kumari)**
-- **Appearance:** Young (6–8 years old), innocent, luminous; glowing softly
-- **Movement:** Calm, purposeful, almost ritualistic walk
-- **Prop:** Holds the recurring **token** (flower, game piece, or carved charm)
-- **Depiction:** Pure, radiant, not sexualized in any way
+- **Appearance:** Young (6–8 years old), innocent, luminous; glowing softly.
+- **Visual Performance:**
+  - **The "Slide":** Measured, processional walk. Feet barely lift (a ritualistic glide).
+  - **Makeup:** Kohl (rimmed makeup) should look "organic" and hand-painted, not a perfect mask.
+  - **Scale:** Keep her physically small against the stone architecture to emphasize her burden.
+- **Prop:** Holds the recurring **token** which casts liquid light patterns on her face.
 - **Moment:** 4:11–5:00
 - **Note:** This is the hope of the story—treat with utmost care and reverence.
 

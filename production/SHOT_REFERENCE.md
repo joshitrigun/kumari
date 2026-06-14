@@ -85,7 +85,8 @@
 - His expression changes subtly at frame 74
 - Lighting shift happens **live** (not a cut)
 - Dissonant chord must sync with his face hardening
-- **Most visually complex transition**
+- **Visual Acting:** Dissonant chord syncs with his face hardening; **crown hair strand falls**; eye glint sharpens.
+- **Most visually complex transition.**
 
 ### Shot 8 (Vanishing) - 114-139 frames
 - She dissolves gradually (not instant)

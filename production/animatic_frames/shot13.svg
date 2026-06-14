@@ -1,5 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080">
-  <rect width="100%" height="100%" fill="#5D6D7B"/>
-  <text x="50%" y="45%" font-family="Arial" font-size="96" fill="#ffffff" text-anchor="middle">Shot 13</text>
-  <text x="50%" y="60%" font-family="Arial" font-size="36" fill="#ffffff" text-anchor="middle">3:29–3:58 — Montage: candles, board, incense</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Montage Background (Divided into 3 sections) -->
+  <rect width="100%" height="100%" fill="#0E1520"/>
+  
+  <!-- Section Dividers -->
+  <line x1="640" y1="0" x2="640" y2="1000" stroke="#2A3A50" stroke-width="2"/>
+  <line x1="1280" y1="0" x2="1280" y2="1000" stroke="#2A3A50" stroke-width="2"/>
+
+  <!-- LEFT SECTION: CANDLES (Warmth in gloom) -->
+  <g transform="translate(320, 500)">
+    <rect x="-150" y="-150" width="300" height="300" fill="#1A2030" opacity="0.5"/>
+    <!-- Brass Diyas (Oil lamps) -->
+    <g transform="translate(-60, 100)">
+      <circle cx="0" cy="0" r="40" fill="#FFB347" opacity="0.2"/> <!-- Glow -->
+      <path d="M-20,0 Q0,-30 20,0 L20,10 L-20,10 Z" fill="#8B5A20"/> <!-- Brass base -->
+      <path d="M0,-10 Q5,-25 0,-35 Q-5,-25 0,-10" fill="#FFD060"/> <!-- Flame -->
+    </g>
+    <g transform="translate(60, 80)">
+      <circle cx="0" cy="0" r="30" fill="#FFB347" opacity="0.15"/>
+      <path d="M-15,0 Q0,-20 15,0 L15,8 L-15,8 Z" fill="#8B5A20"/>
+      <path d="M0,-8 Q4,-20 0,-28 Q-4,-20 0,-8" fill="#FFD060"/>
+    </g>
+  </g>
+
+  <!-- MIDDLE SECTION: THE EMPTY BOARD (Silence) -->
+  <g transform="translate(960, 500)">
+    <rect x="-250" y="-200" width="500" height="400" fill="#1A2030" opacity="0.5"/>
+    <!-- The Chokhat Board (Empty) -->
+    <ellipse cx="0" cy="100" rx="200" ry="60" fill="#0A0805"/>
+    <ellipse cx="0" cy="90" rx="180" ry="50" fill="#3D2210"/>
+    <ellipse cx="0" cy="90" rx="150" ry="40" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0.2"/>
+  </g>
+
+  <!-- RIGHT SECTION: INCENSE SMOKE (Spirituality) -->
+  <g transform="translate(1600, 500)">
+    <rect x="-150" y="-150" width="300" height="300" fill="#1A2030" opacity="0.5"/>
+    <!-- Brass Censer -->
+    <path d="M-30,100 L30,100 L20,80 L-20,80 Z" fill="#8B5A20"/>
+    <circle cx="0" cy="70" r="25" fill="#8B5A20"/>
+    <!-- Ethereal Smoke (Wispy paths) -->
+    <g stroke="#FFF" stroke-width="2" opacity="0.15">
+      <path d="M0,50 Q-20,0 10,-50 T0,-150" fill="none"/>
+      <path d="M5,50 Q20,20 -10,-40 T5,-120" fill="none" opacity="0.1"/>
+      <path d="M-5,50 Q-10,30 5,-30 T-5,-100" fill="none" opacity="0.1"/>
+    </g>
+  </g>
+
+  <!-- RAIN OVERLAY (Subtle across all) -->
+  <g stroke="#9BB3CC" stroke-width="0.5" opacity="0.1">
+    <line x1="100" y1="0" x2="90" y2="1000"/>
+    <line x1="800" y1="0" x2="790" y2="1000"/>
+    <line x1="1500" y1="0" x2="1490" y2="1000"/>
+  </g>
+
+  <!-- Production Data -->
+  <rect x="0" y="1000" width="1920" height="80" fill="#000" opacity="0.7"/>
+  <text x="50%" y="1055" font-family="Arial, serif" font-size="42" fill="#9BB3CC" text-anchor="middle" letter-spacing="4">SHOT 13: MONTAGE OF PENANCE — 3:29–3:58 — SYMBOLS OF DEVOTION</text>
 </svg>

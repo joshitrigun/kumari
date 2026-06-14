@@ -1,5 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080">
-  <rect width="100%" height="100%" fill="#C9D9E8"/>
-  <text x="50%" y="45%" font-family="Arial" font-size="96" fill="#122033" text-anchor="middle">Shot 11</text>
-  <text x="50%" y="60%" font-family="Arial" font-size="40" fill="#122033" text-anchor="middle">3:00–3:15 — Dream: Taleju in mist</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Rainy Night Atmosphere -->
+  <rect width="100%" height="100%" fill="#1A2030"/>
+
+  <!-- Alley Walls (Blurred/Dark) -->
+  <path d="M0,0 L800,400 L800,600 L0,1080 Z" fill="#0E1520" opacity="0.8"/>
+  <path d="M1920,0 L1120,400 L1120,600 L1920,1080 Z" fill="#0E1520" opacity="0.8"/>
+
+  <!-- DREAM MIST (Lavender) -->
+  <rect width="100%" height="100%" fill="#C0B8E0" opacity="0.1"/>
+  <circle cx="960" cy="540" r="600" fill="#E8E0F8" opacity="0.15"/>
+
+  <!-- KING (Meditating - Bottom Center) -->
+  <g transform="translate(960, 900) scale(0.7)">
+    <!-- Body (Cross-legged, hunched) -->
+    <path d="M-150,100 Q0,-50 150,100 L200,200 L-200,200 Z" fill="#3A4A55"/>
+    <ellipse cx="0" cy="-50" rx="55" ry="65" fill="#6B4528"/>
+  </g>
+
+  <!-- TALEJU (Dream Silhouette - Center) -->
+  <g transform="translate(960, 450) scale(1.2)">
+    <!-- Translucent Silhouette -->
+    <path d="M-120,300 Q-100,0 0,-100 Q100,0 120,300 Z" fill="#FFF8E8" opacity="0.4"/>
+    <!-- Head/Face (Ethereal Vision) -->
+    <ellipse cx="0" cy="-100" rx="90" ry="110" fill="#FFF8E8" opacity="0.6"/>
+    <!-- Subtle Crown Hint -->
+    <path d="M-60,-180 L0,-230 L60,-180 Z" fill="#FFE87A" opacity="0.3"/>
+    <!-- Compassionate Gaze Hint -->
+    <ellipse cx="-40" cy="-100" rx="20" ry="15" fill="#2A1800" opacity="0.3"/>
+    <ellipse cx="40" cy="-100" rx="20" ry="15" fill="#2A1800" opacity="0.3"/>
+  </g>
+
+  <!-- RAIN OVERLAY (Passing through Taleju) -->
+  <g stroke="#9BB3CC" stroke-width="1" opacity="0.15">
+    <line x1="800" y1="0" x2="780" y2="1080"/>
+    <line x1="960" y1="0" x2="940" y2="1080"/>
+    <line x1="1120" y1="0" x2="1100" y2="1080"/>
+  </g>
+
+  <!-- Production Data -->
+  <rect x="0" y="1000" width="1920" height="80" fill="#000" opacity="0.7"/>
+  <text x="50%" y="1055" font-family="Arial, serif" font-size="42" fill="#C0B8E0" text-anchor="middle" letter-spacing="4">SHOT 11: DREAM VISION — 3:00–3:15 — SUPERNATURAL APPEARANCE</text>
 </svg>

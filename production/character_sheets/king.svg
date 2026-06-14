@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="1300" viewBox="0 0 900 1300">
 <defs>
+  <pattern id="wovenTexture" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+    <path d="M0,5 L10,5 M5,0 L5,10" stroke="#000" stroke-width="0.5" opacity="0.1"/>
+  </pattern>
   <radialGradient id="skinGrad" cx="50%" cy="40%" r="55%">
     <stop offset="0%" stop-color="#A0714F"/>
-    <stop offset="100%" stop-color="#7A5030"/>
+    <stop offset="85%" stop-color="#7A5030"/>
+    <stop offset="100%" stop-color="#5A3520"/> <!-- Warmer deep occlusion -->
+  </radialGradient>
+  <radialGradient id="skinWarm" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#D47050" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#D47050" stop-opacity="0"/>
   </radialGradient>
   <linearGradient id="robeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
     <stop offset="0%" stop-color="#7A1515"/>
@@ -36,6 +44,7 @@
 
 <!-- LOWER ROBES -->
 <path d="M175,560 Q165,700 185,875 L370,875 Q390,700 380,560 Z" fill="#3D0A0A"/>
+<path d="M175,560 Q165,700 185,875 L370,875 Q390,700 380,560 Z" fill="url(#wovenTexture)" opacity="0.2"/>
 <path d="M175,560 Q165,700 185,875" stroke="#D4AF37" stroke-width="3" fill="none"/>
 <path d="M380,560 Q390,700 370,875" stroke="#D4AF37" stroke-width="3" fill="none"/>
 <!-- Robe hem border -->
@@ -51,16 +60,20 @@
 <!-- RIGHT ARM (viewer left) -->
 <path d="M175,340 Q145,420 140,510" stroke="#7A1515" stroke-width="38" fill="none" stroke-linecap="round"/>
 <path d="M175,340 Q145,420 140,510" stroke="#4A0808" stroke-width="34" fill="none" stroke-linecap="round"/>
+<!-- Fabric texture overlay on arm -->
+<path d="M175,340 Q145,420 140,510" stroke="url(#wovenTexture)" stroke-width="34" fill="none" stroke-linecap="round" opacity="0.15"/>
 <!-- Gold trim on sleeve -->
 <path d="M148,490 Q152,502 165,508" stroke="#D4AF37" stroke-width="3" fill="none"/>
 
 <!-- LEFT ARM (viewer right) -->
 <path d="M390,340 Q415,420 418,510" stroke="#7A1515" stroke-width="38" fill="none" stroke-linecap="round"/>
 <path d="M390,340 Q415,420 418,510" stroke="#4A0808" stroke-width="34" fill="none" stroke-linecap="round"/>
+<path d="M390,340 Q415,420 418,510" stroke="url(#wovenTexture)" stroke-width="34" fill="none" stroke-linecap="round" opacity="0.15"/>
 <path d="M410,490 Q406,502 393,508" stroke="#D4AF37" stroke-width="3" fill="none"/>
 
 <!-- RIGHT HAND -->
 <ellipse cx="133" cy="522" rx="22" ry="16" fill="url(#skinGrad)"/>
+<circle cx="125" cy="525" r="8" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <path d="M118,514 Q108,497 114,489" stroke="#8B6340" stroke-width="9" fill="none" stroke-linecap="round"/>
 <path d="M127,510 Q118,492 125,484" stroke="#8B6340" stroke-width="9" fill="none" stroke-linecap="round"/>
 <path d="M137,508 Q132,490 140,482" stroke="#8B6340" stroke-width="9" fill="none" stroke-linecap="round"/>
@@ -68,6 +81,7 @@
 
 <!-- LEFT HAND -->
 <ellipse cx="425" cy="522" rx="22" ry="16" fill="url(#skinGrad)"/>
+<circle cx="433" cy="525" r="8" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <path d="M440,514 Q450,497 444,489" stroke="#8B6340" stroke-width="9" fill="none" stroke-linecap="round"/>
 <path d="M431,510 Q440,492 433,484" stroke="#8B6340" stroke-width="9" fill="none" stroke-linecap="round"/>
 <path d="M421,508 Q426,490 418,482" stroke="#8B6340" stroke-width="9" fill="none" stroke-linecap="round"/>
@@ -75,6 +89,7 @@
 
 <!-- TORSO / ROYAL COAT -->
 <path d="M188,310 L175,560 L380,560 L365,310 Q340,330 280,325 Q220,330 188,310 Z" fill="url(#robeGrad)"/>
+<path d="M188,310 L175,560 L380,560 L365,310 Q340,330 280,325 Q220,330 188,310 Z" fill="url(#wovenTexture)" opacity="0.15"/>
 <!-- Coat left edge gold -->
 <path d="M188,310 L175,560" stroke="#D4AF37" stroke-width="4" fill="none"/>
 <path d="M365,310 L380,560" stroke="#D4AF37" stroke-width="4" fill="none"/>
@@ -107,6 +122,7 @@
 
 <!-- NECK -->
 <path d="M256,268 Q248,285 248,300 L312,300 Q312,285 304,268 Z" fill="url(#skinGrad)"/>
+<circle cx="280" cy="275" r="10" fill="url(#skinWarm)"/> <!-- SSS detail under chin -->
 
 <!-- HEAD BASE -->
 <ellipse cx="280" cy="200" rx="78" ry="88" fill="url(#skinGrad)"/>
@@ -114,6 +130,7 @@
 <!-- EAR RIGHT -->
 <ellipse cx="202" cy="205" rx="14" ry="18" fill="#8B6340"/>
 <ellipse cx="202" cy="205" rx="8" ry="11" fill="#7A5030"/>
+<circle cx="208" cy="205" r="5" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <!-- Earring right -->
 <circle cx="202" cy="218" r="7" fill="#D4AF37"/>
 <circle cx="202" cy="218" r="4" fill="#FFD700"/>
@@ -121,6 +138,7 @@
 <!-- EAR LEFT -->
 <ellipse cx="358" cy="205" rx="14" ry="18" fill="#8B6340"/>
 <ellipse cx="358" cy="205" rx="8" ry="11" fill="#7A5030"/>
+<circle cx="352" cy="205" r="5" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <circle cx="358" cy="218" r="7" fill="#D4AF37"/>
 <circle cx="358" cy="218" r="4" fill="#FFD700"/>
 
@@ -157,22 +175,27 @@
 
 <!-- RIGHT EYE -->
 <ellipse cx="252" cy="185" rx="15" ry="10" fill="white"/>
-<ellipse cx="254" cy="185" rx="10" ry="8" fill="#3D2B1F"/>
-<circle cx="255" cy="183" r="5" fill="#0D0500"/>
-<circle cx="258" cy="181" r="2.5" fill="white" opacity="0.9"/>
+<ellipse cx="254" cy="185" rx="11" ry="9" fill="#000"/> <!-- Limbal ring -->
+<ellipse cx="254" cy="185" rx="10" ry="8" fill="#3D2B1F"/> <!-- Iris -->
+<circle cx="255" cy="183" r="5" fill="#0D0500"/> <!-- Pupil -->
+<circle cx="256" cy="181" r="3.5" fill="white" opacity="0.3"/> <!-- Soft highlight -->
+<circle cx="258" cy="181" r="1.5" fill="white" opacity="0.9"/> <!-- Sharp specular -->
 <path d="M237,183 Q252,175 267,183" stroke="#2A1500" stroke-width="1.5" fill="none"/>
 <path d="M238,188 Q252,194 266,188" stroke="#2A1500" stroke-width="1.5" fill="none" opacity="0.5"/>
 
 <!-- LEFT EYE -->
 <ellipse cx="308" cy="185" rx="15" ry="10" fill="white"/>
-<ellipse cx="310" cy="185" rx="10" ry="8" fill="#3D2B1F"/>
-<circle cx="311" cy="183" r="5" fill="#0D0500"/>
-<circle cx="314" cy="181" r="2.5" fill="white" opacity="0.9"/>
+<ellipse cx="310" cy="185" rx="11" ry="9" fill="#000"/> <!-- Limbal ring -->
+<ellipse cx="310" cy="185" rx="10" ry="8" fill="#3D2B1F"/> <!-- Iris -->
+<circle cx="311" cy="183" r="5" fill="#0D0500"/> <!-- Pupil -->
+<circle cx="312" cy="181" r="3.5" fill="white" opacity="0.3"/> <!-- Soft highlight -->
+<circle cx="314" cy="181" r="1.5" fill="white" opacity="0.9"/> <!-- Sharp specular -->
 <path d="M293,183 Q308,175 323,183" stroke="#2A1500" stroke-width="1.5" fill="none"/>
 <path d="M294,188 Q308,194 322,188" stroke="#2A1500" stroke-width="1.5" fill="none" opacity="0.5"/>
 
 <!-- NOSE -->
 <path d="M280,193 L273,215 Q278,221 283,221 Q288,221 287,215 L280,193" fill="#7A5030"/>
+<circle cx="280" cy="218" r="5" fill="url(#skinWarm)"/> <!-- SSS detail -->
 <ellipse cx="272" cy="216" rx="7" ry="5" fill="#6B4525"/>
 <ellipse cx="288" cy="216" rx="7" ry="5" fill="#6B4525"/>
 
