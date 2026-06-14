@@ -11,12 +11,12 @@
 ## Character Descriptions
 
 ### **The King** (Jayaprakash Malla)
-- **Appearance:** Stylized, regal; draped in traditional but not overly ornate clothing.
+- **Appearance:** Hyper-realistic 18th-century Nepali/Newar Malla king; 50-year-old, medium brown skin, tired hollowed cheeks, firm jaw, deep-set dark eyes, slight mustache/beard, vermillion tika. Avoid cinematic fantasy or generic Indian royal tropes.
 - **Costume Evolution:**
-  - **Act 1:** "Stiffly perfect" royal robes; fabric looks heavy and pressed; immaculate discipline.
-  - **Act 2:** At 1:13, a single strand of hair falls loose from the crown (the first "crack").
-  - **Act 3:** No crown or royal coat; wears a simple, damp grey cotton wrap; skin is paler with "grief texture" (age lines).
-  - **Act 4:** Soft silk/cotton robes; simple shawl; "transformed" humble posture.
+  - **Act 1:** "Stiffly perfect" Malla-era Newar court attire; deep madder-dyed cotton tapalan, thick patuka sash, pleated jama wrap. He wears a multi-tiered gold repoussé headpiece (no turbans).
+  - **Act 2:** At 1:13, a single strand of hair falls loose from the headpiece (the first "crack").
+  - **Act 3:** Bareheaded, wearing only a damp, grey unbleached cotton wrap; skin is paler with "grief texture" (exhaustion).
+  - **Act 4:** Simple Nepali cotton shawl; "transformed" humble posture, no restored vanity.
 - **Arc:** 
   - Act 1: Reverent, devoted, glowing with joy in her presence
   - Act 2: Face hardens; eye glint sharpens to a metallic edge; anguish as she fades
@@ -27,18 +27,17 @@
   - 3:00–3:15: Hands "cupping" the empty space where the token once sat.
 
 ### **The Taleju** (The Goddess)
-- **Appearance:** Ethereal, glowing with soft light; neither fully human nor fully divine in look.
+- **Appearance:** Taleju Bhawani as Malla royal tutelary goddess / kuladevi, tantric Durga. Flawless golden-bronze skin (authentic Nepali/Newar features), large calm dark eyes. No glowing fantasy magic. Wears heavy Newar ceremonial brocade (Kinkhab) in deep vermillion and gold, draped like a temple idol. Three-tiered gold repoussé temple crown and a subtle copper Shri Yantra mandala behind her head. Not a romantic partner or glamour goddess.
 - **Visual Performance:**
-  - **Glow:** Caustic/liquid light patterns (like water reflection) cast from her and the token.
-  - **Movement:** Weightless but purposeful; her "recoil" at 1:40 is wounded/shocked, never angry.
+  - **Glow:** Subtle warm oil lamp reflection cast from her and the token, grounded structurally in realism.
+  - **Movement:** Ritualistic, still; her "recoil" at 1:40 is a slow retreat into deep shadow.
 - **Depiction:** 
-  - No explicit nudity or sexualized framing
-  - Glow/aura around her; light trails when she moves
-  - Eyes convey wisdom, compassion, and (briefly) divine anger
-  - Her fading should feel like dissolving into light, not disappearing
+  - Grounded in paubha/temple realism. Avoid over-bright CGI glows.
+  - Eyes convey wisdom, compassion, sovereign boundary, and wounded sacred authority
+  - Her fading should feel like receding into shadow and candle-smoke.
 
 ### **The Queen** (Brief appearance)
-- **Appearance:** Elegant, concerned; draped in deep magenta/plum sari to blend with shadows.
+- **Appearance:** 40-year-old Nepali/Newar noblewoman. Medium brown face, restrained kohl, tear-line highlight, dark hair in a traditional compact Newar bun. She wears authentic traditional Newar jewelry (Tayoh, huge Bulaki septum ring) and a thick black cotton wrap with a stark solid red border (Haku Patasi draping) and maroon velvet shawl. Seen only through carved dark wood lattice (ankhijhyal). Avoid generic sari or fantasy queen styling.
 - **Visual Performance:**
   - **Focal Points:** Gold earrings and nose-ring (nath) catch sharp candle highlights — the "signal" in the dark.
   - **Eyes:** Constant "tear-line" highlight on the lower lid (aching gaze, not jealousy).
@@ -47,11 +46,11 @@
 - **Note:** The lattice is her mask; keep her sympathetic. She witnesses the breakdown of the sacred.
 
 ### **The Child (Kumari)**
-- **Appearance:** Young (6–8 years old), innocent, luminous; glowing softly.
+- **Appearance:** Newborn Royal Kumari infant, living embodiment of Taleju. Perfectly still expression, thick black kohl to temples, large red/yellow fire-eye (agni-chakshu) painted over forehead. She wears miniature heavy crimson-red raw cotton and silk brocade with real hammered-gold Kumari jewelry. Not a cute baby, but a vessel of immense gravity.
 - **Visual Performance:**
-  - **The "Slide":** Measured, processional walk. Feet barely lift (a ritualistic glide).
-  - **Makeup:** Kohl (rimmed makeup) should look "organic" and hand-painted, not a perfect mask.
-  - **Scale:** Keep her physically small against the stone architecture to emphasize her burden.
+  - **The "Reveal":** She does not walk. She is carried by a temple priest/Queen or rests on a ceremonial embroidered cushion. Uncanny stillness for an infant.
+  - **Makeup:** Kohl and agni-chakshu/fire-eye should look organically applied on a tiny face.
+  - **Scale:** The extreme contrast between the massive, broken King and the tiny newborn emphasizes his complete submission to the divine.
 - **Prop:** Holds the recurring **token** which casts liquid light patterns on her face.
 - **Moment:** 4:11–5:00
 - **Note:** This is the hope of the story—treat with utmost care and reverence.

@@ -68,13 +68,15 @@ def build_concat_file():
             continue
         duration_sec = dur_f / FPS
         total_seconds += duration_sec
-        # ffmpeg concat format requires absolute paths or relative-to-concat-file paths
-        lines.append(f"file '{path}'")
+        # Keep concat paths portable across machines by making them relative to animatic_output/.
+        concat_path = os.path.relpath(path, OUTPUT_DIR).replace(os.sep, "/")
+        lines.append(f"file '{concat_path}'")
         lines.append(f"duration {duration_sec:.6f}")
 
     # Repeat last file without duration (required by ffmpeg concat demuxer)
     last_path = os.path.join(FRAMES_DIR, SHOTS[-1][0])
-    lines.append(f"file '{last_path}'")
+    last_concat_path = os.path.relpath(last_path, OUTPUT_DIR).replace(os.sep, "/")
+    lines.append(f"file '{last_concat_path}'")
 
     with open(CONCAT_FILE, "w") as f:
         f.write("\n".join(lines) + "\n")
@@ -111,7 +113,11 @@ def print_manual_instructions():
     print("\n" + "="*60)
     print("ffmpeg not found. Install it first:")
     print()
-    print("  brew install ffmpeg")
+    if os.name == "nt":
+        print("  winget install Gyan.FFmpeg")
+        print("  # or: choco install ffmpeg")
+    else:
+        print("  brew install ffmpeg")
     print()
     print("Then run this script again, or run ffmpeg directly:")
     print()

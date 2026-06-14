@@ -25,7 +25,7 @@ SHOTS = [
     ("shot01", "Shot 01 – Sacred Chamber establish",    1,    120),
     ("shot02", "Shot 02 – Dolly to game table",        121,    360),
     ("shot03", "Shot 03 – Hands on game pieces",       361,    720),
-    ("shot04", "Shot 04 – King & Taleju two-shot",     721,   1200),
+    ("shot04", "Shot 04 - Queen witnesses sacred fracture", 721, 1200),
     ("shot05", "Shot 05 – Eyes meeting (ACT 1 PEAK)", 1201,   1752),
     ("shot06", "Shot 06 – Lighting shift (TRANSGRESS)",1753,  2400),
     ("shot07", "Shot 07 – He reaches, she recoils",   2401,   2712),

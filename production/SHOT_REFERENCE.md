@@ -175,7 +175,7 @@
 ## DELIVERABLES CHECKLIST
 
 - [ ] Storyboard sketches (17 shots)
-- [ ] Character design sheets (King, Taleju, Queen, Child)
+- [ ] Approved bitmap character references (King, Taleju, Queen, Child). Do not use deleted SVG character sheets.
 - [ ] Environment mood boards (Chamber, Alley, Courtyard)
 - [ ] Color graded test renders (one per act)
 - [ ] Rough animatic with placeholder visuals

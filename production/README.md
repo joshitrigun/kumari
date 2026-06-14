@@ -1,359 +1,127 @@
-# The King's Regret — Production Package
-## Complete Animation Storyboard & Technical Guide
-
-**Project:** "The King's Regret" — Animated Music Video  
-**Based on:** The Kumari Legend (King Jayaprakash Malla & Goddess Taleju)  
-**Duration:** 5:00 (300 seconds)  
-**Frame Rate:** 24fps (7200 total frames)  
-**Resolution:** 1920×1080 (Full HD)  
-**Style:** Stylized 2D/2.5D animation (hand-drawn + digital)  
-**Software Recommended:** Blender (Grease Pencil) + DaVinci Resolve  
-
----
-
-## 📁 Files in This Package
-
-### **Core Documentation**
-
-1. **ANIMATOR_BRIEF.md** ← *START HERE*
-   - Comprehensive guide for animators
-   - Character descriptions & arc
-   - Set design & environment specs
-   - Shot-by-shot breakdown (all 17 shots)
-   - Music cues & sync points
-   - Cultural sensitivity guidelines
-   - **Use this:** As your main reference while animating
-
-2. **COLOR_PALETTE.md**
-   - Exact HEX codes for all four acts
-   - RGB values for implementation
-   - Lighting temperature specs (in Kelvin)
-   - Mood board references
-   - Practical tips for Blender, After Effects, DaVinci Resolve
-   - **Use this:** For color grading, lighting setup, material swatches
-
-3. **SHOT_REFERENCE.md**
-   - Quick-lookup table (all 17 shots, timings, frame numbers)
-   - Critical beats & music sync points
-   - Animation focus areas (what to animate carefully)
-   - Prop continuity checklist
-   - Camera movement guide
-   - Blender commands & deliverables checklist
-   - **Use this:** During production for quick reference & shot scheduling
-
-4. **blender_setup.py**
-   - Automated Blender scene setup script
-   - Creates lighting rigs for all four acts
-   - Adds timeline markers at key beats
-   - Sets up color swatch materials
-   - Creates reference objects (game table, camera)
-   - **Use this:** Run once in Blender to auto-populate your scene
-   - **How:** Scripting workspace → Open file → Alt+P
-
-5. **README.md** (this file)
-   - Overview & quick-start guide
-   - File descriptions & workflows
-   - Production timeline suggestions
-   - Contact & revision notes
-
----
-
-## 🚀 Quick-Start Workflow
-
-### **Phase 1: Setup & Planning (Day 1)**
-1. Read **ANIMATOR_BRIEF.md** entirely (understand the story & visuals)
-2. Review **COLOR_PALETTE.md** (understand the visual progression)
-3. Skim **SHOT_REFERENCE.md** (get familiar with shot structure)
-4. Open Blender and run **blender_setup.py** (auto-create your scene)
-
-### **Phase 2: Pre-Production (Days 2–3)**
-1. Create **storyboard sketches** for all 17 shots (rough, blue-pencil style)
-2. Design **character sheets** (King, Taleju, Queen, Child) with expressions
-3. Design **environment sketches** (Sacred Chamber, Alley, Courtyard)
-4. Gather or create **mood board references** (paintings, photos, textures)
-5. Test **color palettes** in Blender or After Effects (create swatches, verify contrast)
-
-### **Phase 3: Animatic & Rough Layout (Days 4–7)**
-1. Import the music file into Blender timeline
-2. Create a **rough animatic** with simple shapes/placeholders
-3. Ensure **shot timings match your music** (especially critical beats: 1:13, 1:53, 4:11)
-4. Test **lighting transitions** (especially the warm→cool shift at 1:13)
-5. Get **feedback on storyboard** from collaborators/Newar cultural consultants
-
-### **Phase 4: Character Animation (Days 8–21)**
-1. Create **Grease Pencil layers** for each shot
-2. Animate **key movements** (hands on game pieces, eyes meeting, reaching, fading, etc.)
-3. Sync **every movement to music** (use timeline markers as guides)
-4. Focus on **critical scenes:** Shots 5, 6, 8, 11, 15, 17 (highest emotional weight)
-5. Placeholder **secondary characters** if necessary
-
-### **Phase 5: Effects & Atmosphere (Days 22–25)**
-1. Add **incense smoke** (Grease Pencil brushwork or particle sims)
-2. Add **light trails & glows** (especially around Taleju and Child)
-3. Animate **color transitions** (especially 1:13 shift, dream mist, dawn light)
-4. Add **water/rain effects** (Acts 3–4)
-5. Test **dissolve/fade effects** (Taleju vanishing, token falling)
-
-### **Phase 6: Composite & Color Grade (Days 26–28)**
-1. Render **all shots** from Blender with passes (color, depth, AOV)
-2. Import into **DaVinci Resolve** for final color grading
-3. Apply **per-act color grading** (warm for Act 1, cool for Act 2, etc.)
-4. Add **light effects** (glows, bloom, lens flares if needed)
-5. Sync **audio** (music + any ambient sounds like rain)
-
-### **Phase 7: Review & Final Delivery (Days 29–30)**
-1. Full **color-graded preview** with music
-2. **Cultural sensitivity review** (share with Newar consultants if possible)
-3. Get **feedback from collaborators**
-4. Make **final adjustments** (color, timing, expressions)
-5. **Export to master format** (ProRes or DNxHD for archival, H.264 for delivery)
-
----
-
-## 📊 Production Timeline Estimate
-
-| Phase | Duration | Key Deliverable |
-|-------|----------|---|
-| Setup & Planning | 1 day | Blender scene + storyboards |
-| Pre-Production | 2 days | Character/environment designs + mood boards |
-| Animatic & Layout | 4 days | Rough animatic with correct timings |
-| Character Animation | 14 days | Full character animation (all 17 shots) |
-| Effects & Atmosphere | 4 days | Smoke, light, transitions, weather |
-| Composite & Grade | 3 days | Final color grading + audio sync |
-| Review & Delivery | 2 days | Feedback + final export |
-| **TOTAL** | **~30 days** | **Complete 5-minute video** |
-
-**Parallel Work:** Some phases can overlap (e.g., design while animatic is being reviewed).
-
----
-
-## 🎨 Visual Progression Summary
-
-### **Act 1: The Golden Era (0:00–1:13)**
-- **Color:** Warm golds (#FFE680, #F4E4C1)
-- **Lighting:** Candlelight, soft, intimate
-- **Mood:** Sacred, reverent, timeless devotion
-- **Key Action:** King & Taleju play game; eyes meet; hand touches
-- **Music:** Gentle instrumental, wistful lyrics
-
-### **Act 2: Transgression & Vanishing (1:13–2:20)**
-- **Color:** Cool blues (#A8D8F0, #4A6FA5)
-- **Lighting:** Harsh, desaturated, isolated
-- **Mood:** Shock, obsession, loss
-- **Key Action:** Lighting shift; his desire flashes; she fades
-- **Music:** Dissonant chord hit, melancholic flute solo
-
-### **Act 3: Penance & Dream (2:40–3:58)**
-- **Color:** Desaturated greys & blues (very muted)
-- **Lighting:** Rain, night, single warm lamp
-- **Mood:** Grief, desperation, spiritual seeking
-- **Key Action:** Rain montage; meditation; dream appears
-- **Music:** Sparse percussion, ethereal pads, orchestral building
-
-### **Act 4: Rebirth & Dawn (4:11–5:00)**
-- **Color:** Soft warm dawn golds (#F5E6D3, #FFD4A3)
-- **Lighting:** Sunrise, soft diffusion, hopeful
-- **Mood:** Acceptance, renewal, childlike purity
-- **Key Action:** Child appears with token; blessings; peace
-- **Music:** New hopeful motif, gentle hymn, chorus returns
-
----
-
-## 🎬 Key Animation Moments (Priority Order)
-
-### **MUST ANIMATE WELL:**
-1. **Shot 5 (0:50–1:13):** Eyes meeting, hands, intimacy — **emotional peak of Act 1**
-2. **Shot 6 (1:13–1:40):** Lighting shift + his face hardening — **most visually critical transition**
-3. **Shot 8 (1:53–2:19):** Her vanishing, token falls — **longest emotional beat**
-4. **Shot 15 (4:11–4:40):** Child appears with token — **narrative turning point**
-
-### **IMPORTANT BUT CAN SIMPLIFY IF TIME RUNNING LOW:**
-- Shot 13 (Montage): Can be quick cuts + still frames
-- Shot 11 (Dream): Can be soft/blurred, minimal detail
-- Shot 16 (People bow): Can be silhouettes or simple shapes
-
----
-
-## 🔧 Technical Requirements
-
-### **Hardware:**
-- **RAM:** 16GB minimum (32GB recommended for Blender + effects)
-- **GPU:** CUDA/HIP capable (for Blender rendering)
-- **Storage:** 500GB+ (video files, renders, cache)
-- **CPU:** Multi-core processor (animation requires CPU power)
-
-### **Software:**
-- **Blender 3.6+** (free, open-source) — Grease Pencil for animation
-- **DaVinci Resolve 18+** (free version sufficient) — Color grading & editing
-- **Optional:** After Effects (subscription) — advanced compositing
-- **Audio:** Your music file (MP3, WAV, AAC accepted in Blender)
-
-### **Export Settings:**
-- **Format:** H.264 MP4 (for YouTube)
-- **Codec:** AAC audio, H.264 video
-- **Bitrate:** 15–20 Mbps (1080p)
-- **Frame Rate:** 24fps
-- **Resolution:** 1920×1080
-- **Color Space:** Rec. 709 (standard YouTube)
-
----
-
-## 🌍 Cultural Sensitivity Checklist
-
-Before finalizing:
-
-- [ ] **No explicit sacred ceremonies** depicted (only symbolic references)
-- [ ] **Child (Kumari) depicted respectfully** — no sexualization, pure/innocent
-- [ ] **Taleju shown as compassionate & wise** — not punitive
-- [ ] **Newar/Nepalese architecture is accurate** — consult references
-- [ ] **Caste terminology used carefully** or avoided (use "chosen girl" if unsure)
-- [ ] **Shared with cultural consultants** (if possible, get feedback from Newar community)
-- [ ] **No harmful stereotypes** of Nepal or Kathmandu (not "exotic," not "mystical" in patronizing way)
-- [ ] **Hindu-Buddhist synthesis respected** (Kumari tradition bridges both faiths)
-
----
-
-## 📝 Revision & Feedback Process
-
-### **Checkpoint Reviews:**
-1. **After animatic:** Share rough video with director/collaborators
-   - Verify timings match music
-   - Check shot composition & flow
-   - Confirm lighting transitions are clear
-
-2. **After character animation:** Share with cultural consultants
-   - Ensure respectful depiction
-   - Verify details (clothing, props, expressions)
-   - Catch any potential sensitivities
-
-3. **After color grade:** Final full preview
-   - Color progression (warm → cool → warm) is clear
-   - All visual effects (smoke, glows) are visible
-   - Audio is in sync with visuals
-
-### **Feedback Template:**
-```
-SCENE: [Shot number]
-FEEDBACK:
-- Visual: [What's working/not working]
-- Timing: [Music sync notes]
-- Emotional Impact: [Does it land?]
-- Technical: [Any glitches or artifacts?]
-- Cultural: [Any sensitivity concerns?]
-
-REVISION PRIORITY: [High/Medium/Low]
-```
-
----
-
-## 🎵 Music Sync Critical Points
-
-**These moments MUST align with music:**
-
-| Time | Frame | Event | Music Cue | Visual Must-Hit |
-|------|-------|-------|-----------|---|
-| 1:13 | 1752 | **TRANSGRESSION** | Dissonant chord HIT | Lighting shifts warm→cool |
-| 1:53 | 2832 | **VANISHING** | Flute solo begins | She starts dissolving |
-| 3:00 | 4320 | Dream entry | Ethereal pad rises | Soft-focus, mist appears |
-| 4:11 | 6024 | **KUMARI APPEARS** | New hopeful motif | Child walks into frame |
-| 5:00 | 7200 | End | Chorus returns | Token on board, fade to black |
-
----
-
-## 📞 Notes for Collaborators
-
-### **For the Director/Producer:**
-- Keep the narrative focus on **transformation of the King's heart** (not a tragedy, but redemption)
-- Ensure **every frame serves the story** (no filler; every shot is intentional)
-- **Cultural respect is non-negotiable** (get feedback from Newar/Nepalese consultants)
-
-### **For the Lead Animator:**
-- This is a **slow, contemplative piece** — avoid quick cuts and frenetic motion
-- **Light and color do heavy lifting** — sometimes less animation is more
-- **Symmetry in beginning and end** — the game board frames the story (opens and closes it)
-
-### **For the Colorist:**
-- The **1:13 transition is the most critical** (warm to cool must feel like a shock)
-- **Act 3 should feel like black and white** with one warm accent (the lamp)
-- **Act 4's dawn light should feel reborn** (not as intense as Act 1, but peaceful)
-
-### **For Cultural Consultants:**
-- Review **Shot 15** especially (child depiction)
-- Verify **architectural details** in Acts 3–4 are respectful
-- Confirm **symbolic elements** (token, game board, incense) are appropriate
-
----
-
-## ✅ Final Checklist Before Upload
-
-- [ ] All 17 shots complete and color-graded
-- [ ] Audio synced perfectly to visuals
-- [ ] Resolution: 1920×1080 @ 24fps
-- [ ] No harsh cuts or jarring transitions (all fades/dissolves smooth)
-- [ ] All visual effects (smoke, light trails, dissolves) complete
-- [ ] Title card or end screen designed
-- [ ] YouTube metadata prepared (title, description, tags)
-- [ ] Shared with Newar/cultural consultants for final feedback
-- [ ] Master file archived (ProRes or DNxHD) before compression to H.264
-
----
-
-## 📚 Reference Materials & Learning Resources
-
-### **Blender:**
-- [Blender Grease Pencil Documentation](https://docs.blender.org/manual/en/latest/grease_pencil/index.html)
-- [Blender Lighting Guide](https://www.youtube.com/results?search_query=blender+lighting+tutorial)
-
-### **Animation Principles:**
-- 12 Principles of Animation (Disney) — focus on Anticipation, Arcs, Spacing
-- Study **hand animation** for natural movement (avoid robotic timing)
-
-### **DaVinci Resolve:**
-- [Fusion Page for VFX](https://www.youtube.com/results?search_query=davinci+resolve+fusion+tutorial)
-- Color grading tutorials (LUT application, curves, color wheels)
-
-### **Kumari Legend References:**
-- Wikipedia: Living Goddess (Kumari)
-- YouTube: "Kumari Legend" documentaries
-- Academic papers on Hindu-Buddhist synthesis in Nepal
-
----
-
-## 🎬 Director's Notes
-
-**Story Core:** The King learns that desire (possessiveness, obsession) breaks sacred communion. His penance and acceptance allows the divine to return in a new form. The cycle is eternal; he finds peace not in reclaiming her, but in humble service.
-
-**Visual Metaphors:**
-- **The game board:** Sacred space, communion, order
-- **The token:** Divine presence transitioning forms
-- **Light & color:** Emotion (warm love → cold shock → desperation → soft acceptance)
-- **Incense smoke:** Spirituality, presence, memory
-
-**Emotional Arc:**
-1. **Reverence** (Act 1)
-2. **Shock & Loss** (Act 2)
-3. **Grief & Seeking** (Act 3)
-4. **Acceptance & Renewal** (Act 4)
-
----
-
-## 📄 Document History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0 | 2026-06-12 | Initial package created: Animator Brief, Color Palette, Shot Reference, Blender setup script |
-
----
-
-**Contact & Feedback:**  
-For questions or revisions, reference the specific document (ANIMATOR_BRIEF.md, COLOR_PALETTE.md, SHOT_REFERENCE.md) and provide detailed feedback.
-
----
-
-**Status:** ✅ Ready for Production  
-**Last Updated:** 2026-06-12  
-**Package Version:** 1.0
-
----
-
-**Good luck with your animation! Remember: this is a love story about spiritual transformation. Make every frame count.**
+# The King's Regret
+
+Production package for a 5-minute animated music video inspired by the Kumari legend of King Jayaprakash Malla and Goddess Taleju. The package is built for AI-assisted 2D/2.5D animation, Blender layout, shot tracking, compositing, and final color grade.
+
+## Project Specs
+
+| Item | Spec |
+| --- | --- |
+| Format | Animated music video |
+| Duration | 5:00 / 300 seconds |
+| Timeline | 7200 frames at 24 fps |
+| Resolution | 1920 x 1080 |
+| Visual style | Cinematic 2.5D, painterly, shallow depth of field |
+| Recommended tools | Blender, AI video generator, DaVinci Resolve or After Effects |
+| Current stage | AI video generation package ready; priority shots pending generation |
+
+## Start Here
+
+1. Read [ANIMATOR_BRIEF.md](ANIMATOR_BRIEF.md) for story, character arcs, environments, and performance notes.
+2. Use [PRODUCTION_MASTER.md](PRODUCTION_MASTER.md) as the source of truth for shots, frames, inputs, priorities, and acceptance criteria.
+3. Use [PROMPTS.md](PROMPTS.md) for AI video generation prompts.
+4. Use [SHOT_REFERENCE.md](SHOT_REFERENCE.md) during animation and editorial for timing, continuity, and music sync.
+5. Use [COLOR_PALETTE.md](COLOR_PALETTE.md) for act-by-act lighting, color grading, and material swatches.
+6. Open [shot_tracker.html](shot_tracker.html) in a browser to track completion.
+
+## Package Contents
+
+| Path | Purpose |
+| --- | --- |
+| [PRODUCTION_MASTER.md](PRODUCTION_MASTER.md) | Primary shot table with frame ranges, required inputs, priorities, and acceptance criteria. |
+| [ANIMATOR_BRIEF.md](ANIMATOR_BRIEF.md) | Full creative brief for characters, acting, locations, atmosphere, and cultural handling. |
+| [SHOT_REFERENCE.md](SHOT_REFERENCE.md) | Fast timing lookup, critical beats, camera movement guide, and continuity checklist. |
+| [PROMPTS.md](PROMPTS.md) | Shot-specific AI video prompts and style/negative prompt blocks. |
+| [COLOR_PALETTE.md](COLOR_PALETTE.md) | Exact act palettes, lighting temperatures, and implementation notes. |
+| [TODOS.md](TODOS.md) | Current production task list and generation order. |
+| [AI_PROMPT_LOG.md](AI_PROMPT_LOG.md) | Log for AI generation attempts and prompt outcomes. |
+| [animatic_frames/](animatic_frames/) | SVG control frames for the 17-shot animatic. |
+| [character_sheets/](character_sheets/) | Character identity/control references. |
+| [environment_sheets/](environment_sheets/) | Environment references for chamber, alley, and courtyard. |
+| [animatic_output/](animatic_output/) | Generated animatic outputs, EDL, and concat list. |
+| [blender_setup.py](blender_setup.py) | Blender setup script for markers, lighting rigs, references, and scene prep. |
+| [assemble_animatic.py](assemble_animatic.py) | Script for assembling animatic media. |
+| [generate_png_frames.py](generate_png_frames.py) | Script for converting/generating frame assets. |
+| [export_edl.py](export_edl.py) | Script for editorial export. |
+
+## Director Review
+
+The project has a strong emotional spine: sacred intimacy, rupture, penance, and rebirth. The recurring lotus/game token is the right cinematic anchor because it gives the audience something physical to track through an otherwise spiritual story. The best version of the film will keep every shot tied either to the King's inner transformation, Taleju's changing presence, or the token's symbolic passage into the Kumari.
+
+### Highest-Impact Improvements
+
+1. Clarify Shot 4 across all documents. [PRODUCTION_MASTER.md](PRODUCTION_MASTER.md) lists Shot 4 as the Queen's witness, while [SHOT_REFERENCE.md](SHOT_REFERENCE.md) describes it as King and Taleju close-up. Keep Shot 4 as the Queen; she is important because she externalizes the forbidden witnessing of the sacred relationship.
+2. Fix the music cue frame math in [SHOT_REFERENCE.md](SHOT_REFERENCE.md). The critical beat table appears to list seconds in the Frame column for several cues, while the rest of the package uses true 24 fps frame numbers. For example, 1:13 should land around frame 1752/1753, not frame 31.
+3. Add one explicit aftermath beat between Taleju's vanishing and the rain transition. There is a 20-second emotional space from 2:20 to 2:40 that should not feel like dead air. Use the empty board, the King's hand suspended in disbelief, and the room cooling into silence.
+4. Give the Queen a clear emotional function. She should not read as jealous or merely curious. Her face should say: she understands the sacredness before the King does, and she sees the instant it is broken.
+5. Make Shot 6 less melodramatic and more frighteningly small. The most powerful version is not a villain turn; it is a tiny human failure made cosmic. A tightening hand, a shifted breath, a single fallen hair strand, and a metallic eye glint are enough.
+6. Make the Kumari entrance quieter than expected. Shot 15 should not feel like a triumphant reveal. It should feel like dawn deciding to enter the frame. Keep the child physically small against architecture and let the token's light carry the recognition.
+7. Protect the token continuity. The token should be visible or emotionally implied in Shots 3, 8, 12/13, 15, and 17. It is the audience's thread through loss and renewal.
+8. Separate Taleju's glow from the child's glow. Taleju can have liquid, caustic, divine light. The child should have gentler dawn radiance, less supernatural spectacle, and more quiet gravity.
+9. Use stillness as a production advantage. Shots 12, 13, 14, and 17 do not need heavy movement; they need breath, rain, incense, and micro-expression. This will improve both production feasibility and emotional clarity.
+10. Schedule a cultural review before final rendering. The brief is respectful, but the subject deserves a Newar/Nepalese cultural review for architecture, costume, ornament names, child depiction, and the balance between mythic symbolism and lived tradition.
+
+### Story Notes
+
+Act 1 works best if the sacred chamber feels like an inner sanctum, not a palace romance. Avoid romantic visual language that could make Taleju look like a love interest. Frame the intimacy as devotion becoming confused by human desire.
+
+Act 2 should pivot on shame more than aggression. The King's reaching gesture can be dangerous, but the emotional center is his immediate recognition that something sacred has been lost because of him.
+
+Act 3 needs one recurring visual grammar: rain falling vertically, lamp flame trembling, the empty board unmoving. That contrast will make his penance legible without adding exposition.
+
+Act 4 should resolve without overexplaining. The child holding the token is the answer. The King's job is to understand, lower himself, and accept the new form of divine presence.
+
+### Shot Priorities From A Director's View
+
+| Priority | Shots | Direction |
+| --- | --- | --- |
+| Must perfect | 5, 6, 8, 15, 17 | These carry the film's emotional argument. Regenerate until the acting and symbolic clarity are right. |
+| Must be coherent | 1, 4, 10, 14, 16 | These orient the audience and protect tone. They can be visually simpler but must read instantly. |
+| Can simplify | 2, 3, 7, 9, 11, 12, 13 | Use slow motion, held frames, atmospheric loops, and strong compositions if schedule is tight. |
+
+## Current Production Order
+
+The next best generation order is:
+
+1. Shot 4: Queen's Witness, to lock the witness perspective and lattice-light visual language.
+2. Shot 5: Intimacy Peak, to lock King/Taleju facial identity and divine light.
+3. Shot 6: Transgression, to test the live warm-to-cold lighting transition.
+4. Shot 8: Vanishing, to solve the hardest VFX and token continuity beat.
+5. Shot 15: Kumari Appears, to lock the rebirth image and child depiction.
+6. Shot 17: Epilogue, to verify the final emotional stillness.
+
+## Technical Workflow
+
+1. Generate or approve Shot 1 and save the strongest frame as `STYLE_ANCHOR.png`.
+2. For each shot, use the matching SVG from [animatic_frames/](animatic_frames/) as the control/depth/canny reference.
+3. For face shots, add the matching identity reference from [character_sheets/](character_sheets/).
+4. Use the shared style block and negative prompt from [PROMPTS.md](PROMPTS.md).
+5. Log each generation attempt in [AI_PROMPT_LOG.md](AI_PROMPT_LOG.md).
+6. Assemble generated clips to the frame ranges in [PRODUCTION_MASTER.md](PRODUCTION_MASTER.md).
+7. Perform the final music-sync check against the critical beats in [SHOT_REFERENCE.md](SHOT_REFERENCE.md), after correcting the frame math.
+
+## Quality Checklist
+
+- [ ] Shot 4 clearly shows the Queen's sympathetic witness role.
+- [ ] Shot 5 feels sacred and intimate without sexualizing Taleju.
+- [ ] Shot 6 lighting changes live from warm to cold, not by hard cut.
+- [ ] Shot 8 includes upward dissolution and physically weighted token motion.
+- [ ] Act 3 maintains rain, lamp, empty board, and penitent body language.
+- [ ] Shot 15 presents the child respectfully, with ritual stillness and no theatrical bounce.
+- [ ] Shot 17 lands on peace, not spectacle.
+- [ ] King identity remains consistent between Acts 1, 3, and 4.
+- [ ] Taleju and Kumari light signatures are visually distinct.
+- [ ] Cultural review is completed before final export.
+
+## Export Targets
+
+| Target | Setting |
+| --- | --- |
+| Master | ProRes or DNxHD/DNxHR, 1920 x 1080, 24 fps |
+| Delivery | H.264 MP4, 1920 x 1080, 24 fps |
+| Audio | AAC for delivery, WAV/PCM for master where possible |
+| Color | Rec. 709 |
+| Suggested bitrate | 15-20 Mbps for YouTube 1080p |
+
+## Final Note
+
+Treat the AI generator as the animator, but direct every shot like a performance. The film should never feel like a sequence of pretty mythic images; it should feel like one human mistake, one divine withdrawal, and one humble restoration.

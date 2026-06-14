@@ -7,10 +7,10 @@ Use these prompts in **Veo** or **Seedance 2.0**. Always include the **STYLE BLO
 ## 🛠️ MASTER BLOCKS (Copy-Paste)
 
 ### **STYLE BLOCK** (The Visual DNA)
-> "Style: Cinematic 2.5D stylized animation. Aesthetic: Hand-drawn digital paint with visible fine brush-texture. Depth: Shallow depth of field with soft-focus backgrounds. Detail Level: High-fidelity skin with sub-surface scattering, detailed Newar architectural carvings. Motion: Fluid cinematic 24fps, purposeful and slow character movement."
+> "Style: Cinematic 2.5D stylized animation. Aesthetic: hand-drawn digital paint with visible fine brush texture, grounded Kathmandu Valley Newar paubha-inspired character design, Malla-era Nepal, matte woven textiles, red brick, carved dark wood, brass oil lamps, shallow depth of field, detailed Newar architectural carvings, slow purposeful character movement."
 
 ### **NEGATIVE PROMPT** (The Guardrails)
-> "Disney style, 3D CGI, plastic skin, neon colors, fast jerky motion, futuristic technology, Western features, messy lineart, superhero mask makeup, oversaturated primary colors, modern clothing, bright daylight."
+> "Disney style, 3D CGI, plastic skin, neon colors, fast jerky motion, futuristic technology, Western features, messy lineart, superhero mask makeup, oversaturated primary colors, modern clothing, bright daylight, Malaysian songket costume, tengkolok, songkok, Thai crown, Balinese dancer silhouette, Mughal emperor, Rajput palace fantasy, generic fantasy palace costume, princess tiara, shiny cosplay fabric."
 
 ---
 
@@ -26,15 +26,15 @@ Use these prompts in **Veo** or **Seedance 2.0**. Always include the **STYLE BLO
 
 ### **SHOT 3: THE CLOSE ACTION**
 **Prompt:**
-> "Extreme close-up of two pairs of hands moving across a carved wooden game board. On the left, the King's hand, strong and adorned with a gold signet ring, reaches for a piece. On the right, the Goddess Taleju's hand, luminous and graceful with long elegant fingers, hovers over the board. A heavy carved gold lotus token rests in the center. [STYLE BLOCK] Lighting: Warm candlelight highlights, rich wooden textures, soft golden glow around Taleju's hand."
+> "Extreme close-up of two pairs of hands moving across a carved wooden game board. On the left, the Malla King's hand, strong and adorned with a restrained gold signet ring and a Nepali patuka/royal sleeve edge visible, reaches for a piece. On the right, the Goddess Taleju's hand, luminous and graceful with long elegant fingers, hovers over the board. A heavy carved gold lotus token rests in the center. [STYLE BLOCK] Lighting: Warm candlelight highlights, rich wooden textures, soft golden glow around Taleju's hand."
 
 ### **SHOT 4: THE QUEEN'S WITNESS** (Historical acting)
 **Prompt:**
-> "Cinematic medium close-up of a Newar Queen peeking through an ornate dark-wood 'Ankhijhyal' (lattice window). Only her eyes and her traditional gold jewelry are sharply lit by flickering candlelight. She wears a large gold 'Bulaki' (nose-ring) and heavy 'Tuki' (ear-ornaments) that catch the warm glint. Her eyes are wide with awe and a hint of spiritual longing, a tear-line highlight visible on her lower lid. The heavy wooden lattice partially obscures her face, creating beautiful geometric shadows. [STYLE BLOCK] Lighting: Chiaroscuro candlelight, 2700K warm tungsten, rich golden-amber shadows."
+> "Cinematic medium close-up of a Newar Queen peeking through an ornate dark-wood 'Ankhijhyal' (lattice window). Only her eyes and her traditional gold jewelry are sharply lit by flickering candlelight. She wears Newar royal attire inspired by haku patasi/patasi border language in deep plum-black, with a large gold Bulaki/Nath nose ornament, pote/tilhari-style necklace feeling, and heavy ear ornaments catching the warm glint. Her eyes are wide with awe and spiritual longing, a tear-line highlight visible on her lower lid. The heavy wooden lattice partially obscures her face, creating beautiful geometric shadows. Avoid Malaysian palace costume, songket silhouette, or Southeast Asian crown styling. [STYLE BLOCK] Lighting: Chiaroscuro candlelight, 2700K warm tungsten, rich golden-amber shadows."
 
 ### **SHOT 5: THE INTIMACY PEAK** (Character focus)
 **Prompt:**
-> "Extreme close-up alternating between a regal Malla King and the ethereal Goddess Taleju. Their eyes meet in a moment of deep spiritual connection. The King's pupils subtly dilate. Caustic, liquid light patterns ripple across the King's face, reflecting the Goddess's divine presence. Ethereal golden aura surrounds Taleju. High-fidelity skin with warm sub-surface scattering. [STYLE BLOCK] Lighting: Intimate sacred glow, candlelight highlights, 2700K."
+> "Extreme close-up alternating between King Jayaprakash Malla, a middle-aged Nepali/Newar Malla ruler with medium warm brown skin, long oval tired face, firm jaw, slight moustache and trimmed beard, red vermillion tika, dark hair pulled back, low structured Malla-era Nepali royal head ornament with red cloth and restrained gold edging, and Taleju Bhawani, the Malla royal tutelary goddess / tantric Durga Tripura Sundari energy, with golden-warm luminous skin, large still dark kohl-lined eyes, luminous red bindi, subtle Shri Yantra triangular halo, and cream/antique-gold Newar paubha-inspired goddess textile. Their eyes meet in devotional sacred counsel, not romance. Caustic liquid light patterns ripple across the King's face from Taleju's divine presence. [STYLE BLOCK] Lighting: Intimate sacred glow, candlelight highlights, 2700K."
 
 ---
 
@@ -42,11 +42,11 @@ Use these prompts in **Veo** or **Seedance 2.0**. Always include the **STYLE BLO
 
 ### **SHOT 6: THE FLASH OF DESIRE**
 **Prompt:**
-> "Extreme close-up of the King's face as the light suddenly shifts from warm gold to harsh, cold slate-blue. His expression hardens from devotion to possessive greed; his eye glint sharpens to a metallic edge. A single strand of hair falls loose from his tiered gold crown. His hand on the carved board visibly clenches, knuckles whitening. [STYLE BLOCK] Lighting: Cold harsh side-light, 8000K slate-blue temperature, high-contrast black shadows, stark and isolating."
+> "Extreme close-up of the Nepali Newar Malla King's face as the light suddenly shifts from warm gold to harsh cold slate-blue. He wears Malla-era Newar court attire with crossed-front tapalan or court-jama inspired upper garment, patuka-style waist sash, matte deep maroon woven textile, and a low structured Malla-era Nepali royal head ornament with red cloth and restrained gold edging. His expression hardens from devotion into entitlement; his eye glint sharpens to a metallic edge. A single strand of hair falls loose from the ordered court hairstyle. His hand on the carved board visibly clenches, knuckles whitening. [STYLE BLOCK] Lighting: Cold harsh side-light, 8000K slate-blue temperature, high-contrast black shadows, stark and isolating."
 
 ### **SHOT 7: THE CONFRONTATION**
 **Prompt:**
-> "Medium shot of the King reaching out aggressively toward the Goddess Taleju. He leans forward, his face twisted with obsession. Taleju recoils in visible shock and hurt, her body tilting away into the shadows. The warm atmosphere of the room has completely vanished, replaced by a cold, desolate gloom. [STYLE BLOCK] Lighting: Cold, high-contrast side-lighting, harsh shadows, sense of broken connection."
+> "Medium shot of the King breaking sacred distance by reaching toward Taleju Bhawani across the low carved board. His proud devotional composure collapses into entitlement: clenched jaw, sharpened eyes, one loose hair strand, hand entering her personal space. Taleju recoils with wounded sacred authority, not romantic rejection; her glow flickers and her cream/gold temple-devata drapes pull back into shadow. The warm room has collapsed into cold desolate gloom. [STYLE BLOCK] Lighting: Cold, high-contrast side-lighting, harsh shadows, sense of broken sacred connection."
 
 ### **SHOT 8: THE VANISHING**
 **Prompt:**
@@ -54,7 +54,7 @@ Use these prompts in **Veo** or **Seedance 2.0**. Always include the **STYLE BLO
 
 ### **SHOT 9: THE MEMORY FRAGMENT**
 **Prompt:**
-> "A soft-focus flashback of the Goddess Taleju's face, radiant and smiling with profound compassion. The scene is bathed in the warm, golden light of Act 1, providing a sharp, painful contrast to the current cold darkness. Her eyes are full of love and wisdom. [STYLE BLOCK] Lighting: Radiant golden glow, soft-focus vignette, nostalgic and dreamlike."
+> "A soft-focus flashback of Taleju Bhawani's face, radiant with profound compassion, blessing, and divine counsel. Her large kohl-lined eyes are warm but sovereign, never flirtatious. A subtle yantra glow and cream/gold temple-devata ornaments frame her face. The scene is bathed in warm golden Act 1 light, a painful contrast to the current cold darkness. [STYLE BLOCK] Lighting: Radiant golden glow, soft-focus vignette, nostalgic and dreamlike."
 
 ---
 
@@ -86,7 +86,7 @@ Use these prompts in **Veo** or **Seedance 2.0**. Always include the **STYLE BLO
 
 ### **SHOT 15: THE KUMARI APPEARS**
 **Prompt:**
-> "Cinematic wide shot of a luminous 7-year-old child in traditional crimson Kumari robes walking through a stone Malla courtyard (Chowk) at dawn. She moves with a ritualistic, zero-bounce glide. She holds a glowing lotus token at chest level. Caustic, liquid light patterns ripple across her face and the stone walls. Background features tiered Malla roofs and a stone shrine. [STYLE BLOCK] Lighting: Soft dawn radiance, 4000K peach and lavender sky, airy rim-lighting, luminous and hopeful."
+> "Cinematic wide shot of the Royal Kumari, a newborn Newar infant and living embodiment of Taleju, resting on a ceremonial gold-embroidered cushion (or carried by a traditional caretaker) in a stone Malla courtyard (Chowk) at dawn. The infant has a warm brown face with a grave still expression, hand-painted black kohl, iconic agni-chakshu/fire-eye forehead makeup taking up the tiny forehead, and miniature crimson red and gold ceremonial Kumari attire with weighty fabric. The token rests on her chest, casting a soft glow. Background features tiered Malla roofs and a stone shrine. [STYLE BLOCK] Lighting: Soft dawn radiance, 4000K peach and lavender sky, airy rim-lighting, restrained sacred glow."
 
 ### **SHOT 16: THE REVERENCE RESTORED**
 **Prompt:**
