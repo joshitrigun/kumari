@@ -186,7 +186,7 @@ ACT 4: Rebirth
 
 ## Practical Implementation Tips
 
-### For Blender Grease Pencil:
+### General lighting setup (any tool):
 1. **Set up color swatches** in the material properties with these HEX values
 2. **Create lighting rigs** for each act:
    - Act 1: 3-point warm lighting (key, fill, rim)

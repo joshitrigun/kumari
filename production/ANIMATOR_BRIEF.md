@@ -2,7 +2,7 @@
 
 **Project:** Animated music video for "The King's Regret" (The Kumari Legend)  
 **Duration:** 5:00 (exact timings provided below)  
-**Style:** Stylized 2D/2.5D animation with cinematic lighting transitions  
+**Style:** Photoreal historical — real live-action ethnographic footage of 18th-century Kathmandu Valley, with grounded (non-fantasy) lighting transitions  
 **Cultural Context:** Retelling of King Jayaprakash Malla & the origin of the Kumari tradition (respectful, symbolic depiction)  
 **Target Platform:** YouTube / Social Media  
 
@@ -51,7 +51,7 @@
   - **The "Reveal":** She does not walk. She is carried by a temple priest/Queen or rests on a ceremonial embroidered cushion. Uncanny stillness for an infant.
   - **Makeup:** Kohl and agni-chakshu/fire-eye should look organically applied on a tiny face.
   - **Scale:** The extreme contrast between the massive, broken King and the tiny newborn emphasizes his complete submission to the divine.
-- **Prop:** Holds the recurring **token** which casts liquid light patterns on her face.
+- **Prop:** The recurring **token** rests on her chest or on the cushion beside her, casting soft light on her face. A newborn does not grip it — the token is placed with her, not held.
 - **Moment:** 4:11–5:00
 - **Note:** This is the hope of the story—treat with utmost care and reverence.
 
@@ -182,7 +182,7 @@
   - Stone appears clean and renewed
   - Puddles clear and mirror-like
   - Small shrine or spiritual space (simple lamp, flowers)
-  - The **Child** walks through carrying the **token**
+  - The **Child** (newborn Kumari) is carried by a caretaker, or rests on a ceremonial cushion, with the **token** at her chest
   - Game board nearby (peaceful, no longer haunting)
   - Optional: early morning incense smoke (fresh, not sad)
 
@@ -241,7 +241,7 @@
 | 1 | 0:00–0:05 | Wide interior: warm room, lamps, fade-in from black | 5" | Establish mood; soft pan to table |
 | 2 | 0:05–0:15 | Slow dolly toward game table; two figures visible in warm glow | 10" | Anticipation building; incense visible |
 | 3 | 0:15–0:30 | Close on hands over game pieces; token visible | 15" | Ritualistic, slow movement; tokens slide smoothly |
-| 4 | 0:30–0:50 | Two-shot: King and Taleju; faces lit, eyes meeting softly | 20" | Lyrics enter ("reminiscing"); his wonder, her glow |
+| 4 | 0:30–0:50 | Queen's witness: her eyes peer through the carved lattice (ankhijhyal) at the sacred game | 20" | Lyrics enter ("reminiscing"); lattice shadows on her face, aching longing |
 | 5 | 0:50–1:13 | Extreme close-ups alternating: his eyes, her eyes, hands touching table | 23" | Harp flourish; music swells; intimate connection |
 
 ### **ACT 2: Transgression & Vanishing (1:13–2:20)**
@@ -267,7 +267,7 @@
 | Shot # | Time | Description | Duration | Notes |
 |--------|------|---|---|---|
 | 14 | 3:58–4:11 | Dream peak: orchestral swell; Taleju's instruction (gesture, no words) | 13" | Bright orchestral motif; hope enters |
-| 15 | 4:11–4:40 | Child appears in soft dawn light; walks through courtyard holding token | 29" | New, innocent motif; warm light; child glows |
+| 15 | 4:11–4:40 | Newborn Kumari revealed in soft dawn light; carried or resting on a cushion, token at her chest | 29" | New, innocent motif; warm light; restrained dawn glow |
 | 16 | 4:40–4:55 | Wide shot: people bow respectfully (brief); King watches from distance | 15" | Gentle hymn-like strings; acceptance |
 | 17 | 4:55–5:00 | Close: token rests on game board; warm light covers it; King at peace | 5" | Music swells to chorus; resolute ending |
 
@@ -276,9 +276,9 @@
 ## Animation Style & Technical Specs
 
 ### **Visual Style:**
-- **Technique:** Stylized 2D or 2.5D (hand-drawn + digital paint / Grease Pencil or similar)
-- **Line Weight:** Soft, flowing; no harsh outlines unless for emphasis
-- **Motion:** Fluid, naturalistic; avoid jerky cuts; slow, deliberate pacing
+- **Technique:** Photoreal historical — AI-generated live-action footage, ethnographic documentary realism (see the STYLE BLOCK in `PROMPTS.md`). No animation, cartoon, or CGI look.
+- **Texture:** Real skin, real woven textiles, real brick and carved wood; natural film grain acceptable, no painterly outlines
+- **Motion:** Naturalistic and restrained; avoid jerky cuts; slow, deliberate pacing (also the most reliable to generate)
 - **Frame Rate:** 24fps (cinematic standard)
 - **Resolution:** 1080p (1920×1080) minimum; 4K recommended
 
@@ -289,10 +289,10 @@
 - Act 4: **Warm, soft, muted** (dawn, acceptance; not as intense as Act 1, but redemptive)
 
 ### **Visual Effects:**
-- **Incense smoke:** Organic, slow-moving; use Perlin noise or hand-drawn
+- **Incense smoke:** Organic, slow-moving, volumetric and physically real
 - **Light trails:** Subtle; used for Taleju's glow and child's luminescence
 - **Dissolve/fade effects:** No sharp cuts; use cross-fades and light dissipation
-- **Depth:** Use parallax or slight 3D camera work to give spatial depth without breaking 2D aesthetic
+- **Depth:** Use shallow depth of field and natural camera moves for spatial depth
 
 ### **Audio Sync:**
 - Lock all cuts to music beats (especially at 1:13 dissonance, 1:53 flute entry, 4:11 orchestral swell)
