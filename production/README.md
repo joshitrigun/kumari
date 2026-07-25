@@ -11,7 +11,7 @@ Production package for a 5-minute music video inspired by the Kumari legend of K
 | Timeline | 7200 frames at 24 fps |
 | Resolution | 1920 x 1080 |
 | Visual style | **Photoreal historical** — looks like real live-action footage of 18th-century Kathmandu Valley, ethnographic documentary realism, shallow depth of field. **Not** animation/CGI. |
-| Recommended tools | AI video generator (Veo, Kling, Runway, or Seedance) + any basic video editor |
+| Recommended tools | **Seedance 2.5** (BytePlus / Dreamina) as the single video generator + any basic video editor. *(Veo 3.1 held in reserve for Shot 6's live lighting transition if needed — see PROMPT_WORKFLOW.md.)* |
 | Current stage | Prompts and character bible ready; character references and shots pending generation |
 
 ## Start Here (prompt-only workflow)
@@ -33,6 +33,10 @@ Production package for a 5-minute music video inspired by the Kumari legend of K
 | [ANIMATOR_BRIEF.md](ANIMATOR_BRIEF.md) | Full creative brief for characters, acting, locations, atmosphere, and cultural handling. |
 | [PROMPTS.md](PROMPTS.md) | Shot-specific AI video prompts and shared style/negative prompt blocks. |
 | [CHARACTER_IMAGE_PROMPTS.md](CHARACTER_IMAGE_PROMPTS.md) | Prompts for generating the character reference images. |
+| [KING_REFERENCE_SET.md](KING_REFERENCE_SET.md) | Per-act reference-image set for the King (angles, lighting, naming) to feed Seedance's multi-reference identity lock. |
+| [TALEJU_REFERENCE_SET.md](TALEJU_REFERENCE_SET.md) | Reference-image set for the goddess Taleju (counsel / withdrawal / dream), with grounded-light guardrails. |
+| [QUEEN_REFERENCE_SET.md](QUEEN_REFERENCE_SET.md) | Reference-image set for the Queen (clear plate + lattice-framed witness variants). |
+| [KUMARI_REFERENCE_SET.md](KUMARI_REFERENCE_SET.md) | Reference-image set for the newborn Kumari — reverent, still, token-placed; extra cultural-safety guardrails. |
 | [CHARACTER_LOOK_BIBLE.md](CHARACTER_LOOK_BIBLE.md) | Detailed look and material bible for each character. |
 | [REALITY_REFERENCE.md](REALITY_REFERENCE.md) | Historical/cultural notes and depiction guardrails. |
 | [COLOR_PALETTE.md](COLOR_PALETTE.md) | Exact act palettes, lighting temperatures, and implementation notes. |
@@ -49,7 +53,7 @@ The project has a strong emotional spine: sacred intimacy, rupture, penance, and
 3. Add one explicit aftermath beat between Taleju's vanishing and the rain transition. The ~20-second space around 2:19–2:40 should not feel like dead air. Use the empty board, the King's hand suspended in disbelief, and the room cooling into silence.
 4. Give the Queen a clear emotional function. She should not read as jealous or merely curious. Her face should say: she understands the sacredness before the King does, and she sees the instant it is broken.
 5. Make Shot 6 less melodramatic and more frighteningly small. The most powerful version is not a villain turn; it is a tiny human failure made cosmic. A tightening hand, a shifted breath, a single fallen hair strand, and a metallic eye glint are enough.
-6. Make the Kumari entrance quieter than expected. Shot 15 should not feel like a triumphant reveal. It should feel like dawn deciding to enter the frame. Keep the newborn physically small against architecture and let the token's light carry the recognition.
+6. Make the Kumari entrance quieter than expected. Shot 15 should not feel like a triumphant reveal. It should feel like dawn deciding to enter the frame. Keep the newborn physically small against architecture and let the token's light carry the recognition. Save the emotional peak for Shot 16, where the **people accept the child as the living goddess** — that founding of a tradition is the film's true climax, not the King's private coda in Shot 17.
 7. Protect the token continuity. The token should be visible or emotionally implied in Shots 3, 8, 12/13, 15, and 17. It is the audience's thread through loss and renewal.
 8. Separate Taleju's glow from the child's glow. Taleju can have liquid, caustic, divine light. The child should have gentler dawn radiance, less supernatural spectacle, and more quiet gravity.
 9. Use stillness as a production advantage. Shots 12, 13, 14, and 17 do not need heavy movement; they need breath, rain, incense, and micro-expression. In a prompt workflow this also generates far more reliably than complex motion.
@@ -69,8 +73,8 @@ Act 4 should resolve without overexplaining. The newborn Kumari holding/wearing 
 
 | Priority | Shots | Direction |
 | --- | --- | --- |
-| Must perfect | 5, 6, 8, 15, 17 | These carry the film's emotional argument. Regenerate until the acting and symbolic clarity are right. |
-| Must be coherent | 1, 4, 10, 14, 16 | These orient the audience and protect tone. They can be visually simpler but must read instantly. |
+| Must perfect | 5, 6, 8, 15, 16 | These carry the film's emotional argument. Shot 16 is the **true climax** (the founding of the tradition), not just a crowd shot. Regenerate until the acting and symbolic clarity are right. |
+| Must be coherent | 1, 4, 10, 14, 17 | These orient the audience and protect tone. Shot 17 is the coda. They can be visually simpler but must read instantly. |
 | Can simplify | 2, 3, 7, 9, 11, 12, 13 | Use slow motion, held frames, atmospheric loops, and strong compositions if schedule is tight. |
 
 ## Current Production Order
@@ -82,7 +86,8 @@ The next best generation order is:
 3. Shot 6: Transgression, to test the live warm-to-cold lighting transition.
 4. Shot 8: Vanishing, to solve the hardest VFX and token continuity beat.
 5. Shot 15: Kumari Appears, to lock the rebirth image and newborn depiction.
-6. Shot 17: Epilogue, to verify the final emotional stillness.
+6. Shot 16: The Founding, to lock the film's true climax — the people accepting the child as the living goddess.
+7. Shot 17: Coda, to verify the final emotional stillness.
 
 ## Prompt Workflow (summary)
 
@@ -104,7 +109,8 @@ Full detail is in [PROMPT_WORKFLOW.md](PROMPT_WORKFLOW.md). In short:
 - [ ] Shot 8 includes upward dissolution and physically weighted token motion.
 - [ ] Act 3 maintains rain, lamp, empty board, and penitent body language.
 - [ ] Shot 15 presents the newborn respectfully, with ritual stillness and no theatrical bounce.
-- [ ] Shot 17 lands on peace, not spectacle.
+- [ ] Shot 16 reads as a tradition being born (people accept the child as the living goddess; King lowers himself), not just a crowd bowing.
+- [ ] Shot 17 lands on peace as a coda, not spectacle.
 - [ ] King identity remains consistent between Acts 1, 3, and 4.
 - [ ] Taleju and Kumari light signatures are visually distinct.
 - [ ] Cultural review is completed before final export.

@@ -1,6 +1,6 @@
 # The King's Regret — Production Prompts (AI Video)
 
-Use these prompts in **Veo** or **Seedance 2.0**. Always include the **STYLE BLOCK** and the relevant **LIGHTING BLOCK** provided at the top.
+Use these prompts in **Seedance 2.5**, supplying each character's approved reference set. Always include the **STYLE BLOCK** and the relevant **LIGHTING BLOCK** provided at the top. *(Shot 6 only: if Seedance can't land the live warm→cold lighting transition, generate it in Veo 3.1 instead — see PROMPT_WORKFLOW.md §1.)*
 
 ---
 

@@ -16,16 +16,18 @@ You will do three things, in order:
 
 ---
 
-## 1. Pick your tools
+## 1. The tools
 
-You need two kinds of tool. Any modern option works; pick what you can access.
+This film is generated with **one** video model: **Seedance 2.5** (ByteDance, via BytePlus / Dreamina). We chose it over Veo and Kling for one decisive reason — this is a 17-shot, four-act story where the *same faces must survive across the whole film*, and Seedance's **multimodal reference fusion (up to 50 references)** is the strongest tool available for locking a character and carrying it, unchanged, through every shot. It also generates native 30-second clips at up to 4K in a single pass, which suits this film's long, slow, near-still shots without stitching seams.
 
-| Job | Good options |
+| Job | Tool |
 | --- | --- |
-| **Image generator** (character references, still frames) | Midjourney, Google Imagen, Flux, or your video tool's built-in image mode |
-| **Video generator** (the actual shots) | Google **Veo**, **Kling**, **Runway**, or **Seedance** |
+| **Image generator** (character references, still frames) | Any strong photoreal model — Midjourney, Google Imagen/Nano Banana, or Flux. These feed Seedance as references. |
+| **Video generator** (all 17 shots) | **Seedance 2.5** — used for every shot. |
 
-Prefer a video tool that lets you supply a **reference image** (sometimes called "image-to-video", "ingredients", or "identity reference"). This is how you keep the same face across shots. If your tool only does text-to-video, you can still work, but characters will drift more — see §5.
+**The one exception, deferred for later:** Shot 6 requires a *live warm→cold lighting collapse inside a single take*, which is Veo 3.1's specialty. For now we generate Shot 6 in Seedance like everything else; **only if Seedance can't land that transition** do we generate Shot 6 (and possibly the Shot 5 close-up) in Veo 3.1 and drop it into the Seedance-made film. Don't reach for Veo pre-emptively — decide when you get to Shot 6.
+
+Seedance is driven by **reference images + a prompt** ("multimodal reference"). This is how you keep the same face across shots — always supply the character's approved reference(s). See §5.
 
 ---
 
@@ -87,13 +89,14 @@ For **each** shot:
 
 ## 5. Keeping characters consistent (the #1 hard part)
 
-Prompt-only video drifts — the King's face can change shot to shot. To fight this:
+Character drift is the #1 hard part of any AI film. Seedance's multi-reference fusion is our main weapon against it — use it deliberately:
 
-- **Reuse the same reference image** for a character in every shot they appear in.
+- **Feed multiple references per character, not one.** Seedance accepts many reference images at once. For each character, supply 2–4 approved stills covering different angles/lighting (e.g. King front, King three-quarter, King in lamp light). More consistent references = tighter identity lock.
+- **Build a per-character reference set** in `character_sheets/approved/` and reuse the *same set* in every shot that character appears in.
 - **Describe them identically** every time. Copy the exact wording from `CHARACTER_IMAGE_PROMPTS.md` (age, skin tone, beard, headpiece) — don't paraphrase.
-- **Reuse the seed** if your tool exposes one and you got a good result.
+- **Reuse the seed** if you got a good result and the tool exposes one.
 - **Lean into stillness.** Slow, quiet, near-still shots (this film is full of them) hold a face far better than big movement. Shots 12, 13, 14, 17 barely move — let them be calm.
-- Remember the **costume changes by act**: King is in full court dress (Act 1), one loose hair strand (Act 2), bareheaded rain-wrap (Act 3), humble shawl (Act 4). Use the matching reference image per act.
+- Remember the **costume changes by act**: King is in full court dress (Act 1), one loose hair strand (Act 2), bareheaded rain-wrap (Act 3), humble shawl (Act 4). Keep a **separate reference set per act** — same face, different wardrobe — and feed the matching set per shot.
 
 ---
 
@@ -103,10 +106,11 @@ You'll try many versions. Track them in a plain text or markdown file so you don
 
 ```
 Shot 06 — attempt 3
-Tool: Kling  |  Seed: 41822
+Tool: Seedance 2.5  |  Seed: 41822  |  Refs: king_act2_front.png, king_act2_3q.png
 Prompt: <what you used>
 Result: warm→cold shift too abrupt, looks like a cut
 Next: add "gradual 3-second color temperature transition, no hard cut"
+       — if Seedance still can't hold the live transition, flag Shot 6 for a Veo 3.1 pass
 ```
 
 ---
