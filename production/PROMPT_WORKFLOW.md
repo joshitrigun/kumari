@@ -12,22 +12,27 @@ You will do three things, in order:
 
 ## 0. What this film looks like
 
-**Photoreal historical.** The goal is footage that looks like a real documentary filmed in 18th-century Kathmandu Valley — real skin, real woven cloth, real brick and carved wood, lit by oil lamps. It is **not** a cartoon, anime, 3D-Pixar, or painterly style. Every prompt in this package is written for that look, so don't fight it.
+**Newar paubha / thangka 2D animation.** The goal is a film that looks like a traditional Nepalese sacred scroll-painting brought to gentle motion — flat mineral pigments (vermillion, lapis, malachite, ochre, gold-leaf), bold ink outlines, ornate detail, sacred halos, and gods rendered as **icons, not people**. Mythic and reverent. It is **not** photoreal, **not** 3D-Pixar, **not** anime, and **not** a flat corporate vector look. Every prompt in this package is written for the paubha look, so don't fight it.
+
+> Why this style: it lets the sacred figures (Taleju, the newborn Kumari) read as holy icons instead of uncanny real people, it holds character identity far more reliably across 17 shots than photoreal faces, and it suits a folk tale told in the "and that is why, to this day…" register.
 
 ---
 
 ## 1. The tools
 
-This film is generated with **one** video model: **Seedance 2.5** (ByteDance, via BytePlus / Dreamina). We chose it over Veo and Kling for one decisive reason — this is a 17-shot, four-act story where the *same faces must survive across the whole film*, and Seedance's **multimodal reference fusion (up to 50 references)** is the strongest tool available for locking a character and carrying it, unchanged, through every shot. It also generates native 30-second clips at up to 4K in a single pass, which suits this film's long, slow, near-still shots without stitching seams.
+The pipeline is **keyframe-driven**, in two stages:
+
+1. **Paint the keyframes** with a strong illustration-capable image model (Midjourney, Google Imagen/Nano Banana, or Flux). These produce the actual **paubha look** — the painted characters, sacred iconography, and each shot's key composition. This stage *is* the film's style; get it right here.
+2. **Animate the keyframes** with **Seedance 2.5** (ByteDance, via BytePlus / Dreamina) using image-to-video: feed the painted still and add restrained, ritual motion. Seedance's **multimodal reference fusion (up to 50 references)** also lets you carry a locked character painting across all 17 shots, which is how identity stays consistent.
 
 | Job | Tool |
 | --- | --- |
-| **Image generator** (character references, still frames) | Any strong photoreal model — Midjourney, Google Imagen/Nano Banana, or Flux. These feed Seedance as references. |
-| **Video generator** (all 17 shots) | **Seedance 2.5** — used for every shot. |
+| **Image generator** (paubha keyframes + character references) | Midjourney, Google Imagen/Nano Banana, or Flux — whichever paints the strongest paubha/thangka look. This stage defines the style. |
+| **Video generator** (animate all 17 shots) | **Seedance 2.5** — image-to-video from your painted keyframes. |
 
-**The one exception, deferred for later:** Shot 6 requires a *live warm→cold lighting collapse inside a single take*, which is Veo 3.1's specialty. For now we generate Shot 6 in Seedance like everything else; **only if Seedance can't land that transition** do we generate Shot 6 (and possibly the Shot 5 close-up) in Veo 3.1 and drop it into the Seedance-made film. Don't reach for Veo pre-emptively — decide when you get to Shot 6.
+> **No photoreal/Veo step.** In a painted film, Shot 6's warm→cold lighting collapse is simply a **palette shift** — do it by painting a warm keyframe and a cold keyframe and animating between them, or in the final color grade. There is no live-action lighting problem to solve.
 
-Seedance is driven by **reference images + a prompt** ("multimodal reference"). This is how you keep the same face across shots — always supply the character's approved reference(s). See §5.
+Because the style now lives in the painted keyframes (not in fragile photoreal faces), character consistency is far easier than it would have been in realism — but still always supply the character's approved paubha reference(s). See §5.
 
 ---
 
@@ -108,9 +113,9 @@ You'll try many versions. Track them in a plain text or markdown file so you don
 Shot 06 — attempt 3
 Tool: Seedance 2.5  |  Seed: 41822  |  Refs: king_act2_front.png, king_act2_3q.png
 Prompt: <what you used>
-Result: warm→cold shift too abrupt, looks like a cut
-Next: add "gradual 3-second color temperature transition, no hard cut"
-       — if Seedance still can't hold the live transition, flag Shot 6 for a Veo 3.1 pass
+Result: warm→cold palette shift too abrupt, looks like a cut
+Next: paint a warm keyframe + a cold keyframe and animate between them,
+      or push the transition into the final color grade instead
 ```
 
 ---
@@ -137,7 +142,7 @@ Run the **Quality Checklist** in [README.md](README.md). Most important:
 - Taleju is sacred and sovereign, never a romantic/glamour figure.
 - The newborn Kumari is still, reverent, carried/resting — never cute-posed or frightening.
 - The token appears (or is clearly implied) in Shots 3, 8, 12/13, 15, and 17.
-- Get a **Newar/Nepalese cultural review** before you publish. Photoreal depiction of the Kumari and Taleju deserves real cultural eyes.
+- Get a **Newar/Nepalese cultural review** before you publish. The paubha idiom is a sacred living tradition — depicting Taleju and the Kumari in their own visual language is a strength, but it still deserves real cultural eyes.
 
 ---
 

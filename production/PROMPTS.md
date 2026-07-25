@@ -1,16 +1,16 @@
 # The King's Regret — Production Prompts (AI Video)
 
-Use these prompts in **Seedance 2.5**, supplying each character's approved reference set. Always include the **STYLE BLOCK** and the relevant **LIGHTING BLOCK** provided at the top. *(Shot 6 only: if Seedance can't land the live warm→cold lighting transition, generate it in Veo 3.1 instead — see PROMPT_WORKFLOW.md §1.)*
+Paint each shot's **paubha keyframe** with your image model, then animate it in **Seedance 2.5** (image-to-video), supplying each character's approved paubha reference set. Always include the **STYLE BLOCK** and the relevant **LIGHTING BLOCK** provided at the top. *(Shot 6's warm→cold shift is a palette change — paint a warm and a cold keyframe and animate between them, or do it in the grade. No photoreal/Veo step.)*
 
 ---
 
 ## 🛠️ MASTER BLOCKS (Copy-Paste)
 
 ### **STYLE BLOCK** (The Visual DNA)
-> "Hyper-realistic ethnographic historical portrait, 18th-century Kathmandu Valley, Nepal. Grounded Nepali Newar ethnic facial features (blend of Tibeto-Burman and Indo-Aryan, high cheekbones, dark almond eyes). Authentic traditional Newar textiles: raw cotton, makhamali (velvet), and dhaka weave. Dark Sal wood carvings (ankhijhyal) and exposed Ma-Appa red brick. Lit by mustard oil brass lamps. No fantasy elements, purely historical documentary style."
+> "Traditional Nepalese Newar paubha / Tibetan thangka scroll-painting style, adapted as 2D animation. Flat, richly saturated mineral pigments — deep vermillion, lapis blue, malachite green, ochre, and gold-leaf. Bold confident ink outlines, ornate decorative detail, sacred halos and mandala motifs. Figures are stylized sacred icons with elegant, slightly elongated proportions — hand-painted, never photoreal. Authentic Newar cultural detail rendered as painted form: traditional textiles, dark Sal-wood ankhijhyal lattice, red Ma-Appa brick, warm brass oil lamps. Aged hand-painted cloth/paper texture with gentle grain. Reverent, mythic, devotional register; slow, deliberate ritual motion."
 
 ### **NEGATIVE PROMPT** (The Guardrails)
-> "fantasy, cinematic, glowing, CGI, plastic, Disney, generic Bollywood, Indian royal fantasy, Mughal emperor, Rajput, Malaysian songket, Thai crown, Balinese, generic princess, tiara, cosplay fabric, bright neon, exaggerated magic, 3D render, cartoon, superhero."
+> "photorealistic, photograph, live-action, 3D render, CGI, Pixar, Disney, anime, manga, generic western cartoon, plastic, glossy, uncanny realistic faces, Mughal emperor, Rajput, Malaysian songket, Thai crown, Balinese, generic Bollywood, generic princess, tiara, neon, modern clothing."
 
 ---
 

@@ -8,12 +8,12 @@ This file is the current character-look source of truth. It replaces the failed 
 
 The earlier descriptions used broad words like `royal`, `mukut`, `drape`, `goddess`, `cinematic`, and `fantasy`. Those words are dangerous in image models. They strip away the cultural identity and replace it with generic Indian/Bollywood/Mughal fantasy or Southeast Asian tropes.
 
-The true correction is to anchor every character with brutal ethnographic realism heavily grounded in Kathmandu Valley material culture:
+The true correction is to anchor every character in the **Newar paubha / thangka painting tradition**, heavily grounded in Kathmandu Valley material culture. This is a **2D painted animation**, not photoreal — but the cultural specificity below must be just as rigorous:
 
-- Hyper-realistic 18th-century documentary style, NOT "cinematic fantasy".
-- Faces must be specific: Nepali Newar ethnic features (a blend of Tibeto-Burman and Indo-Aryan, high cheekbones, mid-brown skin).
-- Architecture: Ma-Appa (red brick) and Ankhijhyal (carved dark sal wood).
-- Metals: Repoussé hammered brass, copper, and gold (not shiny CGI gold).
+- Traditional Newar paubha / thangka painting style (flat mineral pigment, ink outlines, sacred iconography), NOT "cinematic fantasy", NOT generic cartoon, NOT photoreal.
+- Faces must be specific: Nepali Newar ethnic features (a blend of Tibeto-Burman and Indo-Aryan, high cheekbones, mid-brown skin), rendered as painted icons.
+- Architecture: Ma-Appa (red brick) and Ankhijhyal (carved dark sal wood), as painted form.
+- Metals: Repoussé hammered brass, copper, and gold — painted with gold-leaf warmth, not shiny CGI gold.
 - Textiles: Makhamali (velvet), Dhaka weave, raw cotton, Kinkhab (brocade).
 - Specific Jewelry: Tayoh, Shikali, Bulaki, Nyapu Sikha.
 
@@ -23,29 +23,29 @@ Do not use the deleted SVGs. Do not use the anime SVG. Do not use generic AI "fa
 
 Use this sentence in every character prompt:
 
-`Hyper-realistic ethnographic historical portrait, 18th-century Kathmandu Valley, Nepal. Grounded Nepali Newar ethnic facial features, authentic traditional Newar textiles, carved Sal wood and exposed red brick.`
+`Traditional Nepalese Newar paubha / thangka scroll-painting style, as 2D animation, 18th-century Kathmandu Valley, Nepal. Grounded Newar ethnic features and iconography, flat mineral-pigment color, bold ink outlines, authentic traditional Newar textiles, carved Sal wood and exposed red brick — painted, never photoreal.`
 
 ## Global Negative Prompt
 
 Use this with every character image generation:
 
-`fantasy, cinematic, glowing, CGI, plastic, Disney, generic Bollywood, Indian royal fantasy, Mughal emperor, Rajput, Malaysian songket, Thai crown, Balinese, generic princess, tiara, cosplay fabric, bright neon, exaggerated magic.`
+`photorealistic, photograph, live-action, 3D render, CGI, Pixar, Disney, anime, manga, generic western cartoon, plastic, glossy, uncanny realistic faces, Mughal emperor, Rajput, Malaysian songket, Thai crown, Balinese, generic Bollywood, generic princess, tiara, neon, modern clothing.`
 
 ## King Jayaprakash Malla
 
 ### What He Must Feel Like
 
-A late Malla king of Kantipur: cultured, proud, devotional, politically cornered, and eventually broken into humility. He should feel like a ruler from old Kathmandu, not a Southeast Asian palace prince.
+A late Malla king of Kantipur: cultured, proud, devotional, politically cornered, and eventually broken into humility. His authority is sacred — his bond with the goddess Taleju is the source of his legitimacy — but this is **inner and unspoken, never worn as costume**. He should look like a **Newar king of old Kathmandu**, not a mystic, sadhu, or Southeast Asian palace prince. At the heart of his arc is a **one-sided love**: he comes to desire the goddess who can never be his, and the film is his longing, transgression, and penance.
 
 ### Face
 
-- 50-year-old Nepali/Newar man.
+- 50-year-old Nepali/Newar Malla king.
 - Medium brown skin.
 - Tired, hollowed cheeks, firm jaw.
-- Deep-set dark eyes with heavy upper lids.
+- Deep-set dark eyes with heavy upper lids and a quiet devotional depth — later, longing.
 - Slight mustache and stubble beard.
-- Red vermillion tika on forehead.
-- Expression is heavy and burdened, perfectly realistic.
+- Red vermillion tika on the forehead.
+- Cultured, dignified royal bearing at baseline; longing enters in Act 1–2, the heavy burdened weight in Acts 2–3, peace in Act 4 — carried per act, not as a constant.
 
 ### Hair / Head
 
@@ -68,7 +68,7 @@ Use specific ethnographic words:
 
 ### Best Image Prompt
 
-`Hyper-realistic ethnographic historical portrait, 18th-century Kathmandu Valley, Nepal. A 50-year-old Nepali Newar man with medium brown skin, tired hollowed cheeks, firm jaw, slight mustache and stubble beard. He wears a traditional Malla-style tight-fitting upper garment (tapalan) of deep madder-dyed cotton, wrapped at the waist with a thick wound cloth (patuka), and a pleated lower skirt-wrap (jama). On his head is a traditional Malla multi-tiered gold repoussé headpiece, intricately hammered, sitting low on dark brushed-back hair. No large turbans. He has a red vermillion tika. He sits in a dark, lamp-lit red brick room with carved Sal wood windows. Dignified, burdened, fully historically grounded.`
+`Traditional Newar paubha-painting-style illustration (2D animation), 18th-century Kathmandu Valley, Nepal. A 50-year-old Nepali Newar Malla king with medium brown skin, tired hollowed cheeks, firm jaw, slight mustache and stubble beard, and deep-set eyes with a quiet devotional depth. He wears a traditional Malla-style tight-fitting upper garment (tapalan) of deep madder-dyed cotton, wrapped at the waist with a thick wound cloth (patuka), and a pleated lower skirt-wrap (jama). On his head is a traditional Malla multi-tiered gold repoussé headpiece, intricately hammered, sitting low on dark brushed-back hair. No large turbans. He has a red vermillion tika. He sits in a dark, lamp-lit red brick room with carved Sal wood windows. Cultured, dignified, longing, fully historically grounded.`
 
 ### King Negative Prompt
 
@@ -112,11 +112,11 @@ Be very explicit to avoid generic Indian saris:
 Best image is not full-body. Best image is her face through lattice.
 
 - Medium close-up through authentic carved dark wood lattice (ankhijhyal).
-- Focus on the ethnographic realism of the jewelry and textiles.
+- Focus on the ethnographic accuracy of the jewelry and textiles (painted, but precise).
 
 ### Best Image Prompt
 
-`Hyper-realistic ethnographic historical portrait, 18th-century Kathmandu Nepal. An adult 40-year-old Nepali Newar noblewoman seen close-up through an intricately carved dark wood lattice window (ankhijhyal). She has medium warm brown skin, almond eyes with subtle kohl, and hair tied in a traditional compact Newar bun. She wears authentic traditional Newar jewelry: a distinct gold Tayoh necklace, a large gold Bulaki (septum ring), and heavy carved ear discs. She is draped in traditional Haku Patasi style (rough black cotton with a stark solid red border), accented with a dark maroon velvet (makhamali) shawl. Natural oil-lamp lighting glinting off the gold and the tear in her eye. No Bollywood glamour, no shiny silk, purely traditional.`
+`Traditional Newar paubha-painting-style illustration (2D animation), 18th-century Kathmandu Nepal. An adult 40-year-old Nepali Newar noblewoman seen close-up through an intricately carved dark wood lattice window (ankhijhyal). She has medium warm brown skin, almond eyes with subtle kohl, and hair tied in a traditional compact Newar bun. She wears authentic traditional Newar jewelry: a distinct gold Tayoh necklace, a large gold Bulaki (septum ring), and heavy carved ear discs. She is draped in traditional Haku Patasi style (rough black cotton with a stark solid red border), accented with a dark maroon velvet (makhamali) shawl. Natural oil-lamp lighting glinting off the gold and the tear in her eye. No Bollywood glamour, no shiny silk, purely traditional.`
 
 ### Queen Negative Prompt
 
@@ -151,7 +151,7 @@ Taleju is not just a glowing woman. She is the Malla royal tutelary goddess, tan
 
 ### Best Image Prompt
 
-`Hyper-realistic ethnographic temple photography, Kathmandu Valley, Nepal. A powerful female figure resembling the tutelary goddess Taleju. She has flawless golden-bronze skin (authentic Nepali Newar features), dark kohl-lined eyes staring with extreme calm intensity. Instead of fantasy glowing dresses, she wears a heavy, historically accurate Newar ceremonial brocade (Kinkhab) draped like a temple idol, dominated by deep vermillion red and hammered antique gold. She wears an elaborate three-tiered gold repoussé temple crown studded with coral and turquoise. A subtle, non-glowing copper Shri Yantra mandala sits behind her head in the shadows. Lit by flickering mustard oil brass lamps in an authentic red brick Malla temple shrine.`
+`Traditional Newar paubha-painting-style temple illustration (2D animation), Kathmandu Valley, Nepal. A powerful female figure resembling the tutelary goddess Taleju. She has flawless golden-bronze skin (authentic Nepali Newar features), dark kohl-lined eyes staring with extreme calm intensity. Instead of fantasy glowing dresses, she wears a heavy, historically accurate Newar ceremonial brocade (Kinkhab) draped like a temple idol, dominated by deep vermillion red and hammered antique gold. She wears an elaborate three-tiered gold repoussé temple crown studded with coral and turquoise. A subtle, non-glowing copper Shri Yantra mandala sits behind her head in the shadows. Lit by flickering mustard oil brass lamps in an authentic red brick Malla temple shrine.`
 
 ### Taleju Negative Prompt
 
@@ -189,7 +189,7 @@ The Kumari is an infant carrying divine presence. Her power is silence, stillnes
 
 ### Best Image Prompt
 
-`Hyper-realistic documentary photography, Kathmandu, Nepal. A newborn Nepali Newar infant dressed exactly as the authentic Royal Kumari (Living Goddess). She rests perfectly still with a solemn, unsmiling expression. Medium brown skin. She has the authentic thick black kohl extending to her temples and the large red and yellow fire-eye (agni-chakshu) painted over her entire forehead. Her hair is gathered in a traditional high topknot. She is swaddled in authentic heavy crimson-red raw cotton and silk brocade layered ceremonial robes. She wears a real hammered-gold Kumari necklace (Tayoh) and repoussé jewelry. Background is a dark, intricately carved wooden window of a Kathmandu courtyard.`
+`Traditional Newar paubha-painting-style illustration (2D animation), Kathmandu, Nepal. A newborn Nepali Newar infant dressed exactly as the authentic Royal Kumari (Living Goddess). She rests perfectly still with a solemn, unsmiling expression. Medium brown skin. She has the authentic thick black kohl extending to her temples and the large red and yellow fire-eye (agni-chakshu) painted over her entire forehead. Her hair is gathered in a traditional high topknot. She is swaddled in authentic heavy crimson-red raw cotton and silk brocade layered ceremonial robes. She wears a real hammered-gold Kumari necklace (Tayoh) and repoussé jewelry. Background is a dark, intricately carved wooden window of a Kathmandu courtyard.`
 
 ### Kumari Negative Prompt
 

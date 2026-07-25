@@ -2,16 +2,39 @@
 
 **Project:** Animated music video for "The King's Regret" (The Kumari Legend)  
 **Duration:** 5:00 (exact timings provided below)  
-**Style:** Photoreal historical — real live-action ethnographic footage of 18th-century Kathmandu Valley, with grounded (non-fantasy) lighting transitions  
+**Style:** Newar paubha / thangka 2D animation — a traditional Nepalese sacred scroll-painting of 18th-century Kathmandu Valley brought to gentle motion; flat mineral pigments, gold-leaf, ink outlines, sacred halos, gods as icons. Mythic and reverent, never photoreal  
 **Cultural Context:** Retelling of King Jayaprakash Malla & the origin of the Kumari tradition (respectful, symbolic depiction)  
 **Target Platform:** YouTube / Social Media  
+
+---
+
+## Story Spine (read this before the shot list)
+
+This is a **folk tale**, not a mood piece. It must read as a chain of consequence — *he does a thing, and because of that thing, the world changes on him* — and it must end with the world changed, not just the hero's heart. Every shot serves one of the five links below.
+
+**The chain of consequence:**
+
+1. **The Covenant (Act 1).** Night after night the goddess Taleju comes in secret to play dice with the King and give him divine counsel. There is one condition, silently agreed and never spoken aloud: *he may sit with her as a devotee, never desire her as a woman, never reach for her.* The game is the form the covenant takes. The token is the covenant made physical.
+2. **The Breaking (Act 2).** The King looks at her with desire and reaches. He breaks the one rule. This is not a villain turn — it is a small, human, catastrophic failure. The instant he reaches, the covenant is void.
+3. **The Withdrawal (Act 2).** Taleju does not punish. She *withdraws* — sacred legitimacy leaving the man who could not keep his desire out of the divine. As she recedes, the token falls; he lunges and misses. He is left with an empty board.
+4. **The Penance (Act 3).** He does not merely grieve — he *keeps a vigil*. Every dawn he sets the token's empty place at the board and waits, and every dawn nothing comes. Three vigils, three failures. On the third, in dream, she gives him **the instruction** (see Shot 14): she will return — but never again to him as an equal at the game. She will return as a **child** he must *serve, not possess.*
+5. **The Restoration & the Founding (Act 4).** At dawn the newborn Kumari is brought, the token at her chest. The King understands the bargain, lowers himself, and the *people accept the child as the living goddess.* The tale closes not on his private peace but on the **birth of a tradition** — this is why, to this day, the goddess lives among them as a child, and a king must bow to a girl.
+
+**The rule of three (the token).** The talisman changes hands exactly three times, meaning something different each time. Each handoff must be a *watchable physical event*, never an ambient glow:
+- **Given** — placed on the board in Act 1 (the covenant).
+- **Lost** — dropped as Taleju withdraws; the King reaches and *misses* (the breaking made physical).
+- **Returned** — placed on the newborn Kumari's chest in Act 4 (the covenant reborn in a form he can only serve).
+
+Told right, these three placements deliver the film's entire theology without a single word of dialogue.
+
+**The Queen's function.** She is not a spectator who merely aches. She is the human witness whose seeing *matters*: she understands the sacredness before the King does, and hers is the first mortal eye to see the covenant break. Her witnessing is the story's conscience — she carries the knowledge the King is too blind, in the moment, to hold. She cannot be removed without the tale losing its witness.
 
 ---
 
 ## Character Descriptions
 
 ### **The King** (Jayaprakash Malla)
-- **Appearance:** Hyper-realistic 18th-century Nepali/Newar Malla king; 50-year-old, medium brown skin, tired hollowed cheeks, firm jaw, deep-set dark eyes, slight mustache/beard, vermillion tika. Avoid cinematic fantasy or generic Indian royal tropes.
+- **Appearance:** Paubha-painted 18th-century Nepali/Newar Malla king; 50-year-old, medium brown skin, tired hollowed cheeks, firm jaw, deep-set dark eyes, slight mustache/beard, vermillion tika. Rendered as a painted icon — avoid photoreal, cinematic fantasy, or generic Indian royal tropes.
 - **Costume Evolution:**
   - **Act 1:** "Stiffly perfect" Malla-era Newar court attire; deep madder-dyed cotton tapalan, thick patuka sash, pleated jama wrap. He wears a multi-tiered gold repoussé headpiece (no turbans).
   - **Act 2:** At 1:13, a single strand of hair falls loose from the headpiece (the first "crack").
@@ -41,9 +64,9 @@
 - **Visual Performance:**
   - **Focal Points:** Gold earrings and nose-ring (nath) catch sharp candle highlights — the "signal" in the dark.
   - **Eyes:** Constant "tear-line" highlight on the lower lid (aching gaze, not jealousy).
-- **Moment:** 0:00–0:50 (peering through lattice/doorway)
-- **Emotion:** Awe, ached longing, shock
-- **Note:** The lattice is her mask; keep her sympathetic. She witnesses the breakdown of the sacred.
+- **Moment:** 0:00–0:50 (peering through lattice/doorway), with a returning glance at the moment of the breaking (see Shot 6)
+- **Emotion:** Awe, ached longing, then dawning dread — she reads the covenant, and she is the first mortal to see it break
+- **Note:** The lattice is her mask and her prison. Keep her sympathetic — never jealous. Her function is to be the story's conscience: she understands the sacredness before the King does, and her eye is the human witness to the rupture. She is not decorative; without her the tale has no witness.
 
 ### **The Child (Kumari)**
 - **Appearance:** Newborn Royal Kumari infant, living embodiment of Taleju. Perfectly still expression, thick black kohl to temples, large red/yellow fire-eye (agni-chakshu) painted over forehead. She wears miniature heavy crimson-red raw cotton and silk brocade with real hammered-gold Kumari jewelry. Not a cute baby, but a vessel of immense gravity.
@@ -219,16 +242,16 @@
 
 **Suggested:** Carved lotus flower (gold or light wood) — universally spiritual, Nepalese resonance.
 
-**Behavior:**
-- **Act 1:** Rests on game board (subtle, barely noticed)
-- **Act 2:** Falls/rolls as Taleju fades; King desperately reaches for it but misses; it vanishes in shadow
-- **Act 3:** King stares at the empty space where it fell; he searches for it in rain/dream
-- **Act 4:** Child appears holding it; full circle; King sees it and understands the cycle
+**Behavior — the rule of three (changes hands exactly three times, each a watchable physical event):**
+- **Act 1 — GIVEN:** Taleju places it on the board. This is the covenant made physical — frame the placement as deliberate, almost a vow, not set dressing. The audience must register *this object matters* here, so it can mean everything later.
+- **Act 2 — LOST:** As Taleju withdraws, the token falls and rolls. The King *reaches and misses* — the breaking made physical. It comes to rest in shadow, out of his reach. The miss is the emotional event; do not let it simply "vanish."
+- **Act 3 — ABSENT:** The token is gone. Its power now is the *empty place*. Each dawn vigil, the King sets the board and cups the empty space where it sat (see 3:00–3:15). Its absence is a character.
+- **Act 4 — RETURNED:** The token rests on the newborn Kumari's chest — placed *with* her, not gripped by her. The King sees it and understands: the covenant is reborn in a form he can only serve. Full circle.
 
 **Animation Notes:**
-- Token should move with weight and intention (not magical, but treated sacredly)
-- Shine/reflection catches light in each act (golden in Act 1, muted in Act 3, renewed in Act 4)
-- Final resting on game board should be peaceful, resolved
+- Token moves with weight and intention (not magical, but treated sacredly). The three handoffs — placed, dropped-and-missed, placed-again — must each be a distinct physical action a viewer can read.
+- Shine/reflection catches light in each act (golden covenant in Act 1, absent/cold in Act 3, dawn-renewed in Act 4).
+- Its final rest (Shot 17) is a coda, not the climax — peaceful, resolved, the vow kept in a new form.
 
 ---
 
@@ -238,47 +261,47 @@
 
 | Shot # | Time | Description | Duration | Notes |
 |--------|------|---|---|---|
-| 1 | 0:00–0:05 | Wide interior: warm room, lamps, fade-in from black | 5" | Establish mood; soft pan to table |
-| 2 | 0:05–0:15 | Slow dolly toward game table; two figures visible in warm glow | 10" | Anticipation building; incense visible |
-| 3 | 0:15–0:30 | Close on hands over game pieces; token visible | 15" | Ritualistic, slow movement; tokens slide smoothly |
-| 4 | 0:30–0:50 | Queen's witness: her eyes peer through the carved lattice (ankhijhyal) at the sacred game | 20" | Lyrics enter ("reminiscing"); lattice shadows on her face, aching longing |
-| 5 | 0:50–1:13 | Extreme close-ups alternating: his eyes, her eyes, hands touching table | 23" | Harp flourish; music swells; intimate connection |
+| 1 | 0:00–0:05 | Wide interior: warm room, lamps, fade-in from black | 5" | Establish the sacred, secret space — a room no one else enters. Soft pan to table. |
+| 2 | 0:05–0:15 | Slow dolly toward game table; two figures visible in warm glow | 10" | Anticipation building; incense visible. This is a *ritual*, not a date. |
+| 3 | 0:15–0:30 | Close on hands over game pieces; **the Covenant** — Taleju places the token, King mirrors the gesture | 15" | **PLANT:** the silent vow made physical. Her placement is deliberate, almost sacramental; his mirror = his acceptance of the rule. The token is GIVEN (handoff 1 of 3). |
+| 4 | 0:30–0:50 | Queen's witness: her eyes peer through the carved lattice (ankhijhyal) at the sacred game | 20" | Lyrics enter ("reminiscing"). She *reads the covenant* — she understands its sacredness before the King does. Lattice shadows on face; aching longing, not jealousy. |
+| 5 | 0:50–1:13 | Extreme close-ups alternating: his eyes, her eyes, hands near touching but not touching | 23" | Harp flourish; music swells. **Devotion, not romance.** The tension is that they *do not* touch — the covenant holds, barely. Seed the danger here. |
 
 ### **ACT 2: Transgression & Vanishing (1:13–2:20)**
 
 | Shot # | Time | Description | Duration | Notes |
 |--------|------|---|---|---|
-| 6 | 1:13–1:40 | Lighting shift live on screen; his face hardens; flash of obsession | 27" | Dissonant chord; shadows creep in from edges |
-| 7 | 1:40–1:53 | He reaches forward; she recoils; separation grows | 13" | Parallax effect; growing distance psychologically |
-| 8 | 1:53–2:19 | She dissolves into shadow/light; fades upward; token falls | 26" | Flute solo; melancholic; no sound FX, just music |
-| 9 | 2:19–2:40 | Brief flash: golden memory of her smile (flashback) | 21" | Color temperature briefly returns; bittersweet |
+| 6 | 1:13–1:40 | **The Breaking:** lighting shift live on screen; the King looks at her *with desire* and moves to reach — the one rule breaks | 27" | Dissonant chord. Not a villain turn — a small, human, catastrophic failure. At 1:13 a single hair falls loose (the first crack). Cut once to the Queen's lattice: the first mortal eye to see the covenant break. |
+| 7 | 1:40–1:53 | **The Withdrawal:** he reaches; she does not flinch in anger — she *recedes*, sacred legitimacy leaving him | 13" | Parallax; growing distance. Her retreat is wounded boundary, not punishment. The covenant is now void. |
+| 8 | 1:53–2:19 | She dissolves upward like smoke; **the token falls and rolls; the King lunges and MISSES** | 26" | Flute solo; no SFX, just music. The *miss* is the emotional event — token comes to rest in shadow, out of reach. Token LOST (handoff 2 of 3). |
+| 9 | 2:19–2:40 | Aftermath, then a brief flash of golden memory of her smile | 21" | Hold the empty board and his suspended hand *before* the flashback — let the room cool into silence so 2:19–2:40 isn't dead air. Color briefly returns; bittersweet. |
 
 ### **ACT 3: Penance & Dream (2:40–3:58)**
 
 | Shot # | Time | Description | Duration | Notes |
 |--------|------|---|---|---|
-| 10 | 2:40–3:00 | Transition: fade to rain; King wanders alley alone | 20" | Desaturated, cool tones; rain SFX |
-| 11 | 3:00–3:15 | Dream sequence: Taleju appears in mist; King meditates in rain | 15" | Ethereal, soft-focus; voice-over or whispered instruction |
-| 12 | 3:15–3:29 | King sits in courtyard; fasting, hands in prayer; time passes | 14" | Sparse percussion; sparse visual; emotional core |
-| 13 | 3:29–3:58 | Montage: lighting candles, staring at empty board, incense burning | 29" | Music builds; strings enter; emotional weight |
+| 10 | 2:40–3:00 | Transition: fade to rain; King carries the game board out; **the vigil begins** | 20" | Desaturated, cool; rain SFX. Establish the *ritual he will repeat*: he sets the board and waits for her to return. Penance is an action, not just grief. |
+| 11 | 3:00–3:15 | **The vigil, repeated:** each dawn he sets the board, cups the token's empty place, and waits — and nothing comes | 15" | Repetition-with-variation (the engine of oral tales): three dawns, three failures, shown compressed. He is thinner, greyer each time. The *empty place* is the token's Act-3 presence. |
+| 12 | 3:15–3:29 | The third vigil: King stilled, fasting, hands cupping the empty space; on the edge of giving up | 14" | Sparse percussion; emotional core. This is rock bottom — the vigil has failed three times. |
+| 13 | 3:29–3:58 | Montage bridging into sleep: candles guttering, empty board, incense — he finally sleeps at the board | 29" | Music builds; strings enter. His exhaustion tips him into the dream where the instruction comes. |
 
 ### **ACT 4: Rebirth & Dawn (4:11–5:00)**
 
 | Shot # | Time | Description | Duration | Notes |
 |--------|------|---|---|---|
-| 14 | 3:58–4:11 | Dream peak: orchestral swell; Taleju's instruction (gesture, no words) | 13" | Bright orchestral motif; hope enters |
-| 15 | 4:11–4:40 | Newborn Kumari revealed in soft dawn light; carried or resting on a cushion, token at her chest | 29" | New, innocent motif; warm light; restrained dawn glow |
-| 16 | 4:40–4:55 | Wide shot: people bow respectfully (brief); King watches from distance | 15" | Gentle hymn-like strings; acceptance |
-| 17 | 4:55–5:00 | Close: token rests on game board; warm light covers it; King at peace | 5" | Music swells to chorus; resolute ending |
+| 14 | 3:58–4:11 | **The Instruction (the hinge of the film):** in dream, Taleju gives the terms of her return | 13" | Bright orchestral motif; hope enters. Make it *concrete* even without words: she lifts the fallen token, then lowers her open hand toward the ground / toward a child's height, then presses a finger to her lips and turns her palm from *taking* to *offering*. The read: **I will return — not as your equal at the game, but as a child you must serve, not possess.** Everything in Act 4 answers this gesture. |
+| 15 | 4:11–4:40 | **The Return:** newborn Kumari brought in soft dawn light; the token is *placed on her chest* | 29" | New, innocent motif; restrained dawn glow (gentler than Taleju's). Token RETURNED (handoff 3 of 3) — placed *with* her, not gripped. Not a triumphant reveal; dawn deciding to enter the frame. |
+| 16 | 4:40–4:55 | **The Founding:** the people bow and *accept the child as the living goddess*; the King lowers himself among them | 15" | Gentle hymn-like strings. **This is the true climax** — the world changes, a tradition is born: the goddess now lives among them as a child, and a king must bow to a girl. The King understands the bargain and serves. |
+| 17 | 4:55–5:00 | Coda: the token at rest with the child; warm dawn light; King at peace | 5" | Music swells to chorus. A *coda*, not the climax — the vow kept in a new form. "And that is why, to this day…" |
 
 ---
 
 ## Animation Style & Technical Specs
 
 ### **Visual Style:**
-- **Technique:** Photoreal historical — AI-generated live-action footage, ethnographic documentary realism (see the STYLE BLOCK in `PROMPTS.md`). No animation, cartoon, or CGI look.
-- **Texture:** Real skin, real woven textiles, real brick and carved wood; natural film grain acceptable, no painterly outlines
-- **Motion:** Naturalistic and restrained; avoid jerky cuts; slow, deliberate pacing (also the most reliable to generate)
+- **Technique:** Newar paubha / thangka 2D animation — AI-painted keyframes animated into motion (see the STYLE BLOCK in `PROMPTS.md`). Flat mineral pigment, ink outlines, sacred iconography. No photoreal, 3D-Pixar, anime, or flat-vector look.
+- **Texture:** Hand-painted cloth/paper grain, gold-leaf, mineral-pigment washes, confident ink linework; figures are painted icons, not real skin
+- **Motion:** Restrained and ritual — slow drifts, gentle holds, painted elements easing into life (the paubha idiom favors stillness; also the most reliable to animate)
 - **Frame Rate:** 24fps (cinematic standard)
 - **Resolution:** 1080p (1920×1080) minimum; 4K recommended
 
@@ -354,14 +377,15 @@
 
 ## Notes for Director / Lead Animator
 
-**Tone:** This is a spiritual journey, not a tragedy. The King's suffering is redemptive, not punitive. By Act 4, the audience should feel catharsis—the understanding that the King has transformed, and the goddess has returned in a way that is eternal and holy.
+**Tone:** This is a spiritual journey, not a tragedy. The King's suffering is redemptive, not punitive. By Act 4, the audience should feel catharsis — not just that the King has transformed, but that *a tradition has been born*: the goddess has returned in a form that is eternal, holy, and forever beyond his possession. The tale ends with the **world** changed, not only the hero's heart.
 
 **Emotional Peaks:**
-1. **1:13:** Shock of the transgression (cold, dissonant)
-2. **2:19:** Final loneliness (flute solo, empty board)
-3. **3:15:** Deepest sorrow (sparse, vulnerable)
-4. **4:11:** Hope returns (child, innocence, renewal)
-5. **5:00:** Acceptance, peace, cycle complete
+1. **1:13:** The Breaking — the covenant snaps (cold, dissonant)
+2. **2:19:** The miss and final loneliness (flute solo, empty board, out-of-reach token)
+3. **3:15:** Rock bottom — the third failed vigil (sparse, vulnerable)
+4. **3:58–4:11:** The Instruction — the terms of return (hope enters)
+5. **4:40:** **The Founding — the true climax:** the people accept the child as the living goddess; a king bows to a girl
+6. **5:00:** Coda — the vow kept in a new form; peace, cycle complete
 
 **Pacing:** Allow silence and stillness. This is not a high-energy video. Every movement should be intentional. The camera should breathe. Let the music and light do the heavy lifting.
 

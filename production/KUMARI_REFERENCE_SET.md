@@ -10,7 +10,7 @@ How to build and feed the **newborn Royal Kumari**'s reference images. She is an
 
 Paste verbatim into **every** Kumari image prompt.
 
-> `A newborn Nepali Newar infant dressed as the authentic Royal Kumari (Living Goddess). Medium brown skin. A perfectly still, solemn, unsmiling expression. Authentic hand-painted thick black kohl extending to the temples, and a large red-and-yellow fire-eye (agni-chakshu) hand-painted over the entire forehead. A traditional high topknot scaled for an infant. Documentary photoreal, reverent, historically and culturally accurate.`
+> `A newborn Nepali Newar infant dressed as the authentic Royal Kumari (Living Goddess). Medium brown skin. A perfectly still, solemn, unsmiling expression. Authentic hand-painted thick black kohl extending to the temples, and a large red-and-yellow fire-eye (agni-chakshu) hand-painted over the entire forehead. A traditional high topknot scaled for an infant. Painted in traditional Newar paubha style — flat mineral pigment, ink outlines, reverent, historically and culturally accurate, never photoreal.`
 
 **Kumari negative prompt (always append):**
 

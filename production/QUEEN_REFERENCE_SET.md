@@ -10,7 +10,7 @@ How to build and feed the **Queen (Daya Lakshmi figure)**'s reference images. Sh
 
 Paste verbatim into **every** Queen image prompt.
 
-> `An adult 40-year-old Nepali Newar noblewoman. Medium warm brown skin, almond eyes with subtle kohl. A constant tear-line highlight on the lower lid — aching gaze, not jealousy. Mouth closed or slightly parted in silent concern. Dark hair in a traditional compact Newar bun. Photoreal, ethnographic, historically grounded.`
+> `An adult 40-year-old Nepali Newar noblewoman. Medium warm brown skin, almond eyes with subtle kohl. A constant tear-line highlight on the lower lid — aching gaze, not jealousy. Mouth closed or slightly parted in silent concern. Dark hair in a traditional compact Newar bun. Painted in traditional Newar paubha style — flat mineral pigment, ink outlines, historically grounded, never photoreal.`
 
 **Queen negative prompt (always append):**
 

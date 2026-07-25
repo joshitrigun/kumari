@@ -17,23 +17,23 @@ This document is the **Single Source of Truth** for the AI Video Generation phas
 
 | Shot | Priority | Frames (Start-End) | Scene & Key Action | Required Inputs (Identity / Environment / Style) | Acceptance Criteria (Definition of Done) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **01** | **SHOULD** | 1 – 120 | **Sacred Chamber:** Establish wide room. | **E:** `sacred_chamber.svg` | No flickering in brick textures; smoke is volumetric/ethereal. |
+| **01** | **SHOULD** | 1 – 120 | **Sacred Chamber:** Establish wide room. | **E:** `sacred_chamber.svg` | No flickering in painted brick; incense smoke reads as flowing ethereal painted ribbons. |
 | **02** | **COULD** | 121 – 360 | **Dolly to Table:** Enter sacred space. | **S:** `STYLE_ANCHOR.png` | Smooth push-in; pillars don't "warp" as they exit frame. |
-| **03** | **COULD** | 361 – 720 | **Hands & Token:** Close action on board. | **I:** written King + Taleju refs; approved bitmap refs TBD | Hands look human (5 fingers); token has a physical "weight." |
+| **03** | **COULD** | 361 – 720 | **Hands & Token:** Close action on board. | **I:** written King + Taleju refs; approved bitmap refs TBD | Painted hands are anatomically clean (5 fingers); token reads with painted "weight." |
 | **04** | **SHOULD** | 721 – 1200 | **Queen's Witness:** Peeking through lattice. | **I:** written Queen ref; approved bitmap ref TBD / **S:** `STYLE_ANCHOR.png` | Lattice cast geometric shadows on face; eyes show longing. |
-| **05** | **MUST** | 1201 – 1752 | **Intimacy Peak:** Eyes meeting close-up. | **I:** written King + Taleju refs; approved bitmap refs TBD | Sub-surface scattering on skin; liquid light ripples on faces. |
+| **05** | **MUST** | 1201 – 1752 | **Intimacy Peak:** Eyes meeting close-up. | **I:** written King + Taleju refs; approved bitmap refs TBD | Painted inner glow on the faces; Taleju's divine light rendered as flat radiant gold-leaf washes, not photoreal skin. |
 | **06** | **MUST** | 1753 – 2400 | **The Transgression:** Cold shift / Desire. | **I:** written King ref; approved bitmap ref TBD | **CRITICAL:** Lighting shift must be a live transition, not a cut. |
 | **07** | **COULD** | 2401 – 2712 | **Confrontation:** Reaching and recoiling. | **I:** written King + Taleju refs; approved bitmap refs TBD | Taleju's movement is graceful even in fear; King looks obsessed. |
-| **08** | **MUST** | 2713 – 3336 | **The Vanishing:** Dissolve / Token falls. | **I:** written Taleju ref; approved bitmap ref TBD | Dissolve is upward particles; token roll has realistic physics. |
+| **08** | **MUST** | 2713 – 3336 | **The Vanishing:** Dissolve / Token falls. | **I:** written Taleju ref; approved bitmap ref TBD | Dissolve is upward painted gold particles; token roll reads with believable weight. |
 | **09** | **COULD** | 3337 – 3840 | **Memory:** Flashback to smile. | **I:** written Taleju ref; approved bitmap ref TBD | Soft-focus bloom; saturation matches Act 1 warmth. |
 | **10** | **SHOULD** | 3841 – 4320 | **Rain Transition:** King walks in rain. | **E:** `rain_alley.svg` / **I:** written King ref; approved bitmap ref TBD | Rain looks like streaks, not noise; King's robes look damp. |
 | **11** | **COULD** | 4321 – 4680 | **Dream Taleju:** Silhouette in mist. | **I:** written Taleju ref; approved bitmap ref TBD | Rain passes THROUGH the translucent silhouette. |
 | **12** | **COULD** | 4681 – 5016 | **Penance:** Stilled meditation. | **E:** `dawn_courtyard.svg` (Dark) | King looks emaciated/strained; breathing is slow and shallow. |
-| **13** | **COULD** | 5017 – 5712 | **Montage:** Candles / Empty board. | **S:** `STYLE_ANCHOR.png` | Stable frames; candle flame has realistic flickering/glow. |
+| **13** | **COULD** | 5017 – 5712 | **Montage:** Candles / Empty board. | **S:** `STYLE_ANCHOR.png` | Stable frames; painted candle flame flickers with a warm gold-leaf glow. |
 | **14** | **SHOULD** | 5713 – 6024 | **Dream Peak:** instruction / Tear. | **I:** written King ref; approved bitmap ref TBD | Expression shift from pain to peace; single tear is visible. |
 | **15** | **MUST** | 6025 – 6720 | **Kumari Appears:** Reveal of infant. | **I:** written Kumari ref; approved bitmap ref TBD / **E:** `dawn_courtyard.svg` | Infant carried or resting; extreme stillness; token on chest. |
-| **16** | **COULD** | 6721 – 7080 | **People Bow:** Collective reverence. | **S:** `STYLE_ANCHOR.png` | Silhouettes are distinct; movement is slow and deep. |
-| **17** | **SHOULD** | 7081 – 7200 | **Epilogue:** Token at rest. | **S:** `STYLE_ANCHOR.png` | Profound sense of stillness; dawn light is clean and airy. |
+| **16** | **MUST** | 6721 – 7080 | **The Founding (true climax):** people accept the child as the living goddess; King lowers himself among them. | **S:** `STYLE_ANCHOR.png` | Reads as a *tradition being born*, not just a crowd bowing; King is clearly among/below the people; silhouettes distinct; movement slow and deep. |
+| **17** | **SHOULD** | 7081 – 7200 | **Coda:** Token at rest with the child. | **S:** `STYLE_ANCHOR.png` | Reads as coda, not climax; profound stillness; dawn light clean and airy. |
 
 ---
 

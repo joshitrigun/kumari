@@ -10,7 +10,7 @@ How to build and feed the King's reference images so his identity stays locked a
 
 Copy this block verbatim into **every** King image prompt, in every act. Do not paraphrase — the exact wording is what holds the face.
 
-> `A 50-year-old Nepali Newar man. Medium brown skin. Tired, hollowed cheeks, firm jaw. Deep-set dark eyes with heavy upper lids. Slight mustache and short stubble beard. Red vermillion tika on the forehead. Heavy, burdened expression. Fully historically grounded, photoreal, ethnographic.`
+> `A 50-year-old Nepali Newar Malla king. Medium brown skin. Tired, hollowed cheeks, firm jaw. Deep-set dark eyes with heavy upper lids and a quiet, devotional depth. Slight mustache and short stubble beard. Red vermillion tika on the forehead. The cultured, dignified bearing of a Kathmandu Valley king. Painted in traditional Newar paubha style — flat mineral pigment, ink outlines, historically grounded and mythic, never photoreal.`
 
 **King negative prompt (always append):**
 

@@ -10,8 +10,8 @@ Production package for a 5-minute music video inspired by the Kumari legend of K
 | Duration | 5:00 / 300 seconds |
 | Timeline | 7200 frames at 24 fps |
 | Resolution | 1920 x 1080 |
-| Visual style | **Photoreal historical** — looks like real live-action footage of 18th-century Kathmandu Valley, ethnographic documentary realism, shallow depth of field. **Not** animation/CGI. |
-| Recommended tools | **Seedance 2.5** (BytePlus / Dreamina) as the single video generator + any basic video editor. *(Veo 3.1 held in reserve for Shot 6's live lighting transition if needed — see PROMPT_WORKFLOW.md.)* |
+| Visual style | **Newar paubha / thangka 2D animation** — the film looks like a traditional Nepalese sacred scroll-painting brought to motion: flat mineral pigments, gold-leaf, ink outlines, sacred halos, gods rendered as icons. Mythic and reverent. **Not** photoreal, **not** 3D-Pixar, **not** anime. |
+| Recommended tools | **Keyframe-driven, paubha-first.** A strong illustration-capable image model (Midjourney, Imagen/Nano Banana, or Flux) generates the **painted paubha keyframes**; **Seedance 2.5** (BytePlus / Dreamina) animates those stills into shots with restrained, ritual motion (image-to-video). Any basic video editor for assembly. *(No Veo/photoreal step — in a painted film the Shot 6 warm→cold shift is just a palette change, done in-paint or in the grade.)* |
 | Current stage | Prompts and character bible ready; character references and shots pending generation |
 
 ## Start Here (prompt-only workflow)
@@ -57,7 +57,7 @@ The project has a strong emotional spine: sacred intimacy, rupture, penance, and
 7. Protect the token continuity. The token should be visible or emotionally implied in Shots 3, 8, 12/13, 15, and 17. It is the audience's thread through loss and renewal.
 8. Separate Taleju's glow from the child's glow. Taleju can have liquid, caustic, divine light. The child should have gentler dawn radiance, less supernatural spectacle, and more quiet gravity.
 9. Use stillness as a production advantage. Shots 12, 13, 14, and 17 do not need heavy movement; they need breath, rain, incense, and micro-expression. In a prompt workflow this also generates far more reliably than complex motion.
-10. Schedule a cultural review before final rendering. The package is respectful, but the subject deserves a Newar/Nepalese cultural review for architecture, costume, ornament names, child depiction, and the balance between mythic symbolism and lived tradition. Photoreal depiction raises this bar.
+10. Schedule a cultural review before final rendering. The package is respectful, but the subject deserves a Newar/Nepalese cultural review for architecture, costume, ornament names, child depiction, and the balance between mythic symbolism and lived tradition. The paubha idiom is a sacred living tradition — treating the subject in its own visual language is a strength, but get real cultural eyes on the depiction of Taleju and the Kumari.
 
 ### Story Notes
 

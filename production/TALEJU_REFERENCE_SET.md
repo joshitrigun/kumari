@@ -10,7 +10,7 @@ How to build and feed the goddess **Taleju Bhawani**'s reference images so her i
 
 Paste verbatim into **every** Taleju image prompt.
 
-> `A powerful female figure resembling the tutelary goddess Taleju Bhawani. Flawless golden-bronze skin, authentic Nepali Newar features. Large, still dark eyes staring with extreme calm intensity. Refined kohl. A luminous red bindi. Expression compassionate, sovereign, boundary-setting — total stillness. Photoreal, ethnographic temple realism, like a Newar paubha deity.`
+> `A powerful female figure resembling the tutelary goddess Taleju Bhawani. Flawless golden-bronze skin, authentic Nepali Newar features. Large, still dark eyes staring with extreme calm intensity. Refined kohl. A luminous red bindi. Expression compassionate, sovereign, boundary-setting — total stillness. Painted as a Newar paubha temple deity — flat mineral pigment, ink outlines, sacred halos, iconic, never photoreal.`
 
 **Taleju negative prompt (always append):**
 
