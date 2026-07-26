@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Python envs
+.venv/
+
+# Local Claude Code settings (personal, not shared)
+.claude/settings.local.json
+production/.claude/settings.local.json
+
+# Generation outputs (large binaries — keep out of git)
+production/character_sheets/
+production/outputs/

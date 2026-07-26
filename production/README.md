@@ -40,7 +40,6 @@ Production package for a 5-minute music video inspired by the Kumari legend of K
 | [CHARACTER_LOOK_BIBLE.md](CHARACTER_LOOK_BIBLE.md) | Detailed look and material bible for each character. |
 | [REALITY_REFERENCE.md](REALITY_REFERENCE.md) | Historical/cultural notes and depiction guardrails. |
 | [COLOR_PALETTE.md](COLOR_PALETTE.md) | Exact act palettes, lighting temperatures, and implementation notes. |
-| [environment_sheets/](environment_sheets/) | Environment references for chamber, alley, and courtyard. |
 
 ## Director Review
 
