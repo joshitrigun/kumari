@@ -16,7 +16,7 @@ Paste verbatim into **every** Kumari image prompt.
 
 > `cute princess, horror child, creepy doll, tiara, Thai crown, Malaysian costume, fantasy princess dress, superhero mask makeup, adult glamour, smiling mascot, plastic CGI, neon glow, playful baby, gripping object, walking baby.`
 
-Constant wardrobe/ornament to append: `authentic miniature heavy crimson-red raw cotton and silk brocade layered ceremonial robes; a real hammered-gold Kumari necklace (Tayoh) and miniature repoussé jewelry; enveloped in heavy restrictive textiles.`
+Constant wardrobe/ornament to append: `authentic miniature heavy crimson-red raw cotton and silk brocade layered ceremonial robes; a real hammered-gold Kumari necklace (Tayo) and miniature repoussé jewelry; enveloped in heavy restrictive textiles.`
 
 ---
 

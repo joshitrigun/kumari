@@ -10,7 +10,9 @@ How to build and feed the King's reference images so his identity stays locked a
 
 Copy this block verbatim into **every** King image prompt, in every act. Do not paraphrase — the exact wording is what holds the face.
 
-> `A 50-year-old Nepali Newar Malla king. Medium brown skin. Tired, hollowed cheeks, firm jaw. Deep-set dark eyes with heavy upper lids and a quiet, devotional depth. Slight mustache and short stubble beard. Red vermillion tika on the forehead. The cultured, dignified bearing of a Kathmandu Valley king. Painted in traditional Newar paubha style — flat mineral pigment, ink outlines, historically grounded and mythic, never photoreal.`
+> `A tall, strong-built 50-year-old Nepali Newar Malla king in his prime — commanding, athletic, handsome and sharply intelligent. Medium brown skin, strong balanced features, firm square jaw, high cheekbones, straight nose, well-groomed short beard and mustache. Deep-set dark eyes, keen and perceptive, with a quiet devotional depth. Red vermillion tika on the forehead. The cultured, dignified, magnetic bearing of a Kathmandu Valley king. Painted in traditional Newar paubha style — flat mineral pigment, ink outlines, historically grounded and mythic, never photoreal.`
+
+> **Note on the arc:** this handsome, powerful prime carries through the whole film. He is never reduced to a beggar. In **Act 3** he is *humbled, not broken* — still tall and dignified, but stripped of regalia and pride, expressing penance as devotion (praying from his palace toward Taleju's temple). The change across acts is **bearing and wardrobe**, not a loss of stature: proud king → humbled devotee → man at peace.
 
 **King negative prompt (always append):**
 
@@ -49,16 +51,16 @@ Same court dress, but **one single strand of hair falls loose** from the headpie
 
 Wardrobe to append: `the same Malla court dress and gold repoussé headpiece as Act 1, but a single strand of dark hair has fallen loose across the temple. Cold slate-blue side lighting.`
 
-### Act 3 — Penance (rock bottom)
-**Bareheaded**, wet loose hair, plain damp grey unbleached cotton body-wrap (khen) and simple shawl. Gaunt, exhausted, paler with "grief texture." Desaturated cold rain light.
+### Act 3 — Penance (humbled devotion, prayer toward the temple)
+**Humbled, not broken.** No regalia, no headpiece, no gold — simple undyed cream cotton robes and a plain sash, dark hair loosely tied. Still tall, strong, and dignified; his face carries quiet grief and unbroken longing, not exhaustion or emaciation. His penance is *devotion across distance*: praying from his palace toward Taleju's temple. Soft misty dawn light.
 
 | # | Still | Angle | Lighting / expression |
 | --- | --- | --- | --- |
-| 1 | `king_act3_front` | Front | Overcast rain light; hollow, penitent |
-| 2 | `king_act3_3q` | Three-quarter | Wet hair falling loose; exhaustion lines |
-| 3 | `king_act3_prayer` | Half-body, hands folded | Single incense-lamp warm accent in cold scene |
+| 1 | `king_act3_prayer_wide` | Three-quarter from behind, at the palace window overlooking the distant Taleju temple | Misty dawn; both hands pressed in prayer (namaskar); longing |
+| 2 | `king_act3_front` | Front, hands in prayer at chest | Soft dawn key; quiet grief, dignified, eyes toward the temple |
+| 3 | `king_act3_3q` | Three-quarter portrait | Gentle dawn light; humbled but composed, sorrowful longing |
 
-Wardrobe to append: `stripped of all royal gear, bareheaded with wet dark hair falling loose, wearing only a plain damp grey unbleached cotton body-wrap (khen) and a simple shawl. Skin paler with deep exhaustion lines. Cold desaturated monsoon-rain light.`
+Wardrobe to append: `humbled but dignified — no royal regalia, no headpiece, no gold; only simple undyed cream cotton robes and a plain sash, dark hair loosely tied, a single restrained mark of station. Still tall and strong. Standing at the carved ankhijhyal window of his palace terrace, both hands pressed together in prayer toward the distant multi-tiered Taleju temple across the brick square. Soft misty dawn light.`
 
 ### Act 4 — Humbled (restoration)
 Simple Nepali cotton shawl; transformed, humble posture, no restored vanity. At peace, accepting. Soft warm dawn (gentler than Act 1).

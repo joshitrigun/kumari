@@ -12,7 +12,7 @@ Production package for a 5-minute music video inspired by the Kumari legend of K
 | Resolution | 1920 x 1080 |
 | Visual style | **Newar paubha / thangka 2D animation** — the film looks like a traditional Nepalese sacred scroll-painting brought to motion: flat mineral pigments, gold-leaf, ink outlines, sacred halos, gods rendered as icons. Mythic and reverent. **Not** photoreal, **not** 3D-Pixar, **not** anime. |
 | Recommended tools | **Keyframe-driven, paubha-first.** A strong illustration-capable image model (Midjourney, Imagen/Nano Banana, or Flux) generates the **painted paubha keyframes**; **Seedance 2.5** (BytePlus / Dreamina) animates those stills into shots with restrained, ritual motion (image-to-video). Any basic video editor for assembly. *(No Veo/photoreal step — in a painted film the Shot 6 warm→cold shift is just a palette change, done in-paint or in the grade.)* |
-| Current stage | Prompts and character bible ready; character references and shots pending generation |
+| Current stage | Paubha style, character bibles, and per-character reference-set specs ready (King recast as a strong, handsome king in his prime; Act 3 restaged to a dignified dawn vigil praying from the palace terrace toward Taleju's temple; Queen given authentic Malla court dress + Newar jewelry). Character references and shots pending generation. |
 
 ## Start Here (prompt-only workflow)
 
@@ -49,13 +49,13 @@ The project has a strong emotional spine: sacred intimacy, rupture, penance, and
 
 1. Keep Shot 4 as the **Queen's witness**. [PRODUCTION_MASTER.md](PRODUCTION_MASTER.md) and [PROMPTS.md](PROMPTS.md) treat Shot 4 as the Queen peering through the lattice; [ANIMATOR_BRIEF.md](ANIMATOR_BRIEF.md) should match that. She matters because she externalizes the forbidden witnessing of the sacred relationship.
 2. Trust the frame math in [PRODUCTION_MASTER.md](PRODUCTION_MASTER.md) as canonical — true 24 fps frame numbers (e.g. 1:13 = frame 1752/1753). When syncing to music, convert timecodes to frames the same way.
-3. Add one explicit aftermath beat between Taleju's vanishing and the rain transition. The ~20-second space around 2:19–2:40 should not feel like dead air. Use the empty board, the King's hand suspended in disbelief, and the room cooling into silence.
+3. Add one explicit aftermath beat between Taleju's vanishing and the Act 3 transition. The ~20-second space around 2:19–2:40 should not feel like dead air. Use the empty board, the King's hand suspended in disbelief, and the room cooling into silence.
 4. Give the Queen a clear emotional function. She should not read as jealous or merely curious. Her face should say: she understands the sacredness before the King does, and she sees the instant it is broken.
 5. Make Shot 6 less melodramatic and more frighteningly small. The most powerful version is not a villain turn; it is a tiny human failure made cosmic. A tightening hand, a shifted breath, a single fallen hair strand, and a metallic eye glint are enough.
 6. Make the Kumari entrance quieter than expected. Shot 15 should not feel like a triumphant reveal. It should feel like dawn deciding to enter the frame. Keep the newborn physically small against architecture and let the token's light carry the recognition. Save the emotional peak for Shot 16, where the **people accept the child as the living goddess** — that founding of a tradition is the film's true climax, not the King's private coda in Shot 17.
 7. Protect the token continuity. The token should be visible or emotionally implied in Shots 3, 8, 12/13, 15, and 17. It is the audience's thread through loss and renewal.
 8. Separate Taleju's glow from the child's glow. Taleju can have liquid, caustic, divine light. The child should have gentler dawn radiance, less supernatural spectacle, and more quiet gravity.
-9. Use stillness as a production advantage. Shots 12, 13, 14, and 17 do not need heavy movement; they need breath, rain, incense, and micro-expression. In a prompt workflow this also generates far more reliably than complex motion.
+9. Use stillness as a production advantage. Shots 12, 13, 14, and 17 do not need heavy movement; they need breath, dawn mist, incense, and micro-expression. In a prompt workflow this also generates far more reliably than complex motion.
 10. Schedule a cultural review before final rendering. The package is respectful, but the subject deserves a Newar/Nepalese cultural review for architecture, costume, ornament names, child depiction, and the balance between mythic symbolism and lived tradition. The paubha idiom is a sacred living tradition — treating the subject in its own visual language is a strength, but get real cultural eyes on the depiction of Taleju and the Kumari.
 
 ### Story Notes
@@ -64,9 +64,9 @@ Act 1 works best if the sacred chamber feels like an inner sanctum, not a palace
 
 Act 2 should pivot on shame more than aggression. The King's reaching gesture can be dangerous, but the emotional center is his immediate recognition that something sacred has been lost because of him.
 
-Act 3 needs one recurring visual grammar: rain falling vertically, lamp flame trembling, the empty board unmoving. That contrast will make his penance legible without adding exposition.
+Act 3 needs one recurring visual grammar: the King humbled but dignified on his palace terrace at misty dawn, hands pressed in prayer toward Taleju's temple across the square, the empty board unmoving before him, a lamp flame trembling. He is never a beggar — his penance is devotion across an unbridgeable distance. That contrast will make his penance legible without adding exposition.
 
-Act 4 should resolve without overexplaining. The newborn Kumari holding/wearing the token is the answer. The King's job is to understand, lower himself, and accept the new form of divine presence.
+Act 4 should resolve without overexplaining. The newborn Kumari with the token placed on her chest is the answer. The King's job is to understand, lower himself, and accept the new form of divine presence.
 
 ### Shot Priorities From A Director's View
 
@@ -82,7 +82,7 @@ The next best generation order is:
 
 1. Shot 4: Queen's Witness, to lock the witness perspective and lattice-light visual language.
 2. Shot 5: Intimacy Peak, to lock King/Taleju facial identity and divine light.
-3. Shot 6: Transgression, to test the live warm-to-cold lighting transition.
+3. Shot 6: Transgression, to nail the warm-to-cold palette shift (paint a warm and a cold keyframe and animate between them).
 4. Shot 8: Vanishing, to solve the hardest VFX and token continuity beat.
 5. Shot 15: Kumari Appears, to lock the rebirth image and newborn depiction.
 6. Shot 16: The Founding, to lock the film's true climax — the people accepting the child as the living goddess.
@@ -104,9 +104,11 @@ Full detail is in [PROMPT_WORKFLOW.md](PROMPT_WORKFLOW.md). In short:
 
 - [ ] Shot 4 clearly shows the Queen's sympathetic witness role.
 - [ ] Shot 5 feels sacred and intimate without sexualizing Taleju.
-- [ ] Shot 6 lighting changes live from warm to cold, not by hard cut.
+- [ ] Shot 6 shifts warm→cold as a smooth palette change, not a hard cut.
 - [ ] Shot 8 includes upward dissolution and physically weighted token motion.
-- [ ] Act 3 maintains rain, lamp, empty board, and penitent body language.
+- [ ] Act 3 reads as a dignified dawn vigil (palace terrace, prayer toward the temple, empty board), never a beggar or rain-soaked penitent.
+- [ ] Every frame is a paubha/thangka painting — flat mineral pigment and ink outlines, never photoreal, 3D, or anime.
+- [ ] Queen wears authentic Newar court dress (wine/plum silk + gold) and Newar jewelry (Tayo, Luswa, Nyapu Shikha, Makasi) — not Haku Patasi, not a Bulaki nose-ring.
 - [ ] Shot 15 presents the newborn respectfully, with ritual stillness and no theatrical bounce.
 - [ ] Shot 16 reads as a tradition being born (people accept the child as the living goddess; King lowers himself), not just a crowd bowing.
 - [ ] Shot 17 lands on peace as a coda, not spectacle.

@@ -7,7 +7,7 @@ Paint each shot's **paubha keyframe** with your image model, then animate it in 
 ## 🛠️ MASTER BLOCKS (Copy-Paste)
 
 ### **STYLE BLOCK** (The Visual DNA)
-> "Traditional Nepalese Newar paubha / Tibetan thangka scroll-painting style, adapted as 2D animation. Flat, richly saturated mineral pigments — deep vermillion, lapis blue, malachite green, ochre, and gold-leaf. Bold confident ink outlines, ornate decorative detail, sacred halos and mandala motifs. Figures are stylized sacred icons with elegant, slightly elongated proportions — hand-painted, never photoreal. Authentic Newar cultural detail rendered as painted form: traditional textiles, dark Sal-wood ankhijhyal lattice, red Ma-Appa brick, warm brass oil lamps. Aged hand-painted cloth/paper texture with gentle grain. Reverent, mythic, devotional register; slow, deliberate ritual motion."
+> "Traditional Nepalese Newar paubha / Tibetan thangka scroll-painting (a still painted artwork; motion is added later at the animation stage). Flat, richly saturated mineral pigments — deep vermillion, lapis blue, malachite green, ochre, and gold-leaf. Bold confident ink outlines, ornate decorative detail, sacred halos and mandala motifs. Figures are stylized sacred icons with elegant, slightly elongated proportions — hand-painted, never photoreal. Authentic Newar cultural detail rendered as painted form: traditional textiles, dark Sal-wood ankhijhyal lattice, red Ma-Appa brick, warm brass oil lamps. Aged hand-painted cloth/paper texture with gentle grain. Reverent, mythic, devotional register."
 
 ### **NEGATIVE PROMPT** (The Guardrails)
 > "photorealistic, photograph, live-action, 3D render, CGI, Pixar, Disney, anime, manga, generic western cartoon, plastic, glossy, uncanny realistic faces, Mughal emperor, Rajput, Malaysian songket, Thai crown, Balinese, generic Bollywood, generic princess, tiara, neon, modern clothing."
@@ -30,7 +30,7 @@ Paint each shot's **paubha keyframe** with your image model, then animate it in 
 
 ### **SHOT 4: THE QUEEN'S WITNESS** (Historical acting)
 **Prompt:**
-> "Cinematic medium close-up of a Newar Queen peeking through an ornate dark-wood 'Ankhijhyal' (lattice window). Only her eyes and her traditional gold jewelry are sharply lit by flickering candlelight. She wears Newar royal attire inspired by haku patasi/patasi border language in deep plum-black, with a large gold Bulaki/Nath nose ornament, pote/tilhari-style necklace feeling, and heavy ear ornaments catching the warm glint. Her eyes are wide with awe and spiritual longing, a tear-line highlight visible on her lower lid. The heavy wooden lattice partially obscures her face, creating beautiful geometric shadows. Avoid Malaysian palace costume, songket silhouette, or Southeast Asian crown styling. [STYLE BLOCK] Lighting: Chiaroscuro candlelight, 2700K warm tungsten, rich golden-amber shadows."
+> "Cinematic medium close-up of a Newar Queen peeking through an ornate dark-wood 'Ankhijhyal' (lattice window). Only her eyes and her traditional gold jewelry are sharply lit by flickering candlelight. She wears Newar royal court attire — a deep wine/plum silk sari with woven gold-thread borders and brocade, an embroidered silk cholo, and a maroon velvet veil-shawl — with heavy authentic Newar repoussé gold — the grand Tayo (serpent-headed lozenge-pendant ceremonial necklace with coral and turquoise), a Naugedi gold-bead necklace and Kantha choker, a Luswa gold head-disk with Nyapu Shikha chains draped across the hair, a Sirbandi head-binding, a Tikma forehead ornament, and heavy basket-drop Makasi earrings catching the warm glint. (Royal Newar silk-and-gold — not the plain black-cotton Haku Patasi of common women, and no large Bulaki nose-ring.) Her eyes are wide with awe and spiritual longing, a tear-line highlight visible on her lower lid. The heavy wooden lattice partially obscures her face, creating beautiful geometric shadows. Avoid Malaysian palace costume, songket silhouette, or Southeast Asian crown styling. [STYLE BLOCK] Lighting: Chiaroscuro candlelight, 2700K warm tungsten, rich golden-amber shadows."
 
 ### **SHOT 5: THE INTIMACY PEAK** (Character focus)
 **Prompt:**
@@ -58,23 +58,23 @@ Paint each shot's **paubha keyframe** with your image model, then animate it in 
 
 ---
 
-## 🎬 ACT 3: PENANCE (The Rainy Night)
+## 🎬 ACT 3: PENANCE (The Vigil at Dawn)
 
-### **SHOT 10: THE TRANSITION TO PENANCE**
+### **SHOT 10: THE VIGIL BEGINS**
 **Prompt:**
-> "Wide cinematic shot of the King, now crownless and in simple muted robes, walking slowly down a narrow, rainy stone alley in 17th-century Kathmandu. His head is bowed, and his shoulders are hunched in grief. The stone walls and red bricks are wet and glistening under a single, distant warm lantern. [STYLE BLOCK] Lighting: Overcast rainy gloom, near-monochrome blues and greys, single warm orange lantern accent."
+> "Wide cinematic shot of the King on the carved wooden terrace of his palace at pale misty dawn, carrying the low game board out and setting it down, then turning to face the towering multi-tiered pagoda Taleju temple across the red-brick Durbar square. He is humbled but dignified — no headpiece, no gold, only simple undyed cream cotton robes and a plain sash, still tall and strong. He raises both hands pressed together in prayer (namaskar) toward the distant temple. Thin threads of incense drift between palace and shrine. [STYLE BLOCK] Lighting: Soft misty pre-dawn, desaturated cool blues and greys warming at the horizon, gold-leaf highlights on the temple finials."
 
 ### **SHOT 11: THE DREAM VISION**
 **Prompt:**
-> "Cinematic shot of the King meditating in a narrow, rainy stone alley at night. The scene is 95% desaturated, near-monochrome blues and greys. Suddenly, a soft lavender mist seeps in from the edges. The Goddess Taleju appears within the mist as a translucent, soft-focus silhouette of light. She looks down at the King with compassion. Raindrops pass through her ethereal form. [STYLE BLOCK] Lighting: Overcast rainy gloom, single warm lantern accent, ethereal lavender glow edges."
+> "Cinematic shot of the King kneeling in vigil on his palace terrace at misty dawn, the empty game board before him and the Taleju temple beyond. The scene is largely desaturated, cool blues and greys. Suddenly, a soft lavender mist gathers and the Goddess Taleju appears within it as a translucent, soft-focus silhouette of light, looking down at him with compassion. The dawn mist drifts through her ethereal form. [STYLE BLOCK] Lighting: Cool misty dawn, single warm brass-lamp accent, ethereal lavender glow edges."
 
 ### **SHOT 12: THE DEPTH OF PENANCE**
 **Prompt:**
-> "Medium shot of the King meditating in a cold, rainy courtyard. He is emaciated and still, his eyes closed in deep anguish. A stone Chaitya shrine stands in the background, partially obscured by the rain and mist. A single small oil lamp flickers nearby, its warm light struggling against the pervasive blue gloom. [STYLE BLOCK] Lighting: Cold, rainy night, desaturated palette, flickering warm accent."
+> "Medium shot of the King in vigil on the palace terrace at cold misty dawn — humbled and dignified, not emaciated, still tall in simple cotton robes. He kneels at the low game board, one hand cupping the empty place where the token once sat, his eyes lifted toward the distant Taleju temple in quiet grief and longing. A single small brass oil lamp flickers beside the board. [STYLE BLOCK] Lighting: Cool misty dawn, desaturated palette, single flickering warm accent."
 
 ### **SHOT 13: THE SYMBOLS OF DEVOTION**
 **Prompt:**
-> "A montage sequence: First, a close-up of several small brass diyas flickering on a cold stone step. Second, the empty carved wooden game board resting in the center of the dark courtyard, rain splashing on its surface. Third, ethereal white incense smoke rising from a brass burner, swirling into the rainy night air. [STYLE BLOCK] Lighting: Low-key lighting, focused warm highlights on props, cold blue surroundings."
+> "A montage sequence on the misty palace terrace: First, a close-up of several small brass diyas flickering on the cold stone parapet. Second, the empty carved wooden game board resting on the terrace, the Taleju temple soft-focus beyond it. Third, ethereal white incense smoke rising from a brass burner, swirling into the pale dawn air. [STYLE BLOCK] Lighting: Low-key dawn, focused warm highlights on props, cool misty blue surroundings."
 
 ### **SHOT 14: THE DREAM PEAK**
 **Prompt:**

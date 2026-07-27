@@ -16,7 +16,7 @@ Paste verbatim into **every** Queen image prompt.
 
 > `Malaysian songket, shiny palace costume, Thai crown, Southeast Asian queen crown, generic sari princess, jealous wife, seductive expression, exposed shoulder glamour, fantasy queen, tiara, pale face.`
 
-Constant wardrobe/jewelry to append: `traditional Haku Patasi draping style — a heavy black cotton wrap with a stark solid red border over a heavy unbleached cotton undershirt, with a dark maroon velvet (makhamali) shawl. Authentic Newar jewelry: a segmented gold Tayoh necklace, a large gold Bulaki (septum ring), Nyapu Sikha head ornaments, and Makasi earrings — hammered repoussé gold, not shiny casting.`
+Constant wardrobe/jewelry to append: `Malla queen's royal court dress — a deep wine/plum silk sari with richly woven gold-thread (kastha) borders and a brocade (kinkhab) panel, draped in elegant Newar court style over an embroidered silk cholo (fitted blouse), with a gold-brocade patuka sash and a dark maroon makhamali (velvet) veil-shawl. Heavy authentic Newar repoussé gold: the grand Tayo (serpent-headed lozenge-pendant ceremonial necklace, coral and turquoise), a Naugedi gold-bead necklace and a Kantha choker, a Luswa gold head-disk at the crown with Nyapu Shikha (five gold chains draped across the hair), a Sirbandi head-binding ornament, a Tikma forehead ornament, heavy basket-drop Makasi earrings, and gold bangles. This is royal court dress — NOT the plain black-cotton Haku Patasi of common Newar women, and NOT the pan-Nepali large Bulaki nose-ring. Plum/gold keeps her distinct from Taleju's vermillion temple brocade.`
 
 ---
 
@@ -30,7 +30,7 @@ She has fewer looks than the King, so build **one core set** plus a couple of fr
 | --- | --- | --- | --- |
 | 1 | `queen_front_clear` | Front, **no lattice** (clean identity plate) | Warm oil-lamp; jewelry glinting; aching calm |
 | 2 | `queen_lattice_front` | Front, **seen through carved dark-wood lattice (ankhijhyal)** | Geometric lattice shadows across face; longing |
-| 3 | `queen_lattice_3q` | Three-quarter through lattice | Gold earrings/nose-ring catching sharp candle highlight — the "signal in the dark" |
+| 3 | `queen_lattice_3q` | Three-quarter through lattice | Makasi earrings and Luswa/Nyapu Shikha head gold catching sharp candle highlight — the "signal in the dark" (no nose-ring) |
 | 4 | `queen_dread` *(opt.)* | Tight on eyes, through lattice | Dawning dread at the moment of breaking (Shot 6) — she *reads* the rupture |
 
 Framing note to append for lattice stills: `seen close-up through an intricately carved dark sal-wood lattice window (ankhijhyal), the lattice casting geometric shadow bars across her face; natural oil-lamp light glinting off the gold and off the tear on her lower lid.`
@@ -61,6 +61,6 @@ character_sheets/approved/
 
 - [ ] Clear plate and lattice variants are the **same** 40-year-old Newar face.
 - [ ] The **tear-line highlight** on the lower lid is present in every still.
-- [ ] Tayoh, Bulaki, and Haku Patasi border read as authentically Newar — no generic sari, no glamour.
+- [ ] Tayo, Luswa/Nyapu Shikha head gold, and the wine/plum silk-and-gold court sari read as authentically Newar **royalty** — not the common black-cotton Haku Patasi, not a large Bulaki nose-ring, not a generic glossy Bollywood sari.
 - [ ] Expression is **sympathetic witness / aching longing / dawning dread** — never jealous, never seductive.
 - [ ] Lattice variants show real **geometric shadow bars** across the face and gold catching light.

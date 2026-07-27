@@ -17,7 +17,7 @@ This is a **folk tale**, not a mood piece. It must read as a chain of consequenc
 1. **The Covenant (Act 1).** Night after night the goddess Taleju comes in secret to play dice with the King and give him divine counsel. There is one condition, silently agreed and never spoken aloud: *he may sit with her as a devotee, never desire her as a woman, never reach for her.* The game is the form the covenant takes. The token is the covenant made physical.
 2. **The Breaking (Act 2).** The King looks at her with desire and reaches. He breaks the one rule. This is not a villain turn — it is a small, human, catastrophic failure. The instant he reaches, the covenant is void.
 3. **The Withdrawal (Act 2).** Taleju does not punish. She *withdraws* — sacred legitimacy leaving the man who could not keep his desire out of the divine. As she recedes, the token falls; he lunges and misses. He is left with an empty board.
-4. **The Penance (Act 3).** He does not merely grieve — he *keeps a vigil*. Every dawn he sets the token's empty place at the board and waits, and every dawn nothing comes. Three vigils, three failures. On the third, in dream, she gives him **the instruction** (see Shot 14): she will return — but never again to him as an equal at the game. She will return as a **child** he must *serve, not possess.*
+4. **The Penance (Act 3).** He does not merely grieve, and he is not reduced to a beggar — he *keeps a vigil*, humbled but dignified. Every dawn he carries the board onto his palace terrace, sets the token's empty place, prays across the square toward Taleju's temple, and waits, and every dawn nothing comes. Three vigils, three failures. On the third, in dream, she gives him **the instruction** (see Shot 14): she will return — but never again to him as an equal at the game. She will return as a **child** he must *serve, not possess.*
 5. **The Restoration & the Founding (Act 4).** At dawn the newborn Kumari is brought, the token at her chest. The King understands the bargain, lowers himself, and the *people accept the child as the living goddess.* The tale closes not on his private peace but on the **birth of a tradition** — this is why, to this day, the goddess lives among them as a child, and a king must bow to a girl.
 
 **The rule of three (the token).** The talisman changes hands exactly three times, meaning something different each time. Each handoff must be a *watchable physical event*, never an ambient glow:
@@ -34,16 +34,16 @@ Told right, these three placements deliver the film's entire theology without a 
 ## Character Descriptions
 
 ### **The King** (Jayaprakash Malla)
-- **Appearance:** Paubha-painted 18th-century Nepali/Newar Malla king; 50-year-old, medium brown skin, tired hollowed cheeks, firm jaw, deep-set dark eyes, slight mustache/beard, vermillion tika. Rendered as a painted icon — avoid photoreal, cinematic fantasy, or generic Indian royal tropes.
+- **Appearance:** Paubha-painted 18th-century Nepali/Newar Malla king; tall, strong-built, handsome and sharply intelligent 50-year-old in his prime — commanding stature, medium brown skin, firm square jaw, high cheekbones, deep-set keen dark eyes, well-groomed short beard, vermillion tika. *(In Act 3 he is humbled, not broken — still tall and dignified in simple cotton, never a gaunt beggar.)* Rendered as a painted icon — avoid photoreal, cinematic fantasy, generic Indian royal tropes, or a soft "pretty prince."
 - **Costume Evolution:**
   - **Act 1:** "Stiffly perfect" Malla-era Newar court attire; deep madder-dyed cotton tapalan, thick patuka sash, pleated jama wrap. He wears a multi-tiered gold repoussé headpiece (no turbans).
   - **Act 2:** At 1:13, a single strand of hair falls loose from the headpiece (the first "crack").
-  - **Act 3:** Bareheaded, wearing only a damp, grey unbleached cotton wrap; skin is paler with "grief texture" (exhaustion).
+  - **Act 3:** Humbled but dignified — no headpiece, no gold, only simple undyed cream cotton robes and a plain sash, hair loosely tied. Still tall and strong; grief shows in his bearing, not in emaciation. (No beggar, no rags.)
   - **Act 4:** Simple Nepali cotton shawl; "transformed" humble posture, no restored vanity.
 - **Arc:** 
   - Act 1: Reverent, devoted, glowing with joy in her presence
   - Act 2: Face hardens; eye glint sharpens to a metallic edge; anguish as she fades
-  - Act 3: Broken, penitent, meditating in rain and solitude
+  - Act 3: Humbled, penitent, praying from his palace toward Taleju's temple — longing across an unbridgeable distance
   - Act 4: At peace, accepting, humble tears watching the child
 - **Key Visual Acting:** 
   - 1:13: The "Flash of Desire" — tighten hand on game piece; eye glint sharpens.
@@ -60,9 +60,9 @@ Told right, these three placements deliver the film's entire theology without a 
   - Her fading should feel like receding into shadow and candle-smoke.
 
 ### **The Queen** (Brief appearance)
-- **Appearance:** 40-year-old Nepali/Newar noblewoman. Medium brown face, restrained kohl, tear-line highlight, dark hair in a traditional compact Newar bun. She wears authentic traditional Newar jewelry (Tayoh, huge Bulaki septum ring) and a thick black cotton wrap with a stark solid red border (Haku Patasi draping) and maroon velvet shawl. Seen only through carved dark wood lattice (ankhijhyal). Avoid generic sari or fantasy queen styling.
+- **Appearance:** 40-year-old Nepali/Newar **queen** in royal court dress. Medium brown face, restrained kohl, tear-line highlight, dark hair in a traditional compact Newar bun. She wears a deep wine/plum silk sari with woven gold-thread borders and brocade, an embroidered silk cholo, and a maroon velvet (makhamali) veil-shawl, with heavy authentic Newar repoussé gold — the grand Tayo (serpent-headed lozenge-pendant necklace), a Naugedi bead necklace, a Luswa head-disk with Nyapu Shikha chains across the hair, a Sirbandi head-binding, a Tikma forehead ornament, and heavy Makasi earrings. NOT the common black-cotton Haku Patasi, NOT a large Bulaki nose-ring, NOT a generic Bollywood sari or fantasy-queen styling. Seen only through carved dark wood lattice (ankhijhyal).
 - **Visual Performance:**
-  - **Focal Points:** Gold earrings and nose-ring (nath) catch sharp candle highlights — the "signal" in the dark.
+  - **Focal Points:** The Makasi earrings and the Luswa head-disk / Nyapu Shikha gold chains catch sharp candle highlights — the "signal" in the dark. (No nose-ring.)
   - **Eyes:** Constant "tear-line" highlight on the lower lid (aching gaze, not jealousy).
 - **Moment:** 0:00–0:50 (peering through lattice/doorway), with a returning glance at the moment of the breaking (see Shot 6)
 - **Emotion:** Awe, ached longing, then dawning dread — she reads the covenant, and she is the first mortal to see it break
@@ -152,52 +152,52 @@ Told right, these three placements deliver the film's entire theology without a 
 
 ### **ACT 3: Penance & Dream (2:40–3:58)**
 
-#### Exterior: Ancient Alley / Courtyard (Timeless Kathmandu-inspired)
-- **Location:** Old stone walls, carved arches, narrow passages; evoke history without copying specific sacred sites
-- **Weather:** Rain (heavy, steady)
-- **Time of Day:** Evening/night transitioning to pre-dawn
+#### Exterior: The Palace Terrace overlooking Taleju's Temple (Timeless Kathmandu-inspired)
+- **Location:** A carved wooden terrace / ankhijhyal window of the King's own palace, looking out across a red-brick Durbar square to the towering multi-tiered pagoda Taleju temple. Evoke Kathmandu Durbar Square without copying the specific sacred site.
+- **Weather:** Still, misty pre-dawn (no rain — the penance is dignified, not degrading)
+- **Time of Day:** Pre-dawn transitioning toward first light
 
 - **Key Elements:**
-  - Weathered stone walls (aged, textured)
-  - Carved wooden doors (closed, locked)
-  - Puddles reflecting sky/light
-  - Small shrine or meditation corner (indicated by lamp, incense)
-  - Game board sits on stone; water drips on it
-  - Archways creating geometric framing
+  - Carved Sal-wood terrace railings, struts, and ankhijhyal lattice
+  - The distant Taleju temple across the square, its tiered roofs and gold finials catching first light
+  - Thin threads of incense drifting between palace and shrine
+  - The low game board set on the terrace, the token's empty place before the King
+  - A single brass oil lamp beside the board
+  - Soft ground mist over the brick square below
 
 - **Color Palette:**
   - Desaturated blues: #4A6FA5, #2F4A7A
   - Cool greys: #7B8FA3, #5D6D7B
-  - Rain/water: #9BB3CC, #A8C5D6
-  - Incense glow: #FFB347 (single warm point in cold scene)
-  - No rich colors; muted, sorrowful
+  - Dawn mist: #9BB3CC, #A8C5D6
+  - Incense/lamp glow: #FFB347 (single warm point in the cool scene)
+  - Gold-leaf temple finials warming at the horizon
+  - No rich colors; muted, sorrowful, hushed
 
 - **Lighting:**
-  - Overcast, dim; minimal direct light source
-  - Single incense lamp as warm accent
-  - Reflections in puddles (sad, mirror-like)
-  - No shadows with hard edges; soft, diffused gloom
-  - Occasional lightning flash (optional, for drama)
+  - Soft overcast pre-dawn; minimal direct source, warming toward the temple
+  - Single brass lamp as warm accent by the board
+  - Mist diffusing the distance; no hard-edged shadows
+  - First light glinting off the temple finials (the goddess's presence, distant and unreachable)
 
 - **Dream Sequences (3:00–3:15):**
   - Soft-focus, surreal; color slightly bleached
-  - Taleju appears as a silhouette/mist
-  - Halo of light around her (ethereal)
+  - Taleju appears as a silhouette/mist above or beyond the board
+  - Halo of light around her (ethereal); dawn mist drifts through her form
   - Shift to sepia or monochrome with single color accent
-  - Blurred edges; dreamlike motion blur
+  - Blurred edges; dreamlike motion
 
 - **Camera Movement:**
-  - Slow tracking through alley (following King's walk)
-  - Handheld feel (slight tremor) to convey distress
-  - Orbits around seated King during penance (Shot 12)
-  - Slow push-in on his face/hands during prayer (Shot 13)
+  - Slow push toward the King at the terrace window, temple beyond
+  - Quiet, near-still framing (grief held, not thrashing)
+  - Slow orbit around the kneeling King at the board during penance (Shot 12)
+  - Slow push-in on his praying hands / the empty place (Shot 13)
 
 ---
 
 ### **ACT 4: Rebirth & Dawn (4:11–5:00)**
 
 #### Interior/Exterior: Quiet Courtyard at Dawn
-- **Location:** The same alley/courtyard, but now at dawn; peaceful, clean-swept
+- **Location:** The red-brick Durbar square before the Taleju temple (below the Act 3 terrace), now in full dawn; peaceful, clean-swept — the King has come down from the terrace to be among the people
 - **Time of Day:** Just before/at sunrise
 
 - **Key Elements:**
@@ -280,7 +280,7 @@ Told right, these three placements deliver the film's entire theology without a 
 
 | Shot # | Time | Description | Duration | Notes |
 |--------|------|---|---|---|
-| 10 | 2:40–3:00 | Transition: fade to rain; King carries the game board out; **the vigil begins** | 20" | Desaturated, cool; rain SFX. Establish the *ritual he will repeat*: he sets the board and waits for her to return. Penance is an action, not just grief. |
+| 10 | 2:40–3:00 | Transition to misty dawn; King carries the game board onto the palace terrace and prays toward Taleju's temple; **the vigil begins** | 20" | Desaturated, cool, hushed; soft dawn ambience. Establish the *ritual he will repeat*: he sets the board, prays across the square to the temple, and waits for her to return. Penance is an action, not just grief. |
 | 11 | 3:00–3:15 | **The vigil, repeated:** each dawn he sets the board, cups the token's empty place, and waits — and nothing comes | 15" | Repetition-with-variation (the engine of oral tales): three dawns, three failures, shown compressed. He is thinner, greyer each time. The *empty place* is the token's Act-3 presence. |
 | 12 | 3:15–3:29 | The third vigil: King stilled, fasting, hands cupping the empty space; on the edge of giving up | 14" | Sparse percussion; emotional core. This is rock bottom — the vigil has failed three times. |
 | 13 | 3:29–3:58 | Montage bridging into sleep: candles guttering, empty board, incense — he finally sleeps at the board | 29" | Music builds; strings enter. His exhaustion tips him into the dream where the instruction comes. |
@@ -330,7 +330,7 @@ Told right, these three placements deliver the film's entire theology without a 
 - ❌ No sexualization of any character, especially the child
 - ❌ No stereotypical "exotic" depictions of Nepal or Kathmandu
 - ❌ No caste-specific language or derogatory terms; keep references symbolic
-- ❌ No graphic violence or dark imagery in penance sequence (fade to rain, not suffering)
+- ❌ No graphic violence or dark imagery in penance sequence (dignified prayer and vigil, not suffering or degradation)
 
 ### **What to Emphasize:**
 - ✅ Reverence: Treat all spiritual moments with dignity
@@ -354,7 +354,7 @@ Told right, these three placements deliver the film's entire theology without a 
 | 0:30+ | Lyrics enter ("reminiscing") | Hands, eyes, token focus | Wistful tone |
 | 1:13 | **DISSONANT CHORD HIT** | **Lighting shift; his face hardens** | Sudden; transgression moment |
 | 1:53–2:19 | Flute solo (melancholic, reverb-heavy) | Vanishing; token falls; dissolution | No dialogue; music carries emotion |
-| 2:40–3:00 | Music drops, rain SFX dominates | Transition to rain/alley | Sparse percussion enters |
+| 2:40–3:00 | Music drops, hushed dawn ambience | Transition to the misty palace terrace | Sparse percussion enters |
 | 3:00 | Ethereal pad (string drones) | Dream sequence begins | Soft-focus, Taleju appears |
 | 3:58 | Orchestral swell | Dream peaks; instruction moment | Hope enters music |
 | 4:11 | **NEW MOTIF (innocent, hopeful)** | **Child appears** | Warm, rising harp/organ |
@@ -366,12 +366,12 @@ Told right, these three placements deliver the film's entire theology without a 
 
 - [ ] Colored storyboards (17 shots)
 - [ ] Character design sheets (King, Taleju, Queen, Child)
-- [ ] Environment/set design sheets (Sacred Chamber, Alley, Courtyard)
+- [ ] Environment/set design sheets (Sacred Chamber, Palace Terrace + Taleju Temple, Durbar Square)
 - [ ] Color palette reference (HEX codes + visual swatches)
 - [ ] Animatic (rough timed version with music)
 - [ ] Animation timeline (frame-by-frame notes for key moments)
 - [ ] Final composite & color grade specs
-- [ ] Sound design notes (music, rain, incense ambient)
+- [ ] Sound design notes (music, dawn ambience, incense, temple bells)
 
 ---
 

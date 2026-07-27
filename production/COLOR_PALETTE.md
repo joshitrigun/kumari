@@ -79,7 +79,7 @@ This document provides exact HEX color codes, RGB values, and lighting specifica
 ### Primary Palette (Desaturated Cool)
 | Element | Hex | RGB | Purpose |
 |---------|-----|-----|---------|
-| **Rain/Wet Surface** | #9BB3CC | 155, 179, 204 | Puddles, wet stone |
+| **Dawn Mist** | #9BB3CC | 155, 179, 204 | Ground mist, misty distance |
 | **Stone (Light)** | #7B8FA3 | 123, 143, 163 | Dry stone, walls |
 | **Stone (Dark)** | #5D6D7B | 93, 109, 123 | Shadows on walls |
 | **Night Sky** | #34495E | 52, 73, 94 | Overcast, dark clouds |
@@ -100,8 +100,8 @@ This document provides exact HEX color codes, RGB values, and lighting specifica
 
 ### Lighting Setup
 - **Color Temperature:** ~4000K–5000K (cool, overcast daylight with one warm lamp)
-- **Intensity:** Very low (nighttime, rain, shadow-heavy)
-- **Diffusion:** Very high (rain scatters light; no sharp sources except lamp)
+- **Intensity:** Very low (pre-dawn, misty, shadow-heavy)
+- **Diffusion:** Very high (mist scatters light; no sharp sources except lamp)
 - **Contrast Ratio:** Extremely high (bright lamp + dark surroundings = isolation feeling)
 - **Key Light:** Lamp only (warm, isolated)
 - **Fill Light:** Almost none (harsh, lonely)
@@ -172,7 +172,7 @@ ACT 2: Transgression
 ACT 3: Penance
   Color Temp: 4000K (cool, overcast)
   Saturation: 20% (very desaturated, grayscale-like)
-  Brightness: Very low (night, rain)
+  Brightness: Very low (pre-dawn, mist)
   Mood: Grief, desperation, dreams
 
 ACT 4: Rebirth
@@ -230,7 +230,7 @@ ACT 4: Rebirth
 - Empty rooms (isolation, loss)
 
 ### Act 3 References:
-- Rainy night photography (desaturated, moody)
+- Misty pre-dawn photography (desaturated, moody)
 - Meditation spaces (sparse, dark, focused)
 - Overgrown temples (nature + stone)
 - Black and white photography with single color accent (loneliness)

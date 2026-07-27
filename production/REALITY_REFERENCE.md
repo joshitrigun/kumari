@@ -34,9 +34,9 @@ Useful historical read:
 
 Visual direction:
 
-- Newar royal woman, not generic sari queen.
-- Use haku-patasi/patasi language carefully: black or plum-black field, red border, gold catching candlelight. Because she is royal, it can be more refined than everyday dress.
-- Jewelry should signal Newar/Nepal: bulaki/nath nose ornament, pote/tilhari-like necklace impression, tikma-like forehead/hair ornament, heavy earrings.
+- Newar **queen** in royal court dress — not a generic sari queen, and **not** the common Haku Patasi (that black-cotton-with-red-border sari is everyday Newar/Jyapu dress, not royal).
+- Dress her in refined court fabrics: a deep wine/plum **silk sari** with woven **gold-thread (kastha) borders** and **brocade (kinkhab)**, an embroidered **silk cholo**, a gold-brocade patuka, and a maroon **makhamali (velvet)** veil-shawl. Plum/gold keeps her distinct from Taleju's vermillion temple brocade.
+- Jewelry should signal Newar royalty, using authentic Newar pieces (avoid the pan-Nepali/hill **Bulaki** septum nose-ring): the grand **Tayo** (serpent-headed lozenge-pendant ceremonial necklace), a **Naugedi** gold-bead necklace and **Kantha** choker, a **Luswa/Lunswan** gold head-disk with **Nyapu Shikha** (five gold chains across the hair), a **Sirbandi** head-binding, a **Tikma** forehead ornament, heavy basket-drop **Makasi** earrings, and gold bangles — repoussé gold with coral/turquoise, catching candlelight.
 - Her face should be partially hidden by ankhijhyal lattice. The lattice is her mask and her prison.
 
 Personality keywords: perceptive, restrained, aching, politically aware, spiritually sensitive, not jealous, not accusatory.
