@@ -48,10 +48,11 @@ Useful cultural read:
 - Royal tutelary goddess of the Malla kings.
 - Tantric manifestation of Durga / Tripura Sundari; linked to royal legitimacy and protection.
 - The dice/game legend is about divine counsel, taboo, and withdrawal of legitimacy, not romance.
-- Taleju's presence can be iconic/yantric rather than purely human. She is sacred authority in a human-visible form.
+- She appears **in human form** — a living, moving woman he can sit across from and play dice with — but her **aura is a goddess's**: sacred authority wearing a human form, never a mortal woman.
 
 Visual direction:
 
+- A "goddess in a perfect human form": a serene woman of flawless, idealized human beauty — perfect human face and gracefully proportioned human body, **warm human skin** (not gilded or glowing). Her divinity shows through an aura *around* her — a faint gold nimbus, a soft gold rim-light, the Shri Yantra, and a sovereign, uncanny stillness — not a rigid temple statue, and not merely mortal. Flawless beauty, but never sexualized.
 - Keep her compassionate, but never casual or lover-like.
 - Add yantra/triangular geometry, lion/Durga energy only as subtle design language, not literal over-detail.
 - Cream/gold Newar temple-devata drapes, luminous bindi, refined kohl, light trails like water, not glamour makeup.

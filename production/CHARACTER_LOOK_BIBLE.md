@@ -129,32 +129,33 @@ Best image is not full-body. Best image is her face through lattice.
 
 ### What She Must Feel Like
 
-Taleju is not just a glowing woman. She is the Malla royal tutelary goddess, tantric Durga / Tripura Sundari, and the source of sacred legitimacy. She should feel closer to Newar paubha deity imagery than fantasy goddess illustration.
+Taleju appears **in human form** — as in the legend, she comes to the King as a woman he can sit across from and play dice with. But she is **not** a mortal woman: she is the Malla royal tutelary goddess (tantric Durga / Tripura Sundari), the source of sacred legitimacy, and her **aura is unmistakably a goddess's**. Think *a goddess wearing a perfect human form* — a serene, living, moving woman of flawless, idealized human beauty (a perfect human face and a gracefully proportioned human body) with **warm human skin** (the most radiant face in the frame, but human, not gilded or glowing) whose divinity lives in an **aura around her**: a faint nimbus, a soft gold rim-light, the Shri Yantra, and a sovereign, uncanny stillness no mortal has. Flawless beauty, but never sexualized. She reads through the Newar paubha deity idiom, not fantasy-goddess illustration, and **never** as a seductive/glamour figure or romantic partner.
 
 ### Face
 
-- Flawless golden-bronze skin (authentic Nepali/Newar features).
-- Large still dark eyes, staring with extreme calm intensity.
+- A serene, beautiful woman's face — human form, radiant, the most beautiful in the frame.
+- **Warm human Newar brown skin** — human, not gilded or glowing (authentic Nepali/Newar features). Divinity lives in her aura, not her flesh.
+- Large calm dark eyes with a serene, sovereign intensity no mortal has.
 - Refined kohl.
 - Luminous red bindi.
-- Expression: compassionate, sovereign, boundary-setting. Total stillness.
+- Expression: compassionate, sovereign, boundary-setting. Serene living stillness (not statue-stiff).
 
 ### Hair / Crown / Halo
 
 - Three-tiered gold repoussé temple crown studded with coral and turquoise.
 - Controlled dark hair.
-- Subtle copper Shri Yantra mandala behind her head, sitting in the shadows.
-- No fluorescent or CGI glowing magic.
+- A faint golden halo/nimbus and a subtle copper Shri Yantra mandala behind her head — her divine aura, grounded and painterly.
+- No fluorescent or CGI glowing magic (the aura is a soft gold-leaf glow, not neon).
 
 ### Costume
 
 - Heavy, historically accurate Newar ceremonial brocade (Kinkhab).
-- Draped rigidly like a temple idol.
+- Draping like real cloth over her human form — worn by a living goddess, not stiff like a statue.
 - Deep vermillion red and hammered antique gold dominant colors.
 
 ### Best Image Prompt
 
-`Traditional Newar paubha-painting-style temple illustration, Kathmandu Valley, Nepal. A powerful female figure resembling the tutelary goddess Taleju. She has flawless golden-bronze skin (authentic Nepali Newar features), dark kohl-lined eyes staring with extreme calm intensity. Instead of fantasy glowing dresses, she wears a heavy, historically accurate Newar ceremonial brocade (Kinkhab) draped like a temple idol, dominated by deep vermillion red and hammered antique gold. She wears an elaborate three-tiered gold repoussé temple crown studded with coral and turquoise. A subtle, non-glowing copper Shri Yantra mandala sits behind her head in the shadows. Lit by flickering mustard oil brass lamps in an authentic red brick Malla temple shrine.`
+`Traditional Newar paubha-painting-style temple illustration, Kathmandu Valley, Nepal. The tutelary goddess Taleju in a perfect human form — a serene woman of flawless, idealized human beauty: a perfect human face and a graceful, perfectly proportioned human body. She has warm human Newar brown skin — the most radiant and beautiful face in the frame, but human, not gilded or glowing (authentic Nepali Newar features). Dark kohl-lined eyes with a serene, sovereign depth no mortal has — one subtle not-quite-mortal tell. A faint golden halo/nimbus and a soft gold rim-light trace her edges (the divinity is around her, not in her flesh). Instead of fantasy glowing dresses, she wears a heavy, historically accurate Newar ceremonial brocade (Kinkhab) draping like real cloth over her human form (a living goddess, not a stiff statue), dominated by deep vermillion red and hammered antique gold. She wears an elaborate three-tiered gold repoussé temple crown studded with coral and turquoise. A subtle copper Shri Yantra mandala sits behind her head. Lit by flickering mustard oil brass lamps in an authentic red brick Malla temple shrine. A goddess wearing a human form — never seductive, never a glamour goddess.`
 
 ### Taleju Negative Prompt
 

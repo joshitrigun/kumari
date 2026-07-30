@@ -50,14 +50,14 @@ Told right, these three placements deliver the film's entire theology without a 
   - 3:00–3:15: Hands "cupping" the empty space where the token once sat.
 
 ### **The Taleju** (The Goddess)
-- **Appearance:** Taleju Bhawani as Malla royal tutelary goddess / kuladevi, tantric Durga. Flawless golden-bronze skin (authentic Nepali/Newar features), large calm dark eyes. No glowing fantasy magic. Wears heavy Newar ceremonial brocade (Kinkhab) in deep vermillion and gold, draped like a temple idol. Three-tiered gold repoussé temple crown and a subtle copper Shri Yantra mandala behind her head. Not a romantic partner or glamour goddess.
+- **Appearance:** Taleju Bhawani, the Malla royal tutelary goddess / kuladevi (tantric Durga), **in a perfect human form** — a serene, living woman of flawless, idealized human beauty: a perfect human face and a graceful, perfectly proportioned human body (as in the legend, she comes to play dice with the King as a woman). **Warm human Newar brown skin** — human, not gilded or glowing — large calm dark eyes with a sovereign depth no mortal has (one subtle not-quite-mortal tell). Her divinity lives in an aura *around* her: a faint golden nimbus and a soft gold rim-light on her edges. Wears heavy Newar ceremonial brocade (Kinkhab) in deep vermillion and gold, draping like real cloth over her human form (a living goddess, not a stiff statue). Three-tiered gold repoussé temple crown and a subtle copper Shri Yantra mandala behind her head. A goddess wearing a perfect human form — **not** a gilded deity, **not** a stiff statue, and **not** a romantic partner or glamour goddess (flawless beauty, but never sexualized).
 - **Visual Performance:**
-  - **Glow:** Subtle warm oil lamp reflection cast from her and the token, grounded structurally in realism.
-  - **Movement:** Ritualistic, still; her "recoil" at 1:40 is a slow retreat into deep shadow.
-- **Depiction:** 
-  - Grounded in paubha/temple realism. Avoid over-bright CGI glows.
-  - Eyes convey wisdom, compassion, sovereign boundary, and wounded sacred authority
-  - Her fading should feel like receding into shadow and candle-smoke.
+  - **Aura/Glow:** A grounded divine aura *around* her — a faint gold nimbus, a soft gold rim-light on her edges, and warm oil-lamp reflection from her and the token. Her skin is human; the glow is around her, not in her flesh. Present and visible (it's the warning the King ignores), but painterly gold-leaf, never neon CGI.
+  - **Movement:** She moves like a woman, but with ritual serenity and control — never statue-stiff, never casual. Her "recoil" at 1:40 is a slow, wounded retreat into deep shadow.
+- **Depiction:**
+  - Human form, divine aura, grounded in the paubha idiom. Avoid over-bright CGI glows.
+  - Eyes convey wisdom, compassion, sovereign boundary, and wounded sacred authority.
+  - Her fading should feel like a goddess reclaiming her divinity and receding into shadow and candle-smoke.
 
 ### **The Queen** (Brief appearance)
 - **Appearance:** 40-year-old Nepali/Newar **queen** in royal court dress. Medium brown face, restrained kohl, tear-line highlight, dark hair in a traditional compact Newar bun. She wears a deep wine/plum silk sari with woven gold-thread borders and brocade, an embroidered silk cholo, and a maroon velvet (makhamali) veil-shawl, with heavy authentic Newar repoussé gold — the grand Tayo (serpent-headed lozenge-pendant necklace), a Naugedi bead necklace, a Luswa head-disk with Nyapu Shikha chains across the hair, a Sirbandi head-binding, a Tikma forehead ornament, and heavy Makasi earrings. NOT the common black-cotton Haku Patasi, NOT a large Bulaki nose-ring, NOT a generic Bollywood sari or fantasy-queen styling. Seen only through carved dark wood lattice (ankhijhyal).
