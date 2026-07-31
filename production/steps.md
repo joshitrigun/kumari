@@ -4,7 +4,9 @@ Working checklist for the AI video-generation phase. See `PRODUCTION_MASTER.md` 
 
 ## 🔴 Blockers (do these first — production can't start without them)
 
-- [ ] **Generate approved character bitmaps.** Use `CHARACTER_IMAGE_PROMPTS.md` + `REALITY_REFERENCE.md` to produce portraits for King, Taleju, Queen, and infant Kumari. Save to `character_sheets/approved/` (folder does not exist yet — create it).
+- [x] **`CHARACTER_IMAGE_PROMPTS.md` fully revised.** All prompts rewritten with paubha style anchors, shot references, story-aligned emotions (King Act 2 warm overflow, Queen transfixed awe), token added to Kumari, filter-safe negatives, and 4 new prompts (King Act 2, Taleju Game Board, Taleju Dream Silhouette, Queen Identity Plate). `ANIMATOR_BRIEF.md`, `KING_REFERENCE_SET.md`, `QUEEN_REFERENCE_SET.md` aligned.
+- [x] **`character_sheets/approved/` folder created.**
+- [ ] **Generate approved character bitmaps.** Use `CHARACTER_IMAGE_PROMPTS.md` + `REALITY_REFERENCE.md` in Dreamina to produce portraits for King (3 looks), Taleju (3 looks), Queen (2 looks), and Kumari (2 looks). Save to `character_sheets/approved/`.
 - [ ] **Generate Shot 01 → save as `STYLE_ANCHOR.png`.** Every remaining shot uses this as the style reference. Nothing downstream is locked until this is approved.
 
 ## 🟡 Production (in priority order — MoSCoW from master sheet)

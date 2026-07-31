@@ -42,7 +42,7 @@ Told right, these three placements deliver the film's entire theology without a 
   - **Act 4:** Simple Nepali cotton shawl; "transformed" humble posture, no restored vanity.
 - **Arc:** 
   - Act 1: Reverent, devoted, glowing with joy in her presence
-  - Act 2: Face hardens; eye glint sharpens to a metallic edge; anguish as she fades
+  - Act 2: The warmth of Act 1 is unchanged — but his eyes have overflowed one degree past reverence into longing; anguish as she fades
   - Act 3: Humbled, penitent, praying from his palace toward Taleju's temple — longing across an unbridgeable distance
   - Act 4: At peace, accepting, humble tears watching the child
 - **Key Visual Acting:** 
@@ -65,8 +65,8 @@ Told right, these three placements deliver the film's entire theology without a 
   - **Focal Points:** The Makasi earrings and the Luswa head-disk / Nyapu Shikha gold chains catch sharp candle highlights — the "signal" in the dark. (No nose-ring.)
   - **Eyes:** Constant "tear-line" highlight on the lower lid (aching gaze, not jealousy).
 - **Moment:** 0:00–0:50 (peering through lattice/doorway), with a returning glance at the moment of the breaking (see Shot 6)
-- **Emotion:** Awe, ached longing, then dawning dread — she reads the covenant, and she is the first mortal to see it break
-- **Note:** The lattice is her mask and her prison. Keep her sympathetic — never jealous. Her function is to be the story's conscience: she understands the sacredness before the King does, and her eye is the human witness to the rupture. She is not decorative; without her the tale has no witness.
+- **Emotion:** Transfixed sacred awe — she has accidentally seen the divine through the lattice and cannot look away. A single involuntary tear. She does not know what her looking costs.
+- **Note:** The lattice is her mask and her prison. Keep her sympathetic — never jealous. Her function is to be the audience's mortal mirror — she has accidentally witnessed the sacred and cannot un-see it. The story is told from the King's side; her inner arc does not need to be resolved.
 
 ### **The Child (Kumari)**
 - **Appearance:** Newborn Royal Kumari infant, living embodiment of Taleju. Perfectly still expression, thick black kohl to temples, large red/yellow fire-eye (agni-chakshu) painted over forehead. She wears miniature heavy crimson-red raw cotton and silk brocade with real hammered-gold Kumari jewelry. Not a cute baby, but a vessel of immense gravity.

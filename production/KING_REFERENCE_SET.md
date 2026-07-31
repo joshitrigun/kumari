@@ -41,15 +41,15 @@ Full Malla court dress; reverent, glowing devotion. Warm gold.
 Wardrobe to append: `traditional Malla-style tight-fitting madder-dyed cotton upper garment (tapalan), thick wound waist cloth (patuka), pleated lower skirt-wrap (jama), and a multi-tiered gold repoussé headpiece hammered and sitting low on dark brushed-back hair. No turban.`
 
 ### Act 2 — The Crack (the breaking)
-Same court dress, but **one single strand of hair falls loose** from the headpiece; the eye-glint sharpens to a metallic edge. Cold slate-blue side light. *(Not a new man — the Act 1 face, hardening.)*
+Same court dress, but **one single strand of hair falls loose** from the headpiece; the devotional warmth in his eyes has tilted one degree too far — overflowing into something human and uncontained. **Warm brass-lamp light unchanged from Act 1.** *(Not a new man — the Act 1 face, overflowing.)*
 
 | # | Still | Angle | Lighting / expression |
 | --- | --- | --- | --- |
-| 1 | `king_act2_front` | Front | Cool side key; hardened, tightening |
-| 2 | `king_act2_3q` | Three-quarter | Cold rim; a single loose hair strand |
-| 3 | `king_act2_desire` | Tight on eyes/hand | Metallic eye-glint; the flash of desire |
+| 1 | `king_act2_front` | Front | Warm brass-lamp key; overflowing warmth, barely held |
+| 2 | `king_act2_3q` | Three-quarter | Same warm key; single loose hair strand — the only crack |
+| 3 | `king_act2_desire` | Tight on eyes | Overflowing warmth in his eyes; the flash of desire, not hardness |
 
-Wardrobe to append: `the same Malla court dress and gold repoussé headpiece as Act 1, but a single strand of dark hair has fallen loose across the temple. Cold slate-blue side lighting.`
+Wardrobe to append: `the same Malla court dress and gold repoussé headpiece as Act 1, a single strand of dark hair fallen loose across the temple — the only visual crack. Same warm brass-lamp light as Act 1; the change is entirely in his eyes.`
 
 ### Act 3 — Penance (humbled devotion, prayer toward the temple)
 **Humbled, not broken.** No regalia, no headpiece, no gold — simple undyed cream cotton robes and a plain sash, dark hair loosely tied. Still tall, strong, and dignified; his face carries quiet grief and unbroken longing, not exhaustion or emaciation. His penance is *devotion across distance*: praying from his palace toward Taleju's temple. Soft misty dawn light.

@@ -10,11 +10,11 @@ How to build and feed the **Queen (Daya Lakshmi figure)**'s reference images. Sh
 
 Paste verbatim into **every** Queen image prompt.
 
-> `An adult 40-year-old Nepali Newar noblewoman. Medium warm brown skin, almond eyes with subtle kohl. A constant tear-line highlight on the lower lid — aching gaze, not jealousy. Mouth closed or slightly parted in silent concern. Dark hair in a traditional compact Newar bun. Painted in traditional Newar paubha style — flat mineral pigment, ink outlines, historically grounded, never photoreal.`
+> `An adult 40-year-old Nepali Newar noblewoman. Medium warm brown skin, almond eyes wide and transfixed in sacred awe. A single involuntary tear at the lower lid — eyes watering from something too sacred and too beautiful, not from sadness. Mouth slightly parted, breath held: she has accidentally seen the divine and cannot look away. Dark hair in a traditional compact Newar bun. Painted in traditional Newar paubha style — flat mineral pigment, ink outlines, historically grounded, never photoreal.`
 
 **Queen negative prompt (always append):**
 
-> `Malaysian songket, shiny palace costume, Thai crown, Southeast Asian queen crown, generic sari princess, jealous wife, seductive expression, exposed shoulder glamour, fantasy queen, tiara, pale face.`
+> `Malaysian songket, shiny palace costume, Thai crown, Southeast Asian queen crown, generic sari princess, jealous wife, seductive expression, knowing expression, grieving woman, exposed shoulder glamour, fantasy queen, tiara, pale face.`
 
 Constant wardrobe/jewelry to append: `Malla queen's royal court dress — a deep wine/plum silk sari with richly woven gold-thread (kastha) borders and a brocade (kinkhab) panel, draped in elegant Newar court style over an embroidered silk cholo (fitted blouse), with a gold-brocade patuka sash and a dark maroon makhamali (velvet) veil-shawl. Heavy authentic Newar repoussé gold: the grand Tayo (serpent-headed lozenge-pendant ceremonial necklace, coral and turquoise), a Naugedi gold-bead necklace and a Kantha choker, a Luswa gold head-disk at the crown with Nyapu Shikha (five gold chains draped across the hair), a Sirbandi head-binding ornament, a Tikma forehead ornament, heavy basket-drop Makasi earrings, and gold bangles. This is royal court dress — NOT the plain black-cotton Haku Patasi of common Newar women, and NOT the pan-Nepali large Bulaki nose-ring. Plum/gold keeps her distinct from Taleju's vermillion temple brocade.`
 
@@ -28,10 +28,10 @@ She has fewer looks than the King, so build **one core set** plus a couple of fr
 
 | # | Still | Angle / framing | Lighting / expression |
 | --- | --- | --- | --- |
-| 1 | `queen_front_clear` | Front, **no lattice** (clean identity plate) | Warm oil-lamp; jewelry glinting; aching calm |
-| 2 | `queen_lattice_front` | Front, **seen through carved dark-wood lattice (ankhijhyal)** | Geometric lattice shadows across face; longing |
+| 1 | `queen_front_clear` | Front, **no lattice** (clean identity plate) | Warm oil-lamp; jewelry glinting; transfixed sacred awe |
+| 2 | `queen_lattice_front` | Front, **seen through carved dark-wood lattice (ankhijhyal)** | Geometric lattice shadows across face; frozen, transfixed, cannot look away |
 | 3 | `queen_lattice_3q` | Three-quarter through lattice | Makasi earrings and Luswa/Nyapu Shikha head gold catching sharp candle highlight — the "signal in the dark" (no nose-ring) |
-| 4 | `queen_dread` *(opt.)* | Tight on eyes, through lattice | Dawning dread at the moment of breaking (Shot 6) — she *reads* the rupture |
+| 4 | `queen_dread` *(opt.)* | Tight on eyes, through lattice | The goddess is already gone; still transfixed — she doesn't know yet what her looking cost |
 
 Framing note to append for lattice stills: `seen close-up through an intricately carved dark sal-wood lattice window (ankhijhyal), the lattice casting geometric shadow bars across her face; natural oil-lamp light glinting off the gold and off the tear on her lower lid.`
 
@@ -43,7 +43,7 @@ Framing note to append for lattice stills: `seen close-up through an intricately
 
 - For Shot 4 and the Shot 6 glance, feed the **clear front plate + at least one lattice variant** together — the clear plate holds the face, the lattice variant holds the framing/light.
 - Restate the Identity Anchor + wardrobe line in the shot prompt every time.
-- Keep the **emotional guardrail in the prompt**: `aching, sympathetic witness — never jealous, never seductive`. She drifts toward "jealous wife" if you drop it.
+- Keep the **emotional guardrail in the prompt**: `transfixed sacred awe — never jealous, never knowing, never seductive`. She drifts toward "jealous wife" or "knowing witness" if you drop it.
 - If the face drifts, add a second three-quarter clear plate rather than changing wording.
 
 ---
