@@ -9,5 +9,6 @@
 production/.claude/settings.local.json
 
 # Generation outputs (large binaries — keep out of git)
-production/character_sheets/
+production/character_sheets/*
+!production/character_sheets/approved/
 production/outputs/
