@@ -56,7 +56,7 @@ Wardrobe to append: `the same Malla court dress and gold repoussé headpiece as 
 
 | # | Still | Angle | Lighting / expression |
 | --- | --- | --- | --- |
-| 1 | `king_act3_prayer_wide` | Three-quarter from behind, at the palace window overlooking the distant Taleju temple | Misty dawn; both hands pressed in prayer (namaskar); longing |
+| 1 | `king_act3_prayer` | Three-quarter from behind, at the palace window overlooking the distant Taleju temple | Misty dawn; both hands pressed in prayer (namaskar); longing |
 | 2 | `king_act3_front` | Front, hands in prayer at chest | Soft dawn key; quiet grief, dignified, eyes toward the temple |
 | 3 | `king_act3_3q` | Three-quarter portrait | Gentle dawn light; humbled but composed, sorrowful longing |
 

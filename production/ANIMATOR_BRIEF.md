@@ -226,8 +226,8 @@ Told right, these three placements deliver the film's entire theology without a 
 - **Camera Movement:**
   - Slow pan across awakening space
   - Gentle focus shift from King to Child
-  - Tracking shot: follow Child's walk through courtyard
-  - Final close: token resting on game board (slow push-in)
+  - Slow ceremonial tracking as the Child is carried across the white cloth path into the courtyard, then stilled on the embroidered cushion
+  - Final close: lotus token resting in stillness with the Child (slow push-in)
 
 ---
 
@@ -265,34 +265,34 @@ Told right, these three placements deliver the film's entire theology without a 
 | 2 | 0:05–0:15 | Slow dolly toward game table; two figures visible in warm glow | 10" | Anticipation building; incense visible. This is a *ritual*, not a date. |
 | 3 | 0:15–0:30 | Close on hands over game pieces; **the Covenant** — Taleju places the token, King mirrors the gesture | 15" | **PLANT:** the silent vow made physical. Her placement is deliberate, almost sacramental; his mirror = his acceptance of the rule. The token is GIVEN (handoff 1 of 3). |
 | 4 | 0:30–0:50 | Queen's witness: her eyes peer through the carved lattice (ankhijhyal) at the sacred game | 20" | Lyrics enter ("reminiscing"). She *reads the covenant* — she understands its sacredness before the King does. Lattice shadows on face; aching longing, not jealousy. |
-| 5 | 0:50–1:13 | Extreme close-ups alternating: his eyes, her eyes, hands near touching but not touching | 23" | Harp flourish; music swells. **Devotion, not romance.** The tension is that they *do not* touch — the covenant holds, barely. Seed the danger here. |
+| 5 | 0:50–1:13 | Extreme close-ups alternating (5A/5B/5C): his eyes, her eyes, hands near touching over the chaupar board | 23" | Harp flourish; music swells. **Devotion, not romance.** The tension is that they *do not* touch — the covenant holds, barely. Seed the danger here. |
 
 ### **ACT 2: Transgression & Vanishing (1:13–2:20)**
 
 | Shot # | Time | Description | Duration | Notes |
 |--------|------|---|---|---|
-| 6 | 1:13–1:40 | **The Breaking:** lighting shift live on screen; the King looks at her *with desire* and moves to reach — the one rule breaks | 27" | Dissonant chord. Not a villain turn — a small, human, catastrophic failure. At 1:13 a single hair falls loose (the first crack). Cut once to the Queen's lattice: the first mortal eye to see the covenant break. |
-| 7 | 1:40–1:53 | **The Withdrawal:** he reaches; she does not flinch in anger — she *recedes*, sacred legitimacy leaving him | 13" | Parallax; growing distance. Her retreat is wounded boundary, not punishment. The covenant is now void. |
-| 8 | 1:53–2:19 | She dissolves upward like smoke; **the token falls and rolls; the King lunges and MISSES** | 26" | Flute solo; no SFX, just music. The *miss* is the emotional event — token comes to rest in shadow, out of reach. Token LOST (handoff 2 of 3). |
-| 9 | 2:19–2:40 | Aftermath, then a brief flash of golden memory of her smile | 21" | Hold the empty board and his suspended hand *before* the flashback — let the room cool into silence so 2:19–2:40 isn't dead air. Color briefly returns; bittersweet. |
+| 6 | 1:13–1:40 | **The Breaking (6A/6B/6C):** at 1:13 his warm devotion overflows into desire (single loose hair strand); cut to the Queen's lattice witness (6B); as he reaches across the board, the lamps gutter and the room drains to cold 8000K slate-blue (6C) | 27" | Dissonant chord. Not a villain turn — a small, human, catastrophic failure. Warm gold holds in 6A while his eyes overflow, then collapses into cold slate-blue as he reaches in 6C. |
+| 7 | 1:40–1:53 | **The Withdrawal:** he reaches; she does not flinch in anger — she *recedes* into cold shadow, sacred legitimacy leaving him | 13" | Parallax; growing distance. Her retreat is wounded boundary, not punishment. The covenant is now void. |
+| 8 | 1:53–2:19 | She dissolves upward like gold-leaf smoke; **the token falls and rolls; the King lunges and MISSES** | 26" | Flute solo; no SFX, just music. The *miss* is the emotional event — token comes to rest in shadow, out of reach. Token LOST (handoff 2 of 3). |
+| 9 | 2:19–2:40 | Aftermath at the cold empty board (9A), then a brief flash of golden memory of her serene face (9B) | 21" | Hold the empty chaupar board and his suspended hand *before* the flashback — let the room cool into silence so 2:19–2:40 isn't dead air. Color briefly returns; bittersweet. |
 
 ### **ACT 3: Penance & Dream (2:40–3:58)**
 
 | Shot # | Time | Description | Duration | Notes |
 |--------|------|---|---|---|
-| 10 | 2:40–3:00 | Transition to misty dawn; King carries the game board onto the palace terrace and prays toward Taleju's temple; **the vigil begins** | 20" | Desaturated, cool, hushed; soft dawn ambience. Establish the *ritual he will repeat*: he sets the board, prays across the square to the temple, and waits for her to return. Penance is an action, not just grief. |
-| 11 | 3:00–3:15 | **The vigil, repeated:** each dawn he sets the board, cups the token's empty place, and waits — and nothing comes | 15" | Repetition-with-variation (the engine of oral tales): three dawns, three failures, shown compressed. He is thinner, greyer each time. The *empty place* is the token's Act-3 presence. |
-| 12 | 3:15–3:29 | The third vigil: King stilled, fasting, hands cupping the empty space; on the edge of giving up | 14" | Sparse percussion; emotional core. This is rock bottom — the vigil has failed three times. |
-| 13 | 3:29–3:58 | Montage bridging into sleep: candles guttering, empty board, incense — he finally sleeps at the board | 29" | Music builds; strings enter. His exhaustion tips him into the dream where the instruction comes. |
+| 10 | 2:40–3:00 | Transition to misty dawn; King carries the chaupar game board onto the palace terrace and prays toward Taleju's temple; **the vigil begins** | 20" | Desaturated, cool, hushed; soft dawn ambience. Establish the *ritual he will repeat*: he sets the board, prays across the square to the temple, and waits for her to return. Penance is an action, not just grief. |
+| 11 | 3:00–3:15 | **Dream Vision:** as he kneels in vigil before the empty board, a translucent mist silhouette of Taleju appears above the terrace | 15" | Dawn mist passes through her form; she remains distant and unreachable across the broken covenant. |
+| 12 | 3:15–3:29 | **Depth of Penance:** the third vigil — King stilled, humbled (never emaciated or a beggar), one hand cupping the token's empty space, eyes lifted toward the temple | 14" | Sparse percussion; emotional core. This is rock bottom — the vigil has failed three times; the *empty place* is the token's Act-3 presence. |
+| 13 | 3:29–3:58 | **Montage bridging into sleep (13A/13B/13C):** guttering brass diyas, the empty chaupar board, incense ribbons — he finally bows his head in sleep at the board | 29" | Music builds; strings enter. His exhaustion tips him into the deep dream where the instruction comes. |
 
 ### **ACT 4: Rebirth & Dawn (4:11–5:00)**
 
 | Shot # | Time | Description | Duration | Notes |
 |--------|------|---|---|---|
-| 14 | 3:58–4:11 | **The Instruction (the hinge of the film):** in dream, Taleju gives the terms of her return | 13" | Bright orchestral motif; hope enters. Make it *concrete* even without words: she lifts the fallen token, then lowers her open hand toward the ground / toward a child's height, then presses a finger to her lips and turns her palm from *taking* to *offering*. The read: **I will return — not as your equal at the game, but as a child you must serve, not possess.** Everything in Act 4 answers this gesture. |
-| 15 | 4:11–4:40 | **The Return:** newborn Kumari brought in soft dawn light; the token is *placed on her chest* | 29" | New, innocent motif; restrained dawn glow (gentler than Taleju's). Token RETURNED (handoff 3 of 3) — placed *with* her, not gripped. Not a triumphant reveal; dawn deciding to enter the frame. |
-| 16 | 4:40–4:55 | **The Founding:** the people bow and *accept the child as the living goddess*; the King lowers himself among them | 15" | Gentle hymn-like strings. **This is the true climax** — the world changes, a tradition is born: the goddess now lives among them as a child, and a king must bow to a girl. The King understands the bargain and serves. |
-| 17 | 4:55–5:00 | Coda: the token at rest with the child; warm dawn light; King at peace | 5" | Music swells to chorus. A *coda*, not the climax — the vow kept in a new form. "And that is why, to this day…" |
+| 14 | 3:58–4:11 | **The Instruction / Dream Peak (14A/14B):** in dream, Taleju gives the terms of her return (14A), and a single tear of acceptance tracks down the King's cheek (14B) | 13" | Bright orchestral motif; hope enters. In 14A she presses a finger to her lips and lowers her open palm to a child's height in offering (**I will return — not as your equal at the game, but as a child you must serve, not possess**). In 14B the King understands and accepts. |
+| 15 | 4:11–4:40 | **The Return (15A/15B):** newborn Kumari is carried across the white cloth path into the dawn courtyard (15A) and rests in stillness on the ceremonial cushion with the token *placed on her chest* (15B) | 29" | New, innocent motif; restrained dawn glow (gentler than Taleju's). Token RETURNED (handoff 3 of 3) — placed *with* her, not gripped. Not a triumphant reveal; dawn deciding to enter the frame. |
+| 16 | 4:40–4:55 | **The Founding:** the people bow and *accept the child as the living goddess*; the King in a simple cotton shawl lowers himself among them | 15" | Gentle hymn-like strings. **This is the true climax** — the world changes, a tradition is born: the goddess now lives among them as a child, and a king must bow to a girl. The King understands the bargain and serves. |
+| 17 | 4:55–5:00 | **Coda:** close-up on the lotus token at rest with the child in warm dawn light | 5" | Music swells to chorus. A *coda*, not the climax — the vow kept in a new, eternal form. "And that is why, to this day…" |
 
 ---
 
@@ -358,7 +358,7 @@ Told right, these three placements deliver the film's entire theology without a 
 | 3:00 | Ethereal pad (string drones) | Dream sequence begins | Soft-focus, Taleju appears |
 | 3:58 | Orchestral swell | Dream peaks; instruction moment | Hope enters music |
 | 4:11 | **NEW MOTIF (innocent, hopeful)** | **Child appears** | Warm, rising harp/organ |
-| 5:00+ | Chorus returns (main theme) | Token on board; King at peace | Resolute, full-bodied arrangement |
+| 5:00+ | Chorus returns (main theme) | Token at rest with the child; King at peace | Resolute, full-bodied arrangement |
 
 ---
 

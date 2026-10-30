@@ -50,7 +50,7 @@ The **same** goddess, now stepping back into deep shadow of the red-brick shrine
 Note to append: `stepping back into the dark shadows of a red-brick shrine, her warm human brown face showing profound unsmiling sacred sadness; the heavy brass oil lamps around her are smoking and dimming; absolutely no magical glowing CGI, only heavy textiles and shadow.`
 
 ### Act 3 — Dream Silhouette (memory / the instruction)
-She appears in the King's dream as a **silhouette / mist**, ethereal but still grounded — soft-focus, slightly bleached, a halo of *real* light (lamp/dawn quality), not neon. Rain can pass *through* the translucent form.
+She appears in the King's dream as a **silhouette / mist**, ethereal but still grounded — soft-focus, slightly bleached, a halo of *real* light (lamp/dawn quality), not neon. Dawn mist can pass *through* the translucent form.
 
 | # | Still | Angle | Lighting / expression |
 | --- | --- | --- | --- |
@@ -58,7 +58,7 @@ She appears in the King's dream as a **silhouette / mist**, ethereal but still g
 | 2 | `taleju_act3_3q` | Three-quarter, misted | Bleached soft-focus; serene |
 | 3 | `taleju_act3_instruction` *(opt.)* | Half-body, open hand lowering | Dream light; offering gesture, finger to lips |
 
-Note to append: `appearing as a soft-focus dream silhouette in mist, slightly bleached, with a subtle grounded halo of light (oil-lamp / dawn quality, never neon); translucent enough that rain passes through; ethereal but physically real, no CGI glow.`
+Note to append: `appearing as a soft-focus dream silhouette in mist, slightly bleached, with a subtle grounded halo of light (oil-lamp / dawn quality, never neon); translucent enough that dawn mist passes through; ethereal but physically real, no CGI glow.`
 
 ---
 

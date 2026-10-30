@@ -39,6 +39,15 @@ Negative prompt: use Global Negative Prompt plus `beggar, ragged clothes, homele
 
 Negative prompt: use Global Negative Prompt plus `villain sneer, cold expression, dark lighting, blue tint, shadowy villain, smiling, open rage, glowing magic, all hair loose, Mughal turban plume, tall spiky crown, shiny gold costume, chess board, chess piece, checkerboard, dirty face, skin blemishes, rough skin texture, uneven complexion, patchy skin, beard shadow patches, marks on face, tears on face, tear streaks, crying, weeping, wet cheeks, glowing eyes, amber eyes, supernatural eyes, golden eyes, fabric drapes, hanging curtains, decorative canopy, tent, pavilion, cloth backdrop, Mughal court, Bollywood palace set.`
 
+## King Jayaprakash Malla - Act 4: Humbled Acceptance
+*(Production Master Shot 16 — MUST)*
+
+**The beat:** The vigil is answered, not by Taleju returning to his private chamber, but by the goddess returning to the world as a child he can only serve. The King has come down from his palace terrace into the courtyard among his people. All royal vanity is gone—no headpiece, no gold—only a simple Nepali cotton shawl over his shoulders. His face is still recognizable as the tall, strong Malla king, now quieted by profound humility, reverence, and peace as he bows to the newborn Kumari.
+
+`Traditional Newar paubha-painting-style illustration, 18th-century Kathmandu Valley, Nepal. Painted in flat mineral pigment with bold ink contour outlines — NOT photoreal, NOT 3D render. Medium three-quarter portrait in a stone Malla courtyard (Chowk) at soft dawn. A tall, strong-built 50-year-old Nepali Newar Malla king — medium brown skin, firm square jaw, high cheekbones, straight nose, well-groomed short beard and mustache, faded red vermillion tika. He is bareheaded with dark hair neatly settled, wearing only a simple humble undyed Nepali cotton shawl draped over his shoulders and plain cotton robes — no headpiece, no gold, no royal ornament. His posture is bowed in quiet reverence, head slightly inclined, hands pressed together in namaskar mudra. His deep-set dark eyes hold serene acceptance, humility, and a single glistening tear of peace. Soft warm dawn light (peach, pale gold, and lavender sky) wraps gently around him against red Ma-Appa brick and carved dark Sal-wood struts. Flat mineral pigment, bold ink contour outlines, paubha devotional painting.`
+
+Negative prompt: use Global Negative Prompt plus `beggar, ragged clothes, filthy, emaciated, gaunt starving, tall crown, gold headpiece, royal jewelry, proud arrogant posture, angry expression, melodramatic weeping.`
+
 ## Queen / Daya Lakshmi Figure - Identity Plate (no lattice)
 *(Feed alongside lattice stills to anchor face in Seedance)*
 

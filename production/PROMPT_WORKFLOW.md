@@ -77,7 +77,7 @@ From now on, if your tool accepts a **style reference image**, feed `STYLE_ANCHO
 
 Don't go 1→17. Do the hardest, most important shots first — if the film works there, everything else is easier. Recommended order (from [PRODUCTION_MASTER.md](PRODUCTION_MASTER.md)):
 
-**4 → 5 → 6 → 8 → 15 → 17**, then fill in the rest.
+**4 → 5 → 6 → 8 → 15 → 16 → 17**, then fill in the rest.
 
 For **each** shot:
 
@@ -101,7 +101,7 @@ Character drift is the #1 hard part of any AI film. Seedance's multi-reference f
 - **Describe them identically** every time. Copy the exact wording from `CHARACTER_IMAGE_PROMPTS.md` (age, skin tone, beard, headpiece) — don't paraphrase.
 - **Reuse the seed** if you got a good result and the tool exposes one.
 - **Lean into stillness.** Slow, quiet, near-still shots (this film is full of them) hold a face far better than big movement. Shots 12, 13, 14, 17 barely move — let them be calm.
-- Remember the **costume changes by act**: King is in full court dress (Act 1), one loose hair strand (Act 2), bareheaded rain-wrap (Act 3), humble shawl (Act 4). Keep a **separate reference set per act** — same face, different wardrobe — and feed the matching set per shot.
+- Remember the **costume changes by act**: King is in full court dress (Act 1), one loose hair strand with overflowing warmth in his eyes (Act 2), bareheaded in simple cream cotton robes on the misty dawn terrace (Act 3), and a humble cotton shawl (Act 4). Keep a **separate reference set per act** — same face, different wardrobe — and feed the matching set per shot.
 
 ---
 
@@ -130,7 +130,7 @@ Next: paint a warm keyframe + a cold keyframe and animate between them,
    - **1:53** — flute solo → Taleju vanishes (Shot 8)
    - **4:11** — new hopeful motif → the newborn Kumari appears (Shot 15)
    - **5:00** — resolution → token at rest (Shot 17)
-5. Do a color pass so each act matches [COLOR_PALETTE.md](COLOR_PALETTE.md): Act 1 warm gold, Act 2 cold slate-blue, Act 3 desaturated rain, Act 4 soft dawn.
+5. Do a color pass so each act matches [COLOR_PALETTE.md](COLOR_PALETTE.md): Act 1 warm gold, Act 2 cold slate-blue collapse, Act 3 desaturated misty dawn, Act 4 soft sunrise dawn.
 
 ---
 

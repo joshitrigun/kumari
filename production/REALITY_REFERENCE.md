@@ -17,10 +17,12 @@ Useful historical read:
 Visual direction:
 
 - Malla/Newar courtly, not Malaysian or generic Southeast Asian palace.
-- Use a crossed-front upper garment inspired by Newar tapalan / court-jama logic, suruwa/sayn-kayta-informed lower shape, patuka-style waist wrap, restrained royal jewelry, and a low structured Malla-era Nepali royal head ornament with red cloth and restrained gold edging.
-- His dignity should be controlled and slightly rigid in Act 1.
-- In Act 2, make the crack small: loose hair strand, clenched hand, colder eye, no melodramatic villain face.
-- In Act 3, remove crown and heavy court dress. He should look physically reduced, rain-worn, penitent, and politically powerless.
+- Tall, strong-built, handsome 50-year-old Newar Malla king in his prime with a firm square jaw, high cheekbones, keen deep-set dark eyes, and a well-groomed short beard.
+- Use a tight-fitting deep madder-dyed cotton upper garment (tapalan) with gold-thread borders, thick wound waist cloth (patuka), pleated lower skirt-wrap (jama), hammered gold Tayo necklace, and a multi-tiered gold repoussé headpiece sitting low on dark brushed-back hair (no turban).
+- His dignity should be controlled and magnetic in Act 1.
+- In Act 2, make the crack small and interior: one loose hair strand across his temple, warm devotion overflowing into human longing in his eyes (not a melodramatic villain face), followed by the room's warmth collapsing into cold slate-blue as he reaches.
+- In Act 3, remove crown and gold regalia, but keep his tall, dignified stature (never a beggar or emaciated). He wears simple undyed cream cotton robes on his palace terrace at misty dawn, praying across the square toward Taleju's temple.
+- In Act 4, dress him in a simple Nepali cotton shawl over plain robes — humbled and at peace as he lowers himself among the people before the newborn Kumari.
 
 Personality keywords: refined, devout, proud, intelligent, suspicious, wounded, volatile, finally humbled.
 
@@ -54,8 +56,8 @@ Visual direction:
 
 - A "goddess in a perfect human form": a serene woman of flawless, idealized human beauty — perfect human face and gracefully proportioned human body, **warm human skin** (not gilded or glowing). Her divinity shows through an aura *around* her — a faint gold nimbus, a soft gold rim-light, the Shri Yantra, and a sovereign, uncanny stillness — not a rigid temple statue, and not merely mortal. Flawless beauty, but never sexualized.
 - Keep her compassionate, but never casual or lover-like.
-- Add yantra/triangular geometry, lion/Durga energy only as subtle design language, not literal over-detail.
-- Cream/gold Newar temple-devata drapes, luminous bindi, refined kohl, light trails like water, not glamour makeup.
+- Add copper Shri Yantra / triangular mandala geometry behind her head and a faint gold-leaf nimbus as subtle sacred design language.
+- Deep vermillion red and hammered antique gold Newar ceremonial brocade (Kinkhab), three-tiered gold repoussé temple crown studded with coral and turquoise, luminous red bindi, refined kohl — never glamour makeup.
 - When she recoils, she is wounded boundary and withdrawn legitimacy, not anger for anger's sake.
 
 Personality keywords: compassionate, sovereign, watchful, protective, boundary-setting, luminous, beyond possession.
@@ -67,7 +69,7 @@ Useful cultural read:
 - Living embodiment of Taleju, traditionally a young prepubescent Newar girl from Shakya/Bajracharya communities.
 - Royal Kumari is associated with red and gold garments, topknot, agni-chakshu/fire-eye forehead makeup, stillness, and rare public appearances.
 - Stillness and composure matter: her silence is powerful.
-- Her feet traditionally do not touch the ground outside the residence; in stylized film language, make the walk feel like a glide or carried presence.
+- Her feet traditionally do not touch the ground outside the residence; in this film she is a newborn infant who never walks or grips objects — she is carried ceremonially across a white cloth path or rests in complete stillness on an embroidered cushion with the lotus token placed on her chest.
 
 Visual direction:
 
