@@ -10,24 +10,22 @@
 
 ## Story Spine (read this before the shot list)
 
-This is a **folk tale**, not a mood piece. It must read as a chain of consequence — *he does a thing, and because of that thing, the world changes on him* — and it must end with the world changed, not just the hero's heart. Every shot serves one of the five links below.
+This is a **sacred, tragic one-sided love story of a mortal King's devotion overflowing into human love for a Goddess, his devastating mistake, his penance, and how the Goddess consoles his broken heart** — culminating in the birth of the living Kumari tradition. Every shot serves one of the five emotional movements below:
 
-**The chain of consequence:**
+**The emotional and mythic arc:**
 
-1. **The Covenant (Act 1).** Night after night the goddess Taleju comes in secret to play dice with the King and give him divine counsel. There is one condition, silently agreed and never spoken aloud: *he may sit with her as a devotee, never desire her as a woman, never reach for her.* The game is the form the covenant takes. The token is the covenant made physical.
-2. **The Breaking (Act 2).** The King looks at her with desire and reaches. He breaks the one rule. This is not a villain turn — it is a small, human, catastrophic failure. The instant he reaches, the covenant is void.
-3. **The Withdrawal (Act 2).** Taleju does not punish. She *withdraws* — sacred legitimacy leaving the man who could not keep his desire out of the divine. As she recedes, the token falls; he lunges and misses. He is left with an empty board.
-4. **The Penance (Act 3).** He does not merely grieve, and he is not reduced to a beggar — he *keeps a vigil*, humbled but dignified. Every dawn he carries the board onto his palace terrace, sets the token's empty place, prays across the square toward Taleju's temple, and waits, and every dawn nothing comes. Three vigils, three failures. On the third, in dream, she gives him **the instruction** (see Shot 14): she will return — but never again to him as an equal at the game. She will return as a **child** he must *serve, not possess.*
-5. **The Restoration & the Founding (Act 4).** At dawn the newborn Kumari is brought, the token at her chest. The King understands the bargain, lowers himself, and the *people accept the child as the living goddess.* The tale closes not on his private peace but on the **birth of a tradition** — this is why, to this day, the goddess lives among them as a child, and a king must bow to a girl.
+1. **The Secret Midnight Communion & One-Sided Love (Act 1).** Night after night, out of grace for King Jayaprakash Malla's deep devotion, the royal tutelary goddess Taleju Bhawani descends in secret from her towering golden temple into his candlelit palace chamber. A traditional *tripasa* (dice) board sits between them merely as the courtly pretext that permits a mortal king to sit face-to-face with the Divine. For Taleju, she comes as sovereign protector and sacred counsellor. For the lonely King, sitting three feet from transcendent beauty and warmth night after night does something fatally human to his heart: *his reverent devotion quietly, helplessly turns into mortal love.*
+2. **The Heart's Mistake / The Breaking (Act 2).** Overwhelmed by her beauty and warmth, the King forgets the dice game and the unspoken boundary between devotee and beloved. His eyes overflow with tender, helpless human love, and he reaches out to touch her. This is not a villain turn — it is a vulnerable, human, catastrophic mistake. The instant he reaches for her as a woman, the sacred boundary shatters.
+3. **The Withdrawal (Act 2).** Taleju does not strike him in anger. She *withdraws* in wounded sacred sorrow — a Goddess reclaiming the boundary a mortal heart could not keep. As the warm golden lamps gutter into cold midnight blue, she dissolves into golden smoke and returns to her distant temple, leaving the King weeping alone in the dark chamber.
+4. **The Penance of a Broken Heart (Act 3).** Stripped of his gold crown and royal pride, dressed in simple undyed cotton robes, the King keeps a humble, aching vigil on his misty palace terrace before dawn. Night after night and dawn after dawn, he lights small brass prayer *diyas*, presses his trembling hands together in *namaskar* prayer across the square toward the silent, locked Taleju Temple, and begs for her forgiveness. When exhaustion finally claims him at the parapet, she visits him in a dream with **divine consolation** (Shot 14): she cannot return to him as a woman he might desire, so out of compassion for his broken heart, she will return as a **pure young child** whom he can behold every day and love purely through service and reverence.
+5. **The Consolation of the King's Heart & the Founding (Act 4).** At sunrise, the young Royal Kumari — bearing Taleju's unmistakable third eye (*agni-chakshu*) and sovereign stillness — is enthroned in the courtyard. When the humbled King bows at the tiny child's feet and sees his beloved Goddess looking back at him through a child's eyes, **his heart is finally consoled**. His private penance becomes Nepal's living tradition: to this day, the Goddess dwells among her people as a child, and a king bows at her feet.
 
-**The rule of three (the token).** The talisman changes hands exactly three times, meaning something different each time. Each handoff must be a *watchable physical event*, never an ambient glow:
-- **Given** — placed on the board in Act 1 (the covenant).
-- **Lost** — dropped as Taleju withdraws; the King reaches and *misses* (the breaking made physical).
-- **Returned** — placed on the newborn Kumari's chest in Act 4 (the covenant reborn in a form he can only serve).
+**The recurring sacred motif (the Golden Lotus Token / Talisman).** The sacred golden lotus talisman marks the three states of the King's heart:
+- **Blessed in Communion (Act 1)** — resting between them in warm golden light as her grace fills his chamber.
+- **Lost in Transgression (Act 2)** — slipping into cold shadow as she vanishes and his reaching hand closes on empty air.
+- **Restored in Pure Devotion (Act 4)** — resting beside the young Kumari in warm dawn light as the King bows at her feet, his heart consoled.
 
-Told right, these three placements deliver the film's entire theology without a single word of dialogue.
-
-**The Queen's function.** She is not a spectator who merely aches. She is the human witness whose seeing *matters*: she understands the sacredness before the King does, and hers is the first mortal eye to see the covenant break. Her witnessing is the story's conscience — she carries the knowledge the King is too blind, in the moment, to hold. She cannot be removed without the tale losing its witness.
+**Why this is a pure two-character chamber drama (No Queen Witness).** In the authentic Jayaprakash Malla legend of the Kumari's origin, there is no third person spying through a window. The tragedy happens **entirely inside the King's own heart**: as his pure *bhakti* (devotion) is gradually polluted by *kama* (mortal desire/lust) for the Goddess's radiant female form, Taleju herself reads the shift in his heart and withdraws. Keeping the chamber restricted to just the King and the Goddess makes it 100% clear why she leaves—and why she must return specifically as a **pure, untouchable child (Kumari)** before whom his heart can never be polluted by desire.
 
 ---
 
@@ -59,19 +57,10 @@ Told right, these three placements deliver the film's entire theology without a 
   - Eyes convey wisdom, compassion, sovereign boundary, and wounded sacred authority.
   - Her fading should feel like a goddess reclaiming her divinity and receding into shadow and candle-smoke.
 
-### **The Queen** (Brief appearance)
-- **Appearance:** 40-year-old Nepali/Newar **queen** in royal court dress. Medium brown face, restrained kohl, tear-line highlight, dark hair in a traditional compact Newar bun. She wears a deep wine/plum silk sari with woven gold-thread borders and brocade, an embroidered silk cholo, and a maroon velvet (makhamali) veil-shawl, with heavy authentic Newar repoussé gold — the grand Tayo (serpent-headed lozenge-pendant necklace), a Naugedi bead necklace, a Luswa head-disk with Nyapu Shikha chains across the hair, a Sirbandi head-binding, a Tikma forehead ornament, and heavy Makasi earrings. NOT the common black-cotton Haku Patasi, NOT a large Bulaki nose-ring, NOT a generic Bollywood sari or fantasy-queen styling. Seen only through carved dark wood lattice (ankhijhyal).
-- **Visual Performance:**
-  - **Focal Points:** The Makasi earrings and the Luswa head-disk / Nyapu Shikha gold chains catch sharp candle highlights — the "signal" in the dark. (No nose-ring.)
-  - **Eyes:** Constant "tear-line" highlight on the lower lid (aching gaze, not jealousy).
-- **Moment:** 0:00–0:50 (peering through lattice/doorway), with a returning glance at the moment of the breaking (see Shot 6)
-- **Emotion:** Transfixed sacred awe — she has accidentally seen the divine through the lattice and cannot look away. A single involuntary tear. She does not know what her looking costs.
-- **Note:** The lattice is her mask and her prison. Keep her sympathetic — never jealous. Her function is to be the audience's mortal mirror — she has accidentally witnessed the sacred and cannot un-see it. The story is told from the King's side; her inner arc does not need to be resolved.
-
 ### **The Child (Kumari)**
 - **Appearance:** Newborn Royal Kumari infant, living embodiment of Taleju. Perfectly still expression, thick black kohl to temples, large red/yellow fire-eye (agni-chakshu) painted over forehead. She wears miniature heavy crimson-red raw cotton and silk brocade with real hammered-gold Kumari jewelry. Not a cute baby, but a vessel of immense gravity.
 - **Visual Performance:**
-  - **The "Reveal":** She does not walk. She is carried by a temple priest/Queen or rests on a ceremonial embroidered cushion. Uncanny stillness for an infant.
+  - **The "Reveal":** She does not walk. She is carried by a temple priest/attendant or rests on a ceremonial embroidered cushion. Uncanny stillness for an infant.
   - **Makeup:** Kohl and agni-chakshu/fire-eye should look organically applied on a tiny face.
   - **Scale:** The extreme contrast between the massive, broken King and the tiny newborn emphasizes his complete submission to the divine.
 - **Prop:** The recurring **token** rests on her chest or on the cushion beside her, casting soft light on her face. A newborn does not grip it — the token is placed with her, not held.
@@ -91,7 +80,7 @@ Told right, these three placements deliver the film's entire theology without a 
   - Oil lamps (multiple, providing warm light source)
   - Incense smoke (wisping, dreamlike)
   - Wooden carvings on walls (ornate but not garish; suggest ancient craftsmanship)
-  - Lattice screens or carved doorways (for Queen's peek-through moment)
+  - Carved *ankhijhyal* lattice windows and dark Sal-wood pillars (sealing the private midnight sanctum)
   - Red/gold cloth or cushions (both characters sit on floor or low seats)
   
 - **Color Palette:** 
@@ -161,8 +150,7 @@ Told right, these three placements deliver the film's entire theology without a 
   - Carved Sal-wood terrace railings, struts, and ankhijhyal lattice
   - The distant Taleju temple across the square, its tiered roofs and gold finials catching first light
   - Thin threads of incense drifting between palace and shrine
-  - The low game board set on the terrace, the token's empty place before the King
-  - A single brass oil lamp beside the board
+  - A row of small brass prayer *diyas* (oil lamps) lit along the terrace parapet in penitent vigil
   - Soft ground mist over the brick square below
 
 - **Color Palette:**
@@ -257,42 +245,42 @@ Told right, these three placements deliver the film's entire theology without a 
 
 ## Shot-by-Shot Breakdown with Timings
 
-### **ACT 1: Golden Era (0:00–1:13)**
+### **ACT 1: Golden Era — Midnight Communion & One-Sided Love (0:00–1:13)**
 
 | Shot # | Time | Description | Duration | Notes |
 |--------|------|---|---|---|
-| 1 | 0:00–0:05 | Wide interior: warm room, lamps, fade-in from black | 5" | Establish the sacred, secret space — a room no one else enters. Soft pan to table. |
-| 2 | 0:05–0:15 | Slow dolly toward game table; two figures visible in warm glow | 10" | Anticipation building; incense visible. This is a *ritual*, not a date. |
-| 3 | 0:15–0:30 | Close on hands over game pieces; **the Covenant** — Taleju places the token, King mirrors the gesture | 15" | **PLANT:** the silent vow made physical. Her placement is deliberate, almost sacramental; his mirror = his acceptance of the rule. The token is GIVEN (handoff 1 of 3). |
-| 4 | 0:30–0:50 | Queen's witness: her eyes peer through the carved lattice (ankhijhyal) at the sacred game | 20" | Lyrics enter ("reminiscing"). She *reads the covenant* — she understands its sacredness before the King does. Lattice shadows on face; aching longing, not jealousy. |
-| 5 | 0:50–1:13 | Extreme close-ups alternating (5A/5B/5C): his eyes, her eyes, hands near touching over the chaupar board | 23" | Harp flourish; music swells. **Devotion, not romance.** The tension is that they *do not* touch — the covenant holds, barely. Seed the danger here. |
+| 1 | 0:00–0:08 | **The Waiting King (`king_act1_court.png`):** Inside the hushed, candlelit royal chamber at midnight, King Jayaprakash Malla sits alone on his velvet throne among flickering brass oil *diyas*, waiting in quiet, reverent longing for the midnight hour when Goddess Taleju descends. Soft golden divine radiance begins to warm the right side of his face | 8" | Zero face drift: opens directly on our approved King portrait (`king_act1_court.png`). Establishes his lonely devotion and waiting heart before she appears. |
+| 2 | 0:08–0:18 | **The Goddess Appears (`taleju_act1_enthroned.png`):** Wide two-shot inside the warm candlelit sanctum as Goddess Taleju Bhawani is revealed enthroned in radiant crimson and gold across the low carved *chowki* table, her golden *prabha* aura filling the room while the King sits in humble devotion opposite her | 10" | Uses our approved wide two-shot (`taleju_act1_enthroned.png`) to establish both characters together in the sacred chamber. |
+| 3 | 0:18–0:30 | **The Excuse of the Game / One-Sided Devotion (`king_act1_board.png`):** Medium reverse-angle on the King across the low carved *tripasa* table — the game is merely the sacred pretext allowing a mortal King to sit face-to-face with the Goddess. While his hand rests near the cowrie dice and golden lotus talisman, his eyes never look down; he gazes completely at her in spellbound one-sided adoration | 12" | **Crucial:** Use Single-Frame animation on `king_act1_board.png` (no Ending Frame) so no second table pops in. His gaze is 100% on her face. |
+| 4 | 0:30–0:50 | **The Intoxication of the King's Heart (`taleju_act1_front.png`):** Close-up portrait of Goddess Taleju Bhawani (`taleju_act1_front.png`). Slow, hypnotic push-in on her serene divine face, kohl-lined eyes, third eye, and heavy gold jewelry in the warm 2700K lamp light — showing through the King's mesmerized gaze why his pure *bhakti* (devotion) quietly intoxicates into mortal desire (*kama*) | 20" | Lyrics enter ("reminiscing"). **The inner shift begins:** gazing at her breathtaking face, his heart begins to lose the boundary between devotee and lover. |
+| 5 | 0:50–1:13 | **Intimacy Peak (5A/5B/5C):** Alternating close-ups — his worshipful, love-struck eyes (`king_act1_court.png`, 5A), Taleju's serene sovereign/compassionate eyes (`taleju_act1_front.png`, 5B), and their hands hovering near the golden lotus talisman without touching (`king_act1_board.png`, 5C) | 23" | Harp flourish; music swells. **One-sided mortal love meeting serene divine grace.** The tension is that they *do not* touch — the sacred boundary holds by a breath. |
 
 ### **ACT 2: Transgression & Vanishing (1:13–2:20)**
 
 | Shot # | Time | Description | Duration | Notes |
 |--------|------|---|---|---|
-| 6 | 1:13–1:40 | **The Breaking (6A/6B/6C):** at 1:13 his warm devotion overflows into desire (single loose hair strand); cut to the Queen's lattice witness (6B); as he reaches across the board, the lamps gutter and the room drains to cold 8000K slate-blue (6C) | 27" | Dissonant chord. Not a villain turn — a small, human, catastrophic failure. Warm gold holds in 6A while his eyes overflow, then collapses into cold slate-blue as he reaches in 6C. |
-| 7 | 1:40–1:53 | **The Withdrawal:** he reaches; she does not flinch in anger — she *recedes* into cold shadow, sacred legitimacy leaving him | 13" | Parallax; growing distance. Her retreat is wounded boundary, not punishment. The covenant is now void. |
-| 8 | 1:53–2:19 | She dissolves upward like gold-leaf smoke; **the token falls and rolls; the King lunges and MISSES** | 26" | Flute solo; no SFX, just music. The *miss* is the emotional event — token comes to rest in shadow, out of reach. Token LOST (handoff 2 of 3). |
-| 9 | 2:19–2:40 | Aftermath at the cold empty board (9A), then a brief flash of golden memory of her serene face (9B) | 21" | Hold the empty chaupar board and his suspended hand *before* the flashback — let the room cool into silence so 2:19–2:40 isn't dead air. Color briefly returns; bittersweet. |
+| 6 | 1:13–1:40 | **The Heart's Mistake / She Reads His Heart (6A/6B/6C):** At 1:13 his devotion overflows into mortal desire (`king_act1_court.png` ref, single loose hair strand, 6A); cut to Taleju's eyes (`taleju_act1_front.png`, 6B) as she immediately senses the impurity entering his heart; as he reaches across the board to touch her, the lamps gutter and the room drains to cold 8000K slate-blue (`king_act2_reach.png`, 6C) | 27" | Dissonant chord. Purely between the King and the Goddess: the moment his heart shifts from devotee to mortal desire, she reads his heart and the sacred covenant shatters. |
+| 7 | 1:40–1:53 | **The Withdrawal (`taleju_act2_recede.png`):** He reaches; she does not strike in anger — she *recedes* into cold shadow with wounded sacred sorrow | 13" | Parallax; growing distance. Her retreat is a Goddess reclaiming the sacred boundary a mortal heart could not keep. |
+| 8 | 1:53–2:19 | **The Vanishing (`king_act2_reach_2.png`):** She dissolves upward into golden smoke and particles returning toward her temple; the golden lotus talisman slips into shadow as the King reaches into empty air | 26" | Flute solo; no SFX, just music. His hand closes on empty air where her warmth stood moments before. |
+| 9 | 2:19–2:40 | **Aftermath & Memory (9A/9B):** The King alone in the cold darkened chamber with his hand suspended in grief (`king_act2_reach.png` ref, 9A), then a brief warm golden flashback of Taleju's serene face (`taleju_act1_front.png`, 9B) | 21" | Let the silence and heartbreak of the cold room register before the bittersweet memory of her face blooms and fades. |
 
-### **ACT 3: Penance & Dream (2:40–3:58)**
-
-| Shot # | Time | Description | Duration | Notes |
-|--------|------|---|---|---|
-| 10 | 2:40–3:00 | Transition to misty dawn; King carries the chaupar game board onto the palace terrace and prays toward Taleju's temple; **the vigil begins** | 20" | Desaturated, cool, hushed; soft dawn ambience. Establish the *ritual he will repeat*: he sets the board, prays across the square to the temple, and waits for her to return. Penance is an action, not just grief. |
-| 11 | 3:00–3:15 | **Dream Vision:** as he kneels in vigil before the empty board, a translucent mist silhouette of Taleju appears above the terrace | 15" | Dawn mist passes through her form; she remains distant and unreachable across the broken covenant. |
-| 12 | 3:15–3:29 | **Depth of Penance:** the third vigil — King stilled, humbled (never emaciated or a beggar), one hand cupping the token's empty space, eyes lifted toward the temple | 14" | Sparse percussion; emotional core. This is rock bottom — the vigil has failed three times; the *empty place* is the token's Act-3 presence. |
-| 13 | 3:29–3:58 | **Montage bridging into sleep (13A/13B/13C):** guttering brass diyas, the empty chaupar board, incense ribbons — he finally bows his head in sleep at the board | 29" | Music builds; strings enter. His exhaustion tips him into the deep dream where the instruction comes. |
-
-### **ACT 4: Rebirth & Dawn (4:11–5:00)**
+### **ACT 3: Penance of a Broken Heart & Dream (2:40–3:58)**
 
 | Shot # | Time | Description | Duration | Notes |
 |--------|------|---|---|---|
-| 14 | 3:58–4:11 | **The Instruction / Dream Peak (14A/14B):** in dream, Taleju gives the terms of her return (14A), and a single tear of acceptance tracks down the King's cheek (14B) | 13" | Bright orchestral motif; hope enters. In 14A she presses a finger to her lips and lowers her open palm to a child's height in offering (**I will return — not as your equal at the game, but as a child you must serve, not possess**). In 14B the King understands and accepts. |
-| 15 | 4:11–4:40 | **The Return (15A/15B):** newborn Kumari is carried across the white cloth path into the dawn courtyard (15A) and rests in stillness on the ceremonial cushion with the token *placed on her chest* (15B) | 29" | New, innocent motif; restrained dawn glow (gentler than Taleju's). Token RETURNED (handoff 3 of 3) — placed *with* her, not gripped. Not a triumphant reveal; dawn deciding to enter the frame. |
-| 16 | 4:40–4:55 | **The Founding:** the people bow and *accept the child as the living goddess*; the King in a simple cotton shawl lowers himself among them | 15" | Gentle hymn-like strings. **This is the true climax** — the world changes, a tradition is born: the goddess now lives among them as a child, and a king must bow to a girl. The King understands the bargain and serves. |
-| 17 | 4:55–5:00 | **Coda:** close-up on the lotus token at rest with the child in warm dawn light | 5" | Music swells to chorus. A *coda*, not the climax — the vow kept in a new, eternal form. "And that is why, to this day…" |
+| 10 | 2:40–3:00 | **The Vigil Begins (`king_act3_prayer.png`):** Misty pre-dawn; stripped of his crown and gold, in simple undyed cotton robes, the King stands barefoot on his palace terrace with hands pressed in *namaskar* prayer toward the distant, locked Taleju Temple across the square | 20" | Desaturated, cool, hushed. No game board — this is pure spiritual penance and heartbreak as he begs forgiveness across the gulf between palace and temple. |
+| 11 | 3:00–3:15 | **Dream Vision (`taleju_act3_silhouette.png`):** As he kneels in vigil on the misty terrace, a translucent mist silhouette of Taleju appears in the sky between him and the temple | 15" | Dawn mist passes through her form; she watches his penance with quiet sorrow from across the broken boundary. |
+| 12 | 3:15–3:29 | **Depth of Penance (`king_act3_prayer.png`):** Dawn after dawn — the King kneels in humble, unbroken prayer before a row of small flickering brass prayer *diyas* on the cold stone parapet, eyes lifted in tearful longing toward Taleju's temple | 14" | Sparse percussion; emotional core. Dignified remorse — a King humbling his crown and his heart before the Goddess he lost. |
+| 13 | 3:29–3:58 | **Montage Bridging into Sleep (13A/13B/13C):** Guttering brass prayer *diyas* on the parapet (13A), the distant locked golden doors and roofs of Taleju Temple in the mist (`king_act3_prayer.png` ref, 13B), and rising incense ribbons as the exhausted King bows his forehead to his folded hands and slips into sleep (13C) | 29" | Music builds; strings enter. His physical exhaustion opens the door to the dream where she consoles his heart. |
+
+### **ACT 4: Divine Consolation & the Founding of the Kumari (3:58–5:00)**
+
+| Shot # | Time | Description | Duration | Notes |
+|--------|------|---|---|---|
+| 14 | 3:58–4:11 | **The Divine Consolation / Dream Peak (14A/14B):** In dream, Taleju takes pity on his broken heart and gives the terms of her return (`taleju_act3_instruction.png`, 14A), and a single tear of peace and gratitude tracks down the King's cheek (`king_act3_prayer.png` ref, 14B) | 13" | Bright orchestral motif; hope enters. In 14A she lowers her open palm to a child's height (**"You cannot hold me as a woman — so I will return as a pure child, that your heart may still behold my eyes every day and love me purely by bowing at my feet"**). |
+| 15 | 4:11–4:40 | **The Living Goddess Appears (15A/15B):** The young Royal Kumari is carried ceremonially into the dawn courtyard (`kumari_entrance.png`, 15A) and sits enthroned in profound stillness with the third eye (*agni-chakshu*) and golden lotus talisman (`kumari_cushion.png`, 15B) | 29" | New, innocent motif; restrained dawn glow. Looking into the child's kohl-lined eyes, we feel Taleju's eternal presence looking back. |
+| 16 | 4:40–4:55 | **Consoling His Heart & The Founding (`kumari_cushion.png` + `king_act3_prayer.png` refs):** Stripped of royal pride in a simple cotton shawl, the King kneels and bows at the tiny child Kumari's feet as a tear of consolation falls; around them, the people bow to the Living Goddess | 15" | Gentle hymn-like strings. **The emotional climax:** by humbling himself before the child, he is reunited with his Goddess in the only pure form possible, and his broken heart is consoled. |
+| 17 | 4:55–5:00 | **Coda (`kumari_portrait.png`):** Iconic close-up of the young Kumari's serene face and third eye (*agni-chakshu*) with the golden lotus talisman in warm sunrise light | 5" | Music swells to final resolution. Love purified into eternal devotion — "And that is why, to this day, the King bows before the living child Goddess of Kathmandu." |
 
 ---
 
@@ -365,7 +353,7 @@ Told right, these three placements deliver the film's entire theology without a 
 ## Deliverables Checklist
 
 - [ ] Colored storyboards (17 shots)
-- [ ] Character design sheets (King, Taleju, Queen, Child)
+- [ ] Character design sheets (King, Taleju, Child Kumari)
 - [ ] Environment/set design sheets (Sacred Chamber, Palace Terrace + Taleju Temple, Durbar Square)
 - [ ] Color palette reference (HEX codes + visual swatches)
 - [ ] Animatic (rough timed version with music)

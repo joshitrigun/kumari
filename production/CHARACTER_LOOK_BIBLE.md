@@ -10,26 +10,38 @@ The earlier descriptions used broad words like `royal`, `mukut`, `drape`, `godde
 
 The true correction is to anchor every character in the **Newar paubha / thangka painting tradition**, heavily grounded in Kathmandu Valley material culture. This is a **2D painted animation**, not photoreal — but the cultural specificity below must be just as rigorous:
 
-- Traditional Newar paubha / thangka painting style (flat mineral pigment, ink outlines, sacred iconography), NOT "cinematic fantasy", NOT generic cartoon, NOT photoreal.
+- Traditional Newar paubha painting style (flat mineral pigment, ink outlines, sacred iconography), NOT "cinematic fantasy", NOT generic cartoon, NOT photoreal.
 - Faces must be specific: Nepali Newar ethnic features (a blend of Tibeto-Burman and Indo-Aryan, high cheekbones, mid-brown skin), rendered as painted icons.
 - Architecture: Ma-Appa (red brick) and Ankhijhyal (carved dark sal wood), as painted form.
 - Metals: Repoussé hammered brass, copper, and gold — painted with gold-leaf warmth, not shiny CGI gold.
 - Textiles: Makhamali (velvet), Dhaka weave, raw cotton, Kinkhab (brocade).
-- Specific Newar Jewelry: Tayo, Naugedi, Kantha, Luswa/Lunswan, Nyapu Shikha, Sirbandi, Tikma, Makasi (avoid the pan-Nepali Bulaki nose-ring for royalty).
+- Specific Newar Jewelry: Tayo, Naugedi, Luswa/Lunswan, Nyapu Shikha, Sirbandi, Tikma, Makasi (avoid the pan-Nepali Bulaki nose-ring for royalty).
 
 Do not use the deleted SVGs. Do not use the anime SVG. Do not use generic AI "fantasy" keywords.
+
+## Historical & Cultural Canon: Trade, Syncretism & Prompt Control
+
+1. **Trans-Himalayan Trade (Kathmandu / Lalitpur ↔ Tibet):**
+   - Under the Malla kings—including **Jayaprakash Malla (r. 1736–1768)**—Kathmandu and Lalitpur (Patan) held the treaty monopoly on minting silver coinage (*Mahendramalli*) for Tibet and dominated the Lhasa trade routes (*Lhasa Newars* / *Pala* merchants).
+   - Newar master *Chitrakar* painters and *Shakya*/*Vajracharya* fire-gilded bronze casters from Lalitpur and Kathmandu were the premier creators of sacred scroll paintings (*paubha* / *thangka*) and gilt-copper *prabhavali* shrine statues across both the Kathmandu Valley and Tibet.
+2. **Hindu Shakta & Newar Vajrayana Syncretism:**
+   - While King Jayaprakash Malla is a Hindu Malla sovereign and **Taleju Bhawani** is his Tantric Shakta *kuladevata* (lineage goddess), 18th-century Newar court culture deeply intertwined Hindu Shaktism and Vajrayana Buddhism.
+   - The **Royal Kumari** institution founded by Jayaprakash Malla in 1757 is the ultimate expression of this fusion: the Hindu royal goddess Taleju incarnates exclusively inside a young girl from the **Buddhist *Shakya* clan** (revered simultaneously as Taleju/Durga by Hindu royalty and as Vajradevi/Tara by Newar Buddhists).
+   - Therefore, subtle Newar *paubha* wall scrolls or Lalitpur gilt-bronze shrine niches in palace backgrounds (such as in `king_act1_court.png`) are historically authentic to Jayaprakash Malla's court and foreshadow the Hindu–Buddhist covenant of the Kumari.
+3. **AI Prompt Guardrail (Avoiding "Thangka Scroll" Over-Generation):**
+   - Even though *paubha*/*thangka* scrolls and Patan bronzes are historically plausible in moderation, **do not put the words `"thangka"` or `"scroll-painting"` in image generation prompts**. Image models misread `"thangka scroll-painting"` as an instruction to plaster every brick wall with giant Tibetan monastery banners instead of focusing on the red *Ma-Appa* brick, dark carved *Sal*-wood *ankhijhyal* lattice, brass oil lamps, and the *Chaupar/Pasa* game board. Always describe the 2D medium as **"Traditional Nepalese Newar paubha painting (18th-century Kathmandu Valley court art tradition)"**.
 
 ## Global Style Rule
 
 Use this sentence in every character prompt:
 
-`Traditional Nepalese Newar paubha / thangka scroll-painting (a still painted artwork), 18th-century Kathmandu Valley, Nepal. Grounded Newar ethnic features and iconography, flat mineral-pigment color, bold ink outlines, authentic traditional Newar textiles, carved Sal wood and exposed red brick — painted, never photoreal.`
+`Traditional Nepalese Newar paubha painting (a still painted artwork in the Hindu Shakta court tradition), 18th-century Kathmandu Valley, Nepal. Grounded Newar ethnic features and iconography, flat mineral-pigment color, bold ink outlines, authentic traditional Newar textiles, carved Sal wood and exposed red brick — painted, never photoreal.`
 
 ## Global Negative Prompt
 
 Use this with every character image generation:
 
-`photorealistic, photograph, live-action, 3D render, CGI, Pixar, Disney, anime, manga, generic western cartoon, plastic, glossy, uncanny realistic faces, Mughal emperor, Rajput, Malaysian songket, Thai crown, Balinese, generic Bollywood, generic princess, tiara, neon, modern clothing.`
+`photorealistic, photograph, live-action, 3D render, CGI, Pixar, Disney, anime, manga, generic western cartoon, plastic, glossy, uncanny realistic faces, Tibetan Buddhist thangka wall scrolls, Buddha statue, seated Buddha icon, Buddhist monastery banners, Mughal emperor, Rajput, Malaysian songket, Thai crown, Balinese, generic Bollywood, generic princess, tiara, neon, modern clothing.`
 
 ## King Jayaprakash Malla
 
